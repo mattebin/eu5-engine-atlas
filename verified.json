@@ -1,0 +1,846 @@
+{
+ "trigger": [
+  {
+   "keyword": "add_static_modifier_utility",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "agenda_for_special_status",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "ai_parliament_issue_resolution_vote_bias",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "any_false",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "area_average_control",
+   "string_in_exe": true,
+   "impl_class": "CAreaAverageControlTrigger"
+  },
+  {
+   "keyword": "assert_read",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "available_army_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "available_navy_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "besieger_strength",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "bond_capacity",
+   "string_in_exe": true,
+   "impl_class": "CBondCapacityTrigger"
+  },
+  {
+   "keyword": "can_start_tutorial_lesson",
+   "string_in_exe": true,
+   "impl_class": "CCanStartTutorialLessonTrigger"
+  },
+  {
+   "keyword": "colonial_charter_distance",
+   "string_in_exe": true,
+   "impl_class": "CColonialCharterDistanceTrigger"
+  },
+  {
+   "keyword": "colonial_charter_utility",
+   "string_in_exe": true,
+   "impl_class": "CColonialCharterUtilityTrigger"
+  },
+  {
+   "keyword": "colonial_charter_value",
+   "string_in_exe": true,
+   "impl_class": "CColonialCharterValueTrigger"
+  },
+  {
+   "keyword": "combat_side_strength",
+   "string_in_exe": true,
+   "impl_class": "CCombatSideStrengthTrigger"
+  },
+  {
+   "keyword": "combined_unique_special_status_power",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "conquer_area_preference",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "conquistador_utility",
+   "string_in_exe": true,
+   "impl_class": "CConquistadorUtilityTrigger"
+  },
+  {
+   "keyword": "country_combined_special_status_power_fraction",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "country_has_been_member_for_years",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "court_language_utility",
+   "string_in_exe": true,
+   "impl_class": "CCourtLanguageUtilityTrigger"
+  },
+  {
+   "keyword": "create_market_utility",
+   "string_in_exe": true,
+   "impl_class": "CCreateMarketUtilityTrigger"
+  },
+  {
+   "keyword": "culture_percentage_in_area",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "current_tooltip_depth",
+   "string_in_exe": true,
+   "impl_class": "CCurrentTooltipDepthTrigger"
+  },
+  {
+   "keyword": "debug_log_details",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "destroy_market_utility",
+   "string_in_exe": true,
+   "impl_class": "CDestroyMarketUtilityTrigger"
+  },
+  {
+   "keyword": "diplomatic_capacity_of_new_relation",
+   "string_in_exe": true,
+   "impl_class": "CDiplomaticCapacityOfNewRelationTrigger"
+  },
+  {
+   "keyword": "diplomatic_capacity_without_maintenance",
+   "string_in_exe": true,
+   "impl_class": "CDiplomaticCapacityWithoutMaintenanceTrigger"
+  },
+  {
+   "keyword": "discount_needed_for_law_change",
+   "string_in_exe": true,
+   "impl_class": "CDiscountNeededForLawChangeTrigger"
+  },
+  {
+   "keyword": "distance_to_area",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "employment_system_desire",
+   "string_in_exe": true,
+   "impl_class": "CEmploymentSystemDesireTrigger"
+  },
+  {
+   "keyword": "exploration_expected_cost",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "exploration_needed_time",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "favors_needed_to_annul_relations_with",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "food_production",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "get_antagonism",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "get_opinion",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "get_trust_equilibrium",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "harbor_capacity_in_area",
+   "string_in_exe": true,
+   "impl_class": "CHarborCapacityInAreaTrigger"
+  },
+  {
+   "keyword": "has_building_with_graphical_tag_and_at_least_one_level",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "has_game_started",
+   "string_in_exe": true,
+   "impl_class": "CHasGameStartedTrigger"
+  },
+  {
+   "keyword": "has_graphical_religion",
+   "string_in_exe": true,
+   "impl_class": "CHasGraphicalReligionTrigger"
+  },
+  {
+   "keyword": "has_local_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "has_multiple_players",
+   "string_in_exe": true,
+   "impl_class": "CHasMultiplePlayersTrigger"
+  },
+  {
+   "keyword": "heathen_population_fraction",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "heir_candidates_count",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "heir_position",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "heretic_population_fraction",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "higher_temporary_taxes_needed",
+   "string_in_exe": true,
+   "impl_class": "CHigherTemporaryTaxesNeededTrigger"
+  },
+  {
+   "keyword": "hire_price",
+   "string_in_exe": true,
+   "impl_class": "CHirePriceTrigger"
+  },
+  {
+   "keyword": "in_marriage_union_with",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_alert_triggered",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_annexing_any_country",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_being_annexed_by",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_bombard_phase",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_country_leader_of_circle",
+   "string_in_exe": true,
+   "impl_class": "CIsCountryLeaderOfCircleTrigger"
+  },
+  {
+   "keyword": "is_crossing",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_estate_loan",
+   "string_in_exe": true,
+   "impl_class": "CIsEstateLoanTrigger"
+  },
+  {
+   "keyword": "is_gamestate_tutorial_active",
+   "string_in_exe": true,
+   "impl_class": "CIsGameStateTutorialActiveTrigger"
+  },
+  {
+   "keyword": "is_leader_of_any_imperial_circle_in_io",
+   "string_in_exe": true,
+   "impl_class": "CIsLeaderOfAnyImperialCircleInIOTrigger"
+  },
+  {
+   "keyword": "is_leader_of_imperial_circle",
+   "string_in_exe": true,
+   "impl_class": "CIsLeaderOfImperialCircleTrigger"
+  },
+  {
+   "keyword": "is_mercenary_of",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_no_cb",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_subject_type_annullable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "is_tutorial_active",
+   "string_in_exe": true,
+   "impl_class": "CIsTutorialActiveTrigger"
+  },
+  {
+   "keyword": "is_tutorial_lesson_active",
+   "string_in_exe": true,
+   "impl_class": "CIsTutorialLessonActiveTrigger"
+  },
+  {
+   "keyword": "is_tutorial_lesson_completed",
+   "string_in_exe": true,
+   "impl_class": "CIsTutorialLessonCompletedTrigger"
+  },
+  {
+   "keyword": "is_value_in_local_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "join_organization_ai_desire",
+   "string_in_exe": true,
+   "impl_class": "CJoinOrganizationAIDesireTrigger"
+  },
+  {
+   "keyword": "language_population_in_country",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "liturgical_language_utility",
+   "string_in_exe": true,
+   "impl_class": "CLiturgicalLanguageUtilityTrigger"
+  },
+  {
+   "keyword": "local_variable_map_size",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "location_net_building_profit",
+   "string_in_exe": true,
+   "impl_class": "CLocationNetBuildingProfitTrigger"
+  },
+  {
+   "keyword": "location_num_holy_sites",
+   "string_in_exe": true,
+   "impl_class": "CLocationNumHolySitesTrigger"
+  },
+  {
+   "keyword": "lowest_prosperity",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "lowest_war_score",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "mercenary_hire_cost",
+   "string_in_exe": true,
+   "impl_class": "CMercenaryHireCostTrigger"
+  },
+  {
+   "keyword": "mercenary_maintenance_cost",
+   "string_in_exe": true,
+   "impl_class": "CMercenaryMaintenanceCostTrigger"
+  },
+  {
+   "keyword": "modifier_utility",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "nand",
+   "string_in_exe": true,
+   "impl_class": "CNandTrigger"
+  },
+  {
+   "keyword": "num_bonds",
+   "string_in_exe": true,
+   "impl_class": "CNumBondsTrigger"
+  },
+  {
+   "keyword": "num_cabinet_capable_characters",
+   "string_in_exe": true,
+   "impl_class": "CNumCabinetCapableCharactersTrigger"
+  },
+  {
+   "keyword": "num_explorations_including_in_construction",
+   "string_in_exe": true,
+   "impl_class": "CNumExplorationsIncludingInConstructionTrigger"
+  },
+  {
+   "keyword": "num_locations_affected",
+   "string_in_exe": true,
+   "impl_class": "CNumLocationsAffectedTrigger"
+  },
+  {
+   "keyword": "num_of_active_parliament_agendas",
+   "string_in_exe": true,
+   "impl_class": "CNumOfActiveParliamentAgendasTrigger"
+  },
+  {
+   "keyword": "num_of_locations_with_high_conquer_desire",
+   "string_in_exe": true,
+   "impl_class": "CNumOfLocationsWithHighConquerDesireTrigger"
+  },
+  {
+   "keyword": "num_omens",
+   "string_in_exe": true,
+   "impl_class": "CNumOmensTrigger"
+  },
+  {
+   "keyword": "num_province_definitions_in_area",
+   "string_in_exe": true,
+   "impl_class": "CNumProvinceDefinitionsInAreaTrigger"
+  },
+  {
+   "keyword": "num_relations_above_limit",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "organization_strength_relative_to_country",
+   "string_in_exe": true,
+   "impl_class": "COrganizationStrengthRelativeToCountryTrigger"
+  },
+  {
+   "keyword": "parliament_type_enabled_in_international_organization",
+   "string_in_exe": true,
+   "impl_class": "CParliamentTypeEnabledInInternationalOrganizationTrigger"
+  },
+  {
+   "keyword": "parliament_type_is_enabled_in",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "parliament_type_is_locked_in",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "parliament_type_visible_in",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "parliament_type_visible_in_international_organization",
+   "string_in_exe": true,
+   "impl_class": "CParliamentTypeVisibleInInternationalOrganizationTrigger"
+  },
+  {
+   "keyword": "peasant_enfranchisment",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "player_proficiency_greater",
+   "string_in_exe": true,
+   "impl_class": "CPlayerProficiencyGreaterTrigger"
+  },
+  {
+   "keyword": "player_proficiency_greater_eq",
+   "string_in_exe": true,
+   "impl_class": "CPlayerProficiencyGreaterEqTrigger"
+  },
+  {
+   "keyword": "player_proficiency_less_eq",
+   "string_in_exe": true,
+   "impl_class": "CPlayerProficiencyLessEqTrigger"
+  },
+  {
+   "keyword": "policy_has_ai_join_reason",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "policy_has_ai_vote_value",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "population_in_area",
+   "string_in_exe": true,
+   "impl_class": "CPopulationInAreaTrigger"
+  },
+  {
+   "keyword": "powerful_ally_weight",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "production_method_profit",
+   "string_in_exe": true,
+   "impl_class": "CProductionMethodProfitTrigger"
+  },
+  {
+   "keyword": "province_army_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "province_army_levy_size",
+   "string_in_exe": true,
+   "impl_class": "CProvinceArmyLevySizeTrigger"
+  },
+  {
+   "keyword": "province_average_max_control",
+   "string_in_exe": true,
+   "impl_class": "CProvinceAverageMaxControlTrigger"
+  },
+  {
+   "keyword": "province_navy_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "province_navy_levy_size",
+   "string_in_exe": true,
+   "impl_class": "CProvinceNavyLevySizeTrigger"
+  },
+  {
+   "keyword": "province_pop_type_population",
+   "string_in_exe": true,
+   "impl_class": "CProvincePopTypePopulationTrigger"
+  },
+  {
+   "keyword": "random_integer",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "regular_navy_size",
+   "string_in_exe": true,
+   "impl_class": "CRegularNavySizeTrigger"
+  },
+  {
+   "keyword": "relative_defensive_alliance_strength",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "religion_group_population_in_country",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "religious_view_impact",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "relocate_market_utility",
+   "string_in_exe": true,
+   "impl_class": "CRelocateMarketUtilityTrigger"
+  },
+  {
+   "keyword": "remove_static_modifier_utility",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "reverse_religious_view_impact",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "short_term_trigger_currency_utility",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "subject_level",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "subject_type_annullment_favours_required",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "this_trust_equilibrium_of_prev",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "total_payment_contribution",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "unemployed_pops_of_pop_type_in_location",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "unemployed_pops_of_pop_type_in_province",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "unfilled_jobs_in_province_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "union_partner_weight",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "unit_strength",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "used_diplomatic_capacity",
+   "string_in_exe": true,
+   "impl_class": "CUsedDiplomaticCapacityTrigger"
+  },
+  {
+   "keyword": "variable_map_size",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "vote_type",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "war_score_of_country_side",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "yearly_gold",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "yearly_sailors",
+   "string_in_exe": true,
+   "impl_class": null
+  }
+ ],
+ "effect": [
+  {
+   "keyword": "add_dynasty_modifier",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "add_internal_flag",
+   "string_in_exe": true,
+   "impl_class": "CAddInternalFlagEffect"
+  },
+  {
+   "keyword": "add_recovered_army_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "add_recovered_navy_levy_percentage",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "assert_read",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "change_art_worth",
+   "string_in_exe": true,
+   "impl_class": "CChangeArtWorthEffect"
+  },
+  {
+   "keyword": "change_global_variable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "clamp_global_variable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "clear_global_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "clear_local_variable_list",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "clear_local_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "clear_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "create_navy_country_from_province",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "create_navy_country_in_location",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "create_num_sub_unit",
+   "string_in_exe": true,
+   "impl_class": "CCreateNumSubUnitEffect"
+  },
+  {
+   "keyword": "create_route",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "custom_description_no_bullet",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "custom_label",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "debug_log",
+   "string_in_exe": true,
+   "impl_class": "CDebugLogEffect"
+  },
+  {
+   "keyword": "debug_log_date",
+   "string_in_exe": true,
+   "impl_class": "CDebugLogDateEffect"
+  },
+  {
+   "keyword": "debug_log_scopes",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "post_audio_event",
+   "string_in_exe": true,
+   "impl_class": "CPostAudioEventEffect"
+  },
+  {
+   "keyword": "random_log_scopes",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "remove_from_local_variable_map",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "remove_list_local_variable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "reverse_add_antagonism",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "round_global_variable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "round_local_variable",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "set_art_worth",
+   "string_in_exe": true,
+   "impl_class": "CSetArtWorthEffect"
+  },
+  {
+   "keyword": "set_automated_system",
+   "string_in_exe": true,
+   "impl_class": "CSetAutomatedSystemEffect"
+  },
+  {
+   "keyword": "set_target_of_international_organization",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "sort_local_variable_list",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "stop_tutorial",
+   "string_in_exe": true,
+   "impl_class": null
+  },
+  {
+   "keyword": "test_log",
+   "string_in_exe": true,
+   "impl_class": "CTestLogEffect"
+  }
+ ]
+}
