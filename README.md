@@ -18,8 +18,12 @@ Game version: **1.3.11**. Re-run the tools after any patch.
 | Triggers | 1,270 | 134 | **134/134 real** |
 | Scope links | 283 | 52 | **52/52 accepted**, 6 with live data |
 | List types (composed) | 62+ found | 9 | **8 tested, 4 return live data** |
-| GUI data functions | 10,828 | 3,824 game-facing | **577 confirmed usable**, 8,407 type-labelled |
-| Defines | 2,841 | 45 | loaded but **behaviourally dead** where tested |
+| GUI data functions | 10,828 | 3,824 game-facing | **577 confirmed usable**, 19k typed memberships via the engine's own dump |
+| Defines | 2,975 | 54 | loaded but **behaviourally dead** where tested |
+
+(Defines corrected 2026-08-26 from the previously published 2,841/45: a
+UTF-8 BOM had hidden four whole blocks from the extraction, NGame included.
+Details in [CATALOGUE.md](CATALOGUE.md).)
 
 Plus a working, syntax-documented **variable / list / map API** vanilla
 never uses: arithmetic (`change/clamp/round`), lists with iteration and
@@ -28,6 +32,9 @@ undocumented way to read any live define from GUI or log.
 
 ## The documents
 
+- **[CATALOGUE.md](CATALOGUE.md)** - the data layer: how everything below
+  is merged into `catalogue.json`, one queryable index with explicit
+  confidence levels. This is what the workbench consumes.
 - **[VERIFIED.md](VERIFIED.md)** - the evidence. Every probe, every control,
   every retraction, in order. This is the file that justifies every claim.
 - **[CURATED.md](CURATED.md)** - the modder-useful subset, organised by

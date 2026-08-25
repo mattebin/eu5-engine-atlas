@@ -2,6 +2,14 @@
 
 **45 of 2,841** engine-registered defines are absent from all 10 vanilla defines files. A mod can set these the same way it sets any other define, and `eu5lint` rule S002 will accept them, because they are real registry entries.
 
+> **Corrected 2026-08-26: the true numbers are 54 of 2,975.** A UTF-8 BOM
+> hid every block declared on line 1 of a defines file (NGame, NCamera,
+> NMapEditor, NJominiIcons) from the original extraction, adding 9 hidden
+> defines (camera-debug/map-editor/icon plumbing), and 33 more defines live
+> in blocks no vanilla file declares at all. Canonical data:
+> `defines_all.json`; story: [CATALOGUE.md](CATALOGUE.md). The table below
+> is the original 45.
+
 > Registered does not mean wired to anything. A define can exist in the registry and be read by no code path. Test before shipping.
 
 | block | define |

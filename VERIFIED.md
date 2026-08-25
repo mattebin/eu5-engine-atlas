@@ -131,6 +131,16 @@ Variable maps are usable as **counted sets** (add entries, check existence,
 read size) but not as lookup tables. Lists are the better tool today:
 `is_target_in_global_variable_list` is confirmed working.
 
+**Addendum 2026-08-26 (static evidence, not a probe): the lookup path is
+NOT dead in real script.** Vanilla itself uses
+`is_key_in_global_variable_map = { name = hre_kingdoms_map target = root }`
+(in_game/common/country_interactions/hre.txt), reads map values through the
+quoted accessor `"global_variable_map(name|key)"`, exposes
+`GetVariableFromGlobalVariableMap(Arg0, Arg1)` in the data API, and has a
+`key_in_variable_map` list type. The nine rejected forms above are a
+console-context result; trust the vanilla forms. The conclusion "stop
+guessing from the console" stands.
+
 ## Validation noise, again
 
 `local_variable_map_size trigger [ Could not find list ... ]` appears in
