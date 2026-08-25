@@ -25,24 +25,40 @@ Game version: **1.3.11**. Re-run the tools after any patch.
 UTF-8 BOM had hidden four whole blocks from the extraction, NGame included.
 Details in [CATALOGUE.md](CATALOGUE.md).)
 
-## How much the atlas added
+## What here is actually new
 
-"Known before" means used by vanilla's own files and therefore visible to
-any modder who reads them.
+Keyword existence is mostly not secret: the `script_docs` console command
+dumps effects, triggers and event targets with official descriptions, the
+EU5 Modding Co-op publishes those dumps per patch (modding-digests), and
+`dump_data_types` does the same for GUI functions. All 168 vanilla-unused
+effects and triggers, and all 52 unused scope links, appear in those
+public dumps. Checked 2026-08-26; claiming otherwise would overstate this
+project.
 
-| Registry | Known before | Newly found | Gain |
+What was not public before this project:
+
+- **The unused-by-vanilla partition.** Nobody published which registered
+  keywords no vanilla file uses:
+
+| Registry | Used by vanilla | Never used | Share |
 |---|---|---|---|
-| Effects | 519 | 34 | +7% |
-| Triggers | 1,136 | 134 | +12% |
-| Scope links | 231 | 52 | +23% (one is a suspected extraction artifact) |
-| List types | 253 | 11 | +4% |
-| Defines | 2,888 | 87 | +3% (one proven dead, the rest presumed vestigial) |
+| Effects | 519 | 34 | 7% |
+| Triggers | 1,136 | 134 | 12% |
+| Scope links | 231 | 52 | 23% (one a suspected extraction artifact) |
+| List types | 253 | 11 | 4% |
+| Defines | 2,888 | 87 | 3% |
 
-GUI functions get a different claim: the 3,824 vanilla-unused functions
-are listed by the `dump_data_types` console command, so they were
-discoverable all along. What the atlas adds there is testing and typing:
-577 confirmed usable from the console, and every function carried with
-its owning type, arguments and return type.
+- **In-game verification.** The dumps list names; they do not tell you
+  what works. All 168 unused effects and triggers proven real, scope
+  requirements probed for every unused effect, working syntax for the
+  variable/list/map API, and the probe traps that make testing honest.
+- **The defines layer.** No public dump covers defines at all. The 2,975
+  registry from RTTI, the 87 never-set defines, and the proof that a
+  define can be loaded, readable and dead.
+- **The composed list types.** Absent from every public dump. 11
+  undocumented bases, 4 returning live data.
+- **GUI usability and receivers.** 577 functions confirmed callable from
+  the console, and accessor chains computed for 300 reachable types.
 
 Plus a working, syntax-documented **variable / list / map API** vanilla
 never uses: arithmetic (`change/clamp/round`), lists with iteration and

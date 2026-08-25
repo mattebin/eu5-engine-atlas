@@ -83,3 +83,14 @@ All five extractions match literal strings, so anything the engine assembles
 at runtime is invisible to them - `every_country` byte-searches to zero hits
 despite being real script. Iterators were found only by accident. There may
 be other composed classes not yet imagined.
+
+## 7. Ingest script_docs (next game launch)
+
+`script_docs` in console (with -tdebug) writes effects.log, triggers.log
+and event_targets.log with OFFICIAL per-keyword descriptions and
+supported scopes. The Co-op's modding-digests repo publishes these per
+patch, and their effects.log has 982 names our literal-string walk cannot
+see (composed iterators and more). Run it on this install, parse, and
+merge into the catalogue as the primary existence + docs + scope source.
+Curiosity: `privateer_power` is in our registry but not their current
+dump.
