@@ -596,3 +596,56 @@ The first read of this round was polluted because the clock had just passed
 midnight, and `"18:03" >= "00:05"` is true as text - so the filter matched
 the entire previous day. Filter probe results by **filename**, which has no
 rollover.
+
+---
+
+# GetDefine: an undocumented way to read any define in game
+
+`define:` does NOT work as a trigger (all forms rejected). But the data
+function does, through `debug_log` interpolation:
+
+```
+[GetDefine('NDiplomacy','TRUCE_YEARS')]   ->  5
+```
+
+**Two arguments, block then key.** The engine gave up the signature itself:
+`Function 'GetDefine' expected 2 arguments, got 1`. No vanilla `.gui` file
+uses this. It lets a modder read any live define value in game, which is
+genuinely useful on its own.
+
+## Hidden defines with confirmed non-zero defaults (10)
+
+| define | value |
+|---|---|
+| `NCityGraphics.IMPOSTOR_WALL_MESH_SCALE` | 3.125 |
+| `NCityGraphics.MIN_RELATIVE_SIZE_FOR_LOCKED_EDGES` | 0.8 |
+| `NCityGraphics.WALL_NEW_VERTEX_MINIMUM_DISTANCE` | 0.5 |
+| `NCityGraphics.TOWER_SAFE_DISTANCE_TO_GATE` | 1 |
+| `NCityGraphics.WALL_MESH_SCALE` | 1 |
+| `NBorder.MAX_ZOOM_STEP_CROSSING_PENALTY` | -1 |
+| `NGraphics.BUILDING_PERCENTAGE_ZOOM_OUT_STEP` | 9 |
+| `NGraphics.TERRAIN_MULTIPLICATION_START` | 350 |
+| `NGraphics.TERRAIN_MULTIPLICATION_END` | 1200 |
+| `NMapName.RENDER_AFTER_NAMES_ZOOM` | 6 |
+
+## The limitation, and why the zeros prove nothing
+
+**A fake define also returns 0.** `[GetDefine('NDiplomacy','NOT_REAL_QQ')]`
+returned `0`, not an error. So every define reading 0 - including the
+interesting AI ones (`AI_MILITARY_ASSIGNMENT_STRENGTH_FACTOR`,
+`BASE_CASUS_BELLI_WARGOAL_DESIRE`, `DIPLOMATIC_RANGE`,
+`GROWTH_FROM_FOOD_MULTIPLIER`) - is ambiguous from this test alone.
+
+Their existence is still established by the RTTI extraction; only their
+*value* is unconfirmed. A 0 default is plausible for disabled tuning
+factors, but this instrument cannot prove it.
+
+To settle those, a mod would have to set them to distinctive values and
+GetDefine read them back after a restart - which remains backlog work.
+
+## Note on the current session
+
+`TRUCE_YEARS` read as **5** (vanilla) rather than the 3 Community Fixes
+sets, and error.log shows `Could not find mod`. The junction removal left
+the playset pointing at a missing folder, so this session is effectively
+running unmodded.
