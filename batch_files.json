@@ -1,0 +1,14 @@
+{
+ "effect_files": [
+  "batch_E1.txt",
+  "batch_E2.txt"
+ ],
+ "trigger_files": [
+  "batch_T1.txt",
+  "batch_T2.txt",
+  "batch_T3.txt",
+  "batch_T4.txt",
+  "batch_T5.txt",
+  "batch_T6.txt"
+ ]
+}
