@@ -214,3 +214,33 @@ insertion order **ENG, FRA, CAS**, sorted, then read back.
 This corrects the earlier "not proven" note. Sorting by a constant was
 degenerate and told us nothing; sorting by a per-element variable proves it
 works. `order` accepts `var:<name>` evaluated in each element's scope.
+
+---
+
+# Probe 9: undocumented LIST TYPES confirmed, four returning live data
+
+Negative control `every_totally_fake_list_type_xyz` correctly reported
+`Unknown effect`, so acceptance below is meaningful.
+
+| iterator | result |
+|---|---|
+| `every_other_core_country` | accepted, **1 element** |
+| `every_country_in_hierarchy` | accepted, **2 elements** |
+| `every_friendly_country` | accepted, **1 element** |
+| `every_hostile_country` | accepted, **1 element** |
+| `every_country_annexing_us` | accepted, empty |
+| `every_country_we_are_annexing` | accepted, empty |
+| `every_country_with_succession_law` | accepted, empty |
+| `every_area_with_owned_province` | accepted, empty |
+
+Empty is not failure: `country_annexing_us` legitimately has no members when
+nobody is annexing you. The four with elements prove the type resolves to
+real game data, not just a parsed name.
+
+All four prefixes should apply (`every_`, `any_`, `random_`, `ordered_`),
+since that is how vanilla uses its own 253 base names - though only
+`every_` was tested here.
+
+**`every_friendly_country` and `every_hostile_country` are the most
+immediately useful**: AI-facing country classifications no mod has ever
+iterated.
