@@ -170,3 +170,47 @@ Whether the sort actually ORDERS correctly. There is no confirmed way to
 read an element back out of a variable list, so only syntax acceptance is
 established here. Sorting by a constant is also degenerate by definition -
 a real ordering test needs a per-element script value.
+
+---
+
+# Probe 8: iteration works, and sorting is CORRECT (descending)
+
+## A fifth registry the static extraction missed
+
+List iterators are **composed at runtime** from a prefix plus a list type, so
+they never appear as literal strings in the binary - `every_country` byte-
+searches to **zero hits** despite being real script. Only the parts exist:
+`every_` (20), `ordered_` (3), `in_list` (2), `in_global_variable_list` (1).
+Vanilla uses `every_in_global_list` 24 times, `every_in_list` 11 times.
+
+**Any future registry hunt must account for composed keywords.** The
+effect/trigger/scope/GUI extractions are all literal-string based and would
+each miss this class.
+
+## Reading list elements back
+
+```
+every_in_global_list = {
+	variable = my_list
+	<effects on each element>
+}
+```
+
+Confirmed iterating both elements of a two-country list.
+
+## Sorting is real and DESCENDING by default
+
+```
+sort_global_variable_list = { name = X order = var:my_key }
+```
+
+Test: three countries given distinct keys (ENG=3, FRA=1, CAS=2), added in
+insertion order **ENG, FRA, CAS**, sorted, then read back.
+
+- observed after sort: **ENG, CAS, FRA**  =  keys 3, 2, 1
+- insertion order was ENG, FRA, CAS, so the list genuinely changed
+- the result is exact **descending** order
+
+This corrects the earlier "not proven" note. Sorting by a constant was
+degenerate and told us nothing; sorting by a per-element variable proves it
+works. `order` accepts `var:<name>` evaluated in each element's scope.
