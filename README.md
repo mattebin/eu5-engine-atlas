@@ -14,8 +14,19 @@ it, so EU5 modders stop being limited by what Paradox happened to use.
 
 ## Status
 
-Early. The extraction mechanism works and is self-validating; classifying
-each keyword by kind is the open problem.
+Static extraction complete for four registries. Nothing has been run in game
+yet, by design.
+
+| Registry | In engine | Used by vanilla | **Never used** |
+|---|---|---|---|
+| Effects | 553 | 519 | **34** |
+| Triggers | 1,270 | 1,136 | **134** |
+| Scope links | 283 | 231 | **52** |
+| GUI data functions | 10,828 | 6,523 | **3,824** (game-facing) |
+
+`on_actions` were attempted and do **not** yield to this technique: they are
+fired by name lookup at runtime rather than registered through static
+initializers, so there is no table to walk.
 
 ## What is established
 
