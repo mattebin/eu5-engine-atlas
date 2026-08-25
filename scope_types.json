@@ -1,0 +1,12440 @@
+{
+ "observed": {
+  "set_age_preference": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_human": [
+   [
+    "(file default)",
+    38
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "hidden_effect": [
+   [
+    "(file default)",
+    1641
+   ],
+   [
+    "country",
+    16
+   ],
+   [
+    "location",
+    7
+   ]
+  ],
+  "custom_tooltip": [
+   [
+    "(file default)",
+    5085
+   ],
+   [
+    "country",
+    179
+   ],
+   [
+    "location",
+    40
+   ]
+  ],
+  "trigger_event_non_silently": [
+   [
+    "(file default)",
+    418
+   ],
+   [
+    "country",
+    90
+   ]
+  ],
+  "change_player": [
+   [
+    "(file default)",
+    70
+   ]
+  ],
+  "add_stability": [
+   [
+    "(file default)",
+    1927
+   ],
+   [
+    "country",
+    21
+   ]
+  ],
+  "add_prestige": [
+   [
+    "(file default)",
+    2515
+   ],
+   [
+    "country",
+    51
+   ]
+  ],
+  "add_legitimacy": [
+   [
+    "(file default)",
+    751
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "is_neighbor_of": [
+   [
+    "(file default)",
+    77
+   ],
+   [
+    "country",
+    17
+   ]
+  ],
+  "save_scope_as": [
+   [
+    "(file default)",
+    3761
+   ],
+   [
+    "character",
+    367
+   ],
+   [
+    "location",
+    289
+   ]
+  ],
+  "switch": [
+   [
+    "(file default)",
+    59
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "change_government_type": [
+   [
+    "(file default)",
+    65
+   ],
+   [
+    "country",
+    13
+   ],
+   [
+    "location",
+    9
+   ]
+  ],
+  "change_heir_selection": [
+   [
+    "(file default)",
+    63
+   ],
+   [
+    "location",
+    8
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "remove_variable": [
+   [
+    "(file default)",
+    1126
+   ],
+   [
+    "country",
+    35
+   ]
+  ],
+  "exists": [
+   [
+    "(file default)",
+    2087
+   ],
+   [
+    "country",
+    65
+   ],
+   [
+    "location",
+    10
+   ]
+  ],
+  "trigger_event_silently": [
+   [
+    "(file default)",
+    460
+   ],
+   [
+    "country",
+    77
+   ]
+  ],
+  "destroy_international_organization": [
+   [
+    "(file default)",
+    18
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "change_location_owner": [
+   [
+    "location",
+    72
+   ]
+  ],
+  "change_prosperity": [
+   [
+    "location",
+    167
+   ],
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "add_pop_size": [
+   [
+    "pop",
+    168
+   ],
+   [
+    "province",
+    6
+   ]
+  ],
+  "damage_unit_percent": [
+   [
+    "location",
+    8
+   ],
+   [
+    "unit",
+    4
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "damage_unit_morale_percent": [
+   [
+    "location",
+    8
+   ],
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "unit",
+    2
+   ]
+  ],
+  "destroy_unit": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "unit",
+    2
+   ]
+  ],
+  "owns": [
+   [
+    "(file default)",
+    1242
+   ],
+   [
+    "country",
+    23
+   ]
+  ],
+  "add_location_modifier": [
+   [
+    "location",
+    270
+   ],
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "change_location_rank": [
+   [
+    "location",
+    64
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "else_if": [
+   [
+    "(file default)",
+    828
+   ],
+   [
+    "country",
+    59
+   ],
+   [
+    "location",
+    40
+   ]
+  ],
+  "has_owner": [
+   [
+    "(file default)",
+    185
+   ],
+   [
+    "location",
+    50
+   ]
+  ],
+  "controls": [
+   [
+    "(file default)",
+    16
+   ]
+  ],
+  "is_rival_of": [
+   [
+    "(file default)",
+    102
+   ],
+   [
+    "country",
+    43
+   ]
+  ],
+  "destroy_building": [
+   [
+    "location",
+    39
+   ]
+  ],
+  "is_port": [
+   [
+    "(file default)",
+    36
+   ],
+   [
+    "location",
+    17
+   ]
+  ],
+  "add_casus_belli": [
+   [
+    "(file default)",
+    388
+   ],
+   [
+    "country",
+    41
+   ]
+  ],
+  "add_migration": [
+   [
+    "(file default)",
+    126
+   ],
+   [
+    "province",
+    53
+   ],
+   [
+    "location",
+    5
+   ]
+  ],
+  "has_variable": [
+   [
+    "(file default)",
+    1642
+   ],
+   [
+    "character",
+    95
+   ],
+   [
+    "country",
+    46
+   ]
+  ],
+  "has_ruler": [
+   [
+    "(file default)",
+    1306
+   ],
+   [
+    "country",
+    28
+   ]
+  ],
+  "show_as_tooltip": [
+   [
+    "(file default)",
+    452
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "country_has_special_status": [
+   [
+    "(file default)",
+    65
+   ],
+   [
+    "country",
+    22
+   ]
+  ],
+  "has_opinion": [
+   [
+    "(file default)",
+    19
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "add_army_tradition": [
+   [
+    "(file default)",
+    338
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "add_manpower": [
+   [
+    "(file default)",
+    91
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "else": [
+   [
+    "(file default)",
+    1673
+   ],
+   [
+    "country",
+    65
+   ],
+   [
+    "location",
+    47
+   ]
+  ],
+  "add_country_modifier": [
+   [
+    "(file default)",
+    1496
+   ],
+   [
+    "country",
+    130
+   ]
+  ],
+  "has_regent": [
+   [
+    "(file default)",
+    220
+   ],
+   [
+    "country",
+    18
+   ]
+  ],
+  "has_country_modifier": [
+   [
+    "(file default)",
+    312
+   ],
+   [
+    "country",
+    18
+   ]
+  ],
+  "is_leader_of_international_organization": [
+   [
+    "(file default)",
+    322
+   ],
+   [
+    "country",
+    45
+   ]
+  ],
+  "estate_satisfaction": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_cooldown": [
+   [
+    "(file default)",
+    50
+   ],
+   [
+    "country",
+    22
+   ]
+  ],
+  "at_war": [
+   [
+    "(file default)",
+    779
+   ],
+   [
+    "country",
+    112
+   ]
+  ],
+  "is_enemy_of": [
+   [
+    "(file default)",
+    72
+   ],
+   [
+    "country",
+    18
+   ],
+   [
+    "location",
+    5
+   ]
+  ],
+  "not": [
+   [
+    "(file default)",
+    260
+   ],
+   [
+    "country",
+    106
+   ]
+  ],
+  "list_size": [
+   [
+    "(file default)",
+    50
+   ]
+  ],
+  "is_alive": [
+   [
+    "(file default)",
+    383
+   ],
+   [
+    "character",
+    83
+   ]
+  ],
+  "add_to_list": [
+   [
+    "(file default)",
+    33
+   ],
+   [
+    "province",
+    25
+   ]
+  ],
+  "is_adult": [
+   [
+    "character",
+    131
+   ],
+   [
+    "(file default)",
+    125
+   ]
+  ],
+  "create_rebel": [
+   [
+    "(file default)",
+    175
+   ]
+  ],
+  "change_character_allegiance": [
+   [
+    "character",
+    28
+   ],
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "add_pop_satisfaction": [
+   [
+    "pop",
+    845
+   ]
+  ],
+  "change_pop_allegiance": [
+   [
+    "pop",
+    237
+   ]
+  ],
+  "remove_reform": [
+   [
+    "(file default)",
+    92
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "add_rebel_progress": [
+   [
+    "(file default)",
+    19
+   ]
+  ],
+  "has_trait": [
+   [
+    "(file default)",
+    262
+   ],
+   [
+    "character",
+    35
+   ]
+  ],
+  "is_owned_by_international_organization": [
+   [
+    "location",
+    14
+   ],
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "add_core": [
+   [
+    "location",
+    75
+   ]
+  ],
+  "remove_from_international_organization": [
+   [
+    "location",
+    6
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_reform": [
+   [
+    "(file default)",
+    130
+   ],
+   [
+    "country",
+    9
+   ],
+   [
+    "location",
+    8
+   ]
+  ],
+  "is_subject_type": [
+   [
+    "(file default)",
+    77
+   ]
+  ],
+  "make_subject_of": [
+   [
+    "(file default)",
+    61
+   ],
+   [
+    "country",
+    18
+   ]
+  ],
+  "drop_antagonism_bomb": [
+   [
+    "(file default)",
+    93
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "change_variable": [
+   [
+    "(file default)",
+    159
+   ],
+   [
+    "country",
+    42
+   ]
+  ],
+  "assert_if": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "debug_only": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_antagonism": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "clear_global_variable_list": [
+   [
+    "(file default)",
+    41
+   ]
+  ],
+  "change_integration_level": [
+   [
+    "location",
+    38
+   ]
+  ],
+  "add_to_global_variable_map": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_member_of_international_organization": [
+   [
+    "(file default)",
+    359
+   ],
+   [
+    "country",
+    71
+   ]
+  ],
+  "save_temporary_scope_value_as": [
+   [
+    "(file default)",
+    30
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "add_circle_satisfaction": [
+   [
+    "country",
+    16
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_has_leader": [
+   [
+    "(file default)",
+    36
+   ],
+   [
+    "country",
+    16
+   ]
+  ],
+  "save_scope_value_as": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "set_circle_leader": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "clear_circle_leader": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "create_character": [
+   [
+    "(file default)",
+    1249
+   ],
+   [
+    "location",
+    9
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "adm": [
+   [
+    "(file default)",
+    908
+   ],
+   [
+    "location",
+    8
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "international_organization_has_policy": [
+   [
+    "(file default)",
+    329
+   ],
+   [
+    "country",
+    42
+   ]
+  ],
+  "dip": [
+   [
+    "(file default)",
+    890
+   ],
+   [
+    "location",
+    8
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "mil": [
+   [
+    "(file default)",
+    900
+   ],
+   [
+    "location",
+    8
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "add_research_progress": [
+   [
+    "(file default)",
+    305
+   ],
+   [
+    "country",
+    4
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "set_local_variable": [
+   [
+    "(file default)",
+    81
+   ],
+   [
+    "country",
+    4
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "kill_character_silently": [
+   [
+    "(file default)",
+    387
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_embraced_institution": [
+   [
+    "(file default)",
+    192
+   ],
+   [
+    "country",
+    21
+   ]
+  ],
+  "add_estate_satisfaction": [
+   [
+    "(file default)",
+    3067
+   ],
+   [
+    "country",
+    67
+   ]
+  ],
+  "has_building_with_at_least_one_level": [
+   [
+    "location",
+    91
+   ],
+   [
+    "(file default)",
+    64
+   ]
+  ],
+  "integration_level": [
+   [
+    "location",
+    109
+   ],
+   [
+    "(file default)",
+    42
+   ]
+  ],
+  "is_traded_in_market": [
+   [
+    "(file default)",
+    19
+   ],
+   [
+    "market",
+    19
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "change_societal_value": [
+   [
+    "(file default)",
+    2882
+   ],
+   [
+    "country",
+    58
+   ]
+  ],
+  "add_goods_supply": [
+   [
+    "(file default)",
+    45
+   ],
+   [
+    "market",
+    4
+   ]
+  ],
+  "goods": [
+   [
+    "(file default)",
+    52
+   ],
+   [
+    "market",
+    4
+   ]
+  ],
+  "knows_about_institution": [
+   [
+    "(file default)",
+    82
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "country_has_estate": [
+   [
+    "(file default)",
+    241
+   ],
+   [
+    "country",
+    21
+   ]
+  ],
+  "change_institution_progress": [
+   [
+    "location",
+    56
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "random": [
+   [
+    "(file default)",
+    66
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "split_pop": [
+   [
+    "pop",
+    183
+   ]
+  ],
+  "add_cultural_tradition": [
+   [
+    "culture",
+    247
+   ],
+   [
+    "(file default)",
+    48
+   ]
+  ],
+  "has_institution": [
+   [
+    "(file default)",
+    13
+   ],
+   [
+    "location",
+    7
+   ]
+  ],
+  "is_city": [
+   [
+    "location",
+    14
+   ],
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "change_control": [
+   [
+    "location",
+    162
+   ]
+  ],
+  "is_capital": [
+   [
+    "location",
+    106
+   ],
+   [
+    "(file default)",
+    77
+   ]
+  ],
+  "add_gold_to_estate": [
+   [
+    "(file default)",
+    84
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "num_loans": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_temporary_demand": [
+   [
+    "(file default)",
+    86
+   ],
+   [
+    "market",
+    37
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "has_markets": [
+   [
+    "(file default)",
+    27
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_colonial_charters": [
+   [
+    "country",
+    15
+   ],
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "is_colonial_subject": [
+   [
+    "(file default)",
+    13
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "change_building_level_in_location": [
+   [
+    "location",
+    84
+   ]
+  ],
+  "has_customer": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "add_subunit_experience": [
+   [
+    "unit",
+    8
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_from_cabinet": [
+   [
+    "(file default)",
+    52
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_married": [
+   [
+    "(file default)",
+    60
+   ],
+   [
+    "character",
+    40
+   ]
+  ],
+  "is_heir": [
+   [
+    "character",
+    68
+   ],
+   [
+    "(file default)",
+    40
+   ]
+  ],
+  "add_character_modifier": [
+   [
+    "character",
+    248
+   ],
+   [
+    "(file default)",
+    75
+   ]
+  ],
+  "can_build_units_of_category": [
+   [
+    "(file default)",
+    14
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "is_connected_to": [
+   [
+    "location",
+    6
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_general": [
+   [
+    "(file default)",
+    30
+   ],
+   [
+    "character",
+    26
+   ]
+  ],
+  "is_ruler": [
+   [
+    "character",
+    133
+   ],
+   [
+    "(file default)",
+    116
+   ]
+  ],
+  "artist_skill": [
+   [
+    "(file default)",
+    414
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "is_produced_in_market": [
+   [
+    "market",
+    22
+   ],
+   [
+    "(file default)",
+    19
+   ],
+   [
+    "country",
+    12
+   ]
+  ],
+  "add_war_exhaustion": [
+   [
+    "(file default)",
+    79
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_tribal_cohesion": [
+   [
+    "(file default)",
+    62
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "has_member": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "construct_building": [
+   [
+    "location",
+    145
+   ],
+   [
+    "(file default)",
+    12
+   ]
+  ],
+  "add_mil": [
+   [
+    "character",
+    68
+   ],
+   [
+    "(file default)",
+    34
+   ]
+  ],
+  "add_cultural_influence": [
+   [
+    "culture",
+    242
+   ],
+   [
+    "(file default)",
+    58
+   ]
+  ],
+  "reverse_add_opinion": [
+   [
+    "(file default)",
+    135
+   ],
+   [
+    "country",
+    11
+   ]
+  ],
+  "country_exists": [
+   [
+    "(file default)",
+    720
+   ],
+   [
+    "location",
+    6
+   ]
+  ],
+  "international_organization_add_special_status": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "add_subunit_strength_percentage": [
+   [
+    "unit",
+    10
+   ]
+  ],
+  "destroy_subunit": [
+   [
+    "unit",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_ports": [
+   [
+    "(file default)",
+    55
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "is_ship": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "unit",
+    6
+   ]
+  ],
+  "set_new_ruler": [
+   [
+    "(file default)",
+    195
+   ],
+   [
+    "country",
+    14
+   ],
+   [
+    "location",
+    9
+   ]
+  ],
+  "create_sub_unit_of_category": [
+   [
+    "location",
+    194
+   ]
+  ],
+  "add_policy": [
+   [
+    "(file default)",
+    235
+   ],
+   [
+    "location",
+    27
+   ],
+   [
+    "country",
+    14
+   ]
+  ],
+  "change_country_type": [
+   [
+    "(file default)",
+    12
+   ],
+   [
+    "country",
+    5
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "move_country": [
+   [
+    "character",
+    447
+   ],
+   [
+    "(file default)",
+    38
+   ]
+  ],
+  "revoke_estate_privilege": [
+   [
+    "(file default)",
+    85
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "estate_add_gold": [
+   [
+    "(file default)",
+    23
+   ]
+  ],
+  "has_commander": [
+   [
+    "unit",
+    18
+   ],
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "is_consort": [
+   [
+    "(file default)",
+    26
+   ],
+   [
+    "character",
+    4
+   ],
+   [
+    "unit",
+    2
+   ]
+  ],
+  "is_navy": [
+   [
+    "unit",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_unit_owner": [
+   [
+    "unit",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_upper_class": [
+   [
+    "pop",
+    21
+   ]
+  ],
+  "add_unit_modifier": [
+   [
+    "unit",
+    9
+   ]
+  ],
+  "save_temporary_scope_as": [
+   [
+    "(file default)",
+    58
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "is_area_sea": [
+   [
+    "area",
+    14
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_estate_privilege": [
+   [
+    "(file default)",
+    147
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "always": [
+   [
+    "(file default)",
+    688
+   ],
+   [
+    "location",
+    4
+   ],
+   [
+    "province",
+    2
+   ]
+  ],
+  "culture_percentage": [
+   [
+    "province",
+    10
+   ],
+   [
+    "location",
+    10
+   ]
+  ],
+  "create_dynasty_from_location": [
+   [
+    "location",
+    18
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "has_doom": [
+   [
+    "(file default)",
+    39
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_doom": [
+   [
+    "(file default)",
+    60
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_character_modifier": [
+   [
+    "(file default)",
+    81
+   ],
+   [
+    "character",
+    42
+   ]
+  ],
+  "add_diplomats": [
+   [
+    "(file default)",
+    32
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "is_subject": [
+   [
+    "(file default)",
+    323
+   ],
+   [
+    "country",
+    45
+   ]
+  ],
+  "is_during_bankruptcy": [
+   [
+    "(file default)",
+    114
+   ],
+   [
+    "country",
+    35
+   ]
+  ],
+  "grant_estate_privilege": [
+   [
+    "(file default)",
+    137
+   ],
+   [
+    "province",
+    1
+   ]
+  ],
+  "add_province_modifier": [
+   [
+    "province",
+    51
+   ],
+   [
+    "(file default)",
+    20
+   ]
+  ],
+  "has_advance": [
+   [
+    "(file default)",
+    380
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "is_religion_enabled": [
+   [
+    "religion",
+    46
+   ]
+  ],
+  "add_inflation": [
+   [
+    "(file default)",
+    67
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_countries_with_timed_antagonism": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "spy_network": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "country",
+    12
+   ]
+  ],
+  "add_spy_network": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "has_merchant_power": [
+   [
+    "market",
+    13
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_merchant_power": [
+   [
+    "(file default)",
+    30
+   ],
+   [
+    "market",
+    23
+   ]
+  ],
+  "is_admiral": [
+   [
+    "(file default)",
+    25
+   ],
+   [
+    "country",
+    4
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "add_republican_tradition": [
+   [
+    "(file default)",
+    60
+   ]
+  ],
+  "has_law": [
+   [
+    "(file default)",
+    29
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "destroy_rebel": [
+   [
+    "(file default)",
+    83
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "create_country_from_location": [
+   [
+    "location",
+    22
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "change_country_name": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "change_country_adjective": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "change_country_color": [
+   [
+    "(file default)",
+    23
+   ]
+  ],
+  "change_country_flag": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "location",
+    7
+   ]
+  ],
+  "add_religious_influence": [
+   [
+    "(file default)",
+    301
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "add_sailors": [
+   [
+    "(file default)",
+    24
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "change_max_raw_material_workers": [
+   [
+    "location",
+    17
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "add_vfx": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "has_global_variable_list": [
+   [
+    "(file default)",
+    13
+   ]
+  ],
+  "receiving_scripted_relation": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "knows_country": [
+   [
+    "religion",
+    4
+   ],
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "change_local_variable": [
+   [
+    "(file default)",
+    15
+   ],
+   [
+    "pop",
+    3
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "is_coastal": [
+   [
+    "location",
+    54
+   ],
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "is_subject_or_below_of": [
+   [
+    "(file default)",
+    31
+   ],
+   [
+    "country",
+    12
+   ]
+  ],
+  "add_to_global_variable_list": [
+   [
+    "(file default)",
+    49
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "while": [
+   [
+    "(file default)",
+    50
+   ],
+   [
+    "location",
+    8
+   ],
+   [
+    "region",
+    8
+   ]
+  ],
+  "is_ownable": [
+   [
+    "location",
+    36
+   ],
+   [
+    "(file default)",
+    33
+   ]
+  ],
+  "change_culture": [
+   [
+    "(file default)",
+    21
+   ],
+   [
+    "country",
+    6
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "change_religion": [
+   [
+    "(file default)",
+    64
+   ],
+   [
+    "country",
+    7
+   ],
+   [
+    "location",
+    5
+   ]
+  ],
+  "global_variable_list_size": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "is_ai": [
+   [
+    "(file default)",
+    125
+   ],
+   [
+    "country",
+    21
+   ]
+  ],
+  "set_global_variable": [
+   [
+    "(file default)",
+    49
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_global_variable": [
+   [
+    "(file default)",
+    67
+   ]
+  ],
+  "remove_relation": [
+   [
+    "(file default)",
+    21
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "is_full_expanded_rgo": [
+   [
+    "location",
+    12
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "location_within_range": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_river": [
+   [
+    "(file default)",
+    18
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "is_burgher_positive_deficit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_labourer_positive_deficit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_any_town_rights": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "within_diplomatic_range": [
+   [
+    "(file default)",
+    18
+   ],
+   [
+    "country",
+    14
+   ]
+  ],
+  "relevant_countries": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_positive_opinion": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_great_power": [
+   [
+    "(file default)",
+    42
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "has_levies": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_mercenaries": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_regulars": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "is_levy": [
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "is_mercenary": [
+   [
+    "unit",
+    5
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_trait_category": [
+   [
+    "(file default)",
+    29
+   ],
+   [
+    "country",
+    8
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "is_courtier": [
+   [
+    "(file default)",
+    18
+   ],
+   [
+    "character",
+    14
+   ]
+  ],
+  "is_eligible_for_royal_marriage": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_pregnant": [
+   [
+    "(file default)",
+    7
+   ],
+   [
+    "character",
+    4
+   ]
+  ],
+  "is_child": [
+   [
+    "(file default)",
+    13
+   ]
+  ],
+  "has_child_education_selected": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_exploration": [
+   [
+    "(file default)",
+    10
+   ]
+  ],
+  "in_cabinet": [
+   [
+    "(file default)",
+    61
+   ],
+   [
+    "character",
+    30
+   ]
+  ],
+  "is_saint": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "province_satisfaction": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "province_average_control": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "province_average_development": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "province_religious_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_average_integration": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_starving": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "province",
+    3
+   ]
+  ],
+  "is_owned_by_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "goods_category": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "mercenary_has_owner": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_mercenary_owned_by": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_mercenary_hired_by": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "io_within_diplomatic_range": [
+   [
+    "religion",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_opened": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_full_capacity": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_subsidized": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_lacking_goods": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_profitable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_not_profitable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_can_be_upgraded_by": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "cabinet_action_type": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "societal_value_cabinet_action": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_upgradeable": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_upgraded_level": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_foreign": [
+   [
+    "(file default)",
+    458
+   ]
+  ],
+  "is_special_building": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "province_location_wealth": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "province",
+    1
+   ]
+  ],
+  "is_infant": [
+   [
+    "(file default)",
+    12
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "gfx_culture_applicable": [
+   [
+    "(file default)",
+    117
+   ]
+  ],
+  "is_artist": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "character",
+    7
+   ]
+  ],
+  "is_strait_crossing": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_sea_landing": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_river_crossing": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_land": [
+   [
+    "(file default)",
+    23
+   ],
+   [
+    "location",
+    21
+   ]
+  ],
+  "has_volcano": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "has_siege": [
+   [
+    "(file default)",
+    7
+   ],
+   [
+    "location",
+    5
+   ]
+  ],
+  "has_breach": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_building_with_graphical_tag": [
+   [
+    "(file default)",
+    24
+   ]
+  ],
+  "satisfaction": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "province",
+    1
+   ]
+  ],
+  "is_owned_or_owned_by_subjects_or_below_of": [
+   [
+    "location",
+    20
+   ],
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "language_power": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "power_projection": [
+   [
+    "(file default)",
+    14
+   ]
+  ],
+  "winter_level": [
+   [
+    "location",
+    9
+   ],
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "unit",
+    2
+   ]
+  ],
+  "winter_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_area_preference": [
+   [
+    "(file default)",
+    42
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "has_area_preference": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_revolutionary": [
+   [
+    "(file default)",
+    53
+   ],
+   [
+    "country",
+    3
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "remove_area_preference": [
+   [
+    "(file default)",
+    21
+   ]
+  ],
+  "add_artist_skill": [
+   [
+    "character",
+    22
+   ],
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "remove_trait": [
+   [
+    "character",
+    14
+   ],
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "create_art": [
+   [
+    "location",
+    71
+   ],
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "has_art_in_progress": [
+   [
+    "character",
+    15
+   ]
+  ],
+  "has_building": [
+   [
+    "location",
+    77
+   ],
+   [
+    "(file default)",
+    38
+   ]
+  ],
+  "change_art_quality": [
+   [
+    "location",
+    14
+   ]
+  ],
+  "destroy_art": [
+   [
+    "(file default)",
+    28
+   ],
+   [
+    "location",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "start_work_of_art": [
+   [
+    "character",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_karma": [
+   [
+    "(file default)",
+    50
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_consort": [
+   [
+    "(file default)",
+    40
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_dynasty": [
+   [
+    "(file default)",
+    109
+   ],
+   [
+    "character",
+    59
+   ]
+  ],
+  "has_available_marriage_slot": [
+   [
+    "(file default)",
+    10
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "trigger_if": [
+   [
+    "(file default)",
+    572
+   ],
+   [
+    "country",
+    38
+   ]
+  ],
+  "marry_character": [
+   [
+    "(file default)",
+    24
+   ],
+   [
+    "character",
+    23
+   ]
+  ],
+  "is_eligible_for_marriage": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "change_character_religion": [
+   [
+    "(file default)",
+    23
+   ],
+   [
+    "character",
+    14
+   ]
+  ],
+  "add_adm": [
+   [
+    "character",
+    73
+   ],
+   [
+    "(file default)",
+    57
+   ]
+  ],
+  "add_dip": [
+   [
+    "character",
+    60
+   ],
+   [
+    "(file default)",
+    58
+   ]
+  ],
+  "and": [
+   [
+    "(file default)",
+    23
+   ],
+   [
+    "character",
+    4
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "lift_fog_of_war": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_subject_of": [
+   [
+    "(file default)",
+    163
+   ],
+   [
+    "country",
+    55
+   ]
+  ],
+  "add_devotion": [
+   [
+    "(file default)",
+    54
+   ]
+  ],
+  "adopt_character": [
+   [
+    "character",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_character_estate": [
+   [
+    "character",
+    11
+   ],
+   [
+    "country",
+    6
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "has_nickname": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "unit",
+    3
+   ]
+  ],
+  "set_nickname": [
+   [
+    "character",
+    8
+   ],
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "has_potential_royal_marriage": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "discover_location": [
+   [
+    "location",
+    5
+   ]
+  ],
+  "has_location_modifier": [
+   [
+    "location",
+    89
+   ]
+  ],
+  "in_union_with": [
+   [
+    "(file default)",
+    55
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "has_policy": [
+   [
+    "(file default)",
+    288
+   ],
+   [
+    "country",
+    17
+   ]
+  ],
+  "create_location_country_from_province": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "province",
+    4
+   ]
+  ],
+  "change_province_owner": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "province",
+    3
+   ]
+  ],
+  "add_liberty_desire": [
+   [
+    "(file default)",
+    75
+   ],
+   [
+    "country",
+    16
+   ]
+  ],
+  "change_province_food": [
+   [
+    "province",
+    8
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_owned_or_owned_by_subjects_of": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "create_army_country_in_location": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "create_sub_unit_with_owner": [
+   [
+    "location",
+    7
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_as_commander": [
+   [
+    "unit",
+    8
+   ],
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "declare_war_with_cb": [
+   [
+    "(file default)",
+    62
+   ],
+   [
+    "country",
+    11
+   ]
+  ],
+  "custom_description": [
+   [
+    "(file default)",
+    309
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_to_local_variable_list": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "is_member_of_international_organization_of_type": [
+   [
+    "(file default)",
+    32
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "has_societal_value": [
+   [
+    "(file default)",
+    144
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "has_variable_list": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "variable_list_size": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "change_entrenchment": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_fort": [
+   [
+    "location",
+    9
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_in_scripted_geography": [
+   [
+    "location",
+    7
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_active_parliament": [
+   [
+    "(file default)",
+    21
+   ],
+   [
+    "country",
+    13
+   ]
+  ],
+  "change_parliament_issue_support": [
+   [
+    "(file default)",
+    113
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "language_percentage_in_country": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "situation_is_active": [
+   [
+    "(file default)",
+    159
+   ]
+  ],
+  "add_honor": [
+   [
+    "(file default)",
+    41
+   ]
+  ],
+  "add_purity": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "has_purity": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "religion",
+    3
+   ]
+  ],
+  "has_honor": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "can_build_building": [
+   [
+    "location",
+    7
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "change_country_dynastic_name": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "remove_commander": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "add_righteousness": [
+   [
+    "(file default)",
+    67
+   ],
+   [
+    "country",
+    13
+   ]
+  ],
+  "change_character_culture": [
+   [
+    "character",
+    4
+   ]
+  ],
+  "reverse_cultural_view": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "culture",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "change_mother": [
+   [
+    "character",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_father": [
+   [
+    "character",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_law": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "cultural_view": [
+   [
+    "culture",
+    13
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "location_key": [
+   [
+    "(file default)",
+    87
+   ],
+   [
+    "location",
+    16
+   ]
+  ],
+  "has_province_modifier": [
+   [
+    "province",
+    5
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "change_language": [
+   [
+    "culture",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_cultural_view": [
+   [
+    "culture",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_set_cultural_view": [
+   [
+    "culture",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "pay_price": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_religion_modifier": [
+   [
+    "religion",
+    24
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_unit_modifier": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_location_modifier": [
+   [
+    "location",
+    23
+   ]
+  ],
+  "remove_province_modifier": [
+   [
+    "province",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "research_advance": [
+   [
+    "(file default)",
+    17
+   ]
+  ],
+  "set_liturgical_language": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "location",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "impregnate": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "set_first_name": [
+   [
+    "character",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_moving": [
+   [
+    "(file default)",
+    13
+   ],
+   [
+    "unit",
+    2
+   ]
+  ],
+  "is_movement_locked": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "morale_percentage": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_unit_locked": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_exiled": [
+   [
+    "(file default)",
+    18
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "is_carrying_troops": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_morale": [
+   [
+    "unit",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_subunit": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "lock_unit": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "unlock_unit": [
+   [
+    "(file default)",
+    187
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "add_food": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "set_unit_size": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "dynasty_name": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "change_pop_culture": [
+   [
+    "pop",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_pop_type": [
+   [
+    "pop",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_building_level": [
+   [
+    "location",
+    10
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "building_efficiency": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_pay_price": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_dynasty_head": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "is_immortal": [
+   [
+    "character",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "giving_scripted_relation": [
+   [
+    "country",
+    13
+   ],
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "favors": [
+   [
+    "(file default)",
+    15
+   ]
+  ],
+  "add_favors": [
+   [
+    "(file default)",
+    10
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_colonial_charter_in": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "create_colonial_charter": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "estate_tax_rate": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_situation_active": [
+   [
+    "(file default)",
+    164
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "rebel_category": [
+   [
+    "(file default)",
+    12
+   ]
+  ],
+  "has_rebel": [
+   [
+    "pop",
+    28
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_core": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "add_location_as_core": [
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "add_truce_with": [
+   [
+    "(file default)",
+    21
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "school_opinion": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "set_school_opinion": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "rename_location": [
+   [
+    "location",
+    17
+   ]
+  ],
+  "set_religious_school": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_cardinals": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "has_religious_influence": [
+   [
+    "(file default)",
+    21
+   ],
+   [
+    "religion",
+    3
+   ]
+  ],
+  "has_religious_head": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "need_reforms": [
+   [
+    "religion",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_karma": [
+   [
+    "(file default)",
+    7
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "add_reform_desire": [
+   [
+    "religion",
+    7
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_needs_reform": [
+   [
+    "religion",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "enable_religion": [
+   [
+    "religion",
+    5
+   ]
+  ],
+  "change_privateer_power": [
+   [
+    "area",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_explorer": [
+   [
+    "character",
+    11
+   ],
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "change_exploration_progress": [
+   [
+    "(file default)",
+    52
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "change_building_level": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_fertility": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "character",
+    4
+   ]
+  ],
+  "estate_opinion": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "mission_completed": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "current_mission_task": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "mission_task_completed": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "mission_task_bypassed": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_used_by_production_method": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_produced_by_production_method": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "requires_goods": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_available_for": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "start_mission": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "end_mission": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "complete_mission_task": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "bypass_mission_task": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "heir_score_country": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "heir_score": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_latest_road_to": [
+   [
+    "location",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_road_to": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_advance_available": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_research_advance": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "distance_to_squared": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "parliament_issue_will_pass": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "years_in_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_raised_levies": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "start_weather_system": [
+   [
+    "(file default)",
+    18
+   ]
+  ],
+  "has_enabled_currency": [
+   [
+    "(file default)",
+    19
+   ]
+  ],
+  "start_civil_war": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "start_revolt": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_road_to": [
+   [
+    "location",
+    7
+   ]
+  ],
+  "spawn_disease": [
+   [
+    "location",
+    8
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "end_vote": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_leader_country": [
+   [
+    "(file default)",
+    19
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "set_revolution": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "set_revolution_target": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "create_building_country_in_location": [
+   [
+    "location",
+    8
+   ]
+  ],
+  "resolution_is_active": [
+   [
+    "country",
+    16
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "add_trust_equilibrium": [
+   [
+    "(file default)",
+    43
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "remove_rival": [
+   [
+    "(file default)",
+    18
+   ]
+  ],
+  "join_war_with": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "change_cultural_view": [
+   [
+    "culture",
+    11
+   ]
+  ],
+  "is_market_center": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "location",
+    4
+   ]
+  ],
+  "own_entire_area": [
+   [
+    "(file default)",
+    62
+   ]
+  ],
+  "rebel_name_key": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_random_trait_from_category": [
+   [
+    "character",
+    37
+   ],
+   [
+    "(file default)",
+    13
+   ]
+  ],
+  "has_primary_or_accepted_culture": [
+   [
+    "(file default)",
+    28
+   ],
+   [
+    "location",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "create_num_sub_unit_of_category": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_accepted_culture": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "in_war_of_casus_belli": [
+   [
+    "country",
+    17
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "leave_all_wars_with": [
+   [
+    "(file default)",
+    14
+   ],
+   [
+    "country",
+    2
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "define_unique_country_tag": [
+   [
+    "location",
+    6
+   ]
+  ],
+  "is_core_of": [
+   [
+    "location",
+    52
+   ],
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "remove_core": [
+   [
+    "location",
+    34
+   ]
+  ],
+  "change_province_food_percentage": [
+   [
+    "province",
+    31
+   ]
+  ],
+  "found_dynasty": [
+   [
+    "character",
+    6
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "country_has_disease": [
+   [
+    "(file default)",
+    35
+   ],
+   [
+    "country",
+    17
+   ]
+  ],
+  "has_truce_with": [
+   [
+    "(file default)",
+    26
+   ],
+   [
+    "country",
+    12
+   ]
+  ],
+  "has_royal_marriage_with": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "add_country_to_international_organization": [
+   [
+    "(file default)",
+    16
+   ]
+  ],
+  "cancel_subject": [
+   [
+    "(file default)",
+    40
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "set_religious_view": [
+   [
+    "religion",
+    23
+   ]
+  ],
+  "is_in_list": [
+   [
+    "country",
+    2
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "add_to_temporary_list": [
+   [
+    "country",
+    2
+   ],
+   [
+    "pop",
+    2
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "is_at_max_level": [
+   [
+    "location",
+    12
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_raw_material": [
+   [
+    "location",
+    8
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "num_of_ports": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "destroy_all_buildings_of_type": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_religious_aspect": [
+   [
+    "(file default)",
+    50
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "remove_religious_aspect": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "religion_percentage": [
+   [
+    "province",
+    27
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "set_active_chivalric_order": [
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "has_casus_belli_on": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "trigger_else": [
+   [
+    "(file default)",
+    227
+   ],
+   [
+    "country",
+    9
+   ],
+   [
+    "pop",
+    2
+   ]
+  ],
+  "is_major_reform": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "relative_strength": [
+   [
+    "(file default)",
+    32
+   ],
+   [
+    "country",
+    14
+   ]
+  ],
+  "has_mutual_scripted_relation": [
+   [
+    "(file default)",
+    42
+   ],
+   [
+    "country",
+    18
+   ]
+  ],
+  "dynasty_exists": [
+   [
+    "(file default)",
+    41
+   ]
+  ],
+  "fertility": [
+   [
+    "(file default)",
+    14
+   ]
+  ],
+  "divorce_character": [
+   [
+    "character",
+    4
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_any_active_disaster": [
+   [
+    "(file default)",
+    50
+   ],
+   [
+    "country",
+    9
+   ]
+  ],
+  "has_accepted_culture": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_accepted_culture": [
+   [
+    "(file default)",
+    14
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "owns_or_non_sovereign_subject_owns_entire_province": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "change_integration_progress": [
+   [
+    "location",
+    27
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "make_saint": [
+   [
+    "character",
+    13
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_presence_in": [
+   [
+    "(file default)",
+    97
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "has_spawned": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_bureaucracy": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "building_category": [
+   [
+    "location",
+    25
+   ],
+   [
+    "(file default)",
+    10
+   ]
+  ],
+  "remove_policy": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "transfer_yearly_gold": [
+   [
+    "(file default)",
+    30
+   ],
+   [
+    "country",
+    11
+   ]
+  ],
+  "clamp_variable": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "add_religious_aspect": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "has_scripted_relation": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "give_loan": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "set_loc_key": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "nor": [
+   [
+    "country",
+    3
+   ]
+  ],
+  "set_parliament_type": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "change_explorer": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "start_conquistador": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "disease_presence": [
+   [
+    "location",
+    30
+   ],
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "is_discovered_by": [
+   [
+    "location",
+    62
+   ]
+  ],
+  "create_relation": [
+   [
+    "(file default)",
+    51
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "floodfill_locations": [
+   [
+    "location",
+    2
+   ]
+  ],
+  "change_province_integration": [
+   [
+    "province",
+    10
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_leader": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_merchant": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "market",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "tag_exists": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "religion",
+    2
+   ]
+  ],
+  "add_policy_to_international_organization": [
+   [
+    "(file default)",
+    49
+   ]
+  ],
+  "remove_global_variable": [
+   [
+    "(file default)",
+    23
+   ]
+  ],
+  "add_horde_unity": [
+   [
+    "(file default)",
+    25
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_discovered": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_bureaucracy_of_type": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_entrenchment": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_maintenance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_yearly_manpower": [
+   [
+    "(file default)",
+    17
+   ]
+  ],
+  "within_naval_range_of": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "error_log": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "add_to_variable_list": [
+   [
+    "country",
+    8
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_target_in_variable_list": [
+   [
+    "country",
+    12
+   ],
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "clear_variable_list": [
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "find_route": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_list_variable": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "create_mercenary": [
+   [
+    "(file default)",
+    23
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_civil_war_for": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "num_of_traits_of_category": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "is_real_country": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "character_name": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "is_area_coastal_sea": [
+   [
+    "area",
+    5
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "discover_area": [
+   [
+    "(file default)",
+    25
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "in_siege": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "unit",
+    7
+   ]
+  ],
+  "has_casus_belli_of_type_on": [
+   [
+    "(file default)",
+    15
+   ],
+   [
+    "country",
+    8
+   ]
+  ],
+  "join_war_as_defender": [
+   [
+    "country",
+    9
+   ],
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "remove_local_variable": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "raise_levies": [
+   [
+    "province",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "leave_war": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "religious_view": [
+   [
+    "religion",
+    6
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "end_situation": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "remove_casus_belli": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "support_rebel": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_ongoing_parliament_debate": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "set_child_education": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_children": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_exploration_construction": [
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "building_produced_goods": [
+   [
+    "location",
+    6
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_discovered_area": [
+   [
+    "(file default)",
+    38
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "price_in_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_possible_goods_trade_surplus": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "market",
+    3
+   ]
+  ],
+  "has_trust": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_trust_equilibrium": [
+   [
+    "(file default)",
+    19
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "create_international_organization": [
+   [
+    "(file default)",
+    16
+   ],
+   [
+    "country",
+    9
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "create_holy_site": [
+   [
+    "location",
+    5
+   ],
+   [
+    "religion",
+    2
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "importance": [
+   [
+    "(file default)",
+    260
+   ],
+   [
+    "location",
+    5
+   ],
+   [
+    "religion",
+    2
+   ]
+  ],
+  "remove_opinion": [
+   [
+    "(file default)",
+    25
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "set_bankruptcy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_from_list": [
+   [
+    "location",
+    1
+   ]
+  ],
+  "cancel_loan": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "destroy_mercenary": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "set_parliament_active": [
+   [
+    "(file default)",
+    12
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "set_regent": [
+   [
+    "(file default)",
+    37
+   ]
+  ],
+  "disease_is_active": [
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "set_disease_presence": [
+   [
+    "location",
+    9
+   ]
+  ],
+  "unique_international_organization_type_exists": [
+   [
+    "(file default)",
+    12
+   ]
+  ],
+  "reset_ruler_title": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_chivalric_order": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "trigger_else_if": [
+   [
+    "(file default)",
+    49
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "culture_percentage_in_country": [
+   [
+    "country",
+    7
+   ],
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "culture",
+    2
+   ]
+  ],
+  "culture_group_percentage_in_country": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "religion_percentage_in_country": [
+   [
+    "(file default)",
+    26
+   ],
+   [
+    "country",
+    12
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "country_rank_level": [
+   [
+    "(file default)",
+    10
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_historical_rivals": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "uses_government_power": [
+   [
+    "(file default)",
+    17
+   ]
+  ],
+  "is_adjacent_to_lake": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "has_active_resolution": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "add_food_percentage": [
+   [
+    "unit",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_friendly_with": [
+   [
+    "country",
+    2
+   ],
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_societal_value": [
+   [
+    "(file default)",
+    10
+   ]
+  ],
+  "is_border": [
+   [
+    "location",
+    5
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_unlocked_any_unit_of_category": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "current_month": [
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "is_eligible_heir": [
+   [
+    "character",
+    7
+   ],
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "is_fighting_war_together_with": [
+   [
+    "country",
+    6
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "block_treaties": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "weighted_calc_true_if": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_road_of_type_to": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_ruler": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "has_regular_elections": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_temporary_demand": [
+   [
+    "market",
+    4
+   ],
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "can_find_trade_route": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "is_primary_or_accepted_in": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "culture",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_looted": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_religion_modifier": [
+   [
+    "religion",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_religion_modifier": [
+   [
+    "religion",
+    14
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_reforms": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "calc_true_if": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_declare_war_on": [
+   [
+    "country",
+    8
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "has_loc_key": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "within_colonial_range_of": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "location",
+    3
+   ]
+  ],
+  "add_to_cabinet": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "extend_regency": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "has_child_education": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "sell_goods_from_location": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "hidden_trigger": [
+   [
+    "(file default)",
+    34
+   ],
+   [
+    "country",
+    2
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "remove_breach": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_score_versus": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_land_ownership_rule": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_has_law": [
+   [
+    "(file default)",
+    68
+   ],
+   [
+    "country",
+    11
+   ]
+  ],
+  "transfer_yearly_manpower": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "country",
+    3
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "destroy_pop": [
+   [
+    "pop",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "construct_estate_building": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_integrating": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_a_defender": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_an_attacker": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "add_self_control": [
+   [
+    "(file default)",
+    14
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "raise_all_levies": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_province_capital": [
+   [
+    "location",
+    5
+   ],
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "annul_all_treaties_with": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_complacency": [
+   [
+    "(file default)",
+    10
+   ]
+  ],
+  "has_historical_rival": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_unit": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "has_countries_with_coalition_grade_antagonism": [
+   [
+    "(file default)",
+    17
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_new_foreign_ruler": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_pop_allegiance": [
+   [
+    "pop",
+    3
+   ]
+  ],
+  "is_ruler_of": [
+   [
+    "character",
+    16
+   ]
+  ],
+  "is_regent_of": [
+   [
+    "character",
+    14
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rebel_estate_type": [
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "add_yearly_sailors": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_accepted_in": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "location",
+    2
+   ],
+   [
+    "culture",
+    1
+   ]
+  ],
+  "set_parliament_location": [
+   [
+    "(file default)",
+    11
+   ],
+   [
+    "country",
+    5
+   ]
+  ],
+  "set_parliament_issue": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "population_with_traits": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_target_in_global_variable_list": [
+   [
+    "(file default)",
+    15
+   ],
+   [
+    "country",
+    6
+   ]
+  ],
+  "remove_list_global_variable": [
+   [
+    "(file default)",
+    37
+   ],
+   [
+    "country",
+    2
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "add_rebel_modifier": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_character_allegiance": [
+   [
+    "character",
+    2
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_any_disease_present": [
+   [
+    "location",
+    7
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "had_disaster_for_years": [
+   [
+    "(file default)",
+    14
+   ]
+  ],
+  "has_limited_diplomacy": [
+   [
+    "(file default)",
+    27
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "set_lowborn": [
+   [
+    "character",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_vote": [
+   [
+    "country",
+    5
+   ]
+  ],
+  "disaster_is_active": [
+   [
+    "(file default)",
+    49
+   ]
+  ],
+  "add_subunit_strength": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "unit",
+    1
+   ]
+  ],
+  "is_withering": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "destroy_market": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "market",
+    1
+   ]
+  ],
+  "change_privateer_owner": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_religious_view": [
+   [
+    "religion",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "stall_exploration": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_serve_in_cabinet_of": [
+   [
+    "character",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_new_foreign_ruler_no_update": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "update_leadership": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_religious_figure": [
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "force_city_gfx_rebuild": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reset_regency": [
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "has_game_rule": [
+   [
+    "(file default)",
+    128
+   ],
+   [
+    "location",
+    2
+   ]
+  ],
+  "is_regency_extended": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_embargoed_by": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "in_trade_range_of": [
+   [
+    "market",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_holy_site_for": [
+   [
+    "country",
+    7
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "num_provinces": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_town_rights": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "revoke_town_rights_of_type": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_annexing": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "change_annexation_progress": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_location_holy_site_for": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "location",
+    2
+   ],
+   [
+    "religion",
+    2
+   ]
+  ],
+  "add_to_variable_map": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "religion",
+    4
+   ]
+  ],
+  "move_art": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_variable_map": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "set_art_owner": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "remove_from_variable_map": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "religion",
+    2
+   ]
+  ],
+  "release_non_cores": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_religious_focus": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_religious_focus_progress": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_in_losing_war": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_avatar": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_avatar": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "reverse_add_trust_equilibrium": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_support_from": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "current_date": [
+   [
+    "(file default)",
+    27
+   ]
+  ],
+  "has_invited_religious_figure": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "trust": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "time_of_year": [
+   [
+    "(file default)",
+    107
+   ],
+   [
+    "country",
+    27
+   ]
+  ],
+  "is_location_holy_site_type": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "character",
+    1
+   ]
+  ],
+  "make_saint_in_character_religion": [
+   [
+    "character",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_disease_presence": [
+   [
+    "location",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "buy_goods_from_market": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_join_international_organization": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "add_location_to_international_organization": [
+   [
+    "location",
+    9
+   ],
+   [
+    "country",
+    7
+   ],
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "international_organization_chooses_new_leader": [
+   [
+    "(file default)",
+    11
+   ]
+  ],
+  "add_rival": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "change_score": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "remove_truce_with": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "relative_military_strength": [
+   [
+    "country",
+    5
+   ]
+  ],
+  "has_extended_winter": [
+   [
+    "area",
+    10
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "abandon_colonial_charter": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "province",
+    2
+   ]
+  ],
+  "spread_to_location": [
+   [
+    "culture",
+    2
+   ],
+   [
+    "religion",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_loyal": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "character",
+    2
+   ]
+  ],
+  "add_country_to_international_organization_no_update": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_gold": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "set_stability": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "set_army_tradition": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_see_situation": [
+   [
+    "(file default)",
+    45
+   ],
+   [
+    "country",
+    25
+   ]
+  ],
+  "is_on_same_side": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_spreader": [
+   [
+    "religion",
+    10
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "refresh_map_colors": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_subject_type": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "total_members": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "is_east_of": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "location",
+    4
+   ]
+  ],
+  "remove_colonial_claim": [
+   [
+    "province",
+    6
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "add_colonial_claim": [
+   [
+    "province",
+    6
+   ],
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_voted_for": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "io_recalculate_leader": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "subject_loyalty": [
+   [
+    "(file default)",
+    43
+   ]
+  ],
+  "conquer_desire": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_casus_belli": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "migration_attraction": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "scope_type": [
+   [
+    "(file default)",
+    19
+   ]
+  ],
+  "great_power_score": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_tax_base": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "army_size": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "military_strength": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "regular_army_size": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "navy_size": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "expected_army_size": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "expected_navy_size": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_food": [
+   [
+    "market",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_food_percentage": [
+   [
+    "market",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_tax_base": [
+   [
+    "province",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_food": [
+   [
+    "province",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_food_percentage": [
+   [
+    "province",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rebel_size": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "art_quality": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "diplomatic_range": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "cultural_influence": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "employment_size": [
+   [
+    "(file default)",
+    466
+   ]
+  ],
+  "has_road_to_capital": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "is_overseas_for_owner": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "is_produced_in_location_market": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "always_loyal": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "is_primary_in": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "form_new_culture": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_being_annexed": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "has_any_culture_group": [
+   [
+    "culture",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_merged_culture_group": [
+   [
+    "culture",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_already_merged": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "culture",
+    1
+   ]
+  ],
+  "is_dominant_country_of": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_fully_implemented_in": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_additional_migration": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_additional_migration": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_migration": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_possible_institution_spawn": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "can_declare_no_cb_war_on": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "war_goal_type": [
+   [
+    "(file default)",
+    103
+   ]
+  ],
+  "has_privateers_from": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "is_a_threat_for_us": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_neighbor_of_country_or_across_one_seazone": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_completed_religious_focus": [
+   [
+    "country",
+    10
+   ],
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "is_hegemon": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "can_make_subject_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "peace_treaty_war_score_cost": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_eligible_heir_baseline": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "valid_estate_for_heir_selection": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "valid_gender_for_heir_selection": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_any_possible_disaster": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "age_in_years": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_different_order_of_chivalry": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_in_chivalric_order": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "character_is_eligible_for_active_order": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "join_active_chivalric_order_of": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_war_leader_of": [
+   [
+    "character",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_in_war": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "attackers_have_access_in": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "defenders_have_access_in": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "add_access_for_attackers": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_join_offensive_war_with": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_join_defensive_war_with": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_join_as_attacker": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "can_join_as_defender": [
+   [
+    "(file default)",
+    5
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "vote_is_locked": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_allowed_for_international_organization": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_set": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "dependency_length_days": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "can_add_relation": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "wants_to_give_away_any_province": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_countries_with_special_status": [
+   [
+    "(file default)",
+    7
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "special_status_can_be_bestowed": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_allowed_for": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "join_war_against": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "wants_to_attack": [
+   [
+    "country",
+    4
+   ]
+  ],
+  "country_interaction_acceptance": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_cooldown": [
+   [
+    "(file default)",
+    13
+   ],
+   [
+    "country",
+    7
+   ]
+  ],
+  "can_lead_international_organization": [
+   [
+    "(file default)",
+    7
+   ],
+   [
+    "country",
+    4
+   ]
+  ],
+  "war_score_in_war_whole_side": [
+   [
+    "country",
+    1
+   ]
+  ],
+  "is_imperial_circle_leader": [
+   [
+    "(file default)",
+    12
+   ],
+   [
+    "country",
+    10
+   ]
+  ],
+  "circles_are_active": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "law_visible_to_international_organization": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "law_is_locked_in_international_organization": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "law_enabled_to_international_organization": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "policy_visible_to_international_organization": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "policy_enabled_to_international_organization": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_circle_leader": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "in_same_imperial_circle": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "receives_military_access_from": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "receives_food_access_from": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "lend_unit_to_country": [
+   [
+    "unit",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_colonial_overlord": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "pay_off_loans": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_loan_interest": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_sellable_art": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_location_owner_forcefully": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_share_maps_with": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_enthusiasm": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_colonial_charter_owner": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_bond": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "distribute_gold_to_banking_estates": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "transfer_location_occupation": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "transfer_subject": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "wants_military_access_in": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_possible_rivals": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "ruled_country_on_or_after": [
+   [
+    "character",
+    6
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_mercenary_leader": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "international_organization_leader_count": [
+   [
+    "(file default)",
+    18
+   ]
+  ],
+  "definition_is_for_levy": [
+   [
+    "(file default)",
+    14
+   ]
+  ],
+  "disease_has_stagnated": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "disease_affects_pops_here": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "num_roads": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "disease_has_outbreak_here": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "start_tutorial_lesson": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_building_owner": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "set_subsidized": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "lock_maintenance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "marry_character_ignore_blocks": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_ethnicity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_to_limited_random_stat": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "join_chivalric_order": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "leave_chivalric_order": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "request_ransom_prisoners": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "sell_prisoners_into_slavery": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "revoke_town_rights": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "conditional_effect": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "destroy_holy_site": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "fire_generic_action": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "execute_propose_effect": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "set_dynasty_name_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_extended_winter": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_extended_winter": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "area",
+    1
+   ]
+  ],
+  "loot_location": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_location_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_unit_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_country_modifier_size": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "change_province_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_religion_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_character_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_international_organization_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_dynasty_modifier_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "refund_price": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_yanantin": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_rite_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_navy_tradition": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_prestige": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_sailors": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_manpower": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_war_exhaustion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_legitimacy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_republican_tradition": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_devotion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_horde_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_tribal_cohesion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_government_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_karma": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_yanantin": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_complacency": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_righteousness": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_self_control": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_purity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_rite_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_honor": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_doom": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_religious_influence": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "transfer_yearly_sailors": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_trust": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "change_creditworthiness": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_new_ruler_no_update": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_country_employment_system": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_country_military_stance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "perform_diplomatic_action": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "stop_annexing_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "start_exploration": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "cancel_area_exploration": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "align_societal_values_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "transfer_gold_from_estate": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_all_casus_belli": [
+   [
+    "country",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "stop_cabinet_action": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_tolerated_culture": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "demote_accepted_culture": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_tolerated_culture": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "copy_country_name_and_adjective": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "copy_country_color": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_rebel_demands": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_casus_belli_creation_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_religious_focus": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_avatar": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "abandon_location": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_parliament_issue_support": [
+   [
+    "(file default)",
+    8
+   ],
+   [
+    "country",
+    3
+   ]
+  ],
+  "grant_parliament_agenda": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "grant_parliament_agenda_for_estate": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bribe_estate": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "set_as_designated_heir": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "set_participated_in_parliament": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "unset_participated_in_parliament": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_cooldown": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "create_union": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "force_union": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "take_over_all_wars": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_bureaucracy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "apply_rebel_demands": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_all_area_preferences": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "destroy_building_country": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "reverse_change_cultural_view": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_dynasty_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_country_to_circle": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_country_from_circle": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_enemy_to_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_location_from_international_organization": [
+   [
+    "country",
+    7
+   ],
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "remove_law_from_international_organization": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "destroy_international_organization_no_instigator": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_international_organization_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_rebel_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "finalize_resolution": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "grant_parliament_agenda_for_special_status": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_loan_borrower": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_loan_amount": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "redeem_bonds": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "destroy_building_forcefully": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_siege_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_vfx": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "construct_location_rank": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "force_refresh_culture_and_religion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "spawn_army_levy_unit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_garrison_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "grant_town_rights": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_merchant_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "relocate_market": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "market",
+    2
+   ]
+  ],
+  "sell_goods_to_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "become_hired_by": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_spreader": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_movement_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "destroy_movement": [
+   [
+    "religion",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_pop_owner": [
+   [
+    "pop",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "hire_privateer": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "create_army_country_from_province": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_province_capital": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "reverse_set_religious_view": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "change_religion_view": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "reverse_change_religion_view": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "reverse_set_school_opinion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "add_god": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "remove_god": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "add_omen": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ]
+  ],
+  "add_historical_rival": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "remove_historical_rival": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "garrison_sortie": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "change_subunit_type": [
+   [
+    "unit",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_locked": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "change_assigned_merchant_capacity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "make_unit_available_for_hire": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "move_to_assist_on_adjacent_combat": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "add_bonus_warscore": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "start_periphora_towards": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "giving_scripted_relation_of_type": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "receiving_scripted_relation_of_type": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_autocephalous_patriarchates": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "religion",
+    7
+   ]
+  ],
+  "is_key_in_variable_map": [
+   [
+    "(file default)",
+    1
+   ],
+   [
+    "country",
+    1
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "country_has_disease_outbreak": [
+   [
+    "country",
+    9
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "bureaucracy_type_is_visible": [
+   [
+    "country",
+    1
+   ]
+  ],
+  "has_canonization": [
+   [
+    "(file default)",
+    9
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "can_do_generic_action": [
+   [
+    "country",
+    6
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_valid_colonial_charter": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_cabinet_action": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_new_world_goods_in_market": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_origin_in_new_world": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_food": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_in_surplus_in_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_old_world_goods_in_market": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_origin_in_old_world": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_valid_for_exploration": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "receives_defensive_support_from": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "allow_subject_creation": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subject_can_be_created_by": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_overlords_ruler": [
+   [
+    "(file default)",
+    22
+   ]
+  ],
+  "culture_population_in_country": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_value_in_variable_map": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "all_holy_sites_owned_by_or_below_of": [
+   [
+    "religion",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_advance_for_employment_system": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_employment_system": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "adjacent_to_owned_or_owned_by_subject": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_being_explored": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_threat_to": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religion_population_in_country": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_religious_aspects": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "estate_type_allowed_in_cabinet": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_member_of_circle": [
+   [
+    "country",
+    7
+   ]
+  ],
+  "international_organization_can_own_land": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "international_organization_can_add_land": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_can_be_added_to_international_organization": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_owned_by_any_international_organization": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "international_organization_can_remove_land": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_can_be_removed_from_international_organization": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_omens": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "is_selected_omen_god": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_invoking_omen": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_selectable_issue_for": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "special_status_power_fraction": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_visible_for": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "can_be_bribe": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "agenda_for_estate_type": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_use_agenda_bribe": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_regional_power": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_fixed_liturgical_language": [
+   [
+    "religion",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "only_allowed_overlord_court_language": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_leave_international_organization": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_passable_land": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_carrying_or_loaded_unit": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "overlord_can_destroy_markets": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_temporary_demands": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_owned_buildings": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "overlord_can_build_markets": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_market_construction": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_trade_treaty_with": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_isolation_exemption_to": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "available_merchant_capacity": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "pop_type_population_in_country": [
+   [
+    "(file default)",
+    4
+   ],
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_periphora": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "wants_casus_belli_with": [
+   [
+    "country",
+    5
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_target_casus_belli_on_us": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_ai_preferred_parliament_law_change": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "policy_possible_for_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_religious_schools": [
+   [
+    "(file default)",
+    2
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "has_migration": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_neighbor_of_province_definition": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "recall_lent_unit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_lent_unit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "wants_to_subjugate": [
+   [
+    "country",
+    2
+   ]
+  ],
+  "has_sects": [
+   [
+    "(file default)",
+    10
+   ],
+   [
+    "religion",
+    9
+   ]
+  ],
+  "has_combat": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_pop_type": [
+   [
+    "location",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_colonial_claim": [
+   [
+    "province",
+    14
+   ],
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "subject_can_be_annexed": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_eligible_military_leader": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_yanantin": [
+   [
+    "(file default)",
+    3
+   ],
+   [
+    "religion",
+    1
+   ]
+  ],
+  "allowed_bureaucracies": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "bureaucracy_maintenance": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "max_possible_candidates": [
+   [
+    "(file default)",
+    17
+   ]
+  ],
+  "add_international_organization": [
+   [
+    "religion",
+    6
+   ]
+  ],
+  "can_initiate_policy_votes": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "has_countries_with_near_coalition_grade_antagonism": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_blocked_treaties": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_can_join_international_organization": [
+   [
+    "country",
+    3
+   ],
+   [
+    "location",
+    3
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_special_status_available": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "is_neighbor_of_international_organization": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "international_organization_has_internal_peace": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "dynastic_power": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_overlord": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "can_annex_members": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "uses_elections": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_passable": [
+   [
+    "(file default)",
+    6
+   ],
+   [
+    "location",
+    1
+   ]
+  ],
+  "special_status_power": [
+   [
+    "(file default)",
+    18
+   ]
+  ],
+  "num_of_non_rural": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "num_locations": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "birth_age": [
+   [
+    "(file default)",
+    20
+   ]
+  ],
+  "hre_io_is_in_formation_period": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "round_variable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_effective_goods_production_buildings": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "used_merchant_capacity": [
+   [
+    "market",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_gifted_gold_to": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "add_movement_modifier": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "add_to_local_variable_map": [
+   [
+    "province",
+    3
+   ],
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "join_war_reason": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_create_casus_belli_of_type_on": [
+   [
+    "country",
+    1
+   ]
+  ],
+  "bureaucracy_liked_by_estate_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_disliked_by_estate_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "culture_group_percentage": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_known_by_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_any_rgo_of_goods_method": [
+   [
+    "(file default)",
+    7
+   ]
+  ],
+  "goods_method": [
+   [
+    "location",
+    10
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "blocks_full_annexation": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "has_sound_tolls": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "legitimacy": [
+   [
+    "(file default)",
+    14
+   ]
+  ],
+  "has_pretender": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "max_sects": [
+   [
+    "(file default)",
+    6
+   ]
+  ],
+  "ai_wants_convert": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "pay_policy_price_effect": [
+   [
+    "country",
+    2
+   ]
+  ],
+  "total_population_in_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_cached_or_cast_vote_for": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_alert_shown": [
+   [
+    "(file default)",
+    29
+   ]
+  ],
+  "is_unique_reform": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_participated_in_parliament": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_voted_for_issue_in_parliament": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_implementable_in": [
+   [
+    "character",
+    1
+   ]
+  ],
+  "has_global_variable_map": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_key_in_global_variable_map": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remove_from_global_variable_map": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "border_distance_to": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "owns_any_foreign_buildings_in": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_diplomacy_with": [
+   [
+    "country",
+    4
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_fleet_basing_rights": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_food_access": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_target_of_international_organization_of_type": [
+   [
+    "country",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_scripted_relation_of_type": [
+   [
+    "country",
+    2
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "in_combat": [
+   [
+    "(file default)",
+    16
+   ]
+  ],
+  "is_elector_in_international_organization": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_culture_with_tag": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_rebels": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "owns_most_foreign_buildings_in_location": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_linked_to_foreign_building": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "location_progress_for_formable": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_art_destroyed": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "is_key_in_local_variable_map": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_outbreak_presence": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "has_voted": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "sort_global_variable_list": [
+   [
+    "(file default)",
+    4
+   ]
+  ],
+  "current_year": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "num_foreign_buildings": [
+   [
+    "(file default)",
+    9
+   ]
+  ],
+  "is_currently_being_integrated": [
+   [
+    "location",
+    1
+   ],
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "set_personality": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_rival": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_be_force_broken_in_peace_treaty": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "overlord_can_enforce_peace_on_subject": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_mining_rgo": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "education": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "has_accessible_coastline": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "area_average_integration": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_area_fully_discovered": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_area_passable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_levels_under_construction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_max_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_building_owned_by": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_manpower_produced": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_profit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_potential_profit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_index": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_employment_size_amount": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_employed_amount": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_can_be_destroyed_by": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "entrenchment": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_disliked_by_estate": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_type_liked_by_estate_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_type_liked_by_estate": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_type_disliked_by_estate_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bureaucracy_type_disliked_by_estate": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "effective_skill": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "age_in_days": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_marry_character": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_dynastic_descendant_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_patrilineal_descendant_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_matrilineal_descendant_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_abilities": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religious_figure_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "character_nickname": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_saint_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_spouses": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_traits": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "yearly_salary": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "art_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "heir_score_home": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_general_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_admiral_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_artist_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_explorer_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_consort_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_leading_largest_army_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_leading_largest_navy_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_of_service_as_general": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_of_service_as_admiral": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_of_service_in_cabinet": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_as_rebel": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_of_service_as_general": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_of_service_as_admiral": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_of_service_in_cabinet": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_as_rebel": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "character_is_in_order": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "implementation_progress_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_locked_for": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_locked_for_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_target_in_local_variable_list": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_counter": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religion_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religion_group_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religion_group_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "culture_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "culture_group_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_religion_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_religion_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_religion_group_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_religion_group_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_culture_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "world_culture_group_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "raw_material_amount": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_been_formed": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_fired_unique_event": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "bias_value": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "unit_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religion_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "character_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rebel_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "dynasty_modifier_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "owned_by_or_its_subjects": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "advance_no_longer_activated": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "army_tradition_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "navy_tradition_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "inflation_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gold_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_exhaustion_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "government_power_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "legitimacy_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "republican_tradition_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "devotion_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "horde_unity_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "tribal_cohesion_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "karma_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "yanantin_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "complacency_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "righteousness_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "harmony_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "self_control_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "purity_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "honor_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "doom_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religious_influence_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_income_total": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_income_trade_and_tax": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_trade_income": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_balance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_latest_road_type_for": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_foreign_buildings_levels": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "allows_male_rulers": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "allows_female_rulers": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_country_literacy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_colonial_top_overlord": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "this_opinion_of_prev": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "prev_opinion_of_this": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "this_antagonism_towards_prev": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "prev_antagonism_towards_this": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_ai_disposition_toward_player": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_ai_disposition_toward_actor": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_enemy_of_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_advance_for_succession_law": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_claim_on_province": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "potential_navy_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "potential_army_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_regiments": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "possible_military_leaders": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "navy_size_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_rank_level_on_date": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_population_change": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_population_in_international_organization_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_primary_culture_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_accepted_culture_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_tolerated_culture_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_not_tolerated_culture_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_true_faith_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_heretic_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_control_scaled_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_casus_belli_of_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_in_any_same_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_hostile_with": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_embraced_institutions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_known_institutions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_characters": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_estate_loan_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_explorations": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_forts": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_locations_owned_or_owned_by_subjects": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_locations_owned_or_owned_by_subjects_or_below": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_economical_base": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "long_term_eco_growth": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "capital_wealth": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "slider_minting_value": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "currency_utility": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "exploration_utility": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "cancel_exploration_utility": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_subjects": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_adult_capable_characters": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_works_of_art": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ruler_reign": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ruler_reign_in_days": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_non_rural_ports": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_markets_with_merchants": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_mission_task": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "supports_rebel": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_military_access_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_fleet_basing_rights_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "receives_fleet_basing_rights_from": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_food_access_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "receives_isolation_exemption_from": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_defensive_support_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "gives_offensive_support_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "receives_offensive_support_from": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "annexation_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_manpower": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_advances_researched": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_control_in_home_region": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_control": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "sailors_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "research_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "religious_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "cultural_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "liberty_desire": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "does_estate_want_other_policy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "months_since_peace": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "months_since_war": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "months_since_last_parliament_called": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remaining_parliament_days": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_possible_privileges": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_bureaucracies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_open_bureaucracy_slots": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_avatars": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_debt": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "foreign_debt": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "debt_to_estates": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "current_bonds": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "creditworthiness": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "vote_impact_in_resolution": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "vote_percentage_impact_in_resolution": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_possible_nomad_targets": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_merchant_capacity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_tolerated_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monarch_power_percentage_in_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "culture_group_population_in_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_art_quality": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_rivals": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "current_ruler_term_years": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "used_cultures_capacity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_development": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_raised_army_levies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_raised_navy_levies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_raise_levies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_raise_army_levies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_raise_navy_levies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_highest_rated_special_status_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "parliament_issue_chance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "needs_opinion_with": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "great_power_ranking": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "great_power_points": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_mutual_scripted_relation_of_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "defensive_alliance_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "offensive_alliance_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "country_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_personality": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_loan_interest": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "payment_maintenance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "payment_contribution": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_insulted": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "currency_percentage_towards_limit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "societal_value_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "parliament_type_utility": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "policy_utility": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_type_allowed_in_parliament": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_type_allowed_in_command": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_creating_cb_against": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_creating_cb_of_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_country_interaction_acceptance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "offer_relation_acceptance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_offer_relation_acceptance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "request_relation_acceptance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_request_relation_acceptance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_form": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ruler_term_start_date": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "threat_level_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_build_unit_type": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "opinion_difference_between": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "used_fort_limit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_estate_satisfaction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "topography_count": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "vegetation_count": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "vegetation_percent": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "climate_count": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_common_rivals": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_common_rivals_and_enemies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "this_trust_of_prev": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "prev_trust_of_this": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "prev_spy_network_in_this": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "this_spy_network_in_prev": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "prev_favors_with_this": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "this_favors_with_prev": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "cultural_tradition_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "cultural_influence_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_graphical_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "culture_opinion_impact": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_merged_culture_group_of": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "merged_culture_group_contains_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disaster_has_ended": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_since_disaster_start": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_since_disaster_start": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_since_disaster_end": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_since_disaster_end": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_affected_locations": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_resistance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_outbreak_is_active": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_country_deaths": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_outbreak_country_deaths": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_total_deaths": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "disease_outbreak_total_deaths": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_dynastic_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_unions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_union_countries": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_adult_available_dynasty_members": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_dynasty_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "target_satisfaction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_gold": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_taxable_income": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "estate_tax": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_buildings_owned_by_estate": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_satisfaction_change": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "exploration_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "exploration_time": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "exploration_monthly_cost": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "exploration_monthly_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "food_value": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_constructions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_pops": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_trades": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_burgher_trades": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_buildings": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_roads": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_demanded_in_market_by_units": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "raw_material_occurrence": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_dormant_imperial_circle": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "imperial_circle_satisfaction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_embraced_for": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_international_organization_annullable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "parliament_type_is_locked_in_international_organization": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_locations_owned": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_locations_owned_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_enemies": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "io_total_great_power_score": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "io_total_tax_base": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "io_total_military_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "max_countries_with_special_status": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_international_organization_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_elections": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_has_laws": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_num_locations": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_special_status_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_special_status_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_special_status_power_fraction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "leader_special_status_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "leader_special_status_power_fraction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "combined_special_status_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_economical_base": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_leader_reign": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_leader_reign_in_days": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_lifetime": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "international_organization_lifetime_in_days": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "resolution_opinion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "io_exists": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "loan_amount": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "loan_interest": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "remaining_debt": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "months_left": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_unified_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "employment_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "original_location_rank": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rgo_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rgo_workers": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "max_rgo_workers": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_num_works_of_art": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_works_of_art_star_rating": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_location_literacy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_become_rank": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_max_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_population_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_exports": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_imports": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_earthquakes": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_army_constructions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_navy_constructions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_civil_constructions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_tax_base": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "in_zone_of_control": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "average_satisfaction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_max_town_rights": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_connected_to_through_realm": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "local_religious_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "local_cultural_unity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_buildings": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_building_levels": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_owned_foreign_buildings_in_location": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_art_quality": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_max_winter_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "distance_to": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "intrinsic_disease_resistance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "local_political_power_fraction": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "relative_raw_material_price": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_peace_cost": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "building_type_max_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_any_convertable_pops": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_neighbor_of_location": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_neighbor_of_location_or_across_one_seazone": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "raw_material_output": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "goods_output": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "local_estate_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "local_relative_estate_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "garrison_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "garrison_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "max_garrison_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "location_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_required_for_formable": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_different_town_rights_than": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_export_banned": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_import_banned": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_max_food": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "food_price": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_food_deficit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_food_traded": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_monthly_food_balance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "market_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "goods_supply_in_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "goods_demand_in_market": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_merchant_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_goods_traded": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_goods_value_traded": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "demands_goods": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "demands_goods_by_pops": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_projected_to_run_out_of_food_stockpile": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "months_at_or_below_withering_threshold": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "monthly_cost": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "movement_presence": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ai_policy_resolution_vote_bias": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ai_policy_resolution_keep_bias": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "ai_policy_reason_to_join": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "peace_treaty_antagonism": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "policy_level": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "pop_size": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "pop_character_chance": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "pop_literacy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "pop_knows_about_goods": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "privateer_power": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_colonial_charter": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_possible_institutions": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_max_food": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_monthly_food_production": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_prosperity": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_rebel_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "province_population": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "rebel_last_months_progress": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_rebel_supporters": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_of_rebel_characters": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_supported_by_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_supported_by_character": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_rebel_modifier": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reverse_school_opinion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_religious_focuses": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "reform_desire": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "total_cardinals": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_active": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "max_religious_aspects": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "num_countries_in_religion": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "in_assault": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "years_since_situation_start": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_since_situation_start": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "days_since_situation_end": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "only_allowed_overlord_primary_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "only_allowed_overlord_primary_or_kindred_culture": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "forbids_sovereign_diplomacy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_regiment": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subunit_morale_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subunit_strength_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_upgrade_subunit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subunit_morale": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subunit_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "subunit_number": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "trade_volume": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "trade_buy": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "trade_sell": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "trade_profit": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "trade_capacity_usage_percent": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_export": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_locked": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "experience_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "food_percentage": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "can_hire_prisoners_as_mercenaries": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_ransom_prisoners": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "can_sell_prisoners_into_slavery": [
+   [
+    "(file default)",
+    2
+   ]
+  ],
+  "prisoner_strength": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "has_prisoners": [
+   [
+    "(file default)",
+    8
+   ]
+  ],
+  "has_only_prisoners": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "in_retreat": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "num_subunits": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_length_in_years": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_stalling_length": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_stalling_length_in_years": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "war_score_of_country": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "art_worth": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "art_price": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_widgetid_open": [
+   [
+    "(file default)",
+    134
+   ]
+  ],
+  "set_tutorial_var": [
+   [
+    "(file default)",
+    26
+   ]
+  ],
+  "close_all_views": [
+   [
+    "(file default)",
+    17
+   ]
+  ],
+  "set_collection_pin": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_tooltip_with_name_open": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_auto_raise_taxrate_for_all_estates": [
+   [
+    "(file default)",
+    1
+   ]
+  ],
+  "is_camera_in_zoom_level": [
+   [
+    "(file default)",
+    3
+   ]
+  ],
+  "is_map_mode_active": [
+   [
+    "(file default)",
+    5
+   ]
+  ],
+  "is_player_playstyle": [
+   [
+    "(file default)",
+    2
+   ]
+  ]
+ },
+ "name_hint": {
+  "add_recovered_army_levy_percentage": "unit",
+  "add_recovered_navy_levy_percentage": "unit",
+  "area_average_control": "area",
+  "available_army_levy_percentage": "unit",
+  "available_navy_levy_percentage": "unit",
+  "conquer_area_preference": "area",
+  "country_combined_special_status_power_fraction": "country",
+  "country_has_been_member_for_years": "country",
+  "create_market_utility": "market",
+  "create_navy_country_from_province": "province",
+  "create_navy_country_in_location": "location",
+  "create_num_sub_unit": "unit",
+  "culture_percentage_in_area": "area",
+  "destroy_market_utility": "market",
+  "distance_to_area": "area",
+  "harbor_capacity_in_area": "area",
+  "has_graphical_religion": "religion",
+  "heir_candidates_count": "character",
+  "heir_position": "character",
+  "is_annexing_any_country": "country",
+  "is_country_leader_of_circle": "country",
+  "is_leader_of_any_imperial_circle_in_io": "character",
+  "is_leader_of_imperial_circle": "character",
+  "language_population_in_country": "country",
+  "location_net_building_profit": "location",
+  "location_num_holy_sites": "location",
+  "num_cabinet_capable_characters": "character",
+  "num_locations_affected": "location",
+  "num_of_locations_with_high_conquer_desire": "location",
+  "num_province_definitions_in_area": "province",
+  "organization_strength_relative_to_country": "country",
+  "population_in_area": "area",
+  "province_army_levy_percentage": "province",
+  "province_army_levy_size": "province",
+  "province_average_max_control": "province",
+  "province_navy_levy_percentage": "province",
+  "province_navy_levy_size": "province",
+  "province_pop_type_population": "province",
+  "regular_navy_size": "unit",
+  "religion_group_population_in_country": "country",
+  "relocate_market_utility": "market",
+  "unemployed_pops_of_pop_type_in_location": "location",
+  "unemployed_pops_of_pop_type_in_province": "province",
+  "unfilled_jobs_in_province_percentage": "province",
+  "unit_strength": "unit",
+  "war_score_of_country_side": "country"
+ }
+}

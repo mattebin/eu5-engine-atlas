@@ -512,3 +512,34 @@ in any tool, never as fact.
 This is the data a searchable catalogue needs: a modder asking "what can I do
 with a Location" gets 425 candidate functions, 250 of them confirmed by
 vanilla usage.
+
+---
+
+# Scope context (static inference)
+
+Vanilla wraps effects in scope-changing blocks, so the enclosing block
+reveals the context an effect runs in. Scanning 2,346 in-game script files
+and tracking the scope stack:
+
+| | |
+|---|---|
+| Keywords with an observed scope type | **1,616** |
+| Of the 168 **undocumented** keywords | **0** |
+
+## The limitation, stated plainly
+
+Zero is the expected answer and it matters: "undocumented" means vanilla
+never uses these, so there is no usage to infer scope from. The keywords
+this project exists to document are exactly the ones static scope inference
+cannot reach.
+
+46 of them carry a usable hint in the name (`create_navy_country_in_location`
+-> location, `area_average_control` -> area, `create_num_sub_unit` -> unit),
+but a hint is not a fact.
+
+**Scope for undocumented keywords must be tested in game**: run each effect
+inside a country scope and a location scope, and see which one errors. That
+is a probe round, not a static pass.
+
+The 1,616 observed entries remain useful as a general scope reference for
+modders working with documented vocabulary.

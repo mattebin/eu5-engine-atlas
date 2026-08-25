@@ -56,6 +56,16 @@ Responsive Universalis: `NAI.AI_MILITARY_ASSIGNMENT_STRENGTH_FACTOR`,
 `NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT`, `NDiplomacy.DIPLOMATIC_RANGE`,
 `NEconomy.GROWTH_FROM_FOOD_MULTIPLIER`.
 
+## 5. Scope testing for undocumented keywords
+
+Static inference cannot give scope for the 168 undocumented keywords -
+vanilla never uses them, so there is nothing to observe (0 of 168 found).
+Only 46 have a name-based hint.
+
+Resolvable by probe: run each effect inside a country scope and inside a
+location scope and record which errors. The engine reports scope mismatches
+clearly, so one round of chunked probes would settle most of them.
+
 ## 4. Composed-keyword blind spot
 
 All five extractions match literal strings, so anything the engine assembles

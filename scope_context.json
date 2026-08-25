@@ -1,0 +1,16382 @@
+{
+ "set_age_preference": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_human": [
+  [
+   "(top level)",
+   38
+  ],
+  [
+   "scope:actor",
+   8
+  ],
+  [
+   "root",
+   5
+  ],
+  [
+   "any_in_list",
+   1
+  ]
+ ],
+ "hidden_effect": [
+  [
+   "(top level)",
+   1641
+  ],
+  [
+   "scope:actor",
+   16
+  ],
+  [
+   "random_list",
+   8
+  ],
+  [
+   "scope:target_location",
+   7
+  ]
+ ],
+ "custom_tooltip": [
+  [
+   "(top level)",
+   5085
+  ],
+  [
+   "scope:actor",
+   179
+  ],
+  [
+   "random_list",
+   58
+  ],
+  [
+   "scope:target_location",
+   40
+  ]
+ ],
+ "trigger_event_non_silently": [
+  [
+   "(top level)",
+   418
+  ],
+  [
+   "random_list",
+   66
+  ],
+  [
+   "scope:target_country",
+   53
+  ],
+  [
+   "every_country",
+   37
+  ]
+ ],
+ "change_player": [
+  [
+   "(top level)",
+   70
+  ],
+  [
+   "scope:target_rebels",
+   1
+  ],
+  [
+   "scope:player_to_switch",
+   1
+  ]
+ ],
+ "add_stability": [
+  [
+   "(top level)",
+   1927
+  ],
+  [
+   "random_list",
+   30
+  ],
+  [
+   "scope:actor",
+   21
+  ],
+  [
+   "scope:loser",
+   3
+  ]
+ ],
+ "add_prestige": [
+  [
+   "(top level)",
+   2515
+  ],
+  [
+   "scope:actor",
+   38
+  ],
+  [
+   "owner",
+   13
+  ],
+  [
+   "scope:proposer",
+   11
+  ]
+ ],
+ "add_legitimacy": [
+  [
+   "(top level)",
+   751
+  ],
+  [
+   "scope:actor",
+   10
+  ],
+  [
+   "random_list",
+   5
+  ],
+  [
+   "root",
+   2
+  ]
+ ],
+ "is_neighbor_of": [
+  [
+   "(top level)",
+   77
+  ],
+  [
+   "every_country",
+   12
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "any_rival",
+   4
+  ]
+ ],
+ "save_scope_as": [
+  [
+   "(top level)",
+   3761
+  ],
+  [
+   "ruler",
+   367
+  ],
+  [
+   "random_owned_location",
+   289
+  ],
+  [
+   "capital",
+   224
+  ]
+ ],
+ "switch": [
+  [
+   "(top level)",
+   59
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "scope:target_country",
+   2
+  ],
+  [
+   "scope:supporter_country",
+   1
+  ]
+ ],
+ "change_government_type": [
+  [
+   "(top level)",
+   65
+  ],
+  [
+   "scope:target_location",
+   9
+  ],
+  [
+   "scope:actor",
+   9
+  ],
+  [
+   "scope:target_country",
+   4
+  ]
+ ],
+ "change_heir_selection": [
+  [
+   "(top level)",
+   63
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "scope:recipient",
+   5
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "remove_variable": [
+  [
+   "(top level)",
+   1126
+  ],
+  [
+   "international_organization:hre",
+   22
+  ],
+  [
+   "scope:actor",
+   19
+  ],
+  [
+   "scope:recipient",
+   16
+  ]
+ ],
+ "exists": [
+  [
+   "(top level)",
+   2087
+  ],
+  [
+   "scope:actor",
+   46
+  ],
+  [
+   "scope:recipient",
+   19
+  ],
+  [
+   "scope:target_location",
+   10
+  ]
+ ],
+ "trigger_event_silently": [
+  [
+   "(top level)",
+   460
+  ],
+  [
+   "random_list",
+   88
+  ],
+  [
+   "scope:target_country",
+   51
+  ],
+  [
+   "scope:actor",
+   26
+  ]
+ ],
+ "destroy_international_organization": [
+  [
+   "(top level)",
+   18
+  ],
+  [
+   "random_country",
+   9
+  ],
+  [
+   "scope:loser",
+   7
+  ],
+  [
+   "scope:winner",
+   5
+  ]
+ ],
+ "change_location_owner": [
+  [
+   "every_owned_location",
+   45
+  ],
+  [
+   "every_in_list",
+   17
+  ],
+  [
+   "scope:target_location",
+   15
+  ],
+  [
+   "every_location_in_province_definition",
+   12
+  ]
+ ],
+ "change_prosperity": [
+  [
+   "scope:target_location",
+   124
+  ],
+  [
+   "every_location_in_province",
+   43
+  ],
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "capital",
+   24
+  ]
+ ],
+ "add_pop_size": [
+  [
+   "every_pop",
+   120
+  ],
+  [
+   "random_pop",
+   30
+  ],
+  [
+   "ordered_pop",
+   18
+  ],
+  [
+   "scope:target_province_1",
+   6
+  ]
+ ],
+ "damage_unit_percent": [
+  [
+   "every_unit_in_location",
+   8
+  ],
+  [
+   "every_besieging_unit",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "random_army",
+   1
+  ]
+ ],
+ "damage_unit_morale_percent": [
+  [
+   "every_unit_in_location",
+   8
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "random_army",
+   1
+  ],
+  [
+   "scope:target_unit",
+   1
+  ]
+ ],
+ "destroy_unit": [
+  [
+   "every_unit_in_location",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "random_navy",
+   1
+  ],
+  [
+   "every_unit",
+   1
+  ]
+ ],
+ "owns": [
+  [
+   "(top level)",
+   1242
+  ],
+  [
+   "every_present_country",
+   17
+  ],
+  [
+   "any_known_country",
+   3
+  ],
+  [
+   "random_known_country",
+   3
+  ]
+ ],
+ "add_location_modifier": [
+  [
+   "scope:target_location",
+   220
+  ],
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "every_location_in_province",
+   26
+  ],
+  [
+   "every_location_in_area",
+   24
+  ]
+ ],
+ "change_location_rank": [
+  [
+   "scope:target_location",
+   61
+  ],
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "every_owned_location",
+   3
+  ]
+ ],
+ "else_if": [
+  [
+   "(top level)",
+   828
+  ],
+  [
+   "scope:actor",
+   59
+  ],
+  [
+   "scope:target_location",
+   40
+  ],
+  [
+   "random_list",
+   20
+  ]
+ ],
+ "has_owner": [
+  [
+   "(top level)",
+   185
+  ],
+  [
+   "any_ownable_location_in_area",
+   19
+  ],
+  [
+   "any_location_in_area",
+   16
+  ],
+  [
+   "any_location_in_province_definition",
+   15
+  ]
+ ],
+ "controls": [
+  [
+   "(top level)",
+   16
+  ]
+ ],
+ "is_rival_of": [
+  [
+   "(top level)",
+   102
+  ],
+  [
+   "scope:recipient",
+   28
+  ],
+  [
+   "every_country",
+   15
+  ],
+  [
+   "scope:winner",
+   12
+  ]
+ ],
+ "destroy_building": [
+  [
+   "scope:target_location",
+   23
+  ],
+  [
+   "every_owned_location",
+   6
+  ],
+  [
+   "location",
+   5
+  ],
+  [
+   "every_owned_foreign_building_location",
+   5
+  ]
+ ],
+ "is_port": [
+  [
+   "(top level)",
+   36
+  ],
+  [
+   "random_owned_location",
+   9
+  ],
+  [
+   "any_location_in_market",
+   8
+  ],
+  [
+   "scope:target",
+   5
+  ]
+ ],
+ "add_casus_belli": [
+  [
+   "(top level)",
+   388
+  ],
+  [
+   "scope:actor",
+   22
+  ],
+  [
+   "scope:target_country",
+   19
+  ],
+  [
+   "root",
+   17
+  ]
+ ],
+ "add_migration": [
+  [
+   "(top level)",
+   126
+  ],
+  [
+   "every_province",
+   48
+  ],
+  [
+   "every_province_in_area",
+   5
+  ],
+  [
+   "every_location_in_region",
+   5
+  ]
+ ],
+ "has_variable": [
+  [
+   "(top level)",
+   1642
+  ],
+  [
+   "random_character",
+   52
+  ],
+  [
+   "scope:actor",
+   46
+  ],
+  [
+   "any_character",
+   43
+  ]
+ ],
+ "has_ruler": [
+  [
+   "(top level)",
+   1306
+  ],
+  [
+   "scope:actor",
+   28
+  ],
+  [
+   "random_international_organization_member",
+   9
+  ],
+  [
+   "random_list",
+   8
+  ]
+ ],
+ "show_as_tooltip": [
+  [
+   "(top level)",
+   452
+  ],
+  [
+   "scope:target_country",
+   5
+  ],
+  [
+   "scope:subject_target",
+   5
+  ],
+  [
+   "scope:actor",
+   4
+  ]
+ ],
+ "country_has_special_status": [
+  [
+   "(top level)",
+   65
+  ],
+  [
+   "international_organization:middle_kingdom",
+   44
+  ],
+  [
+   "international_organization:hre",
+   38
+  ],
+  [
+   "scope:recipient",
+   22
+  ]
+ ],
+ "has_opinion": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "any_subject",
+   13
+  ],
+  [
+   "root",
+   6
+  ],
+  [
+   "any_neighbor_country",
+   5
+  ]
+ ],
+ "add_army_tradition": [
+  [
+   "(top level)",
+   338
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "random_list",
+   1
+  ],
+  [
+   "every_neighbor_country",
+   1
+  ]
+ ],
+ "add_manpower": [
+  [
+   "(top level)",
+   91
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "scope:civil_war_country",
+   2
+  ]
+ ],
+ "else": [
+  [
+   "(top level)",
+   1673
+  ],
+  [
+   "scope:target_location",
+   47
+  ],
+  [
+   "scope:actor",
+   43
+  ],
+  [
+   "scope:recipient",
+   22
+  ]
+ ],
+ "add_country_modifier": [
+  [
+   "(top level)",
+   1496
+  ],
+  [
+   "scope:actor",
+   122
+  ],
+  [
+   "scope:recipient",
+   8
+  ],
+  [
+   "every_international_organization_member",
+   7
+  ]
+ ],
+ "has_regent": [
+  [
+   "(top level)",
+   220
+  ],
+  [
+   "scope:actor",
+   11
+  ],
+  [
+   "scope:recipient",
+   6
+  ],
+  [
+   "any_country_in_religion",
+   1
+  ]
+ ],
+ "has_country_modifier": [
+  [
+   "(top level)",
+   312
+  ],
+  [
+   "scope:actor",
+   14
+  ],
+  [
+   "any_subject",
+   7
+  ],
+  [
+   "any_known_country",
+   4
+  ]
+ ],
+ "is_leader_of_international_organization": [
+  [
+   "(top level)",
+   322
+  ],
+  [
+   "scope:actor",
+   21
+  ],
+  [
+   "every_present_country",
+   16
+  ],
+  [
+   "any_related_country",
+   8
+  ]
+ ],
+ "estate_satisfaction": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_cooldown": [
+  [
+   "(top level)",
+   50
+  ],
+  [
+   "scope:recipient",
+   12
+  ],
+  [
+   "scope:actor",
+   10
+  ],
+  [
+   "every_subject",
+   7
+  ]
+ ],
+ "at_war": [
+  [
+   "(top level)",
+   779
+  ],
+  [
+   "scope:actor",
+   94
+  ],
+  [
+   "any_neighbor_country",
+   9
+  ],
+  [
+   "random_neighbor_country",
+   9
+  ]
+ ],
+ "is_enemy_of": [
+  [
+   "(top level)",
+   72
+  ],
+  [
+   "every_country",
+   12
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "any_neighbor_location",
+   5
+  ]
+ ],
+ "not": [
+  [
+   "(top level)",
+   260
+  ],
+  [
+   "scope:actor",
+   57
+  ],
+  [
+   "scope:recipient",
+   41
+  ],
+  [
+   "owner",
+   8
+  ]
+ ],
+ "list_size": [
+  [
+   "(top level)",
+   50
+  ]
+ ],
+ "is_alive": [
+  [
+   "(top level)",
+   383
+  ],
+  [
+   "any_character",
+   48
+  ],
+  [
+   "any_child",
+   36
+  ],
+  [
+   "random_character",
+   35
+  ]
+ ],
+ "add_to_list": [
+  [
+   "every_subject",
+   36
+  ],
+  [
+   "(top level)",
+   33
+  ],
+  [
+   "ordered_province",
+   25
+  ],
+  [
+   "every_international_organization_member",
+   23
+  ]
+ ],
+ "is_adult": [
+  [
+   "(top level)",
+   125
+  ],
+  [
+   "any_character",
+   51
+  ],
+  [
+   "random_character",
+   45
+  ],
+  [
+   "any_character_in_dynasty",
+   35
+  ]
+ ],
+ "create_rebel": [
+  [
+   "(top level)",
+   175
+  ],
+  [
+   "random_list",
+   7
+  ],
+  [
+   "random_historical_rival",
+   1
+  ]
+ ],
+ "change_character_allegiance": [
+  [
+   "scope:target_character",
+   24
+  ],
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "random_character",
+   4
+  ],
+  [
+   "scope:scope_pretender",
+   3
+  ]
+ ],
+ "add_pop_satisfaction": [
+  [
+   "every_pop",
+   759
+  ],
+  [
+   "ordered_pop",
+   45
+  ],
+  [
+   "random_pop",
+   41
+  ],
+  [
+   "every_in_list",
+   9
+  ]
+ ],
+ "change_pop_allegiance": [
+  [
+   "every_pop",
+   220
+  ],
+  [
+   "ordered_pop",
+   12
+  ],
+  [
+   "random_pop",
+   5
+  ],
+  [
+   "every_in_list",
+   1
+  ]
+ ],
+ "remove_reform": [
+  [
+   "(top level)",
+   92
+  ],
+  [
+   "scope:loser",
+   3
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "add_rebel_progress": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "random_rebel",
+   10
+  ],
+  [
+   "scope:target_rebel",
+   6
+  ],
+  [
+   "every_rebel",
+   2
+  ]
+ ],
+ "has_trait": [
+  [
+   "(top level)",
+   262
+  ],
+  [
+   "ruler",
+   35
+  ],
+  [
+   "any_ancestor",
+   20
+  ],
+  [
+   "random_ancestor",
+   20
+  ]
+ ],
+ "is_owned_by_international_organization": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "any_location_in_province",
+   7
+  ],
+  [
+   "any_owned_location",
+   5
+  ],
+  [
+   "every_location_in_province",
+   2
+  ]
+ ],
+ "add_core": [
+  [
+   "every_owned_location",
+   36
+  ],
+  [
+   "every_location_in_area",
+   16
+  ],
+  [
+   "every_location_in_province_definition",
+   12
+  ],
+  [
+   "every_core_location",
+   11
+  ]
+ ],
+ "remove_from_international_organization": [
+  [
+   "every_owned_location",
+   6
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_country_from_international_organization": [
+  [
+   "every_international_organizations_member_of",
+   13
+  ],
+  [
+   "international_organization:italian_league_1",
+   13
+  ],
+  [
+   "international_organization:italian_league_2",
+   13
+  ],
+  [
+   "international_organization:italian_league_3",
+   13
+  ]
+ ],
+ "add_reform": [
+  [
+   "(top level)",
+   130
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "scope:target_country",
+   4
+  ]
+ ],
+ "is_subject_type": [
+  [
+   "(top level)",
+   77
+  ],
+  [
+   "any_subject",
+   49
+  ],
+  [
+   "every_subject",
+   28
+  ],
+  [
+   "random_subject",
+   15
+  ]
+ ],
+ "make_subject_of": [
+  [
+   "(top level)",
+   61
+  ],
+  [
+   "scope:target_country",
+   10
+  ],
+  [
+   "scope:crimean_country",
+   5
+  ],
+  [
+   "scope:recipient",
+   3
+  ]
+ ],
+ "drop_antagonism_bomb": [
+  [
+   "(top level)",
+   93
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "every_international_organization_member",
+   2
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "change_variable": [
+  [
+   "(top level)",
+   159
+  ],
+  [
+   "owner",
+   42
+  ],
+  [
+   "root",
+   24
+  ],
+  [
+   "situation:fall_of_delhi",
+   18
+  ]
+ ],
+ "assert_if": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "debug_only": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_antagonism": [
+  [
+   "every_international_organization_member",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "every_country_in_religion",
+   2
+  ],
+  [
+   "every_known_country",
+   2
+  ]
+ ],
+ "clear_global_variable_list": [
+  [
+   "(top level)",
+   41
+  ]
+ ],
+ "change_integration_level": [
+  [
+   "every_owned_location",
+   20
+  ],
+  [
+   "every_location_in_province",
+   9
+  ],
+  [
+   "scope:target_location",
+   6
+  ],
+  [
+   "every_location_in_area",
+   3
+  ]
+ ],
+ "add_to_global_variable_map": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_member_of_international_organization": [
+  [
+   "(top level)",
+   359
+  ],
+  [
+   "scope:actor",
+   62
+  ],
+  [
+   "scope:target",
+   13
+  ],
+  [
+   "every_country",
+   9
+  ]
+ ],
+ "save_temporary_scope_value_as": [
+  [
+   "(top level)",
+   30
+  ],
+  [
+   "every_country_with_special_status_of_type",
+   4
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "every_imperial_circle_country_is_member_of",
+   2
+  ]
+ ],
+ "add_circle_satisfaction": [
+  [
+   "every_imperial_circle_country_is_member_of",
+   16
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_has_leader": [
+  [
+   "(top level)",
+   36
+  ],
+  [
+   "international_organization:hre",
+   16
+  ],
+  [
+   "scope:recipient",
+   16
+  ],
+  [
+   "any_international_organizations_member_of",
+   6
+  ]
+ ],
+ "save_scope_value_as": [
+  [
+   "random_list",
+   9
+  ],
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "set_circle_leader": [
+  [
+   "every_imperial_circle_country_is_member_of",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_imperial_circle",
+   1
+  ]
+ ],
+ "clear_circle_leader": [
+  [
+   "every_imperial_circle_country_is_member_of",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_imperial_circle",
+   1
+  ]
+ ],
+ "create_character": [
+  [
+   "(top level)",
+   1249
+  ],
+  [
+   "random_list",
+   43
+  ],
+  [
+   "scope:target_location",
+   9
+  ],
+  [
+   "scope:actor",
+   7
+  ]
+ ],
+ "adm": [
+  [
+   "(top level)",
+   908
+  ],
+  [
+   "random_list",
+   13
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "scope:actor",
+   5
+  ]
+ ],
+ "international_organization_has_policy": [
+  [
+   "(top level)",
+   329
+  ],
+  [
+   "any_international_organizations_member_of",
+   66
+  ],
+  [
+   "scope:recipient",
+   42
+  ],
+  [
+   "international_organization:middle_kingdom",
+   24
+  ]
+ ],
+ "dip": [
+  [
+   "(top level)",
+   890
+  ],
+  [
+   "random_list",
+   10
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "scope:actor",
+   5
+  ]
+ ],
+ "mil": [
+  [
+   "(top level)",
+   900
+  ],
+  [
+   "random_list",
+   10
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "scope:actor",
+   5
+  ]
+ ],
+ "add_research_progress": [
+  [
+   "(top level)",
+   305
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "owner",
+   2
+  ],
+  [
+   "scope:target_country",
+   2
+  ]
+ ],
+ "set_local_variable": [
+  [
+   "(top level)",
+   81
+  ],
+  [
+   "owner",
+   4
+  ],
+  [
+   "scope:teu_affected_pop",
+   1
+  ]
+ ],
+ "kill_character_silently": [
+  [
+   "(top level)",
+   387
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:hookup_char",
+   1
+  ],
+  [
+   "scope:fire_victim_1",
+   1
+  ]
+ ],
+ "has_embraced_institution": [
+  [
+   "(top level)",
+   192
+  ],
+  [
+   "any_neighbor_country",
+   12
+  ],
+  [
+   "random_neighbor_country",
+   9
+  ],
+  [
+   "any_war_participant",
+   4
+  ]
+ ],
+ "add_estate_satisfaction": [
+  [
+   "(top level)",
+   3067
+  ],
+  [
+   "scope:actor",
+   59
+  ],
+  [
+   "random_list",
+   10
+  ],
+  [
+   "scope:target_country",
+   8
+  ]
+ ],
+ "has_building_with_at_least_one_level": [
+  [
+   "(top level)",
+   64
+  ],
+  [
+   "any_location_in_region",
+   33
+  ],
+  [
+   "random_owned_location",
+   30
+  ],
+  [
+   "ordered_owned_location",
+   28
+  ]
+ ],
+ "integration_level": [
+  [
+   "any_owned_location",
+   51
+  ],
+  [
+   "(top level)",
+   42
+  ],
+  [
+   "any_location_in_province",
+   31
+  ],
+  [
+   "random_owned_location",
+   27
+  ]
+ ],
+ "is_traded_in_market": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "market",
+   19
+  ],
+  [
+   "capital",
+   8
+  ],
+  [
+   "any_market_present_in_country",
+   4
+  ]
+ ],
+ "change_societal_value": [
+  [
+   "(top level)",
+   2882
+  ],
+  [
+   "scope:actor",
+   36
+  ],
+  [
+   "owner",
+   22
+  ],
+  [
+   "random_list",
+   7
+  ]
+ ],
+ "add_goods_supply": [
+  [
+   "(top level)",
+   45
+  ],
+  [
+   "scope:target_market",
+   4
+  ],
+  [
+   "capital",
+   3
+  ],
+  [
+   "scope:target_work_of_art",
+   1
+  ]
+ ],
+ "goods": [
+  [
+   "(top level)",
+   52
+  ],
+  [
+   "any_import",
+   15
+  ],
+  [
+   "any_export",
+   6
+  ],
+  [
+   "scope:target_market",
+   4
+  ]
+ ],
+ "knows_about_institution": [
+  [
+   "(top level)",
+   82
+  ],
+  [
+   "location:krasnystaw",
+   1
+  ]
+ ],
+ "country_has_estate": [
+  [
+   "(top level)",
+   241
+  ],
+  [
+   "scope:actor",
+   20
+  ],
+  [
+   "owner",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "change_institution_progress": [
+  [
+   "scope:target_location",
+   30
+  ],
+  [
+   "ordered_owned_location",
+   26
+  ],
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "capital",
+   7
+  ]
+ ],
+ "random": [
+  [
+   "(top level)",
+   66
+  ],
+  [
+   "scope:espionage_event_country",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "every_country",
+   1
+  ]
+ ],
+ "split_pop": [
+  [
+   "every_pop",
+   141
+  ],
+  [
+   "random_list",
+   56
+  ],
+  [
+   "ordered_pop",
+   30
+  ],
+  [
+   "random_pop",
+   12
+  ]
+ ],
+ "add_cultural_tradition": [
+  [
+   "culture",
+   241
+  ],
+  [
+   "(top level)",
+   48
+  ],
+  [
+   "culture:greek_culture",
+   4
+  ],
+  [
+   "culture:catalan",
+   2
+  ]
+ ],
+ "has_institution": [
+  [
+   "(top level)",
+   13
+  ],
+  [
+   "capital",
+   5
+  ],
+  [
+   "any_owned_location",
+   4
+  ],
+  [
+   "location:moscow",
+   3
+  ]
+ ],
+ "is_city": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "any_owned_location",
+   6
+  ],
+  [
+   "random_owned_location",
+   5
+  ],
+  [
+   "any_neighbor_location",
+   3
+  ]
+ ],
+ "change_control": [
+  [
+   "scope:target_location",
+   54
+  ],
+  [
+   "every_owned_location",
+   45
+  ],
+  [
+   "every_location_in_province",
+   34
+  ],
+  [
+   "every_location_in_area",
+   29
+  ]
+ ],
+ "is_capital": [
+  [
+   "(top level)",
+   77
+  ],
+  [
+   "random_owned_location",
+   40
+  ],
+  [
+   "any_owned_location",
+   39
+  ],
+  [
+   "ordered_owned_location",
+   27
+  ]
+ ],
+ "add_gold_to_estate": [
+  [
+   "(top level)",
+   84
+  ],
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "num_loans": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_temporary_demand": [
+  [
+   "(top level)",
+   86
+  ],
+  [
+   "market",
+   28
+  ],
+  [
+   "every_market_with_merchants",
+   9
+  ],
+  [
+   "every_market_present_in_country",
+   8
+  ]
+ ],
+ "has_markets": [
+  [
+   "(top level)",
+   27
+  ],
+  [
+   "scope:loser",
+   2
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "has_colonial_charters": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "random_neighbor_country",
+   8
+  ],
+  [
+   "any_neighbor_country",
+   7
+  ],
+  [
+   "any_neighbor_location",
+   3
+  ]
+ ],
+ "is_colonial_subject": [
+  [
+   "(top level)",
+   13
+  ],
+  [
+   "any_subject",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "every_subject",
+   2
+  ]
+ ],
+ "change_building_level_in_location": [
+  [
+   "scope:target_location",
+   45
+  ],
+  [
+   "ordered_owned_location",
+   29
+  ],
+  [
+   "capital",
+   10
+  ],
+  [
+   "ordered_location_in_market",
+   10
+  ]
+ ],
+ "has_customer": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "any_rented_out_mercenary",
+   3
+  ],
+  [
+   "random_rented_out_mercenary",
+   1
+  ]
+ ],
+ "add_subunit_experience": [
+  [
+   "every_sub_unit",
+   5
+  ],
+  [
+   "ordered_sub_unit",
+   2
+  ],
+  [
+   "every_mercenary_sub_unit",
+   1
+  ],
+  [
+   "every_country_sub_unit",
+   1
+  ]
+ ],
+ "remove_from_cabinet": [
+  [
+   "(top level)",
+   52
+  ],
+  [
+   "random_list",
+   3
+  ],
+  [
+   "prev",
+   2
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "random_list": [
+  [
+   "random_list",
+   472
+  ]
+ ],
+ "is_married": [
+  [
+   "(top level)",
+   60
+  ],
+  [
+   "ruler",
+   15
+  ],
+  [
+   "random_character",
+   13
+  ],
+  [
+   "any_character",
+   12
+  ]
+ ],
+ "is_heir": [
+  [
+   "(top level)",
+   40
+  ],
+  [
+   "any_character",
+   31
+  ],
+  [
+   "random_character",
+   23
+  ],
+  [
+   "random_character_in_dynasty",
+   14
+  ]
+ ],
+ "add_character_modifier": [
+  [
+   "scope:target_character",
+   191
+  ],
+  [
+   "(top level)",
+   75
+  ],
+  [
+   "ruler",
+   39
+  ],
+  [
+   "scope:target_ruler",
+   18
+  ]
+ ],
+ "can_build_units_of_category": [
+  [
+   "(top level)",
+   14
+  ],
+  [
+   "owner",
+   2
+  ]
+ ],
+ "is_connected_to": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "any_owned_location",
+   2
+  ],
+  [
+   "random_owned_location",
+   2
+  ],
+  [
+   "random_owned_non_rural_location",
+   2
+  ]
+ ],
+ "is_general": [
+  [
+   "(top level)",
+   30
+  ],
+  [
+   "any_character",
+   11
+  ],
+  [
+   "random_character",
+   11
+  ],
+  [
+   "ordered_character",
+   4
+  ]
+ ],
+ "is_ruler": [
+  [
+   "(top level)",
+   116
+  ],
+  [
+   "any_character",
+   61
+  ],
+  [
+   "random_character",
+   52
+  ],
+  [
+   "any_character_in_dynasty",
+   20
+  ]
+ ],
+ "artist_skill": [
+  [
+   "(top level)",
+   414
+  ],
+  [
+   "random_list",
+   11
+  ],
+  [
+   "scope:enzinas_location_owner",
+   1
+  ]
+ ],
+ "is_produced_in_market": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "market",
+   18
+  ],
+  [
+   "any_market_present_in_country",
+   12
+  ],
+  [
+   "scope:temp_market",
+   4
+  ]
+ ],
+ "add_war_exhaustion": [
+  [
+   "(top level)",
+   79
+  ],
+  [
+   "ordered_subject",
+   1
+  ],
+  [
+   "scope:subject_target",
+   1
+  ],
+  [
+   "scope:target_country",
+   1
+  ]
+ ],
+ "add_tribal_cohesion": [
+  [
+   "(top level)",
+   62
+  ],
+  [
+   "scope:target_jurchen_country_1",
+   3
+  ],
+  [
+   "scope:target_jurchen_country_2",
+   3
+  ]
+ ],
+ "has_member": [
+  [
+   "any_international_organizations_member_of",
+   6
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "construct_building": [
+  [
+   "scope:target_location",
+   123
+  ],
+  [
+   "ordered_owned_location",
+   22
+  ],
+  [
+   "capital",
+   17
+  ],
+  [
+   "(top level)",
+   12
+  ]
+ ],
+ "add_mil": [
+  [
+   "scope:target_character",
+   54
+  ],
+  [
+   "(top level)",
+   34
+  ],
+  [
+   "ruler",
+   9
+  ],
+  [
+   "random_cabinet_character",
+   5
+  ]
+ ],
+ "add_cultural_influence": [
+  [
+   "culture",
+   235
+  ],
+  [
+   "(top level)",
+   58
+  ],
+  [
+   "culture:french",
+   5
+  ],
+  [
+   "culture:catalan",
+   2
+  ]
+ ],
+ "reverse_add_opinion": [
+  [
+   "(top level)",
+   135
+  ],
+  [
+   "scope:union_target",
+   8
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "scope:target_country",
+   5
+  ]
+ ],
+ "country_exists": [
+  [
+   "(top level)",
+   720
+  ],
+  [
+   "random_list",
+   7
+  ],
+  [
+   "any_location_in_region",
+   6
+  ],
+  [
+   "institution:new_world",
+   6
+  ]
+ ],
+ "international_organization_add_special_status": [
+  [
+   "international_organization:hre",
+   23
+  ],
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "international_organization:ilkhanate",
+   3
+  ],
+  [
+   "international_organization:lordship_of_ireland",
+   2
+  ]
+ ],
+ "international_organization_remove_special_status": [
+  [
+   "international_organization:hre",
+   19
+  ],
+  [
+   "international_organization:japanese_shogunate",
+   3
+  ],
+  [
+   "international_organization:lordship_of_ireland",
+   2
+  ],
+  [
+   "international_organization:tatar_yoke",
+   1
+  ]
+ ],
+ "add_subunit_strength_percentage": [
+  [
+   "every_mercenary_sub_unit",
+   6
+  ],
+  [
+   "ordered_mercenary_sub_unit",
+   2
+  ],
+  [
+   "random_sub_unit",
+   1
+  ],
+  [
+   "every_sub_unit",
+   1
+  ]
+ ],
+ "destroy_subunit": [
+  [
+   "random_sub_unit",
+   3
+  ],
+  [
+   "every_in_list",
+   1
+  ],
+  [
+   "ordered_sub_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rescue_sub_unit": [
+  [
+   "every_in_list",
+   1
+  ]
+ ],
+ "has_ports": [
+  [
+   "(top level)",
+   55
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "scope:recipient",
+   3
+  ],
+  [
+   "ordered_known_country",
+   2
+  ]
+ ],
+ "is_ship": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "any_sub_unit",
+   4
+  ],
+  [
+   "random_sub_unit",
+   2
+  ]
+ ],
+ "set_new_ruler": [
+  [
+   "(top level)",
+   195
+  ],
+  [
+   "scope:target_country",
+   14
+  ],
+  [
+   "scope:target_location",
+   9
+  ],
+  [
+   "scope:pru_from",
+   4
+  ]
+ ],
+ "create_sub_unit_of_category": [
+  [
+   "scope:target_location",
+   169
+  ],
+  [
+   "capital",
+   43
+  ],
+  [
+   "scope:port_location",
+   20
+  ],
+  [
+   "random_owned_location",
+   5
+  ]
+ ],
+ "add_policy": [
+  [
+   "(top level)",
+   235
+  ],
+  [
+   "scope:target_location",
+   27
+  ],
+  [
+   "scope:actor",
+   14
+  ],
+  [
+   "province:gotland_province",
+   9
+  ]
+ ],
+ "change_country_type": [
+  [
+   "(top level)",
+   12
+  ],
+  [
+   "scope:target_location",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:target_country",
+   2
+  ]
+ ],
+ "move_country": [
+  [
+   "scope:target_character",
+   386
+  ],
+  [
+   "scope:target_artist",
+   41
+  ],
+  [
+   "(top level)",
+   38
+  ],
+  [
+   "scope:target_character2",
+   20
+  ]
+ ],
+ "revoke_estate_privilege": [
+  [
+   "(top level)",
+   85
+  ],
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "scope:rev_country_scope",
+   1
+  ]
+ ],
+ "estate_add_gold": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "scope:target_estate",
+   3
+  ],
+  [
+   "random_estate",
+   1
+  ],
+  [
+   "scope:mission_target_estate",
+   1
+  ]
+ ],
+ "has_commander": [
+  [
+   "any_unit",
+   8
+  ],
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "random_unit",
+   6
+  ],
+  [
+   "random_army",
+   4
+  ]
+ ],
+ "is_consort": [
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "any_unit",
+   2
+  ],
+  [
+   "scope:target_character_2",
+   2
+  ],
+  [
+   "any_cabinet_character",
+   2
+  ]
+ ],
+ "is_navy": [
+  [
+   "any_unit",
+   3
+  ],
+  [
+   "random_unit",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_unit_owner": [
+  [
+   "scope:target_navy",
+   1
+  ],
+  [
+   "random_navy",
+   1
+  ],
+  [
+   "scope:target_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_upper_class": [
+  [
+   "every_pop",
+   12
+  ],
+  [
+   "ordered_pop",
+   7
+  ],
+  [
+   "any_pop",
+   1
+  ],
+  [
+   "random_pop",
+   1
+  ]
+ ],
+ "add_unit_modifier": [
+  [
+   "scope:target_unit",
+   3
+  ],
+  [
+   "random_unit",
+   3
+  ],
+  [
+   "scope:target_army",
+   2
+  ],
+  [
+   "scope:random_unit",
+   1
+  ]
+ ],
+ "save_temporary_scope_as": [
+  [
+   "(top level)",
+   58
+  ],
+  [
+   "international_organization:catholic_church",
+   12
+  ],
+  [
+   "owner",
+   8
+  ],
+  [
+   "every_international_organization_member",
+   7
+  ]
+ ],
+ "is_area_sea": [
+  [
+   "area",
+   14
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "has_estate_privilege": [
+  [
+   "(top level)",
+   147
+  ],
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "any_country_in_religion",
+   1
+  ],
+  [
+   "every_country_in_religion",
+   1
+  ]
+ ],
+ "always": [
+  [
+   "(top level)",
+   688
+  ],
+  [
+   "any_location_in_province",
+   3
+  ],
+  [
+   "province",
+   2
+  ],
+  [
+   "random_neighbor_location",
+   1
+  ]
+ ],
+ "culture_percentage": [
+  [
+   "any_province",
+   6
+  ],
+  [
+   "any_location_in_region",
+   5
+  ],
+  [
+   "every_location_in_region",
+   5
+  ],
+  [
+   "ordered_province",
+   4
+  ]
+ ],
+ "create_dynasty_from_location": [
+  [
+   "random_owned_location",
+   15
+  ],
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "capital",
+   4
+  ],
+  [
+   "scope:target_location",
+   3
+  ]
+ ],
+ "has_doom": [
+  [
+   "(top level)",
+   39
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "add_doom": [
+  [
+   "(top level)",
+   60
+  ],
+  [
+   "random_list",
+   21
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "has_character_modifier": [
+  [
+   "(top level)",
+   81
+  ],
+  [
+   "ruler",
+   20
+  ],
+  [
+   "any_character",
+   13
+  ],
+  [
+   "any_cabinet_character",
+   9
+  ]
+ ],
+ "add_diplomats": [
+  [
+   "(top level)",
+   32
+  ],
+  [
+   "scope:actor",
+   7
+  ]
+ ],
+ "is_subject": [
+  [
+   "(top level)",
+   323
+  ],
+  [
+   "scope:actor",
+   32
+  ],
+  [
+   "random_international_organization_member",
+   14
+  ],
+  [
+   "scope:recipient",
+   13
+  ]
+ ],
+ "is_during_bankruptcy": [
+  [
+   "(top level)",
+   114
+  ],
+  [
+   "scope:actor",
+   24
+  ],
+  [
+   "scope:recipient",
+   7
+  ],
+  [
+   "owner",
+   4
+  ]
+ ],
+ "grant_estate_privilege": [
+  [
+   "(top level)",
+   137
+  ],
+  [
+   "random_list",
+   1
+  ],
+  [
+   "province:gotland_province",
+   1
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "add_province_modifier": [
+  [
+   "scope:target_province",
+   37
+  ],
+  [
+   "(top level)",
+   20
+  ],
+  [
+   "province",
+   14
+  ],
+  [
+   "scope:target",
+   4
+  ]
+ ],
+ "has_advance": [
+  [
+   "(top level)",
+   380
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "global_var:saint_george_bank_tag",
+   3
+  ],
+  [
+   "random_neighbor_country",
+   2
+  ]
+ ],
+ "is_religion_enabled": [
+  [
+   "religion:lutheran",
+   22
+  ],
+  [
+   "religion:calvinist",
+   11
+  ],
+  [
+   "religion:lollardy",
+   7
+  ],
+  [
+   "religion:hussite",
+   6
+  ]
+ ],
+ "add_inflation": [
+  [
+   "(top level)",
+   67
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "has_countries_with_timed_antagonism": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "random_list",
+   1
+  ]
+ ],
+ "spy_network": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "any_known_country",
+   6
+  ],
+  [
+   "random_known_country",
+   6
+  ],
+  [
+   "root",
+   4
+  ]
+ ],
+ "add_spy_network": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "root",
+   4
+  ],
+  [
+   "every_spy_network_built_in_us",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "has_merchant_power": [
+  [
+   "any_market_with_merchants",
+   5
+  ],
+  [
+   "random_market_with_merchants",
+   5
+  ],
+  [
+   "market",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_merchant_power": [
+  [
+   "(top level)",
+   30
+  ],
+  [
+   "market",
+   9
+  ],
+  [
+   "scope:target_market",
+   8
+  ],
+  [
+   "random_market_with_merchants",
+   6
+  ]
+ ],
+ "is_admiral": [
+  [
+   "(top level)",
+   25
+  ],
+  [
+   "scope:recipient",
+   4
+  ],
+  [
+   "any_character",
+   1
+  ],
+  [
+   "character:mor_abu_malik_abd_al_wahid",
+   1
+  ]
+ ],
+ "add_republican_tradition": [
+  [
+   "(top level)",
+   60
+  ]
+ ],
+ "has_law": [
+  [
+   "(top level)",
+   29
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "ordered_country_with_special_status_of_type",
+   1
+  ]
+ ],
+ "destroy_rebel": [
+  [
+   "(top level)",
+   83
+  ],
+  [
+   "every_rebel",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "create_country_from_location": [
+  [
+   "scope:target_location",
+   20
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "location:tortuga",
+   2
+  ],
+  [
+   "scope:target_capital",
+   2
+  ]
+ ],
+ "change_country_name": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "scope:target_location",
+   3
+  ],
+  [
+   "scope:target_malwa_revolter_scope",
+   2
+  ],
+  [
+   "scope:target_gujarat_revolter_scope",
+   2
+  ]
+ ],
+ "change_country_adjective": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "scope:target_malwa_revolter_scope",
+   2
+  ],
+  [
+   "scope:target_gujarat_revolter_scope",
+   2
+  ]
+ ],
+ "change_country_color": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "scope:target_malwa_revolter_scope",
+   3
+  ],
+  [
+   "scope:target_gujarat_revolter_scope",
+   3
+  ],
+  [
+   "scope:target_jaunpur_revolter_scope",
+   3
+  ]
+ ],
+ "change_country_flag": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:target_location",
+   7
+  ],
+  [
+   "scope:target_malwa_revolter_scope",
+   2
+  ],
+  [
+   "scope:target_gujarat_revolter_scope",
+   2
+  ]
+ ],
+ "add_religious_influence": [
+  [
+   "(top level)",
+   301
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:target_country",
+   1
+  ],
+  [
+   "random_list",
+   1
+  ]
+ ],
+ "add_sailors": [
+  [
+   "(top level)",
+   24
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "every_in_list",
+   1
+  ],
+  [
+   "scope:pirate_nation",
+   1
+  ]
+ ],
+ "change_max_raw_material_workers": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:target_location",
+   7
+  ],
+  [
+   "every_owned_location",
+   5
+  ],
+  [
+   "every_location_in_province",
+   5
+  ]
+ ],
+ "add_vfx": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "location:barcelona",
+   1
+  ],
+  [
+   "location:messina",
+   1
+  ],
+  [
+   "location:manresa",
+   1
+  ]
+ ],
+ "has_global_variable_list": [
+  [
+   "(top level)",
+   13
+  ]
+ ],
+ "receiving_scripted_relation": [
+  [
+   "any_subject",
+   10
+  ],
+  [
+   "random_subject",
+   7
+  ],
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_rival",
+   4
+  ]
+ ],
+ "knows_country": [
+  [
+   "every_country",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion:mississippian_ceremonial",
+   2
+  ],
+  [
+   "religion:midewiwin_religion",
+   2
+  ]
+ ],
+ "change_local_variable": [
+  [
+   "(top level)",
+   15
+  ],
+  [
+   "every_pop",
+   3
+  ],
+  [
+   "every_location_in_province",
+   3
+  ],
+  [
+   "every_in_list",
+   3
+  ]
+ ],
+ "is_coastal": [
+  [
+   "random_location_in_region",
+   30
+  ],
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "any_location_in_area",
+   12
+  ],
+  [
+   "any_location_in_region",
+   12
+  ]
+ ],
+ "is_subject_or_below_of": [
+  [
+   "(top level)",
+   31
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "owner",
+   5
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "add_to_global_variable_list": [
+  [
+   "(top level)",
+   49
+  ],
+  [
+   "every_international_organization_member",
+   14
+  ],
+  [
+   "ordered_international_organization_member",
+   10
+  ],
+  [
+   "every_country",
+   7
+  ]
+ ],
+ "while": [
+  [
+   "(top level)",
+   50
+  ],
+  [
+   "scope:target_location",
+   8
+  ],
+  [
+   "region:great_britain_region",
+   4
+  ],
+  [
+   "region:russian_region",
+   4
+  ]
+ ],
+ "is_ownable": [
+  [
+   "(top level)",
+   33
+  ],
+  [
+   "any_location_in_area",
+   16
+  ],
+  [
+   "any_location_in_province_definition",
+   10
+  ],
+  [
+   "every_location_in_province_definition",
+   10
+  ]
+ ],
+ "change_culture": [
+  [
+   "(top level)",
+   21
+  ],
+  [
+   "scope:target_country",
+   4
+  ],
+  [
+   "scope:target_location",
+   3
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "change_religion": [
+  [
+   "(top level)",
+   64
+  ],
+  [
+   "scope:target_location",
+   5
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "scope:recipient",
+   3
+  ]
+ ],
+ "global_variable_list_size": [
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "is_ai": [
+  [
+   "(top level)",
+   125
+  ],
+  [
+   "scope:actor",
+   12
+  ],
+  [
+   "every_known_country",
+   9
+  ],
+  [
+   "every_subject",
+   4
+  ]
+ ],
+ "set_global_variable": [
+  [
+   "(top level)",
+   49
+  ],
+  [
+   "scope:loser",
+   3
+  ],
+  [
+   "scope:winner",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "has_global_variable": [
+  [
+   "(top level)",
+   67
+  ],
+  [
+   "every_subject",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "remove_relation": [
+  [
+   "(top level)",
+   21
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:wormtongue_country",
+   1
+  ],
+  [
+   "every_related_country",
+   1
+  ]
+ ],
+ "is_full_expanded_rgo": [
+  [
+   "any_owned_location",
+   6
+  ],
+  [
+   "ordered_owned_location",
+   5
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:mission_target_location",
+   1
+  ]
+ ],
+ "location_within_range": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_river": [
+  [
+   "(top level)",
+   18
+  ],
+  [
+   "location",
+   1
+  ],
+  [
+   "every_location_in_province",
+   1
+  ]
+ ],
+ "is_burgher_positive_deficit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_labourer_positive_deficit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_any_town_rights": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "within_diplomatic_range": [
+  [
+   "(top level)",
+   18
+  ],
+  [
+   "every_known_country",
+   8
+  ],
+  [
+   "every_country",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "relevant_countries": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_positive_opinion": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_great_power": [
+  [
+   "(top level)",
+   42
+  ],
+  [
+   "scope:loser",
+   4
+  ],
+  [
+   "any_country",
+   3
+  ],
+  [
+   "every_country",
+   3
+  ]
+ ],
+ "has_levies": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_mercenaries": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_regulars": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_unit",
+   1
+  ]
+ ],
+ "is_levy": [
+  [
+   "(top level)",
+   26
+  ]
+ ],
+ "is_mercenary": [
+  [
+   "any_sub_unit",
+   4
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_sub_unit",
+   1
+  ]
+ ],
+ "has_trait_category": [
+  [
+   "(top level)",
+   29
+  ],
+  [
+   "scope:recipient",
+   8
+  ],
+  [
+   "scope:potential_high_king",
+   2
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "is_courtier": [
+  [
+   "(top level)",
+   18
+  ],
+  [
+   "any_character",
+   7
+  ],
+  [
+   "random_character",
+   7
+  ]
+ ],
+ "is_eligible_for_royal_marriage": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_pregnant": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "ruler",
+   3
+  ],
+  [
+   "scope:hookup_char",
+   1
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "is_child": [
+  [
+   "(top level)",
+   13
+  ]
+ ],
+ "has_child_education_selected": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_exploration": [
+  [
+   "(top level)",
+   10
+  ]
+ ],
+ "in_cabinet": [
+  [
+   "(top level)",
+   61
+  ],
+  [
+   "any_character",
+   17
+  ],
+  [
+   "random_character",
+   10
+  ],
+  [
+   "scope:coup_leader",
+   3
+  ]
+ ],
+ "is_saint": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "any_ancestor",
+   1
+  ],
+  [
+   "random_ancestor",
+   1
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "province_satisfaction": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "province_average_control": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "province_average_development": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "province_religious_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_average_integration": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_starving": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "any_province",
+   2
+  ],
+  [
+   "random_province",
+   1
+  ]
+ ],
+ "is_owned_by_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "goods_category": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "ordered_goods",
+   1
+  ]
+ ],
+ "mercenary_has_owner": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_mercenary_owned_by": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_mercenary_hired_by": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "io_within_diplomatic_range": [
+  [
+   "any_religion_international_organization",
+   2
+  ],
+  [
+   "random_religion_international_organization",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_opened": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_full_capacity": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_subsidized": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_lacking_goods": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_profitable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_not_profitable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_can_be_upgraded_by": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "cabinet_action_type": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "societal_value_cabinet_action": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_upgradeable": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_upgraded_level": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_foreign": [
+  [
+   "(top level)",
+   458
+  ]
+ ],
+ "is_special_building": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "province_location_wealth": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "province",
+   1
+  ]
+ ],
+ "is_infant": [
+  [
+   "(top level)",
+   12
+  ],
+  [
+   "any_character",
+   1
+  ],
+  [
+   "random_character",
+   1
+  ]
+ ],
+ "gfx_culture_applicable": [
+  [
+   "(top level)",
+   117
+  ]
+ ],
+ "is_artist": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "random_character",
+   4
+  ],
+  [
+   "any_character",
+   2
+  ],
+  [
+   "ordered_character",
+   1
+  ]
+ ],
+ "is_strait_crossing": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_sea_landing": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_river_crossing": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_land": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "location",
+   8
+  ],
+  [
+   "any_location_in_area",
+   7
+  ],
+  [
+   "any_location_in_province_definition",
+   6
+  ]
+ ],
+ "has_volcano": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "has_siege": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "location:dunbar",
+   2
+  ],
+  [
+   "random_ownable_location",
+   2
+  ],
+  [
+   "location:london",
+   1
+  ]
+ ],
+ "has_breach": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_building_with_graphical_tag": [
+  [
+   "(top level)",
+   24
+  ]
+ ],
+ "satisfaction": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "province",
+   1
+  ]
+ ],
+ "is_owned_or_owned_by_subjects_or_below_of": [
+  [
+   "any_ownable_location_in_area",
+   17
+  ],
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "any_international_organization_owned_location",
+   2
+  ],
+  [
+   "any_ownable_location_in_region",
+   1
+  ]
+ ],
+ "language_power": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "power_projection": [
+  [
+   "(top level)",
+   14
+  ]
+ ],
+ "winter_level": [
+  [
+   "any_location_in_province",
+   6
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "ordered_owned_location",
+   3
+  ],
+  [
+   "any_army",
+   2
+  ]
+ ],
+ "winter_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_area_preference": [
+  [
+   "(top level)",
+   42
+  ],
+  [
+   "every_country",
+   5
+  ],
+  [
+   "every_country_with_capital_in_geography",
+   2
+  ],
+  [
+   "ordered_country_with_capital_in_geography",
+   2
+  ]
+ ],
+ "has_area_preference": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_revolutionary": [
+  [
+   "(top level)",
+   53
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "any_enemy_war_leader",
+   2
+  ],
+  [
+   "any_rival",
+   1
+  ]
+ ],
+ "remove_area_preference": [
+  [
+   "(top level)",
+   21
+  ]
+ ],
+ "add_artist_skill": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:target_character",
+   11
+  ],
+  [
+   "scope:target_artist",
+   6
+  ],
+  [
+   "every_artist",
+   5
+  ]
+ ],
+ "remove_trait": [
+  [
+   "scope:target_character",
+   11
+  ],
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "character:chg_timur_lame_borjigin",
+   3
+  ],
+  [
+   "scope:abram_petrovich",
+   2
+  ]
+ ],
+ "create_art": [
+  [
+   "capital",
+   129
+  ],
+  [
+   "scope:target_location",
+   58
+  ],
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "location:paris",
+   13
+  ]
+ ],
+ "has_art_in_progress": [
+  [
+   "any_artist",
+   6
+  ],
+  [
+   "random_artist",
+   5
+  ],
+  [
+   "any_character",
+   2
+  ],
+  [
+   "random_character",
+   2
+  ]
+ ],
+ "has_building": [
+  [
+   "ordered_owned_location",
+   40
+  ],
+  [
+   "(top level)",
+   38
+  ],
+  [
+   "any_owned_location",
+   37
+  ],
+  [
+   "capital",
+   24
+  ]
+ ],
+ "change_art_quality": [
+  [
+   "random_work_of_art_in_location",
+   14
+  ],
+  [
+   "scope:target_art",
+   7
+  ],
+  [
+   "scope:target_work_of_art",
+   4
+  ],
+  [
+   "work_of_art:basilica_pilar",
+   3
+  ]
+ ],
+ "destroy_art": [
+  [
+   "(top level)",
+   28
+  ],
+  [
+   "random_work_of_art_in_location",
+   2
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "ordered_work_of_art_in_country",
+   1
+  ]
+ ],
+ "start_work_of_art": [
+  [
+   "scope:target_artist",
+   1
+  ],
+  [
+   "ordered_artist",
+   1
+  ],
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "add_karma": [
+  [
+   "(top level)",
+   50
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "has_consort": [
+  [
+   "(top level)",
+   40
+  ],
+  [
+   "any_royal_marriage",
+   1
+  ],
+  [
+   "random_royal_marriage",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "has_dynasty": [
+  [
+   "(top level)",
+   109
+  ],
+  [
+   "ruler",
+   27
+  ],
+  [
+   "any_character",
+   20
+  ],
+  [
+   "random_character",
+   12
+  ]
+ ],
+ "has_available_marriage_slot": [
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "any_child",
+   3
+  ],
+  [
+   "random_child",
+   3
+  ],
+  [
+   "any_character_in_dynasty",
+   2
+  ]
+ ],
+ "trigger_if": [
+  [
+   "(top level)",
+   572
+  ],
+  [
+   "scope:actor",
+   24
+  ],
+  [
+   "scope:recipient",
+   8
+  ],
+  [
+   "every_neighbor_country",
+   6
+  ]
+ ],
+ "marry_character": [
+  [
+   "(top level)",
+   24
+  ],
+  [
+   "ruler",
+   15
+  ],
+  [
+   "scope:target_character",
+   5
+  ],
+  [
+   "scope:target_character3",
+   3
+  ]
+ ],
+ "is_eligible_for_marriage": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "change_character_religion": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "random_list",
+   10
+  ],
+  [
+   "scope:target_character",
+   9
+  ],
+  [
+   "scope:target_ruler",
+   5
+  ]
+ ],
+ "add_adm": [
+  [
+   "(top level)",
+   57
+  ],
+  [
+   "scope:target_character",
+   51
+  ],
+  [
+   "ruler",
+   17
+  ],
+  [
+   "random_cabinet_character",
+   5
+  ]
+ ],
+ "add_dip": [
+  [
+   "(top level)",
+   58
+  ],
+  [
+   "scope:target_character",
+   43
+  ],
+  [
+   "ruler",
+   12
+  ],
+  [
+   "scope:fra_ruler",
+   5
+  ]
+ ],
+ "and": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "heir",
+   4
+  ],
+  [
+   "owner",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "lift_fog_of_war": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_subject_of": [
+  [
+   "(top level)",
+   163
+  ],
+  [
+   "every_country",
+   20
+  ],
+  [
+   "scope:actor",
+   19
+  ],
+  [
+   "owner",
+   16
+  ]
+ ],
+ "add_devotion": [
+  [
+   "(top level)",
+   54
+  ],
+  [
+   "scope:loser",
+   1
+  ]
+ ],
+ "adopt_character": [
+  [
+   "scope:target_ruler",
+   2
+  ],
+  [
+   "ruler",
+   1
+  ],
+  [
+   "scope:target_previous_ruler",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_character_estate": [
+  [
+   "every_descendant",
+   13
+  ],
+  [
+   "scope:target_character",
+   11
+  ],
+  [
+   "scope:recipient",
+   6
+  ],
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "has_nickname": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "any_army",
+   1
+  ],
+  [
+   "any_navy",
+   1
+  ],
+  [
+   "ordered_unit",
+   1
+  ]
+ ],
+ "set_nickname": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "scope:target_character",
+   6
+  ],
+  [
+   "random_list",
+   3
+  ],
+  [
+   "scope:ruler_char",
+   2
+  ]
+ ],
+ "has_potential_royal_marriage": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "discover_location": [
+  [
+   "every_location_in_area",
+   3
+  ],
+  [
+   "every_neighbor_location",
+   1
+  ],
+  [
+   "location:tortuga",
+   1
+  ],
+  [
+   "every_in_list",
+   1
+  ]
+ ],
+ "has_location_modifier": [
+  [
+   "any_owned_location",
+   27
+  ],
+  [
+   "random_owned_location",
+   21
+  ],
+  [
+   "any_location_in_region",
+   21
+  ],
+  [
+   "random_location_in_region",
+   20
+  ]
+ ],
+ "in_union_with": [
+  [
+   "(top level)",
+   55
+  ],
+  [
+   "any_neighbor_country",
+   3
+  ],
+  [
+   "random_neighbor_country",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "has_policy": [
+  [
+   "(top level)",
+   288
+  ],
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "owner",
+   6
+  ],
+  [
+   "any_neighbor_country",
+   4
+  ]
+ ],
+ "create_location_country_from_province": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:target_province",
+   3
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "scope:potential_duchy_province",
+   1
+  ]
+ ],
+ "change_province_owner": [
+  [
+   "scope:target",
+   6
+  ],
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:gutnish_province",
+   3
+  ],
+  [
+   "every_in_list",
+   2
+  ]
+ ],
+ "add_liberty_desire": [
+  [
+   "(top level)",
+   75
+  ],
+  [
+   "every_subject",
+   25
+  ],
+  [
+   "scope:recipient",
+   16
+  ],
+  [
+   "scope:subject_target",
+   8
+  ]
+ ],
+ "change_province_food": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "every_province",
+   3
+  ],
+  [
+   "scope:target_province",
+   3
+  ],
+  [
+   "province",
+   2
+  ]
+ ],
+ "is_owned_or_owned_by_subjects_of": [
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "any_neighbor_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "create_army_country_in_location": [
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "create_sub_unit_with_owner": [
+  [
+   "random_list",
+   27
+  ],
+  [
+   "scope:target_location",
+   7
+  ],
+  [
+   "capital",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "force_recalc_country_active_status": [
+  [
+   "scope:new_conquistador",
+   1
+  ]
+ ],
+ "set_as_commander": [
+  [
+   "random_mercenary_sub_unit",
+   5
+  ],
+  [
+   "random_army",
+   3
+  ],
+  [
+   "random_unit_in_location",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "declare_war_with_cb": [
+  [
+   "(top level)",
+   62
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "scope:target_country",
+   5
+  ],
+  [
+   "scope:target_bahmanis_revolter_scope",
+   2
+  ]
+ ],
+ "custom_description": [
+  [
+   "(top level)",
+   309
+  ],
+  [
+   "international_organization:hre",
+   2
+  ],
+  [
+   "ordered_loan",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "add_to_local_variable_list": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "every_international_organization_member",
+   6
+  ],
+  [
+   "every_country_with_special_status_of_type",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "is_member_of_international_organization_of_type": [
+  [
+   "(top level)",
+   32
+  ],
+  [
+   "scope:actor",
+   8
+  ],
+  [
+   "scope:loser",
+   4
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "has_societal_value": [
+  [
+   "(top level)",
+   144
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "has_variable_list": [
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "random_character",
+   1
+  ]
+ ],
+ "variable_list_size": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "random_character",
+   1
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "change_entrenchment": [
+  [
+   "every_current_bureaucracy",
+   6
+  ],
+  [
+   "random_current_bureaucracy",
+   4
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:target_bureaucracy",
+   1
+  ]
+ ],
+ "has_fort": [
+  [
+   "any_border_location",
+   4
+  ],
+  [
+   "random_border_location",
+   4
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_owned_location",
+   1
+  ]
+ ],
+ "is_in_scripted_geography": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "every_owned_location",
+   3
+  ],
+  [
+   "any_neighbor_location",
+   2
+  ],
+  [
+   "any_location_in_province",
+   2
+  ]
+ ],
+ "is_active_parliament": [
+  [
+   "(top level)",
+   21
+  ],
+  [
+   "scope:actor",
+   13
+  ]
+ ],
+ "change_parliament_issue_support": [
+  [
+   "(top level)",
+   113
+  ],
+  [
+   "scope:actor",
+   8
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:source_io",
+   2
+  ]
+ ],
+ "language_percentage_in_country": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "situation_has_ended": [
+  [
+   "situation:black_death",
+   10
+  ],
+  [
+   "situation:great_pestilence",
+   7
+  ],
+  [
+   "situation:council_of_trent",
+   5
+  ],
+  [
+   "situation:hundred_years_war",
+   3
+  ]
+ ],
+ "situation_is_active": [
+  [
+   "(top level)",
+   159
+  ],
+  [
+   "situation:reformation",
+   9
+  ],
+  [
+   "situation:black_death",
+   8
+  ],
+  [
+   "situation:great_pestilence",
+   7
+  ]
+ ],
+ "add_honor": [
+  [
+   "(top level)",
+   41
+  ]
+ ],
+ "add_purity": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:actor",
+   4
+  ]
+ ],
+ "has_purity": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "religion",
+   3
+  ]
+ ],
+ "has_honor": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "can_build_building": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "random_owned_location",
+   3
+  ],
+  [
+   "any_owned_location",
+   2
+  ],
+  [
+   "any_location_in_region",
+   2
+  ]
+ ],
+ "change_country_dynastic_name": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "remove_commander": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "every_unit",
+   1
+  ]
+ ],
+ "add_righteousness": [
+  [
+   "(top level)",
+   67
+  ],
+  [
+   "scope:actor",
+   13
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "change_character_culture": [
+  [
+   "scope:target_character",
+   3
+  ],
+  [
+   "scope:young_king_david",
+   3
+  ],
+  [
+   "every_descendant",
+   2
+  ],
+  [
+   "heir",
+   1
+  ]
+ ],
+ "reverse_cultural_view": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "culture",
+   3
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "change_mother": [
+  [
+   "scope:target_child_character",
+   1
+  ],
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_father": [
+  [
+   "scope:target_child_character",
+   1
+  ],
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_law": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "cultural_view": [
+  [
+   "culture",
+   12
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "culture:norse_gael",
+   1
+  ]
+ ],
+ "location_key": [
+  [
+   "(top level)",
+   87
+  ],
+  [
+   "random_owned_location",
+   16
+  ],
+  [
+   "scope:target",
+   5
+  ],
+  [
+   "capital",
+   1
+  ]
+ ],
+ "has_province_modifier": [
+  [
+   "any_province",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "province",
+   1
+  ],
+  [
+   "random_province",
+   1
+  ]
+ ],
+ "change_language": [
+  [
+   "culture",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_cultural_view": [
+  [
+   "culture",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_set_cultural_view": [
+  [
+   "culture",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "pay_price": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_religion_modifier": [
+  [
+   "religion:catholic",
+   22
+  ],
+  [
+   "religion",
+   1
+  ],
+  [
+   "religion:orthodox",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_unit_modifier": [
+  [
+   "random_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_location_modifier": [
+  [
+   "every_owned_location",
+   8
+  ],
+  [
+   "every_location_in_region",
+   6
+  ],
+  [
+   "scope:target_location",
+   5
+  ],
+  [
+   "random_owned_location",
+   4
+  ]
+ ],
+ "remove_province_modifier": [
+  [
+   "province",
+   1
+  ],
+  [
+   "every_province",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "research_advance": [
+  [
+   "(top level)",
+   17
+  ]
+ ],
+ "set_liturgical_language": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "impregnate": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target_first_character",
+   1
+  ],
+  [
+   "scope:target_character2",
+   1
+  ]
+ ],
+ "set_first_name": [
+  [
+   "ruler",
+   3
+  ],
+  [
+   "scope:target_first_character",
+   1
+  ],
+  [
+   "scope:target_second_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_moving": [
+  [
+   "(top level)",
+   13
+  ],
+  [
+   "any_unit",
+   1
+  ],
+  [
+   "any_army",
+   1
+  ]
+ ],
+ "is_movement_locked": [
+  [
+   "any_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "morale_percentage": [
+  [
+   "any_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_unit_locked": [
+  [
+   "any_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_exiled": [
+  [
+   "(top level)",
+   18
+  ],
+  [
+   "any_unit",
+   1
+  ]
+ ],
+ "is_carrying_troops": [
+  [
+   "any_unit",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_morale": [
+  [
+   "random_army",
+   2
+  ],
+  [
+   "every_army",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_subunit": [
+  [
+   "random_army",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "lock_unit": [
+  [
+   "random_army",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "unlock_unit": [
+  [
+   "(top level)",
+   187
+  ],
+  [
+   "random_army",
+   1
+  ]
+ ],
+ "add_food": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "random_army",
+   1
+  ]
+ ],
+ "set_unit_size": [
+  [
+   "random_navy",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "dynasty_name": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "change_pop_culture": [
+  [
+   "every_pop",
+   4
+  ],
+  [
+   "random_pop",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_pop_type": [
+  [
+   "random_pop",
+   2
+  ],
+  [
+   "every_pop",
+   2
+  ],
+  [
+   "ordered_pop",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_building_level": [
+  [
+   "scope:mission_target_location",
+   5
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:target_location",
+   3
+  ],
+  [
+   "location:linz",
+   2
+  ]
+ ],
+ "building_efficiency": [
+  [
+   "capital",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_pay_price": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_dynasty_head": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "ruler",
+   1
+  ]
+ ],
+ "is_immortal": [
+  [
+   "ruler",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "giving_scripted_relation": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "scope:recipient",
+   4
+  ],
+  [
+   "owner",
+   2
+  ]
+ ],
+ "favors": [
+  [
+   "(top level)",
+   15
+  ]
+ ],
+ "add_favors": [
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "has_colonial_charter_in": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "any_country",
+   1
+  ]
+ ],
+ "create_colonial_charter": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "estate_tax_rate": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_situation_active": [
+  [
+   "(top level)",
+   164
+  ],
+  [
+   "scope:winner",
+   2
+  ],
+  [
+   "scope:loser",
+   2
+  ],
+  [
+   "random_present_country",
+   1
+  ]
+ ],
+ "rebel_category": [
+  [
+   "(top level)",
+   12
+  ],
+  [
+   "any_rebel",
+   7
+  ],
+  [
+   "scope:target_rebel",
+   3
+  ],
+  [
+   "scope:target",
+   3
+  ]
+ ],
+ "has_rebel": [
+  [
+   "every_pop",
+   11
+  ],
+  [
+   "ordered_pop",
+   10
+  ],
+  [
+   "any_pop",
+   7
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_core": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "any_overlord_or_above",
+   3
+  ],
+  [
+   "owner",
+   2
+  ]
+ ],
+ "add_location_as_core": [
+  [
+   "(top level)",
+   7
+  ]
+ ],
+ "add_truce_with": [
+  [
+   "(top level)",
+   21
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "every_neighbor_country",
+   1
+  ],
+  [
+   "scope:target_asker",
+   1
+  ]
+ ],
+ "school_opinion": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "set_school_opinion": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "rename_location": [
+  [
+   "scope:target_location",
+   14
+  ],
+  [
+   "random_owned_location",
+   1
+  ],
+  [
+   "location:lebus",
+   1
+  ],
+  [
+   "location:tenochtitlan",
+   1
+  ]
+ ],
+ "set_religious_school": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "has_cardinals": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "has_religious_influence": [
+  [
+   "(top level)",
+   21
+  ],
+  [
+   "religion",
+   3
+  ]
+ ],
+ "has_religious_head": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion:catholic",
+   1
+  ]
+ ],
+ "need_reforms": [
+  [
+   "religion:catholic",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_karma": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "religion:lutheran",
+   1
+  ]
+ ],
+ "add_reform_desire": [
+  [
+   "religion:catholic",
+   6
+  ],
+  [
+   "religion",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_needs_reform": [
+  [
+   "religion:catholic",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "enable_religion": [
+  [
+   "religion:calvinist",
+   2
+  ],
+  [
+   "religion:hellenism_religion",
+   1
+  ],
+  [
+   "religion:lollardy",
+   1
+  ],
+  [
+   "religion:anglican",
+   1
+  ]
+ ],
+ "change_privateer_power": [
+  [
+   "random_privateer_in_area",
+   1
+  ],
+  [
+   "every_privateer_from_country",
+   1
+  ],
+  [
+   "scope:target_privateer",
+   1
+  ],
+  [
+   "scope:pirate",
+   1
+  ]
+ ],
+ "is_explorer": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "any_character",
+   7
+  ],
+  [
+   "ordered_character",
+   3
+  ],
+  [
+   "random_character",
+   1
+  ]
+ ],
+ "change_exploration_progress": [
+  [
+   "(top level)",
+   52
+  ],
+  [
+   "random_exploration_from_country",
+   3
+  ]
+ ],
+ "change_building_level": [
+  [
+   "random_buildings_in_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_fertility": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "random_character_in_dynasty",
+   2
+  ],
+  [
+   "random_character",
+   2
+  ],
+  [
+   "scope:target_spouse",
+   2
+  ]
+ ],
+ "estate_opinion": [
+  [
+   "root",
+   14
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "mission_completed": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "current_mission_task": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "mission_task_completed": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "mission_task_bypassed": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_used_by_production_method": [
+  [
+   "goods:books",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_produced_by_production_method": [
+  [
+   "goods:books",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "requires_goods": [
+  [
+   "any_production_method",
+   2
+  ],
+  [
+   "production_method:printing_press_maintenance",
+   1
+  ],
+  [
+   "any_production_method_of_building",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_available_for": [
+  [
+   "any_production_method",
+   6
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "start_mission": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "end_mission": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:overlord",
+   1
+  ]
+ ],
+ "complete_mission_task": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "bypass_mission_task": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "heir_score_country": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "heir_score": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_latest_road_to": [
+  [
+   "any_neighbor_location",
+   2
+  ],
+  [
+   "location:austria_baden",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_road_to": [
+  [
+   "any_owned_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_advance_available": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_research_advance": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "distance_to_squared": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "location:rome",
+   1
+  ],
+  [
+   "capital",
+   1
+  ]
+ ],
+ "parliament_issue_will_pass": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "international_organization:hre",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "years_in_international_organization": [
+  [
+   "any_international_organization_member",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_raised_levies": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "start_weather_system": [
+  [
+   "random_list",
+   145
+  ],
+  [
+   "(top level)",
+   18
+  ]
+ ],
+ "has_enabled_currency": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "international_organization:hre",
+   2
+  ],
+  [
+   "any_international_organizations_member_of",
+   1
+  ]
+ ],
+ "start_civil_war": [
+  [
+   "scope:target_rebels",
+   4
+  ],
+  [
+   "scope:target_rebel",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:tripartite_uprising",
+   1
+  ]
+ ],
+ "start_revolt": [
+  [
+   "scope:target_rebels",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_road_to": [
+  [
+   "scope:target_location",
+   4
+  ],
+  [
+   "every_owned_location",
+   1
+  ],
+  [
+   "location:aaku",
+   1
+  ],
+  [
+   "location:shiewhibak",
+   1
+  ]
+ ],
+ "spawn_disease": [
+  [
+   "random_ownable_location",
+   6
+  ],
+  [
+   "capital",
+   3
+  ],
+  [
+   "random_location_in_continent",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "end_vote": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:target_io",
+   3
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "prev",
+   1
+  ]
+ ],
+ "set_leader_country": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "ordered_country_with_capital_in_geography",
+   6
+  ],
+  [
+   "international_organization:catholic_church",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "set_revolution": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:loser",
+   2
+  ],
+  [
+   "scope:target_rebel",
+   1
+  ]
+ ],
+ "set_revolution_target": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:loser",
+   1
+  ]
+ ],
+ "create_building_country_in_location": [
+  [
+   "location",
+   3
+  ],
+  [
+   "location:augsburg",
+   2
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "location:tortuga",
+   1
+  ]
+ ],
+ "resolution_is_active": [
+  [
+   "scope:recipient",
+   16
+  ],
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "international_organization:hre",
+   3
+  ],
+  [
+   "scope:target_io",
+   2
+  ]
+ ],
+ "add_trust_equilibrium": [
+  [
+   "(top level)",
+   43
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "scope:recipient",
+   4
+  ],
+  [
+   "scope:lesser_partner",
+   1
+  ]
+ ],
+ "remove_rival": [
+  [
+   "(top level)",
+   18
+  ]
+ ],
+ "join_war_with": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "every_subject",
+   2
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:summoned_shugo_one",
+   1
+  ]
+ ],
+ "change_cultural_view": [
+  [
+   "culture",
+   4
+  ],
+  [
+   "culture:greek_culture",
+   3
+  ],
+  [
+   "culture:aragonese",
+   2
+  ],
+  [
+   "culture:catalan",
+   2
+  ]
+ ],
+ "is_market_center": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "location:london",
+   2
+  ],
+  [
+   "location:barcelona",
+   1
+  ],
+  [
+   "location:adan",
+   1
+  ]
+ ],
+ "own_entire_area": [
+  [
+   "(top level)",
+   62
+  ]
+ ],
+ "rebel_name_key": [
+  [
+   "any_rebel",
+   41
+  ],
+  [
+   "random_rebel",
+   11
+  ],
+  [
+   "every_rebel",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_random_trait_from_category": [
+  [
+   "scope:target_character",
+   37
+  ],
+  [
+   "(top level)",
+   13
+  ],
+  [
+   "scope:james_cook",
+   2
+  ],
+  [
+   "scope:piri_reis",
+   2
+  ]
+ ],
+ "has_primary_or_accepted_culture": [
+  [
+   "(top level)",
+   28
+  ],
+  [
+   "location",
+   5
+  ],
+  [
+   "any_subject",
+   2
+  ],
+  [
+   "random_country",
+   2
+  ]
+ ],
+ "create_num_sub_unit_of_category": [
+  [
+   "scope:port_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_accepted_culture": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "root",
+   2
+  ]
+ ],
+ "in_war_of_casus_belli": [
+  [
+   "every_present_country",
+   17
+  ],
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "any_union_partner",
+   1
+  ],
+  [
+   "any_international_organization_member",
+   1
+  ]
+ ],
+ "leave_all_wars_with": [
+  [
+   "(top level)",
+   14
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:league_leader",
+   1
+  ]
+ ],
+ "define_unique_country_tag": [
+  [
+   "scope:target_location",
+   6
+  ],
+  [
+   "scope:target_malwa_revolter_scope",
+   2
+  ],
+  [
+   "scope:target_gujarat_revolter_scope",
+   2
+  ],
+  [
+   "scope:target_jaunpur_revolter_scope",
+   2
+  ]
+ ],
+ "is_core_of": [
+  [
+   "any_owned_location",
+   28
+  ],
+  [
+   "every_owned_location",
+   16
+  ],
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "random_owned_location",
+   8
+  ]
+ ],
+ "remove_core": [
+  [
+   "every_owned_location",
+   13
+  ],
+  [
+   "every_location_in_province_definition",
+   9
+  ],
+  [
+   "every_location_in_province",
+   7
+  ],
+  [
+   "scope:target_location",
+   5
+  ]
+ ],
+ "change_province_food_percentage": [
+  [
+   "scope:target_province",
+   10
+  ],
+  [
+   "every_province",
+   9
+  ],
+  [
+   "scope:target_province_1",
+   8
+  ],
+  [
+   "province",
+   4
+  ]
+ ],
+ "found_dynasty": [
+  [
+   "scope:target_character",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:new_leader",
+   2
+  ],
+  [
+   "ruler",
+   1
+  ]
+ ],
+ "country_has_disease": [
+  [
+   "(top level)",
+   35
+  ],
+  [
+   "scope:actor",
+   14
+  ],
+  [
+   "any_neighbor_country",
+   2
+  ],
+  [
+   "random_neighbor_country",
+   1
+  ]
+ ],
+ "has_truce_with": [
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "any_neighbor_country",
+   4
+  ],
+  [
+   "random_neighbor_country",
+   3
+  ]
+ ],
+ "has_royal_marriage_with": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_known_country",
+   2
+  ],
+  [
+   "every_known_country",
+   2
+  ],
+  [
+   "every_neighbor_country",
+   2
+  ]
+ ],
+ "add_country_to_international_organization": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "random_international_organization",
+   9
+  ],
+  [
+   "international_organization:catholic_church",
+   7
+  ],
+  [
+   "international_organization:hre",
+   6
+  ]
+ ],
+ "cancel_subject": [
+  [
+   "(top level)",
+   40
+  ],
+  [
+   "root",
+   2
+  ],
+  [
+   "scope:target_country",
+   2
+  ]
+ ],
+ "set_religious_view": [
+  [
+   "religion:hussite",
+   8
+  ],
+  [
+   "religion:lollardy",
+   7
+  ],
+  [
+   "religion:catholic",
+   6
+  ],
+  [
+   "religion:lutheran",
+   2
+  ]
+ ],
+ "is_in_list": [
+  [
+   "every_loan",
+   4
+  ],
+  [
+   "every_neighbor_country",
+   2
+  ],
+  [
+   "ordered_owned_location",
+   1
+  ],
+  [
+   "this",
+   1
+  ]
+ ],
+ "add_to_temporary_list": [
+  [
+   "every_neighbor_country",
+   2
+  ],
+  [
+   "every_pop",
+   2
+  ],
+  [
+   "every_owned_location",
+   1
+  ]
+ ],
+ "is_at_max_level": [
+  [
+   "any_buildings_in_location",
+   12
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_raw_material": [
+  [
+   "scope:target_location",
+   6
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_location2",
+   1
+  ],
+  [
+   "location:schwaz",
+   1
+  ]
+ ],
+ "num_of_ports": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "destroy_all_buildings_of_type": [
+  [
+   "location:berlin",
+   1
+  ],
+  [
+   "ordered_owned_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_religious_aspect": [
+  [
+   "(top level)",
+   50
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "any_country_in_religion_group",
+   1
+  ],
+  [
+   "random_country_in_religion",
+   1
+  ]
+ ],
+ "remove_religious_aspect": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "religion_percentage": [
+  [
+   "every_province",
+   10
+  ],
+  [
+   "random_province",
+   10
+  ],
+  [
+   "any_province",
+   7
+  ],
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "set_active_chivalric_order": [
+  [
+   "(top level)",
+   11
+  ]
+ ],
+ "has_casus_belli_on": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "random_list",
+   2
+  ],
+  [
+   "any_neighbor_country",
+   1
+  ]
+ ],
+ "trigger_else": [
+  [
+   "(top level)",
+   227
+  ],
+  [
+   "scope:actor",
+   9
+  ],
+  [
+   "any_current_war",
+   3
+  ],
+  [
+   "every_pop",
+   2
+  ]
+ ],
+ "is_major_reform": [
+  [
+   "random_current_reforms",
+   8
+  ],
+  [
+   "any_current_reforms",
+   2
+  ],
+  [
+   "every_current_reforms",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "relative_strength": [
+  [
+   "(top level)",
+   32
+  ],
+  [
+   "scope:actor",
+   8
+  ],
+  [
+   "any_country_with_capital_in_geography",
+   3
+  ],
+  [
+   "scope:recipient",
+   3
+  ]
+ ],
+ "has_mutual_scripted_relation": [
+  [
+   "(top level)",
+   42
+  ],
+  [
+   "owner",
+   7
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "any_neighbor_country",
+   5
+  ]
+ ],
+ "dynasty_exists": [
+  [
+   "(top level)",
+   41
+  ],
+  [
+   "capital",
+   1
+  ]
+ ],
+ "fertility": [
+  [
+   "(top level)",
+   14
+  ]
+ ],
+ "divorce_character": [
+  [
+   "ruler",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "scope:target_ruler",
+   1
+  ]
+ ],
+ "has_any_active_disaster": [
+  [
+   "(top level)",
+   50
+  ],
+  [
+   "scope:actor",
+   9
+  ],
+  [
+   "scope:loser",
+   1
+  ]
+ ],
+ "has_accepted_culture": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "root",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "add_accepted_culture": [
+  [
+   "(top level)",
+   14
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "owns_or_non_sovereign_subject_owns_entire_province": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "change_integration_progress": [
+  [
+   "every_location_in_province_definition",
+   15
+  ],
+  [
+   "every_location_in_province",
+   10
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_location",
+   2
+  ]
+ ],
+ "make_saint": [
+  [
+   "scope:target_character",
+   12
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_ruler",
+   1
+  ],
+  [
+   "scope:elzear_sabran",
+   1
+  ]
+ ],
+ "has_presence_in": [
+  [
+   "(top level)",
+   97
+  ],
+  [
+   "any_country",
+   6
+  ],
+  [
+   "random_country",
+   4
+  ],
+  [
+   "any_rival",
+   3
+  ]
+ ],
+ "has_spawned": [
+  [
+   "institution:renaissance",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_bureaucracy": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "building_category": [
+  [
+   "any_buildings_in_location",
+   23
+  ],
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "every_buildings_in_location",
+   1
+  ]
+ ],
+ "remove_policy": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "transfer_yearly_gold": [
+  [
+   "(top level)",
+   30
+  ],
+  [
+   "scope:target_country",
+   4
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "scope:target_country2",
+   3
+  ]
+ ],
+ "clamp_variable": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "situation:treaty_of_tordesillas",
+   4
+  ]
+ ],
+ "add_religious_aspect": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "has_scripted_relation": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:overlord",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "give_loan": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:target_country",
+   2
+  ]
+ ],
+ "set_loc_key": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_country",
+   1
+  ]
+ ],
+ "nor": [
+  [
+   "every_neighbor_country",
+   2
+  ],
+  [
+   "ordered_known_country",
+   1
+  ],
+  [
+   "any_ancestor",
+   1
+  ],
+  [
+   "random_ancestor",
+   1
+  ]
+ ],
+ "set_parliament_type": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "change_explorer": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "start_conquistador": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "disease_presence": [
+  [
+   "any_owned_location",
+   18
+  ],
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "random_owned_location",
+   8
+  ],
+  [
+   "any_location_in_province",
+   4
+  ]
+ ],
+ "is_discovered_by": [
+  [
+   "random_location_in_region",
+   32
+  ],
+  [
+   "any_location_in_area",
+   19
+  ],
+  [
+   "capital",
+   13
+  ],
+  [
+   "any_location_in_region",
+   11
+  ]
+ ],
+ "create_relation": [
+  [
+   "(top level)",
+   51
+  ],
+  [
+   "scope:first",
+   3
+  ],
+  [
+   "scope:winner",
+   2
+  ],
+  [
+   "every_country",
+   1
+  ]
+ ],
+ "floodfill_locations": [
+  [
+   "location:tabriz",
+   1
+  ],
+  [
+   "scope:target_location",
+   1
+  ]
+ ],
+ "change_province_integration": [
+  [
+   "every_province",
+   7
+  ],
+  [
+   "scope:gutnish_province",
+   3
+  ],
+  [
+   "every_in_list",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_leader": [
+  [
+   "any_exploration_from_country",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_merchant": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_market_with_merchants",
+   4
+  ],
+  [
+   "any_market_present_in_country",
+   2
+  ],
+  [
+   "every_market_in_world",
+   1
+  ]
+ ],
+ "tag_exists": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "religion:mississippian_ceremonial",
+   1
+  ],
+  [
+   "religion:midewiwin_religion",
+   1
+  ]
+ ],
+ "add_policy_to_international_organization": [
+  [
+   "(top level)",
+   49
+  ],
+  [
+   "international_organization:hre",
+   16
+  ],
+  [
+   "international_organization:catholic_church",
+   11
+  ],
+  [
+   "international_organization:middle_kingdom",
+   4
+  ]
+ ],
+ "remove_global_variable": [
+  [
+   "(top level)",
+   23
+  ]
+ ],
+ "add_horde_unity": [
+  [
+   "(top level)",
+   25
+  ],
+  [
+   "scope:target_country",
+   1
+  ]
+ ],
+ "has_discovered": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "random_known_country",
+   2
+  ],
+  [
+   "scope:british_target",
+   1
+  ],
+  [
+   "every_in_list",
+   1
+  ]
+ ],
+ "has_bureaucracy_of_type": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_entrenchment": [
+  [
+   "every_current_bureaucracy",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_maintenance": [
+  [
+   "every_current_bureaucracy",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_yearly_manpower": [
+  [
+   "(top level)",
+   17
+  ]
+ ],
+ "within_naval_range_of": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "location:xiangshan_xinhui",
+   1
+  ],
+  [
+   "location:bruges",
+   1
+  ],
+  [
+   "location:kumage_oosumi",
+   1
+  ]
+ ],
+ "error_log": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "add_to_variable_list": [
+  [
+   "scope:expedition_initiator",
+   9
+  ],
+  [
+   "scope:recipient",
+   5
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_target_in_variable_list": [
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "scope:expedition_initiator",
+   5
+  ],
+  [
+   "scope:owner_scope",
+   5
+  ],
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "clear_variable_list": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "international_organization:catholic_church",
+   2
+  ]
+ ],
+ "find_route": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_list_variable": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "random_in_list",
+   2
+  ],
+  [
+   "scope:overlord",
+   2
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "create_mercenary": [
+  [
+   "(top level)",
+   23
+  ],
+  [
+   "random_list",
+   5
+  ],
+  [
+   "scope:prev_country",
+   1
+  ]
+ ],
+ "is_civil_war_for": [
+  [
+   "any_current_war",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_war",
+   1
+  ]
+ ],
+ "num_of_traits_of_category": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_character",
+   1
+  ]
+ ],
+ "is_real_country": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:overlord",
+   2
+  ],
+  [
+   "owner",
+   1
+  ]
+ ],
+ "character_name": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "ruler",
+   1
+  ]
+ ],
+ "is_area_coastal_sea": [
+  [
+   "area",
+   4
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "area:eastern_baltic_sea",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "discover_area": [
+  [
+   "(top level)",
+   25
+  ],
+  [
+   "random_list",
+   2
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "in_siege": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "any_army",
+   4
+  ],
+  [
+   "random_army",
+   3
+  ]
+ ],
+ "has_casus_belli_of_type_on": [
+  [
+   "(top level)",
+   15
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "root",
+   3
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "join_war_as_defender": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "scope:recipient",
+   3
+  ],
+  [
+   "scope:wormtongue_country",
+   1
+  ]
+ ],
+ "remove_local_variable": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "raise_levies": [
+  [
+   "every_province",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "leave_war": [
+  [
+   "scope:target_country",
+   3
+  ],
+  [
+   "every_subject",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "religious_view": [
+  [
+   "religion:catholic",
+   6
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "end_situation": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "situation:war_of_religions",
+   1
+  ]
+ ],
+ "remove_casus_belli": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "support_rebel": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "random_rival",
+   1
+  ]
+ ],
+ "has_ongoing_parliament_debate": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:recipient",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_child_education": [
+  [
+   "scope:young_king_david",
+   3
+  ],
+  [
+   "scope:target_child",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_children": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_exploration_construction": [
+  [
+   "(top level)",
+   7
+  ]
+ ],
+ "building_produced_goods": [
+  [
+   "any_buildings_in_location",
+   6
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_discovered_area": [
+  [
+   "(top level)",
+   38
+  ],
+  [
+   "owner",
+   3
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "price_in_market": [
+  [
+   "goods:salt",
+   2
+  ],
+  [
+   "goods:fine_cloth",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_possible_goods_trade_surplus": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "market",
+   2
+  ],
+  [
+   "random_market_with_merchants",
+   1
+  ],
+  [
+   "scope:from",
+   1
+  ]
+ ],
+ "has_trust": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "every_country",
+   1
+  ]
+ ],
+ "remove_trust_equilibrium": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "scope:target_root_country",
+   6
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "create_international_organization": [
+  [
+   "(top level)",
+   16
+  ],
+  [
+   "ordered_country_with_capital_in_geography",
+   6
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:target_location",
+   2
+  ]
+ ],
+ "create_holy_site": [
+  [
+   "location:constantinople",
+   3
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "religion:orthodox",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "importance": [
+  [
+   "(top level)",
+   260
+  ],
+  [
+   "location:constantinople",
+   3
+  ],
+  [
+   "scope:target_location",
+   2
+  ],
+  [
+   "religion:orthodox",
+   2
+  ]
+ ],
+ "remove_opinion": [
+  [
+   "(top level)",
+   25
+  ],
+  [
+   "every_known_country",
+   2
+  ],
+  [
+   "scope:spying_ambassador",
+   1
+  ],
+  [
+   "ordered_subject",
+   1
+  ]
+ ],
+ "change_loan_owner": [
+  [
+   "every_lent_loan",
+   1
+  ],
+  [
+   "every_in_list",
+   1
+  ],
+  [
+   "every_loan",
+   1
+  ],
+  [
+   "ordered_loan",
+   1
+  ]
+ ],
+ "set_bankruptcy": [
+  [
+   "every_in_list",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_from_list": [
+  [
+   "every_in_list",
+   4
+  ],
+  [
+   "scope:second_son_scope",
+   2
+  ],
+  [
+   "scope:fist_son_scope",
+   2
+  ],
+  [
+   "scope:target_location",
+   1
+  ]
+ ],
+ "cancel_loan": [
+  [
+   "every_loan",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "destroy_mercenary": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "set_parliament_active": [
+  [
+   "(top level)",
+   12
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "set_regent": [
+  [
+   "(top level)",
+   37
+  ]
+ ],
+ "disease_is_active": [
+  [
+   "(top level)",
+   7
+  ]
+ ],
+ "set_disease_presence": [
+  [
+   "location:venice",
+   3
+  ],
+  [
+   "scope:target_location",
+   3
+  ],
+  [
+   "every_location_in_province",
+   2
+  ],
+  [
+   "location:genoa",
+   1
+  ]
+ ],
+ "unique_international_organization_type_exists": [
+  [
+   "(top level)",
+   12
+  ]
+ ],
+ "reset_ruler_title": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_chivalric_order": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "trigger_else_if": [
+  [
+   "(top level)",
+   49
+  ],
+  [
+   "any_current_war",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "culture_percentage_in_country": [
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "random_culture_in_culture_group",
+   1
+  ],
+  [
+   "culture",
+   1
+  ]
+ ],
+ "culture_group_percentage_in_country": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "religion_percentage_in_country": [
+  [
+   "(top level)",
+   26
+  ],
+  [
+   "scope:actor",
+   12
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "country_rank_level": [
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "any_ruling_countries",
+   6
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "scope:first",
+   1
+  ]
+ ],
+ "has_historical_rivals": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "uses_government_power": [
+  [
+   "(top level)",
+   17
+  ]
+ ],
+ "is_adjacent_to_lake": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "every_location_in_area",
+   1
+  ],
+  [
+   "every_location_in_province",
+   1
+  ]
+ ],
+ "has_active_resolution": [
+  [
+   "international_organization:catholic_church",
+   3
+  ],
+  [
+   "international_organization:hre",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "situation:fall_of_delhi",
+   1
+  ]
+ ],
+ "add_food_percentage": [
+  [
+   "every_besieging_unit",
+   2
+  ],
+  [
+   "scope:target_army",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_friendly_with": [
+  [
+   "location:bodrum",
+   1
+  ],
+  [
+   "any_neighbor_country",
+   1
+  ],
+  [
+   "random_neighbor_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_societal_value": [
+  [
+   "(top level)",
+   10
+  ]
+ ],
+ "is_border": [
+  [
+   "any_owned_location",
+   2
+  ],
+  [
+   "random_owned_location",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_neighbor_location",
+   1
+  ]
+ ],
+ "has_unlocked_any_unit_of_category": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "current_month": [
+  [
+   "(top level)",
+   11
+  ]
+ ],
+ "is_eligible_heir": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_character",
+   4
+  ],
+  [
+   "ordered_character",
+   3
+  ],
+  [
+   "scope:target_child2",
+   1
+  ]
+ ],
+ "is_fighting_war_together_with": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "any_neighbor_country",
+   2
+  ],
+  [
+   "random_neighbor_country",
+   2
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "block_treaties": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "weighted_calc_true_if": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "any_known_country",
+   1
+  ]
+ ],
+ "has_road_of_type_to": [
+  [
+   "location:lahore",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_ruler": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "ruler",
+   1
+  ]
+ ],
+ "has_regular_elections": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_temporary_demand": [
+  [
+   "every_market_in_world",
+   4
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_market_present_in_country",
+   2
+  ],
+  [
+   "every_in_global_list",
+   2
+  ]
+ ],
+ "can_find_trade_route": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "is_primary_or_accepted_in": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "culture",
+   2
+  ],
+  [
+   "every_present_culture_in_country",
+   1
+  ]
+ ],
+ "is_looted": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_religion_modifier": [
+  [
+   "religion:catholic",
+   4
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_religion_modifier": [
+  [
+   "religion:catholic",
+   14
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_reforms": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "calc_true_if": [
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_declare_war_on": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "ordered_neighbor_country",
+   2
+  ],
+  [
+   "random_neighbor_country",
+   2
+  ]
+ ],
+ "has_loc_key": [
+  [
+   "any_lent_loan",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "within_colonial_range_of": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "location:arguin",
+   1
+  ],
+  [
+   "location:xiangshan_xinhui",
+   1
+  ],
+  [
+   "location:goa",
+   1
+  ]
+ ],
+ "add_to_cabinet": [
+  [
+   "random_cabinet",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "ordered_cabinet",
+   1
+  ]
+ ],
+ "extend_regency": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "has_child_education": [
+  [
+   "scope:young_king_david",
+   6
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "sell_goods_from_location": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "hidden_trigger": [
+  [
+   "(top level)",
+   34
+  ],
+  [
+   "any_country_with_capital_in_geography",
+   2
+  ],
+  [
+   "any_goods",
+   2
+  ],
+  [
+   "any_coast_border_location",
+   1
+  ]
+ ],
+ "remove_breach": [
+  [
+   "location:dunbar",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_score_versus": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "any_attacker",
+   1
+  ],
+  [
+   "any_war_participant",
+   1
+  ],
+  [
+   "any_current_war",
+   1
+  ]
+ ],
+ "has_land_ownership_rule": [
+  [
+   "international_organization:swiss_confederation",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_has_law": [
+  [
+   "(top level)",
+   68
+  ],
+  [
+   "scope:recipient",
+   11
+  ],
+  [
+   "international_organization:hre",
+   5
+  ],
+  [
+   "international_organization:swiss_confederation",
+   1
+  ]
+ ],
+ "transfer_yearly_manpower": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:target_country",
+   2
+  ],
+  [
+   "random_foreign_building_countries_in_location",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "destroy_pop": [
+  [
+   "random_pop",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "construct_estate_building": [
+  [
+   "every_location_in_province_definition",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_integrating": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_a_defender": [
+  [
+   "scope:war",
+   10
+  ],
+  [
+   "any_current_war",
+   4
+  ],
+  [
+   "every_current_war",
+   3
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_an_attacker": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "any_current_war",
+   6
+  ],
+  [
+   "scope:war",
+   6
+  ],
+  [
+   "every_current_war",
+   3
+  ]
+ ],
+ "add_self_control": [
+  [
+   "(top level)",
+   14
+  ],
+  [
+   "scope:actor",
+   4
+  ]
+ ],
+ "raise_all_levies": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:glyndwr_country",
+   1
+  ],
+  [
+   "scope:target_rebel",
+   1
+  ]
+ ],
+ "is_province_capital": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "any_owned_location",
+   2
+  ],
+  [
+   "ordered_owned_location",
+   2
+  ],
+  [
+   "every_ownable_location_in_province_definition",
+   1
+  ]
+ ],
+ "annul_all_treaties_with": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "add_complacency": [
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "random_list",
+   1
+  ]
+ ],
+ "has_historical_rival": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_unit": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "has_countries_with_coalition_grade_antagonism": [
+  [
+   "(top level)",
+   17
+  ],
+  [
+   "any_international_organization_member",
+   1
+  ],
+  [
+   "random_international_organization_member",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_new_foreign_ruler": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "remove_pop_allegiance": [
+  [
+   "every_pops_supporting_rebel",
+   4
+  ],
+  [
+   "ordered_in_list",
+   3
+  ],
+  [
+   "every_pop",
+   2
+  ],
+  [
+   "scope:target_pop",
+   1
+  ]
+ ],
+ "is_ruler_of": [
+  [
+   "any_character",
+   13
+  ],
+  [
+   "ordered_character",
+   2
+  ],
+  [
+   "random_character",
+   1
+  ],
+  [
+   "any_spouse",
+   1
+  ]
+ ],
+ "is_regent_of": [
+  [
+   "any_character",
+   11
+  ],
+  [
+   "ordered_character",
+   2
+  ],
+  [
+   "random_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rebel_estate_type": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "any_rebel",
+   2
+  ]
+ ],
+ "add_yearly_sailors": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "is_accepted_in": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "culture",
+   1
+  ],
+  [
+   "any_owned_location",
+   1
+  ],
+  [
+   "random_owned_location",
+   1
+  ]
+ ],
+ "set_parliament_location": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "set_parliament_issue": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "population_with_traits": [
+  [
+   "every_owned_location",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_target_in_global_variable_list": [
+  [
+   "(top level)",
+   15
+  ],
+  [
+   "owner",
+   4
+  ],
+  [
+   "random_country",
+   2
+  ],
+  [
+   "any_international_organizations_member_of",
+   2
+  ]
+ ],
+ "remove_list_global_variable": [
+  [
+   "(top level)",
+   37
+  ],
+  [
+   "scope:faction_ally_country",
+   2
+  ],
+  [
+   "religion:catholic",
+   1
+  ],
+  [
+   "every_in_global_list",
+   1
+  ]
+ ],
+ "add_rebel_modifier": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_character_allegiance": [
+  [
+   "scope:target_character",
+   2
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:target_sibling",
+   1
+  ],
+  [
+   "scope:target_child",
+   1
+  ]
+ ],
+ "has_any_disease_present": [
+  [
+   "any_owned_location",
+   3
+  ],
+  [
+   "random_owned_location",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_location_in_province",
+   1
+  ]
+ ],
+ "had_disaster_for_years": [
+  [
+   "(top level)",
+   14
+  ]
+ ],
+ "has_limited_diplomacy": [
+  [
+   "(top level)",
+   27
+  ],
+  [
+   "scope:actor",
+   8
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:first",
+   1
+  ]
+ ],
+ "set_lowborn": [
+  [
+   "every_descendant",
+   1
+  ],
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_vote": [
+  [
+   "international_organization:hre",
+   8
+  ],
+  [
+   "situation:nanbokuchou",
+   8
+  ],
+  [
+   "international_organization:catholic_church",
+   7
+  ],
+  [
+   "scope:recipient",
+   5
+  ]
+ ],
+ "disaster_is_active": [
+  [
+   "(top level)",
+   49
+  ],
+  [
+   "any_active_disaster",
+   1
+  ]
+ ],
+ "add_subunit_strength": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_sub_unit",
+   1
+  ]
+ ],
+ "is_withering": [
+  [
+   "any_market_center_in_country",
+   1
+  ],
+  [
+   "random_market_center_in_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "destroy_market": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:withering_market",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "change_privateer_owner": [
+  [
+   "random_privateer_from_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_religious_view": [
+  [
+   "religion",
+   2
+  ],
+  [
+   "any_other_religion_in_same_group",
+   1
+  ],
+  [
+   "scope:defender",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "stall_exploration": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_serve_in_cabinet_of": [
+  [
+   "ordered_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_new_foreign_ruler_no_update": [
+  [
+   "every_subject",
+   8
+  ],
+  [
+   "every_international_organization_member",
+   3
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "update_leadership": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_religious_figure": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "any_courtier",
+   1
+  ],
+  [
+   "random_courtier",
+   1
+  ],
+  [
+   "every_child",
+   1
+  ]
+ ],
+ "force_city_gfx_rebuild": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reset_regency": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "scope:overlord",
+   1
+  ]
+ ],
+ "has_game_rule": [
+  [
+   "(top level)",
+   128
+  ],
+  [
+   "random_ownable_location",
+   2
+  ],
+  [
+   "root",
+   1
+  ]
+ ],
+ "is_regency_extended": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_embargoed_by": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "any_rival",
+   1
+  ],
+  [
+   "random_rival",
+   1
+  ],
+  [
+   "every_country",
+   1
+  ]
+ ],
+ "in_trade_range_of": [
+  [
+   "market",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_holy_site_for": [
+  [
+   "any_holy_site_in_country",
+   4
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "random_holy_site_in_country",
+   2
+  ],
+  [
+   "every_holy_site_in_country",
+   1
+  ]
+ ],
+ "num_provinces": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_town_rights": [
+  [
+   "scope:target",
+   62
+  ],
+  [
+   "random_locations_with_town_rights_in_country",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "revoke_town_rights_of_type": [
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_annexing": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "change_annexation_progress": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_location_holy_site_for": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "var:seat",
+   5
+  ],
+  [
+   "location:constantinople",
+   2
+  ],
+  [
+   "any_religion_international_organization",
+   2
+  ]
+ ],
+ "add_to_variable_map": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "religion:orthodox",
+   4
+  ]
+ ],
+ "move_art": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "scope:target_art",
+   2
+  ],
+  [
+   "work_of_art:kusanagi_no_tsurugi",
+   1
+  ]
+ ],
+ "has_variable_map": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "set_art_owner": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_art",
+   1
+  ],
+  [
+   "work_of_art:kusanagi_no_tsurugi",
+   1
+  ],
+  [
+   "work_of_art:yata_no_kagami",
+   1
+  ]
+ ],
+ "remove_from_variable_map": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion:orthodox",
+   2
+  ]
+ ],
+ "release_non_cores": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_religious_focus": [
+  [
+   "root",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_religious_focus_progress": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_in_losing_war": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "add_avatar": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "has_avatar": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "reverse_add_trust_equilibrium": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_related_country",
+   1
+  ]
+ ],
+ "has_support_from": [
+  [
+   "any_rebel",
+   3
+  ],
+  [
+   "var:succession_crisis_pretender_variable",
+   3
+  ],
+  [
+   "random_rebel",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "current_date": [
+  [
+   "(top level)",
+   27
+  ]
+ ],
+ "has_invited_religious_figure": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "trust": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_country",
+   1
+  ],
+  [
+   "random_country",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "time_of_year": [
+  [
+   "(top level)",
+   107
+  ],
+  [
+   "scope:actor",
+   27
+  ]
+ ],
+ "is_location_holy_site_type": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "ruler",
+   1
+  ]
+ ],
+ "make_saint_in_character_religion": [
+  [
+   "scope:target_character",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_disease_presence": [
+  [
+   "every_location_in_province",
+   3
+  ],
+  [
+   "random_owned_location",
+   1
+  ],
+  [
+   "every_owned_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "buy_goods_from_market": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_join_international_organization": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "any_subject",
+   7
+  ],
+  [
+   "every_subject",
+   7
+  ]
+ ],
+ "add_location_to_international_organization": [
+  [
+   "every_location_in_area",
+   9
+  ],
+  [
+   "scope:recipient",
+   7
+  ],
+  [
+   "root",
+   7
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "international_organization_chooses_new_leader": [
+  [
+   "(top level)",
+   11
+  ],
+  [
+   "every_international_organizations_member_of",
+   1
+  ]
+ ],
+ "add_rival": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "change_score": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "remove_truce_with": [
+  [
+   "every_international_organization_member",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "relative_military_strength": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "any_neighbor_country",
+   1
+  ],
+  [
+   "random_neighbor_country",
+   1
+  ],
+  [
+   "every_country_in_diplomatic_range",
+   1
+  ]
+ ],
+ "has_extended_winter": [
+  [
+   "area",
+   9
+  ],
+  [
+   "every_area",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "abandon_colonial_charter": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "every_colonial_claim_province_definition",
+   2
+  ]
+ ],
+ "spread_to_location": [
+  [
+   "random_movement_in_culture",
+   2
+  ],
+  [
+   "random_movement_in_religion",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "is_loyal": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "ordered_character",
+   1
+  ],
+  [
+   "any_character",
+   1
+  ]
+ ],
+ "add_country_to_international_organization_no_update": [
+  [
+   "international_organization:hre",
+   2
+  ],
+  [
+   "international_organization:red_turban_rebels",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "international_organization:catholic_church",
+   1
+  ]
+ ],
+ "set_gold": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "set_stability": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "set_army_tradition": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_see_situation": [
+  [
+   "(top level)",
+   45
+  ],
+  [
+   "every_present_country",
+   18
+  ],
+  [
+   "every_country",
+   4
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "is_on_same_side": [
+  [
+   "every_current_war",
+   1
+  ],
+  [
+   "any_current_war",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_spreader": [
+  [
+   "ordered_movement_in_religion",
+   10
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "refresh_map_colors": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_subject_type": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target_subject",
+   1
+  ]
+ ],
+ "total_members": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:recipient",
+   3
+  ],
+  [
+   "international_organization:japanese_shogunate",
+   2
+  ]
+ ],
+ "is_east_of": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_location_in_province",
+   2
+  ],
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "any_location_in_region",
+   1
+  ]
+ ],
+ "remove_colonial_claim": [
+  [
+   "every_province_definition_in_area",
+   3
+  ],
+  [
+   "every_colonial_claim_province_definition",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "add_colonial_claim": [
+  [
+   "every_province_definition_in_area",
+   5
+  ],
+  [
+   "scope:owner_scope",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_east_of_province_definition",
+   1
+  ]
+ ],
+ "has_voted_for": [
+  [
+   "international_organization:catholic_church",
+   11
+  ],
+  [
+   "scope:recipient",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "situation:fall_of_delhi",
+   1
+  ]
+ ],
+ "io_recalculate_leader": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "subject_loyalty": [
+  [
+   "(top level)",
+   43
+  ]
+ ],
+ "conquer_desire": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_casus_belli": [
+  [
+   "scope:war",
+   18
+  ],
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "migration_attraction": [
+  [
+   "location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "scope_type": [
+  [
+   "(top level)",
+   19
+  ],
+  [
+   "var:hegemon_war_reason_var",
+   4
+  ],
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "scope:target_1",
+   2
+  ]
+ ],
+ "great_power_score": [
+  [
+   "country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_tax_base": [
+  [
+   "country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "army_size": [
+  [
+   "country",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "military_strength": [
+  [
+   "country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "regular_army_size": [
+  [
+   "country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "navy_size": [
+  [
+   "country",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "expected_army_size": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "country",
+   1
+  ]
+ ],
+ "expected_navy_size": [
+  [
+   "country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_food": [
+  [
+   "market",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_food_percentage": [
+  [
+   "market",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_tax_base": [
+  [
+   "province",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_food": [
+  [
+   "province",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_food_percentage": [
+  [
+   "province",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rebel_size": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_rebel",
+   1
+  ]
+ ],
+ "art_quality": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "diplomatic_range": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "cultural_influence": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "employment_size": [
+  [
+   "(top level)",
+   466
+  ]
+ ],
+ "has_road_to_capital": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "random_owned_location",
+   1
+  ]
+ ],
+ "is_overseas_for_owner": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "any_location_in_province",
+   1
+  ]
+ ],
+ "is_produced_in_location_market": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "always_loyal": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "is_primary_in": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "form_new_culture": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_being_annexed": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "has_any_culture_group": [
+  [
+   "culture",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_merged_culture_group": [
+  [
+   "culture",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_already_merged": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_culture_group",
+   1
+  ]
+ ],
+ "is_dominant_country_of": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_fully_implemented_in": [
+  [
+   "cabinet_action:pru_deal_with_robber_barons",
+   1
+  ],
+  [
+   "cabinet_action:settle_the_frontier",
+   1
+  ],
+  [
+   "any_possible_policy",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_additional_migration": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_additional_migration": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_migration": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_possible_institution_spawn": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "can_declare_no_cb_war_on": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "war_goal_type": [
+  [
+   "(top level)",
+   103
+  ]
+ ],
+ "has_privateers_from": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "any_port_in_country",
+   2
+  ],
+  [
+   "every_port_in_country",
+   2
+  ],
+  [
+   "any_location_in_market",
+   1
+  ]
+ ],
+ "is_a_threat_for_us": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_neighbor_of_country_or_across_one_seazone": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_subject",
+   2
+  ]
+ ],
+ "has_completed_religious_focus": [
+  [
+   "scope:actor",
+   10
+  ],
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "is_hegemon": [
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "can_make_subject_of": [
+  [
+   "scope:loser",
+   4
+  ],
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "peace_treaty_war_score_cost": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_eligible_heir_baseline": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "valid_estate_for_heir_selection": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "valid_gender_for_heir_selection": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_any_possible_disaster": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "age_in_years": [
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_different_order_of_chivalry": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_country_with_chivalric_order",
+   1
+  ]
+ ],
+ "is_in_chivalric_order": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "character_is_eligible_for_active_order": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "join_active_chivalric_order_of": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_war_leader_of": [
+  [
+   "scope:target_leader",
+   2
+  ],
+  [
+   "scope:loser",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "every_current_war",
+   1
+  ]
+ ],
+ "is_in_war": [
+  [
+   "any_current_war",
+   5
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "attackers_have_access_in": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "defenders_have_access_in": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "add_access_for_attackers": [
+  [
+   "scope:war",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_join_offensive_war_with": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_join_defensive_war_with": [
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_join_as_attacker": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "can_join_as_defender": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "vote_is_locked": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "root",
+   2
+  ],
+  [
+   "international_organization:hre",
+   1
+  ]
+ ],
+ "is_allowed_for_international_organization": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_set": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:recipient",
+   3
+  ]
+ ],
+ "dependency_length_days": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "can_add_relation": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "wants_to_give_away_any_province": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_countries_with_special_status": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "international_organization:hre",
+   6
+  ],
+  [
+   "international_organization:ilkhanate",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "special_status_can_be_bestowed": [
+  [
+   "international_organization:hre",
+   14
+  ],
+  [
+   "international_organization:lordship_of_ireland",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_allowed_for": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "join_war_against": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "wants_to_attack": [
+  [
+   "scope:actor",
+   4
+  ]
+ ],
+ "country_interaction_acceptance": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_cooldown": [
+  [
+   "(top level)",
+   13
+  ],
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "international_organization:tatar_yoke",
+   1
+  ],
+  [
+   "every_country",
+   1
+  ]
+ ],
+ "can_lead_international_organization": [
+  [
+   "(top level)",
+   7
+  ],
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "every_country_with_capital_in_geography",
+   2
+  ]
+ ],
+ "war_score_in_war_whole_side": [
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "is_imperial_circle_leader": [
+  [
+   "(top level)",
+   12
+  ],
+  [
+   "scope:actor",
+   10
+  ],
+  [
+   "every_international_organization_member",
+   1
+  ]
+ ],
+ "circles_are_active": [
+  [
+   "international_organization:hre",
+   6
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "law_visible_to_international_organization": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:io_recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "law_is_locked_in_international_organization": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:io_recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "law_enabled_to_international_organization": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:io_recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "policy_visible_to_international_organization": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:io_recipient",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "policy_enabled_to_international_organization": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "scope:io_recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_circle_leader": [
+  [
+   "any_imperial_circle_country_is_member_of",
+   5
+  ],
+  [
+   "every_imperial_circle",
+   3
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "in_same_imperial_circle": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "receives_military_access_from": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "receives_food_access_from": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "lend_unit_to_country": [
+  [
+   "scope:lend_unit_target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_colonial_overlord": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "pay_off_loans": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_loan_interest": [
+  [
+   "scope:loan",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_sellable_art": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_location_owner_forcefully": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_share_maps_with": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_enthusiasm": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_colonial_charter_owner": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_bond": [
+  [
+   "any_loan",
+   1
+  ],
+  [
+   "ordered_loan",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "distribute_gold_to_banking_estates": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "transfer_location_occupation": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "transfer_subject": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "wants_military_access_in": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_possible_rivals": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "ruled_country_on_or_after": [
+  [
+   "scope:character",
+   6
+  ],
+  [
+   "root",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_mercenary_leader": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "international_organization_leader_count": [
+  [
+   "(top level)",
+   18
+  ]
+ ],
+ "definition_is_for_levy": [
+  [
+   "(top level)",
+   14
+  ]
+ ],
+ "disease_has_stagnated": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "disease_affects_pops_here": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "num_roads": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "disease_has_outbreak_here": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "start_tutorial_lesson": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_building_owner": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_foreign_buildings_in_location",
+   1
+  ]
+ ],
+ "set_subsidized": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "lock_maintenance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "marry_character_ignore_blocks": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_ethnicity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_to_limited_random_stat": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "join_chivalric_order": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "leave_chivalric_order": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "request_ransom_prisoners": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "sell_prisoners_into_slavery": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "revoke_town_rights": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "conditional_effect": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "destroy_holy_site": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "fire_generic_action": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "execute_propose_effect": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "set_dynasty_name_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_extended_winter": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_extended_winter": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_area",
+   1
+  ]
+ ],
+ "loot_location": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_location_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_unit_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_country_modifier_size": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "change_province_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_religion_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_character_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_international_organization_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_dynasty_modifier_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "refund_price": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_yanantin": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_rite_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_navy_tradition": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_prestige": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_sailors": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_manpower": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_war_exhaustion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_legitimacy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_republican_tradition": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_devotion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_horde_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_tribal_cohesion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_government_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_karma": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_yanantin": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_complacency": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_righteousness": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_self_control": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_purity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_rite_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_honor": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_doom": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_religious_influence": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "transfer_yearly_sailors": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_trust": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:recipient",
+   1
+  ]
+ ],
+ "change_creditworthiness": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_new_ruler_no_update": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_country_employment_system": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_country_military_stance": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:subject",
+   1
+  ]
+ ],
+ "perform_diplomatic_action": [
+  [
+   "scope:winner",
+   3
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "stop_annexing_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "start_exploration": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "cancel_area_exploration": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "align_societal_values_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "transfer_gold_from_estate": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "remove_all_casus_belli": [
+  [
+   "scope:actor",
+   3
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "stop_cabinet_action": [
+  [
+   "every_cabinet",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_tolerated_culture": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "demote_accepted_culture": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "remove_tolerated_culture": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "copy_country_name_and_adjective": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "copy_country_color": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_rebel_demands": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_casus_belli_creation_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_religious_focus": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_avatar": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "abandon_location": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_parliament_issue_support": [
+  [
+   "(top level)",
+   8
+  ],
+  [
+   "scope:actor",
+   3
+  ]
+ ],
+ "grant_parliament_agenda": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "grant_parliament_agenda_for_estate": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bribe_estate": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "set_as_designated_heir": [
+  [
+   "every_subject",
+   4
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "every_international_organization_member",
+   2
+  ]
+ ],
+ "set_participated_in_parliament": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "every_international_organization_member",
+   4
+  ]
+ ],
+ "unset_participated_in_parliament": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "every_international_organization_member",
+   1
+  ]
+ ],
+ "remove_cooldown": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "create_union": [
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "scope:winner",
+   1
+  ],
+  [
+   "scope:loser",
+   1
+  ]
+ ],
+ "force_union": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:winner",
+   1
+  ]
+ ],
+ "take_over_all_wars": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_bureaucracy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "apply_rebel_demands": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "remove_all_area_preferences": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "destroy_building_country": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "reverse_change_cultural_view": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_dynasty_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_country_to_circle": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_country_from_circle": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_enemy_to_international_organization": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_location_from_international_organization": [
+  [
+   "scope:recipient",
+   7
+  ],
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_1",
+   1
+  ],
+  [
+   "random_owned_foreign_building_location",
+   1
+  ]
+ ],
+ "remove_law_from_international_organization": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "every_international_organizations_member_of",
+   8
+  ],
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "destroy_international_organization_no_instigator": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_international_organization_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_rebel_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "finalize_resolution": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "grant_parliament_agenda_for_special_status": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_loan_borrower": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_loan_amount": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "random_loan",
+   1
+  ],
+  [
+   "every_loan",
+   1
+  ]
+ ],
+ "redeem_bonds": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "destroy_building_forcefully": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:target_location",
+   1
+  ],
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "every_owned_location",
+   1
+  ]
+ ],
+ "change_siege_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_vfx": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "construct_location_rank": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "force_refresh_culture_and_religion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "spawn_army_levy_unit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_garrison_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "grant_town_rights": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_merchant_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "relocate_market": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target_market",
+   2
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "sell_goods_to_market": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "become_hired_by": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_spreader": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_movement_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "destroy_movement": [
+  [
+   "every_movement_in_religion",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_pop_owner": [
+  [
+   "every_pop",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "random_pop",
+   1
+  ]
+ ],
+ "hire_privateer": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "create_army_country_from_province": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_province_capital": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "reverse_set_religious_view": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "change_religion_view": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "reverse_change_religion_view": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "reverse_set_school_opinion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "add_god": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "scope:current_country",
+   1
+  ]
+ ],
+ "remove_god": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "add_omen": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "add_historical_rival": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "remove_historical_rival": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "garrison_sortie": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "change_subunit_type": [
+  [
+   "random_sub_unit",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_locked": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "change_assigned_merchant_capacity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "make_unit_available_for_hire": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "move_to_assist_on_adjacent_combat": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "add_bonus_warscore": [
+  [
+   "random_foreign_building_countries_in_location",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "start_periphora_towards": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:work_of_art",
+   1
+  ]
+ ],
+ "giving_scripted_relation_of_type": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "receiving_scripted_relation_of_type": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_autocephalous_patriarchates": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "religion",
+   7
+  ]
+ ],
+ "is_key_in_variable_map": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "religion:orthodox",
+   1
+  ]
+ ],
+ "country_has_disease_outbreak": [
+  [
+   "scope:actor",
+   7
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_country",
+   2
+  ]
+ ],
+ "bureaucracy_type_is_visible": [
+  [
+   "scope:actor",
+   1
+  ]
+ ],
+ "has_canonization": [
+  [
+   "(top level)",
+   9
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "can_do_generic_action": [
+  [
+   "scope:actor",
+   6
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_valid_colonial_charter": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_cabinet_action": [
+  [
+   "any_cabinet",
+   3
+  ],
+  [
+   "every_cabinet",
+   2
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_new_world_goods_in_market": [
+  [
+   "any_market_present_in_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_origin_in_new_world": [
+  [
+   "any_goods",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_goods",
+   1
+  ]
+ ],
+ "is_food": [
+  [
+   "scope:temp_good",
+   2
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "scope:target_good",
+   1
+  ]
+ ],
+ "is_in_surplus_in_market": [
+  [
+   "scope:target_good",
+   1
+  ],
+  [
+   "any_required_goods",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_old_world_goods_in_market": [
+  [
+   "any_market_present_in_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_origin_in_old_world": [
+  [
+   "any_goods",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_goods",
+   1
+  ]
+ ],
+ "is_valid_for_exploration": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "receives_defensive_support_from": [
+  [
+   "any_location_in_area",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "allow_subject_creation": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subject_can_be_created_by": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_overlords_ruler": [
+  [
+   "(top level)",
+   22
+  ],
+  [
+   "scope:subject_type",
+   2
+  ]
+ ],
+ "culture_population_in_country": [
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_value_in_variable_map": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "all_holy_sites_owned_by_or_below_of": [
+  [
+   "religion:hellenism_religion",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_advance_for_employment_system": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_employment_system": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "adjacent_to_owned_or_owned_by_subject": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_being_explored": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_assigned_explorer": [
+  [
+   "scope:target",
+   1
+  ]
+ ],
+ "is_threat_to": [
+  [
+   "every_neighbor_country",
+   2
+  ],
+  [
+   "any_country_with_capital_in_geography",
+   1
+  ],
+  [
+   "any_neighbor_country",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religion_population_in_country": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_religious_aspects": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "eligible_for_cabinet": [
+  [
+   "random_estate",
+   1
+  ]
+ ],
+ "estate_type_allowed_in_cabinet": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_member_of_circle": [
+  [
+   "scope:actor",
+   7
+  ]
+ ],
+ "international_organization_can_own_land": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "international_organization_can_add_land": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_can_be_added_to_international_organization": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_owned_by_any_international_organization": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "international_organization_can_remove_land": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_can_be_removed_from_international_organization": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_omens": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "is_selected_omen_god": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_invoking_omen": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_selectable_issue_for": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "special_status_power_fraction": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_visible_for": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "can_be_bribe": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "agenda_for_estate_type": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_use_agenda_bribe": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_regional_power": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "scope:second",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_fixed_liturgical_language": [
+  [
+   "religion",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "only_allowed_overlord_court_language": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_leave_international_organization": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_passable_land": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_carrying_or_loaded_unit": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "any_rented_out_mercenary",
+   1
+  ]
+ ],
+ "overlord_can_destroy_markets": [
+  [
+   "location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_temporary_demands": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_owned_buildings": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "overlord_can_build_markets": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_market_construction": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_trade_treaty_with": [
+  [
+   "owner",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_isolation_exemption_to": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "available_merchant_capacity": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "pop_type_population_in_country": [
+  [
+   "(top level)",
+   4
+  ],
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "has_periphora": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "wants_casus_belli_with": [
+  [
+   "scope:actor",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_target_casus_belli_on_us": [
+  [
+   "any_country_in_diplomatic_range",
+   2
+  ],
+  [
+   "ordered_neighbor_country",
+   1
+  ],
+  [
+   "ordered_country_in_religion",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_ai_preferred_parliament_law_change": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "policy_possible_for_country": [
+  [
+   "every_policy_in_law",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_religious_schools": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "has_migration": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_neighbor_of_province_definition": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "recall_lent_unit": [
+  [
+   "(top level)",
+   1
+  ],
+  [
+   "scope:lent_merc_target",
+   1
+  ]
+ ],
+ "is_lent_unit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "wants_to_subjugate": [
+  [
+   "scope:actor",
+   2
+  ]
+ ],
+ "has_sects": [
+  [
+   "(top level)",
+   10
+  ],
+  [
+   "religion",
+   9
+  ]
+ ],
+ "has_combat": [
+  [
+   "scope:target",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_pop_type": [
+  [
+   "any_buildings_in_location",
+   1
+  ],
+  [
+   "ordered_buildings_in_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_colonial_claim": [
+  [
+   "any_province_definition_in_area",
+   10
+  ],
+  [
+   "(top level)",
+   5
+  ],
+  [
+   "every_east_of_province_definition",
+   2
+  ],
+  [
+   "every_west_of_province_definition",
+   2
+  ]
+ ],
+ "subject_can_be_annexed": [
+  [
+   "any_subject",
+   4
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_eligible_military_leader": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_yanantin": [
+  [
+   "(top level)",
+   3
+  ],
+  [
+   "religion",
+   1
+  ]
+ ],
+ "allowed_bureaucracies": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "bureaucracy_maintenance": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "max_possible_candidates": [
+  [
+   "(top level)",
+   17
+  ]
+ ],
+ "add_international_organization": [
+  [
+   "var:religion",
+   6
+  ]
+ ],
+ "can_initiate_policy_votes": [
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "has_countries_with_near_coalition_grade_antagonism": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_blocked_treaties": [
+  [
+   "any_international_organization_member",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_can_join_international_organization": [
+  [
+   "owner",
+   3
+  ],
+  [
+   "every_international_organization_owned_location",
+   2
+  ],
+  [
+   "every_foreign_building_countries_in_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_special_status_available": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "is_neighbor_of_international_organization": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "international_organization_has_internal_peace": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "dynastic_power": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_overlord": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "can_annex_members": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "uses_elections": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_international_organization_member",
+   1
+  ]
+ ],
+ "is_passable": [
+  [
+   "(top level)",
+   6
+  ],
+  [
+   "every_owned_location",
+   1
+  ]
+ ],
+ "special_status_power": [
+  [
+   "(top level)",
+   18
+  ]
+ ],
+ "num_of_non_rural": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "num_locations": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "birth_age": [
+  [
+   "(top level)",
+   20
+  ]
+ ],
+ "hre_io_is_in_formation_period": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "round_variable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_effective_goods_production_buildings": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "used_merchant_capacity": [
+  [
+   "scope:mission_target_market",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_gifted_gold_to": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "add_movement_modifier": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "add_to_local_variable_map": [
+  [
+   "every_province_definition_in_area",
+   3
+  ],
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "join_war_reason": [
+  [
+   "scope:war",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_create_casus_belli_of_type_on": [
+  [
+   "scope:russian_state",
+   1
+  ],
+  [
+   "every_neighbor_country",
+   1
+  ],
+  [
+   "scope:opportunist",
+   1
+  ],
+  [
+   "scope:winner",
+   1
+  ]
+ ],
+ "bureaucracy_liked_by_estate_type": [
+  [
+   "any_current_bureaucracy",
+   1
+  ],
+  [
+   "random_current_bureaucracy",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_disliked_by_estate_type": [
+  [
+   "any_current_bureaucracy",
+   1
+  ],
+  [
+   "random_current_bureaucracy",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "culture_group_percentage": [
+  [
+   "ordered_owned_non_rural_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_known_by_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_any_rgo_of_goods_method": [
+  [
+   "(top level)",
+   7
+  ]
+ ],
+ "goods_method": [
+  [
+   "any_owned_location",
+   5
+  ],
+  [
+   "ordered_owned_location",
+   5
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "blocks_full_annexation": [
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "is_trade_cb": [
+  [
+   "scope:war",
+   13
+  ]
+ ],
+ "has_sound_tolls": [
+  [
+   "scope:loser",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "scope:first",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_cut_down_in_size_cb": [
+  [
+   "scope:war",
+   1
+  ]
+ ],
+ "legitimacy": [
+  [
+   "(top level)",
+   14
+  ]
+ ],
+ "has_pretender": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "max_sects": [
+  [
+   "(top level)",
+   6
+  ]
+ ],
+ "ai_wants_convert": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "pay_policy_price_effect": [
+  [
+   "scope:recipient",
+   2
+  ]
+ ],
+ "total_population_in_international_organization": [
+  [
+   "scope:vote",
+   4
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_cached_or_cast_vote_for": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_alert_shown": [
+  [
+   "(top level)",
+   29
+  ]
+ ],
+ "is_unique_reform": [
+  [
+   "random_current_reforms",
+   2
+  ],
+  [
+   "every_current_reforms",
+   1
+  ],
+  [
+   "any_current_reforms",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "hre_start_circle_formation_effect": [
+  [
+   "international_organization:hre",
+   1
+  ]
+ ],
+ "has_participated_in_parliament": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_international_organization_member",
+   1
+  ]
+ ],
+ "has_voted_for_issue_in_parliament": [
+  [
+   "(top level)",
+   2
+  ],
+  [
+   "every_international_organization_member",
+   1
+  ]
+ ],
+ "is_implementable_in": [
+  [
+   "every_in_list",
+   3
+  ],
+  [
+   "scope:target_heir_religion_policy",
+   1
+  ],
+  [
+   "every_current_reforms",
+   1
+  ],
+  [
+   "every_current_policy",
+   1
+  ]
+ ],
+ "has_global_variable_map": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_key_in_global_variable_map": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remove_from_global_variable_map": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "border_distance_to": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "owns_any_foreign_buildings_in": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_diplomacy_with": [
+  [
+   "scope:actor",
+   4
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_fleet_basing_rights": [
+  [
+   "scope:recipient",
+   1
+  ],
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_food_access": [
+  [
+   "scope:recipient",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_target_of_international_organization_of_type": [
+  [
+   "scope:actor",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_scripted_relation_of_type": [
+  [
+   "scope:actor",
+   2
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "in_combat": [
+  [
+   "(top level)",
+   16
+  ]
+ ],
+ "is_elector_in_international_organization": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_culture_with_tag": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_rebels": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "owns_most_foreign_buildings_in_location": [
+  [
+   "scope:target_clan",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_linked_to_foreign_building": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "location_progress_for_formable": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_art_destroyed": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "is_key_in_local_variable_map": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_outbreak_presence": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "has_voted": [
+  [
+   "international_organization:catholic_church",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "sort_global_variable_list": [
+  [
+   "(top level)",
+   4
+  ]
+ ],
+ "current_year": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "num_foreign_buildings": [
+  [
+   "(top level)",
+   9
+  ]
+ ],
+ "is_currently_being_integrated": [
+  [
+   "any_owned_location",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "set_personality": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_rival": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_be_force_broken_in_peace_treaty": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "overlord_can_enforce_peace_on_subject": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_mining_rgo": [
+  [
+   "scope:target",
+   1
+  ],
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "education": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "has_accessible_coastline": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "area_average_integration": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_area_fully_discovered": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_area_passable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_levels_under_construction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_max_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_building_owned_by": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_manpower_produced": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_profit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_potential_profit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_index": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_employment_size_amount": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_employed_amount": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_can_be_destroyed_by": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "entrenchment": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_disliked_by_estate": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_type_liked_by_estate_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_type_liked_by_estate": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_type_disliked_by_estate_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bureaucracy_type_disliked_by_estate": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "effective_skill": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "age_in_days": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_marry_character": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_dynastic_descendant_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_patrilineal_descendant_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_matrilineal_descendant_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_abilities": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religious_figure_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "character_nickname": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_saint_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_spouses": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_traits": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "yearly_salary": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "art_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "heir_score_home": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_general_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_admiral_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_artist_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_explorer_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_consort_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_leading_largest_army_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_leading_largest_navy_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_of_service_as_general": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_of_service_as_admiral": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_of_service_in_cabinet": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_as_rebel": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_of_service_as_general": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_of_service_as_admiral": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_of_service_in_cabinet": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_as_rebel": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "character_is_in_order": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "implementation_progress_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_locked_for": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_locked_for_international_organization": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_target_in_local_variable_list": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_counter": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religion_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religion_group_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religion_group_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "culture_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "culture_group_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_religion_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_religion_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_religion_group_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_religion_group_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_culture_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "world_culture_group_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "raw_material_amount": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_been_formed": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_fired_unique_event": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "bias_value": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "unit_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religion_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "character_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rebel_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "dynasty_modifier_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "owned_by_or_its_subjects": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "advance_no_longer_activated": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "army_tradition_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "navy_tradition_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "inflation_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gold_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_exhaustion_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "government_power_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "legitimacy_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "republican_tradition_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "devotion_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "horde_unity_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "tribal_cohesion_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "karma_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "yanantin_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "complacency_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "righteousness_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "harmony_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "self_control_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "purity_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "honor_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "doom_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religious_influence_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_income_total": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_income_trade_and_tax": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_trade_income": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_balance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_latest_road_type_for": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_foreign_buildings_levels": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "allows_male_rulers": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "allows_female_rulers": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_country_literacy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_colonial_top_overlord": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "this_opinion_of_prev": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "prev_opinion_of_this": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "this_antagonism_towards_prev": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "prev_antagonism_towards_this": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_ai_disposition_toward_player": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_ai_disposition_toward_actor": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_enemy_of_international_organization": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_advance_for_succession_law": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_claim_on_province": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "potential_navy_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "potential_army_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_regiments": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "possible_military_leaders": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "navy_size_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_rank_level_on_date": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_population_change": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_population_in_international_organization_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_primary_culture_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_accepted_culture_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_tolerated_culture_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_not_tolerated_culture_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_true_faith_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_heretic_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_control_scaled_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_casus_belli_of_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_in_any_same_international_organization": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_hostile_with": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_embraced_institutions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_known_institutions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_characters": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_estate_loan_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_explorations": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_forts": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_locations_owned_or_owned_by_subjects": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_locations_owned_or_owned_by_subjects_or_below": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_economical_base": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "long_term_eco_growth": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "capital_wealth": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "slider_minting_value": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "currency_utility": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "exploration_utility": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "cancel_exploration_utility": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_subjects": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_adult_capable_characters": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_works_of_art": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ruler_reign": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ruler_reign_in_days": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_non_rural_ports": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_markets_with_merchants": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_mission_task": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "supports_rebel": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_military_access_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_fleet_basing_rights_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "receives_fleet_basing_rights_from": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_food_access_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "receives_isolation_exemption_from": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_defensive_support_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "gives_offensive_support_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "receives_offensive_support_from": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "annexation_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_manpower": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_advances_researched": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_control_in_home_region": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_control": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "sailors_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "research_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "religious_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "cultural_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "liberty_desire": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "does_estate_want_other_policy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "months_since_peace": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "months_since_war": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "months_since_last_parliament_called": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remaining_parliament_days": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_possible_privileges": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_bureaucracies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_open_bureaucracy_slots": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_avatars": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_debt": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "foreign_debt": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "debt_to_estates": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "current_bonds": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "creditworthiness": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "vote_impact_in_resolution": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "vote_percentage_impact_in_resolution": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_possible_nomad_targets": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_merchant_capacity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_tolerated_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monarch_power_percentage_in_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "culture_group_population_in_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_art_quality": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_rivals": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "current_ruler_term_years": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "used_cultures_capacity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_development": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_raised_army_levies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_raised_navy_levies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_raise_levies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_raise_army_levies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_raise_navy_levies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_highest_rated_special_status_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "parliament_issue_chance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "needs_opinion_with": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "great_power_ranking": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "great_power_points": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_mutual_scripted_relation_of_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "defensive_alliance_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "offensive_alliance_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "country_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_personality": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_loan_interest": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "payment_maintenance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "payment_contribution": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_insulted": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "currency_percentage_towards_limit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "societal_value_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "parliament_type_utility": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "policy_utility": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_type_allowed_in_parliament": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_type_allowed_in_command": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_creating_cb_against": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_creating_cb_of_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_country_interaction_acceptance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "offer_relation_acceptance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_offer_relation_acceptance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "request_relation_acceptance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_request_relation_acceptance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_form": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ruler_term_start_date": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "threat_level_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_build_unit_type": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "opinion_difference_between": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "used_fort_limit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_estate_satisfaction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "topography_count": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "vegetation_count": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "vegetation_percent": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "climate_count": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_common_rivals": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_common_rivals_and_enemies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "this_trust_of_prev": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "prev_trust_of_this": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "prev_spy_network_in_this": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "this_spy_network_in_prev": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "prev_favors_with_this": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "this_favors_with_prev": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "cultural_tradition_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "cultural_influence_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_graphical_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "culture_opinion_impact": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_merged_culture_group_of": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "merged_culture_group_contains_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disaster_has_ended": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_since_disaster_start": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_since_disaster_start": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_since_disaster_end": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_since_disaster_end": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_affected_locations": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_resistance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_outbreak_is_active": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_country_deaths": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_outbreak_country_deaths": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_total_deaths": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "disease_outbreak_total_deaths": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_dynastic_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_unions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_union_countries": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_adult_available_dynasty_members": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_dynasty_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "target_satisfaction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_gold": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_taxable_income": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "estate_tax": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_buildings_owned_by_estate": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_satisfaction_change": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "exploration_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "exploration_time": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "exploration_monthly_cost": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "exploration_monthly_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "food_value": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_constructions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_pops": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_trades": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_burgher_trades": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_buildings": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_roads": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_demanded_in_market_by_units": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "raw_material_occurrence": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_dormant_imperial_circle": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "imperial_circle_satisfaction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_embraced_for": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_international_organization_annullable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "parliament_type_is_locked_in_international_organization": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_locations_owned": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_locations_owned_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_enemies": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "io_total_great_power_score": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "io_total_tax_base": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "io_total_military_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "max_countries_with_special_status": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_international_organization_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_elections": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_has_laws": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_num_locations": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_special_status_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_special_status_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_special_status_power_fraction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "leader_special_status_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "leader_special_status_power_fraction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "combined_special_status_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_economical_base": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_leader_reign": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_leader_reign_in_days": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_lifetime": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "international_organization_lifetime_in_days": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "resolution_opinion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "io_exists": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "loan_amount": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "loan_interest": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "remaining_debt": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "months_left": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_unified_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "employment_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "original_location_rank": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rgo_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rgo_workers": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "max_rgo_workers": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_num_works_of_art": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_works_of_art_star_rating": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_location_literacy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_become_rank": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_max_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_population_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_exports": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_imports": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_earthquakes": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_army_constructions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_navy_constructions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_civil_constructions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_tax_base": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "in_zone_of_control": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "average_satisfaction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_max_town_rights": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_connected_to_through_realm": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "local_religious_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "local_cultural_unity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_buildings": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_building_levels": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_owned_foreign_buildings_in_location": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_art_quality": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_max_winter_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "distance_to": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "intrinsic_disease_resistance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "local_political_power_fraction": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "relative_raw_material_price": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_peace_cost": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "building_type_max_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_any_convertable_pops": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_neighbor_of_location": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_neighbor_of_location_or_across_one_seazone": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "raw_material_output": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "goods_output": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "local_estate_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "local_relative_estate_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "garrison_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "garrison_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "max_garrison_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "location_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_required_for_formable": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_different_town_rights_than": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_export_banned": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_import_banned": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_max_food": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "food_price": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_food_deficit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_food_traded": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_monthly_food_balance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "market_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "goods_supply_in_market": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "goods_demand_in_market": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_merchant_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_goods_traded": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_goods_value_traded": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "demands_goods": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "demands_goods_by_pops": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_projected_to_run_out_of_food_stockpile": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "months_at_or_below_withering_threshold": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "monthly_cost": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "movement_presence": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ai_policy_resolution_vote_bias": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ai_policy_resolution_keep_bias": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "ai_policy_reason_to_join": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "peace_treaty_antagonism": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "policy_level": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "pop_size": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "pop_character_chance": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "pop_literacy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "pop_knows_about_goods": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "privateer_power": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_colonial_charter": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_possible_institutions": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_max_food": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_monthly_food_production": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_prosperity": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_rebel_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "province_population": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "rebel_last_months_progress": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_rebel_supporters": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_of_rebel_characters": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_supported_by_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_supported_by_character": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_rebel_modifier": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reverse_school_opinion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_religious_focuses": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "reform_desire": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "total_cardinals": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_active": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "max_religious_aspects": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "num_countries_in_religion": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "in_assault": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "years_since_situation_start": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_since_situation_start": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "days_since_situation_end": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "only_allowed_overlord_primary_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "only_allowed_overlord_primary_or_kindred_culture": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "forbids_sovereign_diplomacy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_regiment": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subunit_morale_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subunit_strength_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_upgrade_subunit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subunit_morale": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subunit_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "subunit_number": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "trade_volume": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "trade_buy": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "trade_sell": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "trade_profit": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "trade_capacity_usage_percent": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_export": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_locked": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "experience_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "food_percentage": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "can_hire_prisoners_as_mercenaries": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_ransom_prisoners": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "can_sell_prisoners_into_slavery": [
+  [
+   "(top level)",
+   2
+  ]
+ ],
+ "prisoner_strength": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "has_prisoners": [
+  [
+   "(top level)",
+   8
+  ]
+ ],
+ "has_only_prisoners": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "in_retreat": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "num_subunits": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_length_in_years": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_stalling_length": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_stalling_length_in_years": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "war_score_of_country": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "art_worth": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "art_price": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_widgetid_open": [
+  [
+   "(top level)",
+   134
+  ]
+ ],
+ "set_tutorial_var": [
+  [
+   "(top level)",
+   26
+  ]
+ ],
+ "close_all_views": [
+  [
+   "(top level)",
+   17
+  ]
+ ],
+ "set_collection_pin": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_tooltip_with_name_open": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_auto_raise_taxrate_for_all_estates": [
+  [
+   "(top level)",
+   1
+  ]
+ ],
+ "is_camera_in_zoom_level": [
+  [
+   "(top level)",
+   3
+  ]
+ ],
+ "is_map_mode_active": [
+  [
+   "(top level)",
+   5
+  ]
+ ],
+ "is_player_playstyle": [
+  [
+   "(top level)",
+   2
+  ]
+ ]
+}
