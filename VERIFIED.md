@@ -543,3 +543,56 @@ is a probe round, not a static pass.
 
 The 1,616 observed entries remain useful as a general scope reference for
 modders working with documented vocabulary.
+
+---
+
+# Scope requirements for all 34 undocumented effects (SOLVED)
+
+Static inference could not reach these (vanilla never uses them), but the
+engine volunteers the answer. Calibration with two known effects established
+the signature:
+
+```
+add_core: Inconsistent effect scopes (country vs. location)
+add_country_modifier: Inconsistent effect scopes (location vs. country)
+```
+
+It names **both** the current scope and the required one, so a single pass at
+country scope documents everything. All 3 chunks armed; all 34 effects
+reached.
+
+## Require a specific scope (9)
+
+| effect | scope |
+|---|---|
+| `add_dynasty_modifier` | dynasty |
+| `add_recovered_army_levy_percentage` | province |
+| `add_recovered_navy_levy_percentage` | province |
+| `change_art_worth` | work_of_art |
+| `set_art_worth` | work_of_art |
+| `create_navy_country_from_province` | province |
+| `create_navy_country_in_location` | location |
+| `create_num_sub_unit` | location |
+| `set_target_of_international_organization` | international_organization |
+
+`work_of_art` is a scope type we did not know existed - revealed only by the
+error message.
+
+## Work at country scope (25)
+
+`add_internal_flag`, `change_global_variable`, `clamp_global_variable`,
+`round_global_variable`, `round_local_variable`, `clear_variable_map`,
+`clear_global_variable_map`, `clear_local_variable_map`,
+`clear_local_variable_list`, `remove_from_local_variable_map`,
+`remove_list_local_variable`, `sort_local_variable_list`, `create_route`,
+`custom_label`, `custom_description_no_bullet`, `post_audio_event`,
+`set_automated_system`, `reverse_add_antagonism`, `debug_log`,
+`debug_log_date`, `debug_log_scopes`, `random_log_scopes`, `test_log`,
+`assert_read`, `stop_tutorial`.
+
+## Method note: never compare log timestamps as strings
+
+The first read of this round was polluted because the clock had just passed
+midnight, and `"18:03" >= "00:05"` is true as text - so the filter matched
+the entire previous day. Filter probe results by **filename**, which has no
+rollover.

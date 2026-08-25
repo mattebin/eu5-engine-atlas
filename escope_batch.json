@@ -1,0 +1,43 @@
+{
+ "files": [
+  "escope_X1.txt",
+  "escope_X2.txt",
+  "escope_X3.txt"
+ ],
+ "effects": [
+  "add_dynasty_modifier",
+  "add_internal_flag",
+  "add_recovered_army_levy_percentage",
+  "add_recovered_navy_levy_percentage",
+  "assert_read",
+  "change_art_worth",
+  "change_global_variable",
+  "clamp_global_variable",
+  "clear_global_variable_map",
+  "clear_local_variable_list",
+  "clear_local_variable_map",
+  "clear_variable_map",
+  "create_navy_country_from_province",
+  "create_navy_country_in_location",
+  "create_num_sub_unit",
+  "create_route",
+  "custom_description_no_bullet",
+  "custom_label",
+  "debug_log",
+  "debug_log_date",
+  "debug_log_scopes",
+  "post_audio_event",
+  "random_log_scopes",
+  "remove_from_local_variable_map",
+  "remove_list_local_variable",
+  "reverse_add_antagonism",
+  "round_global_variable",
+  "round_local_variable",
+  "set_art_worth",
+  "set_automated_system",
+  "set_target_of_international_organization",
+  "sort_local_variable_list",
+  "stop_tutorial",
+  "test_log"
+ ]
+}
