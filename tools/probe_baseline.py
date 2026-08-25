@@ -2,7 +2,7 @@
 import json, pathlib
 LOGS = pathlib.Path(r"C:\Users\Matte\Documents\Paradox Interactive\Europa Universalis V\logs")
 base = {}
-for name in ("error.log", "game.log"):
+for name in ("error.log", "debug.log"):
     p = LOGS / name
     base[name] = p.stat().st_size if p.exists() else 0
 json.dump(base, open("probe_baseline.json", "w"), indent=1)

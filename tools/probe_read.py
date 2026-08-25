@@ -4,15 +4,20 @@ LOGS = pathlib.Path(r"C:\Users\Matte\Documents\Paradox Interactive\Europa Univer
 base = json.load(open("probe_baseline.json", encoding="utf-8"))
 
 def tail(name):
+    """Logs are TRUNCATED on every game launch. If the file is now smaller
+    than our baseline it rotated, so read the whole thing - seeking to the
+    old offset would land past EOF and silently return nothing."""
     p = LOGS / name
     if not p.exists():
         return ""
+    size = p.stat().st_size
+    start = 0 if size < base.get(name, 0) else base.get(name, 0)
     with open(p, "rb") as f:
-        f.seek(min(base.get(name, 0), p.stat().st_size))
+        f.seek(start)
         return f.read().decode("utf-8", errors="replace")
 
-err, game = tail("error.log"), tail("game.log")
-print(f"new error.log bytes: {len(err)} | new game.log bytes: {len(game)}\n")
+err, game = tail("error.log"), tail("debug.log")
+print(f"new error.log bytes: {len(err)} | new debug.log bytes: {len(game)}\n")
 
 SAB = "zzz_atlas_sabotage_not_a_real_effect"
 armed = SAB in err
@@ -23,7 +28,7 @@ if not armed:
     print("  => error.log is not capturing this run. Results below are VOID.")
 print("=" * 62)
 
-print("\nsentinels in game.log (proves execution reached that line):")
+print("\nsentinels in debug.log (proves execution reached that line):")
 for s, meaning in [
     ("ATLAS_SENTINEL_debug_log_works_9f3a", "debug_log works at all"),
     ("ATLAS_SENTINEL_has_multiple_players_correctly_false_9f3a",
