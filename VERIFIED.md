@@ -649,3 +649,51 @@ GetDefine read them back after a restart - which remains backlog work.
 sets, and error.log shows `Could not find mod`. The junction removal left
 the playset pointing at a missing folder, so this session is effectively
 running unmodded.
+
+---
+
+# Hidden defines: the engine LOADS them (proven)
+
+A test mod set 13 gameplay defines to unique sentinels 7001-7013. After a
+restart, `GetDefine` read back **every single one exactly**:
+
+```
+DB_7001_7001   DB_7002_7002   DB_7003_7003   DB_7004_7004
+DB_7005_7005   DB_7006_7006   DB_7007_7007   DB_7008_7008
+DB_7009_7009   DB_7010_7010   DB_7011_7011   DB_7012_7012
+DB_7013_7013
+```
+
+Control `TRUCE_YEARS` stayed 5 (untouched by this mod), and the mod is
+confirmed loaded in debug.log. This resolves the ambiguity left by the
+earlier zero readings: those defines exist, accept overrides, and the engine
+stores what you set.
+
+## Settable, and directly relevant to Responsive Universalis
+
+| define | |
+|---|---|
+| `NAI.AI_MILITARY_ASSIGNMENT_STRENGTH_FACTOR` | army assignment weighting |
+| `NAI.BASE_CASUS_BELLI_WARGOAL_DESIRE` | wargoal desire baseline |
+| `NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT` | rival selection threshold |
+| `NAI.AI_ARMY_MAINTENANCE_UTILITY` | maintenance weighting |
+| `NAI.AI_LIBERATE_SLAVES_DESIRE_BASE` | |
+| `NAI.LOAN_INTEREST_RATE_VS_BANK_LOAN_INTEREST_MULTIPLIER` | |
+| `NAI.SELL_PROVINCE_DEBT_YEARS_OF_INCOME` | |
+| `NCountry.REBEL_CONTROL_CHANGE_LOSS` | |
+| `NDiplomacy.DIPLOMATIC_RANGE` | |
+| `NEconomy.GROWTH_FROM_FOOD_MULTIPLIER` | |
+| `NEconomy.REPLACE_OBSOLETE_BUILDING_SPEED_INCRASE` | |
+| `NMercenary.MERCENARY_DISTANCE_CAP` | |
+| `NWar.WAR_WORTH_DEVELOPMENT_RGO` | |
+
+## What this does NOT prove
+
+That setting them changes gameplay. The engine demonstrably **stores** the
+value, but a define can be stored and no longer read by any code path -
+exactly the "registered but dead" case seen with the map key-lookup
+triggers. Proving gameplay effect needs an observable behavioural test per
+define, which is a different and much slower exercise.
+
+The honest claim: **these 13 are real, settable, and loaded.** Whether each
+still drives behaviour is unmeasured.
