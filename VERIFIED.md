@@ -88,3 +88,51 @@ set` for the very lines whose sentinels PASSED. These come from a static
 validation pass that cannot see console-set state; execution succeeded
 regardless. **Do not read those as failures** - only sentinels and read-back
 values settle it.
+
+---
+
+# Probes 4-6: maps are writable and countable, but NOT key-queryable
+
+## What works
+
+| syntax | proof |
+|---|---|
+| `add_to_global_variable_map = { name = X key = c:FRA value = c:ENG }` | map created |
+| `add_to_local_variable_map = { ... }` (in a country scope) | map created |
+| `has_global_variable_map = X` / `has_local_variable_map = X` | true |
+| `global_variable_map_size = { name = X value = 1 }` | **size read back as exactly 1** |
+| `local_variable_map_size = { name = X value = 1 }` | **size read back as exactly 1** |
+
+## What does not
+
+`is_key_in_global_variable_map` and `is_key_in_local_variable_map` reject
+**every** key form tried, always with the same `Failed to read 'key'`:
+
+1. `key = c:FRA` (a scope, the exact form the effect accepts)
+2. `target = c:FRA`
+3. `key = scope:saved_scope`
+4. `key = this`, evaluated inside that scope
+5. `key = 1` (numeric)
+6. `key = flag:c_fra`
+7. `key = global_var:holder`
+8. `key = c:ENG` on a **local** map
+9. `key` and `value` supplied together
+
+`is_value_in_global_variable_map` fails the same way on `value`.
+
+**Conclusion: the key reader for map-query triggers looks unimplemented in
+1.3.11.** The effect side stores a scope key happily and the size trigger
+counts entries, so the storage is real - only the lookup path is dead. Nine
+attempts across both scope tiers is enough to stop guessing.
+
+## What this means for a modder
+
+Variable maps are usable as **counted sets** (add entries, check existence,
+read size) but not as lookup tables. Lists are the better tool today:
+`is_target_in_global_variable_list` is confirmed working.
+
+## Validation noise, again
+
+`local_variable_map_size trigger [ Could not find list ... ]` appears in
+error.log for a line whose sentinel PASSED. Static validation cannot see
+console-created state. Judge by sentinels, not by error.log.
