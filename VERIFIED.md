@@ -43,3 +43,48 @@ demonstrably reached each line, and each test had a known answer:
 - **Logs are truncated on every game launch.** A reader that seeks to a saved
   byte offset will land past EOF and silently report nothing. This bit us on
   the first read of this very probe.
+
+---
+
+# Probe 3 (2026-08-25): the variable API WORKS, with confirmed syntax
+
+Split into three files because probe 2 taught us that **one parse error
+aborts the entire file** - probe 2's unconditional first `debug_log` never
+ran. Each file below armed its own sabotage line, and all three armed
+correctly.
+
+## Confirmed working, with proven arithmetic
+
+Values were written by effects and read back through triggers - a different
+mechanism - and every test had a single correct answer. The `= 999`
+negative control stayed silent, so the triggers discriminate.
+
+| syntax | proof |
+|---|---|
+| `set_global_variable = { name = X value = 5 }` | `has_global_variable` returned true |
+| `change_global_variable = { name = X add = 3 }` | read back as exactly **8** |
+| `clamp_global_variable = { name = X max = 6 }` | read back as exactly **6** |
+| `round_global_variable = { name = X nearest = 1 }` | 7.4 read back as exactly **7** |
+
+## Lists hold SCOPES, not values
+
+| syntax | proof |
+|---|---|
+| `add_to_global_variable_list = { name = X target = c:FRA }` | list created |
+| `has_global_variable_list = X` | true |
+| `is_target_in_global_variable_list = { name = X target = c:FRA }` | found it |
+
+## Maps are keyed by SCOPES
+
+| syntax | status |
+|---|---|
+| `add_to_global_variable_map = { name = X key = c:FRA value = c:ENG }` | **works** - `has_global_variable_map` confirms the map exists |
+| `is_key_in_global_variable_map = { name = X key = c:FRA }` | key argument rejected: `Failed to read 'key'`. Effect side works, trigger side needs a different key form |
+
+## Trap: "variable not set" errors that are not failures
+
+`error.log` shows `Failed to fetch variable for 'a3_num' due to not being
+set` for the very lines whose sentinels PASSED. These come from a static
+validation pass that cannot see console-set state; execution succeeded
+regardless. **Do not read those as failures** - only sentinels and read-back
+values settle it.
