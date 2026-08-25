@@ -401,3 +401,41 @@ Because `error.log` rotates mid-run, chunk results must be isolated by
 wrong before that was applied - one counted 700 rotated-away functions as
 successes, the other compared against a cumulative set in which no function
 could ever clear. Both produced confident, plausible, wrong numbers.
+
+
+---
+
+# GUI functions: typed receivers (final tally)
+
+Receivers proven reachable from the console: **capital/location** (Buda),
+**province**, **market** (Pest Market), **area** (Transdanubia), **region**
+(Carpathia), **culture** (Hungarian), **religion** (Catholicism), **map
+mode**. Ruler, heir, government and the selected-object accessors do NOT
+exist under those names.
+
+| resolution path | count |
+|---|---|
+| Global entry points (bare `[Func]`) | **395** |
+| Country methods (`GetPlayer.X`) | **90** |
+| Typed receivers (location, market, culture, province, map mode) | **92** |
+| **Total confirmed usable** | **577** |
+| Needing receivers not yet reachable | 3251 |
+
+The remainder is **not disproven**. Those are methods on types this probe
+cannot construct from the console - building, unit, character, war, trade
+node and so on. Reaching them needs an accessor chain that produces such an
+object, which is a separate hunt.
+
+## Location API worth a modder's attention
+
+`GetActualGarrison`, `GetBlockadeProgress`, `GetBlockadeForceInfo`,
+`GetClosestPort`, `GetDevastationEffect`, `GetDiseaseInfectionPercentage`,
+`GetLocationSize`, `GetExports`, `CalcGoodsOutput`,
+the `GetIntegration` family (`GetIntegration`, `GetIntegrationETA`,
+`GetIntegrationProgress`, `GetIntegrationSpeed`) and the
+`GetMaxRGOWorkers` family (`GetMaxRGOWorkersForUI`,
+`GetMaxRGOWorkersLevel`, `GetMaxRGOWorkersPercentage`,
+`CanIncreaseMaxRGOWorkers`).
+
+The RGO worker functions are directly relevant to the Community Fixes Raw
+Materials Finder.
