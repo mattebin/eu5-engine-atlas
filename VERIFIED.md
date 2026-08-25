@@ -439,3 +439,37 @@ the `GetIntegration` family (`GetIntegration`, `GetIntegrationETA`,
 
 The RGO worker functions are directly relevant to the Community Fixes Raw
 Materials Finder.
+
+---
+
+# Scope links: 52 of 52 accepted
+
+Tested as `link = { ... }` in country scope. Fake control
+`totally_fake_scope_link_zz` was rejected and did not enter, so acceptance
+below is meaningful. All four chunks ran to completion.
+
+| | |
+|---|---|
+| Undocumented scope links tested | 52 |
+| Accepted by the engine | **52** |
+| Flagged unknown | **0** |
+| Entered a scope containing live data | **6** |
+
+## Entered with real content
+
+`largest_army`, `largest_navy`, `country_stance`, `country_color`,
+`active_chivalric_order`, `max_great_powers`.
+
+`largest_army` and `largest_navy` are the useful pair - a direct handle on a
+country's biggest force, which script currently has no documented way to
+reach.
+
+The remaining 46 were accepted but empty, which is correct for a
+single-country test: links like `present_overlord` or `country_annexing_us`
+have nothing to enter unless that relationship exists.
+
+## Caveat
+
+`yes` appears in the entered list. That is almost certainly an artifact of
+the scope extraction picking up a bare token, not a real scope link. Treat
+any single-word generic entry in `scopes.json` with suspicion.
