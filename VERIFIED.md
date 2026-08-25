@@ -322,3 +322,41 @@ effect-position was unsafe.
 - Working syntax is documented for variables, lists (including iteration and
   descending sort), maps (storage and counting), and 8 undocumented list
   types, 4 of which return live data.
+
+---
+
+# GUI data functions, pass 1 (bare / global entry points)
+
+`debug_log` runs its string through the text system, so `[Func]` resolves.
+`[GetPlayer.GetName]` returned **Hungary** and `[GetPlayer.GetCapital.GetName]`
+returned **Buda** - real data, and chained calls work. Unknown functions log
+`Could not find data system function 'X'`. This makes all 3,828 GUI
+functions testable from the console with no mod at all.
+
+| | |
+|---|---|
+| Tested (editor/asset names filtered out) | 3,828 |
+| Resolve **bare** as global entry points | **395** |
+| Not found bare | 3,433 |
+
+Bare failure is NOT proof a function is fake - most are methods that need an
+object (`GetName` is real but meaningless without a country). Pass 2 tests
+them against `GetPlayer`.
+
+Useful-looking globals confirmed: `CanBribeMercenary`, `CanBuildRoads`,
+`CanDetachLevies`, `CanDetachMercenaries`, `CanOpenBuilding`,
+`CanPlayerDoGenericAction`, `CanViewColonyScreen`, `CanChangeChildEducation`.
+
+## TRAP: error.log ROTATES, and it invalidated a result
+
+The first reading of this pass reported **2,392 resolved**. That was wrong.
+`error.log` rotates into `error.1.log`, `error.2.log` ... when it grows, and
+three of six chunks had their errors rotated out mid-run. Their functions
+showed no error and were counted as resolved.
+
+The tell was that GB1-GB3 reported **0/700** not-found while GB4-GB6 reported
+~600/700 - impossible for an alphabetical split. Reading the whole rotated
+chain gives a consistent ~630/700 across every chunk.
+
+**Always read error.log AND its rotated siblings.** A single-file read
+silently loses data, and silently-lost data reads as success.
