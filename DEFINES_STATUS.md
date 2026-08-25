@@ -90,3 +90,35 @@ start.
 
 Anything published about these must say "registered and loaded" and must
 NOT say "usable".
+
+---
+
+# Why the hidden defines are inert: they are SUPERSEDED DUPLICATES
+
+Matte noticed in game that mercenary hiring range looks identical to
+diplomatic range - i.e. one shared range mechanic. That prompted checking
+what vanilla actually sets, and the answer explains every null result:
+
+| our hidden define (never set, inert) | what vanilla sets instead (live) |
+|---|---|
+| `NMercenary.MERCENARY_DISTANCE_CAP` | `MERCENARY_RECRUITMENT_DISTANCE_FACTOR = 0.025`, `MERCENARY_LEADER_DISTANCE_MULTIPLIER = 0.0005` |
+| `NDiplomacy.DIPLOMATIC_RANGE` | range appears governed by the same shared mechanic, not this key |
+
+The engine keeps the old registry entry after the system that read it was
+replaced. The working knob is a differently-named define that vanilla
+**does** set.
+
+## The rule this gives us
+
+**"Vanilla never sets it" is a red flag, not an opportunity.**
+
+It was tempting to read 45 unset defines as hidden tuning knobs nobody had
+found. The evidence says the opposite: the ones vanilla ignores are the ones
+the engine has stopped using. Live tuning lives in the defines vanilla sets,
+which are visible to everyone already.
+
+This does not devalue the extraction - knowing which defines are dead is
+worth real time to a modder who would otherwise tune `MERCENARY_DISTANCE_CAP`
+for an evening and see nothing. But it does mean the hidden-defines list
+belongs in the catalogue under "registered but dead", not "undiscovered
+power".
