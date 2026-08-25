@@ -360,3 +360,44 @@ chain gives a consistent ~630/700 across every chunk.
 
 **Always read error.log AND its rotated siblings.** A single-file read
 silently loses data, and silently-lost data reads as success.
+
+
+---
+
+# GUI data functions, final
+
+| category | count |
+|---|---|
+| Tested (editor/asset names filtered out) | 3,828 |
+| Resolve **bare** = global entry points | **395** |
+| Resolve as **`GetPlayer.X`** = country methods | **90** |
+| Neither | 3343 |
+
+The large remainder is **not** evidence of fake functions. These are methods
+on other types - market, building, character, unit, province - and testing
+them needs the right receiver object, not a blanket `GetPlayer`. Only ~2% of
+each chunk resolved against a country, which is exactly what a type-scoped
+API looks like.
+
+## Confirmed country methods worth a modder's attention
+
+`CanColonize`, `GetActiveDisasters`, `GetActiveRebels`,
+`GetBankruptcyEndDate`, `GetBondInterest`, `GetBondSize`,
+`GetArmyLevyPowerInfo`, `GetCourtSpendingCost`, `GetCapitalOrParliament`,
+`GetAiUtility`, plus a family of localisation variants
+(`GetAltName`, `GetAltAdjective`, `GetAltLongName`, and their
+`...WithFlag` forms).
+
+## Confirmed global entry points worth attention
+
+`CanBribeMercenary`, `CanBuildRoads`, `CanDetachLevies`,
+`CanDetachMercenaries`, `CanOpenBuilding`, `CanPlayerDoGenericAction`,
+`CanViewColonyScreen`, `CanChangeChildEducation`.
+
+## Method note: timestamps, not offsets
+
+Because `error.log` rotates mid-run, chunk results must be isolated by
+**timestamp cutoff**, not by byte offset. Two readings in this pass were
+wrong before that was applied - one counted 700 rotated-away functions as
+successes, the other compared against a cumulative set in which no function
+could ever clear. Both produced confident, plausible, wrong numbers.
