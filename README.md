@@ -25,6 +25,25 @@ Game version: **1.3.11**. Re-run the tools after any patch.
 UTF-8 BOM had hidden four whole blocks from the extraction, NGame included.
 Details in [CATALOGUE.md](CATALOGUE.md).)
 
+## How much the atlas added
+
+"Known before" means used by vanilla's own files and therefore visible to
+any modder who reads them.
+
+| Registry | Known before | Newly found | Gain |
+|---|---|---|---|
+| Effects | 519 | 34 | +7% |
+| Triggers | 1,136 | 134 | +12% |
+| Scope links | 231 | 52 | +23% (one is a suspected extraction artifact) |
+| List types | 253 | 11 | +4% |
+| Defines | 2,888 | 87 | +3% (one proven dead, the rest presumed vestigial) |
+
+GUI functions get a different claim: the 3,824 vanilla-unused functions
+are listed by the `dump_data_types` console command, so they were
+discoverable all along. What the atlas adds there is testing and typing:
+577 confirmed usable from the console, and every function carried with
+its owning type, arguments and return type.
+
 Plus a working, syntax-documented **variable / list / map API** vanilla
 never uses: arithmetic (`change/clamp/round`), lists with iteration and
 sorting, maps as counted sets. And `GetDefine('BLOCK','KEY')` - an
