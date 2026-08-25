@@ -125,6 +125,23 @@ MAP_LOOKUP_TRIGGERS = {
     "is_value_in_global_variable_map", "is_value_in_local_variable_map",
 }
 
+# Keywords PROVEN real that the binary registrar walk MISSED (found
+# 2026-08-26 when task-map validation rejected them). The walk has false
+# negatives inside keyword families - set_variable missing while its
+# local/global twins are present, etc. Cause unknown, on the backlog.
+# CONSEQUENCE FOR CONSUMERS: absence from the catalogue is NOT evidence a
+# keyword is unknown. Any linter rule must treat this list's existence as
+# proof that catalogue-absence cannot fail a keyword.
+EXTRACTION_MISSED = {
+    # id: (status, evidence)
+    "effect:set_variable": ("vanilla", "used in 360 vanilla files"),
+    "trigger:has_local_variable": ("vanilla", "used in 5 vanilla files"),
+    "effect:add_breach": ("vanilla", "used in 2 vanilla files; "
+                                     "remove_breach IS in the registry"),
+    "trigger:global_variable_map_size": (
+        "confirmed_working", f"{V}: probes 4-6, size read back exactly"),
+}
+
 # binary GUI extraction noise: category headers and class names that the
 # registrar walk scraped as keywords (exposed by the dump cross-check)
 GUI_EXTRACTION_NOISE = {"Common", "GUI", "Script", "Uncategorized",
@@ -454,6 +471,22 @@ def main():
         it["evidence"] = ev or ["gui_functions.json"]
         add(item_id, it)
 
+    # keywords the binary walk missed but that are proven real
+    for miss_id, (status, why) in EXTRACTION_MISSED.items():
+        kind, name = miss_id.split(":", 1)
+        it = {"kind": kind, "name": name,
+              "undocumented": status != "vanilla",
+              "status": status,
+              "extraction_missed": True,
+              "notes": ["Missed by the binary registrar walk (family gap); "
+                        "proven real independently. Catalogue absence is "
+                        "NOT evidence of non-existence."],
+              "evidence": [why]}
+        if miss_id in SYNTAX:
+            it["syntax"], syn_ev = SYNTAX[miss_id]
+            it["evidence"].append(syn_ev)
+        add(miss_id, it)
+
     # GetDefine is real (probe-proven) even though no registry lists it
     if "gui:GetDefine" in items:
         gd = items["gui:GetDefine"]
@@ -518,13 +551,16 @@ def main():
     def total(kind):
         return sum(counts.get(kind, {}).values())
 
-    assert total("effect") == 553, total("effect")
-    assert total("trigger") == 1270, total("trigger")
+    # 553/1270 from the walk + the proven extraction misses
+    assert total("effect") == 553 + 2, total("effect")
+    assert total("trigger") == 1270 + 2, total("trigger")
+    assert items["trigger:global_variable_map_size"]["extraction_missed"]
     assert total("scope_link") == 283, total("scope_link")
     assert sum(1 for i in items.values()
                if i["kind"] == "effect" and i["undocumented"]) == 34
     assert sum(1 for i in items.values()
-               if i["kind"] == "trigger" and i["undocumented"]) == 134
+               if i["kind"] == "trigger" and i["undocumented"]) == 134 + 1
+    # +1 = global_variable_map_size, probe-proven but walk-missed
     assert sum(1 for i in items.values()
                if i["kind"] == "scope_link" and i["undocumented"]) == 52
     n_gui_conf = counts["gui_function"].get("confirmed_working", 0)
@@ -551,6 +587,11 @@ def main():
                       "name overlap with the binary extraction); after any "
                       "patch re-run dump_data_types + parse_data_types.py "
                       "+ this builder"),
+        "recall_warning": ("the binary registrar walk has proven false "
+                          "negatives (see items with extraction_missed); "
+                          "absence from this catalogue is NOT evidence a "
+                          "keyword does not exist - linter rules must "
+                          "never fail a keyword for being absent here"),
         "counts": counts,
         "items_total": len(items),
     }

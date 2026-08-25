@@ -66,6 +66,17 @@ Resolvable by probe: run each effect inside a country scope and inside a
 location scope and record which errors. The engine reports scope mismatches
 clearly, so one round of chunked probes would settle most of them.
 
+## 6. Registrar-walk false negatives (found 2026-08-26)
+
+The effect/trigger walk has holes INSIDE keyword families: `set_variable`
+missing while set_local/set_global present, `has_local_variable` missing,
+`global_variable_map_size` missing despite being probe-proven,
+`add_breach` missing while `remove_breach` is present. Four proven cases
+are patched into the catalogue (`extraction_missed: true`); the cause in
+the initializer walk is undiagnosed, and there may be more. Corollary for
+all consumers: catalogue absence must never be treated as proof a keyword
+does not exist.
+
 ## 4. Composed-keyword blind spot
 
 All five extractions match literal strings, so anything the engine assembles

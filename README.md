@@ -53,7 +53,10 @@ undocumented way to read any live define from GUI or log.
 
 - **[CATALOGUE.md](CATALOGUE.md)** - the data layer: how everything below
   is merged into `catalogue.json`, one queryable index with explicit
-  confidence levels. This is what the workbench consumes.
+  confidence levels. This is what the workbench consumes. `task_map.json`
+  sits on top: task-oriented entry points ("add a map mode" lists the
+  files, catalogue items, gotchas and lint rules for that job), built by
+  `tools/build_task_map.py` with every reference validated.
 - **[VERIFIED.md](VERIFIED.md)** - the evidence. Every probe, every control,
   every retraction, in order. This is the file that justifies every claim.
 - **[CURATED.md](CURATED.md)** - the modder-useful subset, organised by

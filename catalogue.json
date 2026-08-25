@@ -2,7 +2,7 @@
  "meta": {
   "project": "eu5-engine-atlas catalogue",
   "game_version": "1.3.11",
-  "built": "2026-08-26 01:21",
+  "built": "2026-08-26 01:43",
   "builder": "tools/build_catalogue.py",
   "statuses": {
    "confirmed_working": {
@@ -28,16 +28,17 @@
    }
   },
   "dump_note": "GUI type/return/desc data from the data_types dump of 2026-07-15, confirmed current to 1.3.11 (99.9% name overlap with the binary extraction); after any patch re-run dump_data_types + parse_data_types.py + this builder",
+  "recall_warning": "the binary registrar walk has proven false negatives (see items with extraction_missed); absence from this catalogue is NOT evidence a keyword does not exist - linter rules must never fail a keyword for being absent here",
   "counts": {
    "effect": {
-    "vanilla": 514,
+    "vanilla": 516,
     "verified_real": 30,
     "confirmed_working": 9
    },
    "trigger": {
-    "vanilla": 1132,
+    "vanilla": 1133,
     "verified_real": 129,
-    "confirmed_working": 9
+    "confirmed_working": 10
    },
    "scope_link": {
     "confirmed_working": 6,
@@ -64,7 +65,7 @@
     "dead": 1
    }
   },
-  "items_total": 21328
+  "items_total": 21332
  },
  "items": {
   "effect:abandon_colonial_charter": {
@@ -497375,6 +497376,64 @@
     "data_types dump 2026-07-15"
    ],
    "usability": 25
+  },
+  "effect:set_variable": {
+   "kind": "effect",
+   "name": "set_variable",
+   "undocumented": false,
+   "status": "vanilla",
+   "extraction_missed": true,
+   "notes": [
+    "Missed by the binary registrar walk (family gap); proven real independently. Catalogue absence is NOT evidence of non-existence."
+   ],
+   "evidence": [
+    "used in 360 vanilla files"
+   ],
+   "usability": 90
+  },
+  "trigger:has_local_variable": {
+   "kind": "trigger",
+   "name": "has_local_variable",
+   "undocumented": false,
+   "status": "vanilla",
+   "extraction_missed": true,
+   "notes": [
+    "Missed by the binary registrar walk (family gap); proven real independently. Catalogue absence is NOT evidence of non-existence."
+   ],
+   "evidence": [
+    "used in 5 vanilla files"
+   ],
+   "usability": 90
+  },
+  "effect:add_breach": {
+   "kind": "effect",
+   "name": "add_breach",
+   "undocumented": false,
+   "status": "vanilla",
+   "extraction_missed": true,
+   "notes": [
+    "Missed by the binary registrar walk (family gap); proven real independently. Catalogue absence is NOT evidence of non-existence."
+   ],
+   "evidence": [
+    "used in 2 vanilla files; remove_breach IS in the registry"
+   ],
+   "usability": 90
+  },
+  "trigger:global_variable_map_size": {
+   "kind": "trigger",
+   "name": "global_variable_map_size",
+   "undocumented": true,
+   "status": "confirmed_working",
+   "extraction_missed": true,
+   "notes": [
+    "Missed by the binary registrar walk (family gap); proven real independently. Catalogue absence is NOT evidence of non-existence."
+   ],
+   "evidence": [
+    "VERIFIED.md: probes 4-6, size read back exactly",
+    "VERIFIED.md: Probes 4-6"
+   ],
+   "syntax": "global_variable_map_size = { name = X value = 1 }",
+   "usability": 100
   },
   "define:NAI.ADJUST_TRADE_ROUTE_CHANCE": {
    "kind": "define",
