@@ -244,3 +244,50 @@ since that is how vanilla uses its own 253 base names - though only
 **`every_friendly_country` and `every_hostile_country` are the most
 immediately useful**: AI-facing country classifications no mod has ever
 iterated.
+
+
+---
+
+# Batch verification: every undocumented effect and trigger is REAL
+
+168 keywords tested in bare form. Verdict rule, established across probes
+1-9: the engine reports `Unknown effect X` / `Unknown trigger type: X` for
+something it does not know, but a **semantic** error (wrong arguments, missing
+block, type mismatch) for something real. So existence can be settled without
+knowing correct syntax.
+
+| | result |
+|---|---|
+| Effects tested | **34 of 34 - ALL REAL** |
+| Triggers tested | **109 of 134 - ALL REAL** |
+| Flagged unknown by the engine | **0** |
+| Still untested (chunk aborts) | 25 |
+
+Both deliberate fakes were correctly flagged, so the instrument works in
+effect position and trigger position.
+
+## Two instrument bugs found and fixed here
+
+**1. An unknown trigger evaluates as TRUE.** The fake trigger
+`totally_fake_trigger_xyz` logged `Unknown trigger type:` *and its sentinel
+still fired*. A sentinel therefore never proved a trigger was real - fakes
+fire too. Only error.log settles trigger existence. Any earlier reading that
+leaned on trigger sentinels was unsound.
+
+**2. The two message formats differ.** Effects report `Unknown effect X`,
+triggers report `Unknown trigger type: "X"`. A pattern written for the effect
+form silently matches no trigger at all, which produced a confident but
+meaningless "0 unknown triggers" until the fake-trigger control exposed it.
+
+Neither bug would have been visible without controls in **both** positions.
+Every future probe needs a fake of the same kind as the thing being tested.
+
+## Still untested (25)
+
+Chunks died on triggers whose bare `X = yes` form is fatally malformed
+because they require blocks or value comparisons - `nand`,
+`variable_map_size`, `is_value_in_local_variable_map`,
+`area_average_control` and others. `nand` is already confirmed working in
+probe 1, so these are syntax deaths, not evidence against the keywords:
+
+`any_false`, `area_average_control`, `available_army_levy_percentage`, `available_navy_levy_percentage`, `besieger_strength`, `bond_capacity`, `can_start_tutorial_lesson`, `colonial_charter_distance`, `is_value_in_local_variable_map`, `join_organization_ai_desire`, `language_population_in_country`, `liturgical_language_utility`, `local_variable_map_size`, `nand`, `num_bonds`, `num_cabinet_capable_characters`, `num_explorations_including_in_construction`, `num_locations_affected`, `num_of_active_parliament_agendas`, `num_of_locations_with_high_conquer_desire`, `variable_map_size`, `vote_type`, `war_score_of_country_side`, `yearly_gold`, `yearly_sailors`
