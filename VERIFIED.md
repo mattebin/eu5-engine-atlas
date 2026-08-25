@@ -697,3 +697,44 @@ define, which is a different and much slower exercise.
 
 The honest claim: **these 13 are real, settable, and loaded.** Whether each
 still drives behaviour is unmeasured.
+
+---
+
+# CRITICAL: loaded does NOT mean live
+
+`NDiplomacy.DIPLOMATIC_RANGE` was set to **7009** (absurd) and then to **1**
+(minimal), with a restart each time. `GetDefine` confirmed the engine held
+each value. The measured behaviour was **identical**:
+
+| | DIPLOMATIC_RANGE = 7009 | DIPLOMATIC_RANGE = 1 |
+|---|---|---|
+| `GetDefine` read-back | 7009 | 1 |
+| Austria (HAB) in range | yes | yes |
+| Countries in range | over 200 | over 200 |
+| Yuan / Japan in range | no | no |
+
+**The define is stored, readable, and dead.** No code path consumes it.
+
+## What this means for the whole hidden-defines set
+
+The 45 hidden defines are registered (RTTI), accepted by the linter, and
+provably loaded (sentinels 7001-7013 all read back). None of that shows they
+DO anything. At least one is confirmed inert, and the honest prior for the
+rest is now "unknown, possibly dead" rather than "usable".
+
+This is the same pattern as the map key-lookup triggers: present in the
+registry, wired to nothing.
+
+**Never claim a define works because it loads.** Each one needs an
+observable A/B test - set it to two extreme values, restart, and measure
+something the define should change. The A/B is what made this conclusive;
+the absolute 200+ number was meaningless without a baseline.
+
+## Testing pattern that worked
+
+1. Find a script-readable handle for the define's supposed effect
+   (`within_diplomatic_range` here, found in the trigger atlas).
+2. Count rather than guess at specific entities - the first attempt used
+   `MNG`, which does not exist in 1337, and `AUT`, which is not a tag
+   (Austria is `HAB`). Both produced a void result.
+3. Set the define to two extremes and compare. Identical results = dead.
