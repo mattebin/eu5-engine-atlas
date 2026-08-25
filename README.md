@@ -1,83 +1,75 @@
 # EU5 Engine Atlas
 
 A catalogue of what the Europa Universalis V engine can do that nobody
-documented.
+documented - extracted from `eu5.exe`, then **verified live in game**.
 
-The engine ships far more script capability than its own game files ever
-demonstrate. `refresh_map_colors` is the proof: a fully working effect,
-registered in the binary, used by no vanilla file, and unknown to modders
-until it was found by hand. It is what made the Raw Materials Finder map
-mode possible. There are more like it.
+The premise: the engine ships far more script capability than its own game
+files demonstrate. `refresh_map_colors` was the proof - a fully working
+effect, registered in the binary, used by no vanilla file, unknown to
+modders until found by hand. This project found the rest systematically.
 
-This project extracts the authoritative list from `eu5.exe` and publishes
-it, so EU5 modders stop being limited by what Paradox happened to use.
+Game version: **1.3.11**. Re-run the tools after any patch.
 
-## Status
+## Headline results
 
-Static extraction complete for four registries. Nothing has been run in game
-yet, by design.
-
-| Registry | In engine | Used by vanilla | **Never used** |
+| Registry | In engine | Never used by vanilla | Verified in game |
 |---|---|---|---|
-| Effects | 553 | 519 | **34** |
-| Triggers | 1,270 | 1,136 | **134** |
-| Scope links | 283 | 231 | **52** |
-| GUI data functions | 10,828 | 6,523 | **3,824** (game-facing) |
+| Effects | 553 | 34 | **34/34 real**, all scopes documented |
+| Triggers | 1,270 | 134 | **134/134 real** |
+| Scope links | 283 | 52 | **52/52 accepted**, 6 with live data |
+| List types (composed) | 62+ found | 9 | **8 tested, 4 return live data** |
+| GUI data functions | 10,828 | 3,824 game-facing | **577 confirmed usable**, 8,407 type-labelled |
+| Defines | 2,841 | 45 | loaded but **behaviourally dead** where tested |
 
-**Live verification: 168 of 168 undocumented effects and triggers confirmed
-real in game (1.3.11).** Working syntax documented for variables, lists,
-sorting, maps and list-type iterators in `VERIFIED.md`.
+Plus a working, syntax-documented **variable / list / map API** vanilla
+never uses: arithmetic (`change/clamp/round`), lists with iteration and
+sorting, maps as counted sets. And `GetDefine('BLOCK','KEY')` - an
+undocumented way to read any live define from GUI or log.
 
-`on_actions` were attempted and do **not** yield to this technique: they are
-fired by name lookup at runtime rather than registered through static
-initializers, so there is no table to walk.
+## The documents
 
-## What is established
+- **[VERIFIED.md](VERIFIED.md)** - the evidence. Every probe, every control,
+  every retraction, in order. This is the file that justifies every claim.
+- **[CURATED.md](CURATED.md)** - the modder-useful subset, organised by
+  capability family.
+- **[UNDOCUMENTED.md](UNDOCUMENTED.md)** - raw lists of never-used keywords.
+- **[GUI_AND_SCOPES.md](GUI_AND_SCOPES.md)** - GUI functions and scope links.
+- **[DEFINES_STATUS.md](DEFINES_STATUS.md)** - defines by verification tier,
+  including the finding that hidden defines are superseded duplicates:
+  **"vanilla never sets it" is a red flag, not an opportunity**.
+- **[HIDDEN_DEFINES.md](HIDDEN_DEFINES.md)** - the 45 never-set defines.
+- **[BACKLOG.md](BACKLOG.md)** - open work + the workbench product direction.
 
-- The binary is unprotected (no Denuvo, VMProtect or Themida) and RTTI-rich:
-  **75,301 class descriptors, 7,998 distinct class names**, including
-  `CRefreshMapColorsEffect` and `CGarrisonSortieEffect`. Script-visible
-  effects map to `C<Name>Effect` classes.
-- The engine defines **430 Effect classes and 1,157 Trigger classes**.
-  Vanilla script uses only 332 of the effects.
-- Script keywords are not stored as a plain table. Each one lives in a
-  small lazy getter function that interns the string on first call
-  (`if (!cached) cached = Intern("name", len)`), and pointers to those
-  getters sit in `.rdata`.
-- Walking that pointer region and reading the string out of each getter
-  yields **3,049 keywords**. The extraction self-validates:
-  `refresh_map_colors` lands immediately before `close_all_views`, matching
-  how it was originally discovered by hand months earlier.
+## How it was done
 
-## Open problem
+1. **Extraction**: script keywords live in lazy string-interning getter
+   functions; walking their registration initializers and grouping by which
+   registrar they call yields each registry. RTTI (7,998 class names, binary
+   unprotected) corroborates. Composed keywords (`every_X`) never appear as
+   literal strings and needed their own hunt.
+2. **Verification**: console probes with **armed instruments** - every probe
+   file starts with a deliberately fake keyword that MUST error, or the run
+   is void. Positive results come from `debug_log` sentinels and read-backs
+   with known answers, never from silence. Negative controls of the same
+   kind as the thing tested.
+3. **Behaviour**: A/B tests across two verified game launches (defines load
+   once at boot - the launch count must be checked in the log).
 
-Effects and triggers interleave in the pointer region, because the walk
-crosses many adjacent tables (32,725 pointers, of which 3,049 are keyword
-getters). Position alone does not classify: `set_variable` (17299) and
-`has_variable` (17473) sit close together, as do `add_country_modifier`
-(31535) and `has_country_modifier` (31604). The next step is to find the
-per-registry boundaries, or to link each keyword getter to the RTTI class
-that owns it.
+## Traps documented along the way (each cost a probe)
 
-## Method notes (hard-won)
-
-- **`strings` silently fails on this 136MB PE.** It returns nothing for
-  keywords that are demonstrably present. Always use raw byte search.
-- **Do not derive keywords from class names.** CamelCase to snake_case is
-  roughly 50% wrong: `CConstructRGOUpgradeEffect` becomes
-  `construct_r_g_o_upgrade`, but the real keyword is
-  `construct_rgo_upgrade`.
-- **Always byte-verify a candidate against the exe, with a deliberately
-  fake name as a negative control.** A check that cannot fail proves
-  nothing.
+- A parse error silently aborts an entire script file before line 1 runs.
+- An unresolvable script value kills a file with NO error at all.
+- An unknown TRIGGER evaluates as true - sentinels cannot prove triggers.
+- `Unknown effect X` vs `Unknown trigger type: "X"` - different formats.
+- `error.log` rotates mid-run into `error.1.log`; single-file reads lose data.
+- `debug.log` resets on launch - compare timestamps, never totals.
+- Never compare log timestamps as strings across midnight.
+- `strings` silently fails on the 136MB PE - use raw byte search.
+- CamelCase-to-snake_case keyword derivation is ~50% wrong (acronyms).
+- Loaded is not live: defines can be stored, readable and dead.
 
 ## Tools
 
-- `tools/pe.py` - minimal PE32+ reader: sections, image base, RVA and file
-  offset conversion.
-- `tools/rtti.py` - MSVC RTTI walker: class name to vtable VA.
-- `tools/extract_keywords.py` - walks the getter pointer region and reads
-  each interned keyword.
-
-Run them against your own installed `eu5.exe`. Nothing here redistributes
-game files.
+`tools/` contains the full pipeline: PE reader, RTTI walker, registry
+extractors, probe generators and log readers. Everything runs against your
+own installed `eu5.exe` - nothing from the game is redistributed.
