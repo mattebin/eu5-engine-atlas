@@ -136,3 +136,37 @@ read size) but not as lookup tables. Lists are the better tool today:
 `local_variable_map_size trigger [ Could not find list ... ]` appears in
 error.log for a line whose sentinel PASSED. Static validation cannot see
 console-created state. Judge by sentinels, not by error.log.
+
+---
+
+# Probe 7: sort_global_variable_list syntax
+
+`order` takes a **script value**, not a direction keyword. Probe 1 said
+"Order not set for sorting a variable list"; probe 2's `order = ascending`
+produced "Cannot read [ascending] as a script value". `ascending` and
+`descending` are not script tokens at all - the only occurrences in the
+binary are FBX and SDL strings.
+
+| form | result |
+|---|---|
+| `sort_global_variable_list = { name = X order = 1 }` | **accepted**, and the list verified intact afterwards |
+| `sort_global_variable_list = { name = X order = { value = 1 } }` | **accepted** |
+| `order = cabinet_stability_investment` (named script value) | **silent total rejection** |
+
+## Trap: a bad script value kills the file with NO error
+
+The named-script-value file executed nothing - not even its first
+`debug_log` - while its sabotage line still logged, proving the file was
+read. **error.log contained no explanation whatsoever.** `cabinet_stability_
+investment` is real, but lives in `main_menu/common/script_values/`, so it
+is presumably not resolvable from in-game script.
+
+A loud error is recoverable; this is not. If a probe file mysteriously does
+nothing, suspect an unresolvable script value reference before anything else.
+
+## Not proven
+
+Whether the sort actually ORDERS correctly. There is no confirmed way to
+read an element back out of a variable list, so only syntax acceptance is
+established here. Sorting by a constant is also degenerate by definition -
+a real ordering test needs a per-element script value.
