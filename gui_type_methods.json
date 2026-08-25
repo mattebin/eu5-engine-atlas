@@ -1,0 +1,9075 @@
+{
+ "ConsoleWindow": [
+  "IsMenuShown",
+  "ToggleMenu"
+ ],
+ "ConsoleMenuItem": [
+  "GetHelp",
+  "GetName",
+  "IsCurrentGroup",
+  "Select"
+ ],
+ "CreditsWindow": [
+  "OnClose",
+  "OnTogglePause"
+ ],
+ "DialogConfig": [
+  "GetAcceptText",
+  "GetDeclineText",
+  "GetDescription",
+  "GetTitle",
+  "OnAccept",
+  "OnDecline"
+ ],
+ "GameConceptTooltip": [
+  "GetDebugText",
+  "GetDescription",
+  "GetFamilyLink",
+  "GetFrame",
+  "GetFrameSize",
+  "GetIcon",
+  "GetOriginalAliasName",
+  "HasFamily",
+  "HasIcon"
+ ],
+ "ExtraTooltipInfo": [
+  "CloseContextMenu",
+  "GetSectionIndex",
+  "GetTintColor",
+  "GetUIAction",
+  "HasSections",
+  "HasUIAction",
+  "IsDelayedInfoShowing",
+  "TooltipIsReady"
+ ],
+ "TooltipString": [
+  "GetString"
+ ],
+ "RowList": [
+  "GetRows",
+  "GetTitle"
+ ],
+ "CPdxStringView": [
+  "GetStringView",
+  "IsStringViewNotEmptyOrNull"
+ ],
+ "FrontEndCreditsView": [
+  "OnBack"
+ ],
+ "FrontEndLoadView": [
+  "OnBack",
+  "SetInitSettings"
+ ],
+ "SaveListWindow": [
+  "GetPlaythroughs",
+  "IsPendingToReadSaveFiles",
+  "IsWindowEnabled"
+ ],
+ "FrontEndMainView": [
+  "AccessMarketingContainer",
+  "CanShowMarketing",
+  "CheckPlaysetAndStartNewGame",
+  "GetLanguageChoices",
+  "GetLatestPlaythrough",
+  "GetLatestPlaythroughTooltip",
+  "HasLatestPlaythrough",
+  "HasSelectedLanguageAndWaitingForReload",
+  "HideAllViews",
+  "HideNewGameWelcome",
+  "IsModsOpen",
+  "IsNewGameWelcomeShowing",
+  "OnContinue",
+  "OnCredits",
+  "OnHost",
+  "OnHostLoad",
+  "OnJoinGame",
+  "OnLoad",
+  "OnQuit",
+  "OnSettings",
+  "OpenAchievements",
+  "PromptNewGame",
+  "SelectLanguage",
+  "ToggleOpenMods"
+ ],
+ "GameDLC": [
+  "GetCategoryKey",
+  "GetIcon",
+  "GetName",
+  "GetTooltip",
+  "GetTooltipBackground",
+  "GetTooltipDesc",
+  "IsActivated",
+  "OnClick",
+  "OpenURL"
+ ],
+ "StatusWidget": [
+  "ConnectAccount",
+  "DisconnectAccount",
+  "Logout",
+  "ToggleCreateAccountWindow",
+  "ToggleCreateProfileWindow",
+  "ToggleLoginWindow"
+ ],
+ "PlaythroughItem": [
+  "Delete",
+  "GetDate",
+  "GetDifferentVersionDesc",
+  "GetFullPath",
+  "GetItems",
+  "GetMissingDLCString",
+  "GetMissingModsString",
+  "GetNumberOfSaves",
+  "GetPlaythroughLabel",
+  "GetSaveLabel",
+  "HasConfirmation",
+  "HasMissingDLC",
+  "HasMissingMods",
+  "IsCloudSave",
+  "IsDifferentVersion",
+  "IsIncompatible",
+  "IsIronman",
+  "IsMultiplayer",
+  "IsSelected",
+  "LoadLatest",
+  "ReplayLatest",
+  "Select"
+ ],
+ "CoatOfArmsWrapper": [
+  "GetFrame",
+  "GetFrameSizeOrFallback",
+  "GetSlot",
+  "GetTexture"
+ ],
+ "GetVariableSystem": [
+  "Clear",
+  "Exists",
+  "HasValue",
+  "Set",
+  "Toggle"
+ ],
+ "GameMpSetup": [
+  "CanLoad",
+  "GetLoadTooltip",
+  "OnBack",
+  "OnLoad",
+  "OnStart"
+ ],
+ "Scenario": [
+  "GetDesc",
+  "GetName",
+  "GetPlayStyleDesc",
+  "GetPlayStyleName",
+  "IsPlayStyleKey"
+ ],
+ "FrontEndSinglePlayerView": [
+  "GetSelectedScenario",
+  "HasSelectedScenario",
+  "OnBack",
+  "SelectProficiency",
+  "SelectScenario",
+  "StartGame",
+  "ToCountrySelect"
+ ],
+ "PlayerProficiency": [
+  "GetName"
+ ],
+ "SaveGameItem": [
+  "Delete",
+  "GetDate",
+  "GetDifferentVersionDesc",
+  "GetFullPath",
+  "GetMissingDLCString",
+  "GetMissingModsString",
+  "GetRealDate",
+  "GetSaveLabel",
+  "HasMissingDLC",
+  "HasMissingMods",
+  "IsCloudSave",
+  "IsDifferentVersion",
+  "IsIronman",
+  "IsMultiplayer",
+  "Replay",
+  "Select"
+ ],
+ "TitleDescTooltip": [
+  "GetDesc",
+  "GetTitle"
+ ],
+ "SaveNameWindow": [
+  "CanToggleCloudSaves",
+  "Cancel",
+  "CloudSaveTooltip",
+  "GetDefaultSaveName",
+  "GetSaveErrors",
+  "IsCloudSaveSelected",
+  "OnCloudSaveClick",
+  "Save"
+ ],
+ "GameSaveNameWindow": [
+  "CheckAndSave",
+  "GetDefaultPlaythroughSaveName",
+  "IsIronmanSave",
+  "IsSaveOk"
+ ],
+ "AccessPauseMenu": [
+  "SetInitSettings"
+ ],
+ "JominiLoadWindow": [
+  "Cancel"
+ ],
+ "ModToolsGui": [
+  "Close",
+  "CloseUploadingDialog",
+  "CreateStubMod",
+  "CurrentDataModel",
+  "Delete",
+  "GetDropdownValueIndex",
+  "GetRelativePathPrefix",
+  "HasLatestOperationResult",
+  "IsUploadingDialogOpen",
+  "LatestOperationResult",
+  "ModDescVerificationText",
+  "ModNameVerificationText",
+  "ModPathVerificationText",
+  "OnNewModDesc",
+  "OnNewModName",
+  "OnNewModPath",
+  "OpenCurrentItemFolder",
+  "OpenPage",
+  "SelectTab",
+  "SelectedIsInstalled",
+  "SelectedIsSubscribed",
+  "SetDropdownValueIndex",
+  "Subscribe",
+  "Tags",
+  "Unsubscribe",
+  "UploadFromFolder",
+  "UploadNewMod",
+  "VerifyModDesc",
+  "VerifyModName",
+  "VerifyModPath"
+ ],
+ "TagInfo": [
+  "IsSelected",
+  "Tag",
+  "ToggleSelected"
+ ],
+ "ModToolItem": [
+  "Name"
+ ],
+ "JominiServerBrowserGui": [
+  "RefreshServers",
+  "Sort"
+ ],
+ "FrontEndMultiplayerView": [
+  "OnBack"
+ ],
+ "InGameTopbar": [
+  "AccessAlertManager",
+  "AccessControlGroups",
+  "GetCurrentAdvanceUIAction",
+  "GetEstates",
+  "GetPlayer",
+  "GetPlayerCurrencyChangeFormatted",
+  "OnFlagAnimationEnds"
+ ],
+ "ReportIssueItem": [
+  "GetName",
+  "IsSelected",
+  "Toggle"
+ ],
+ "ReportIssueWindow": [
+  "CanSendReport",
+  "Confirm",
+  "GenerateReportFiles",
+  "GetAttachmentList",
+  "GetConfirmTooltip",
+  "GetFileGenerateTooltip",
+  "GetIssueCategories",
+  "GetIssueTypes",
+  "GetItemSortSearch",
+  "Hide",
+  "IsFileGenerationAvailable",
+  "IsGeneratingFiles",
+  "IsLoadingFormData",
+  "IsSendFailed",
+  "IsSending",
+  "OnCategorySelected",
+  "OnDescriptionTextChanged",
+  "OnIssueTypeSelected",
+  "OnStepsTextChanged",
+  "OnTitleTextChanged"
+ ],
+ "IssueElement": [
+  "GetName"
+ ],
+ "EcsSceneViewerDockable": [
+  "FitCameraToEntity",
+  "GenerateSceneDesc",
+  "GetAllScenes",
+  "GetSceneDropdownIndex",
+  "OnSceneDropdownChanged",
+  "SwitchCameraProjection",
+  "SwitchEnableInput",
+  "ToggleGrid",
+  "ToggleWireframe",
+  "UpdateText"
+ ],
+ "SceneData": [
+  "GetKey"
+ ],
+ "GUIAchievement": [
+  "AccessTexture",
+  "GetAchievement",
+  "GetDescription",
+  "GetName",
+  "OnClick",
+  "Remove"
+ ],
+ "Group": [
+  "AccessVisibleAchievements",
+  "IsCollapsed",
+  "ToggleCollapsed"
+ ],
+ "AchievementWindow": [
+  "AccessGroups",
+  "HasGameStarted",
+  "Hide",
+  "ShouldShowAll",
+  "ShouldShowPossible",
+  "ShouldShowUnlocked",
+  "ShowAll",
+  "ShowPossible",
+  "ShowUnlocked"
+ ],
+ "AchievementPopup": [
+  "AccessJustUnlockedAchievements"
+ ],
+ "ModsGui": [
+  "ActivePlayset",
+  "ApplyText",
+  "ApplyTooltip",
+  "AreAllDLCsToggled",
+  "AreAllModsToggled",
+  "BrowseModsTooltip",
+  "CanApply",
+  "CanCreatePlayset",
+  "ClearActivePlayset",
+  "ClearSelectedPlayset",
+  "CreatePlayset",
+  "CreatePlaysetTooltip",
+  "DeletePlayset",
+  "DownloadAndApplyChanges",
+  "FilteredNonDownloadedMods",
+  "GetActivePlaysetDropdownIndex",
+  "GetPlayset",
+  "GetTexture",
+  "HasExternalInterface",
+  "IsPlaysetActive",
+  "IsPlaysetApplied",
+  "IsValid",
+  "LocalMods",
+  "ModifiablePlaysets",
+  "OpenExternalInterface",
+  "SavePlayset",
+  "SetActivePlaysetId",
+  "SetSelectedPlaysetId",
+  "ToggleAllDLCs",
+  "ToggleAllMods"
+ ],
+ "ModsPlayset": [
+  "GetPlaysetIssuesDesc",
+  "HasPlaysetIssues",
+  "Mods",
+  "Name",
+  "Rename"
+ ],
+ "PdxGuiWidget": [
+  "AccessParent",
+  "FindChild",
+  "GetRemainingHeightInParent",
+  "GetTooltipMetaGameConcept",
+  "GetTooltipMetaTexture",
+  "GetTooltipMetaTitle",
+  "HasTooltipMetaGameConcept",
+  "HasTooltipMetaTitle",
+  "HasUIAction",
+  "Hide",
+  "IsKeyHoveredByWidgetName",
+  "IsTooltipLocked",
+  "IsUberButtonEnabled",
+  "KeepRatioFromHeightPercent",
+  "KeepRatioFromWidthPercent",
+  "PopMapModeOverride",
+  "PushMapModeOverride",
+  "SetAlertSmoothPositioning",
+  "SetBattleSubUnitHover",
+  "SetHighlightArea",
+  "SetHighlightCabinetActionTarget",
+  "SetHighlightCharacter",
+  "SetHighlightCountry",
+  "SetHighlightCulture",
+  "SetHighlightDynasty",
+  "SetHighlightFort",
+  "SetHighlightGoods",
+  "SetHighlightInternationalOrganization",
+  "SetHighlightLedger",
+  "SetHighlightLocation",
+  "SetHighlightMarket",
+  "SetHighlightObjectiveGeography",
+  "SetHighlightOwnGoods",
+  "SetHighlightProvince",
+  "SetHighlightProvinceDefinition",
+  "SetHighlightRebel",
+  "SetHighlightRegion",
+  "SetHighlightReligion",
+  "SetHighlightWarGoal",
+  "SetVisible",
+  "ToggleContextMenu",
+  "TriggerAnimation"
+ ],
+ "ModsPlaysetEntry": [
+  "Description",
+  "GetDisplayImage",
+  "GetIssues",
+  "GetLoadOrder",
+  "HasIssues",
+  "MoveLoadOrderDown",
+  "MoveLoadOrderUp",
+  "Name",
+  "OpenInFolder",
+  "Playset",
+  "SetLoadOrderFromText"
+ ],
+ "LocalMod": [
+  "Description",
+  "DisplayImage",
+  "DisplayName",
+  "GetIssues",
+  "HasIssues",
+  "OpenInFolder"
+ ],
+ "DlcEntry": [
+  "CanToggleEnabled",
+  "DisplayImage",
+  "GetToggleEnabledTooltip",
+  "IsEnabled",
+  "LocalizedName",
+  "ToggleEnabled"
+ ],
+ "NonDownloadedMod": [
+  "Description",
+  "DisplayName",
+  "Version"
+ ],
+ "JominiNotification": [
+  "GetAcceptButtonText",
+  "GetDeclineButtonText",
+  "GetText",
+  "GetTitle",
+  "OnAccept",
+  "OnDecline"
+ ],
+ "ModifierDebugInspectorPlugin": [
+  "GetScopeData"
+ ],
+ "CreateAccount": [
+  "Hide"
+ ],
+ "LegalDocsViewer": [
+  "Agree",
+  "GetDocumentText"
+ ],
+ "LoginView": [
+  "Hide"
+ ],
+ "CloseSettingsDialogWindow": [
+  "OnCancel",
+  "OnDiscard",
+  "OnSave"
+ ],
+ "EnumSettingEntry": [
+  "GetGUIName",
+  "GetRecommendedText",
+  "GetTooltip",
+  "IsSelected"
+ ],
+ "SettingsPage": [
+  "GetName",
+  "IsSelected",
+  "OnClick"
+ ],
+ "JominiSettingsWindow": [
+  "AccessPages",
+  "AppliedOnApply",
+  "AppliedOnRestart",
+  "GetInputActionName",
+  "GetInputBindingText",
+  "GetKeyCodeName",
+  "GetUserBindingFileName",
+  "GetWarningText",
+  "HasChanged",
+  "HasUserBindingFileName",
+  "IsConfirmButtonEnabled",
+  "IsCurrentActivePageId",
+  "IsInputPopUpEnabled",
+  "OnClickCancel",
+  "OnClickClear",
+  "OnClickConfirm",
+  "OnClickLoadDefaultProfile",
+  "OnClickLoadProfile",
+  "OnClickSaveProfile",
+  "OnEditProfileFileName",
+  "Restore",
+  "SaveAndClose",
+  "ShowInputPopUp"
+ ],
+ "JominiGUISetting": [
+  "GetBlockedReason",
+  "GetDesc",
+  "GetRelationDisabledReason",
+  "IsBlocked",
+  "IsModificationEnabled",
+  "ShouldShow"
+ ],
+ "PdxSetting": [
+  "GetTitle",
+  "GetTooltip"
+ ],
+ "PdxValueSetting": [
+  "GetFormattedPendingValue",
+  "GetPendingValue"
+ ],
+ "SettingCategory": [
+  "GetName",
+  "HasSettingsWidgets"
+ ],
+ "Age": [
+  "GetChangingModifierImpact",
+  "GetDebugText",
+  "GetDesc",
+  "GetGoodsDemandImpact",
+  "GetGoodsDemandImpactSummary",
+  "GetInstitutions",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPriceImpact",
+  "GetReformsCountForCountry",
+  "GetReformsNamesForCountry",
+  "GetResearchTreeStatus",
+  "GetUniqueModifierImpact",
+  "HasChangingModifierImpact",
+  "HasGoodsDemandImpact",
+  "HasUniqueModifierImpact"
+ ],
+ "InstitutionItem": [
+  "GetDescription",
+  "GetEmbraceConditions",
+  "GetEmbraceCost",
+  "GetEmbraceDescription",
+  "GetGotoBirthplaceTitle",
+  "GetInstitution",
+  "GetTitle",
+  "IsEmbraceEnabled",
+  "IsEmbraceVisible",
+  "IsEnabled",
+  "IsGotoBirthplaceEnabled",
+  "IsGotoBirthplaceVisible",
+  "IsVisible",
+  "OnEmbrace",
+  "OnGotoBirthplace"
+ ],
+ "Institution": [
+  "GetCurrentSpreadInPlayer",
+  "GetDebugText",
+  "GetFlavorText",
+  "GetGlobalSpawnCandidatesInformation",
+  "GetNameWithNoTooltip",
+  "GetOtherSpawn",
+  "GetPossibility",
+  "GetSpawnReasons",
+  "HasOtherSpawn",
+  "HasSpawned"
+ ],
+ "Player": [
+  "AutoCoinMinting",
+  "AutoRaiseArmyLeviesAtWar",
+  "AutoRaiseMaintenanceAtWar",
+  "AutoRaiseNavyLeviesAtWar",
+  "CanExtendRegency",
+  "CanMoveCapitalToLocation",
+  "CanTakeLand",
+  "CanUpgradeBuildingType",
+  "GenerateSceneDesc",
+  "GetActiveChivalricOrder",
+  "GetActiveOmens",
+  "GetArmyLevyPotentialStrength",
+  "GetArmyLevyPowerTooltip",
+  "GetArmyLevyPowerValue",
+  "GetAverageArmyExperience",
+  "GetAverageArmyExperienceInfo",
+  "GetAverageControl",
+  "GetAverageLiteracy",
+  "GetAverageNavyExperience",
+  "GetAverageNavyExperienceInfo",
+  "GetBondSizeText",
+  "GetCapital",
+  "GetCharacterDetails",
+  "GetCourtLanguage",
+  "GetCulture",
+  "GetCultureStatus",
+  "GetCurrencyValue",
+  "GetCurrentRegencyInfo",
+  "GetCurrentRegencyName",
+  "GetCurrentResearch",
+  "GetDataPointValueForHistoricalPop",
+  "GetDefaultLandMorale",
+  "GetDefaultLandMoraleTooltip",
+  "GetDefaultNavalMorale",
+  "GetDefaultNavalMoraleTooltip",
+  "GetDescriptionFor",
+  "GetDiplomacy",
+  "GetDoubleDescriptionFor",
+  "GetDoubleModifierValue",
+  "GetDoubleModifierValueCapped",
+  "GetDoubleModifierValueNoFormat",
+  "GetDoubleModifierValueNoFormatTruncated",
+  "GetEconomicalBase",
+  "GetEconomy",
+  "GetEmploymentSystem",
+  "GetEndDataDate",
+  "GetExpectedNavySize",
+  "GetExtendRegencyInfo",
+  "GetFixedPointCurrencyValue",
+  "GetGodInvokingOmen",
+  "GetGovernment",
+  "GetHistoricalMaxPopulation",
+  "GetHistoricalMinPopulation",
+  "GetHistoricalPopulation",
+  "GetHistoryDesc",
+  "GetHolySites",
+  "GetIncomeTooltip",
+  "GetIncomeValue",
+  "GetInstitutionMissingMinimumPercent",
+  "GetInstitutionSpreadValue",
+  "GetLevyRecoveryInfo",
+  "GetLivingCharacters",
+  "GetLongName",
+  "GetMaintenanceEfficiencyRealValue",
+  "GetMaxManpowerValue",
+  "GetMaxOfferedOmens",
+  "GetMaxSailorValue",
+  "GetMilitaryStrengthForRelativePower",
+  "GetMilitaryStrengthForRelativePowerTooltip",
+  "GetMissionProgress",
+  "GetModifierRawValue",
+  "GetModifierTooltipContext",
+  "GetModifierValue",
+  "GetModifierValueNoFormat",
+  "GetMoveCapitalToLocationConditions",
+  "GetMoveCapitalToLocationTooltip",
+  "GetNavyLevyPower",
+  "GetNavyLevyPowerTooltip",
+  "GetNavyLevyPowerValue",
+  "GetNavySizeTooltip",
+  "GetNavySizeValue",
+  "GetNavyStrength",
+  "GetNumBonds",
+  "GetNumTownRights",
+  "GetNumberOfCharacters",
+  "GetOmenPowerModifier",
+  "GetOmenPowerModifierGods",
+  "GetOmenPowerModifierTooltip",
+  "GetOmenTimeLeft",
+  "GetOmensHand",
+  "GetPossibleBuildingSubjectRegionsAmount",
+  "GetPossibleReleasableCountriessAmount",
+  "GetPossibleTotalSubjectsAmount",
+  "GetProvinces",
+  "GetRaisedRegularArmySizeTooltip",
+  "GetRegularArmySize",
+  "GetRelativeSubjectPower",
+  "GetReligion",
+  "GetReligionPercentage",
+  "GetReligiousUnity",
+  "GetScore",
+  "GetSocietalValueDirectionTooltip",
+  "GetSocietalValuePositionTooltip",
+  "GetStartDataDate",
+  "GetStarvingProvinces",
+  "GetStarvingProvincesAmount",
+  "GetTimedModifierOwner",
+  "GetTotalPopulation",
+  "GetTotalPopulationNoLink",
+  "GetTotalShips",
+  "GetTotalStrength",
+  "GetTotalTaxBase",
+  "GetTotalWealth",
+  "GetTradeConnectionsTooltip",
+  "GetWinterAffectedLocations",
+  "GetWinterAffectedLocationsAmount",
+  "HasActiveChivalricOrder",
+  "HasAnyMovementPresent",
+  "HasDoom",
+  "HasEmbracedInstitution",
+  "HasEnoughHistoricalPopulation",
+  "HasSpecialStatus",
+  "IsAutoExtendMercenaries",
+  "IsCourtDialectSelected",
+  "IsEnemy",
+  "IsGreatPower",
+  "IsInvokingOmen",
+  "IsMemberOfInternationalOrganization",
+  "IsMintingInefficient",
+  "IsMovingCapital",
+  "MakeScope"
+ ],
+ "Advance": [
+  "GetAge",
+  "GetDefinition",
+  "GetNameWithNoTooltip",
+  "IsResearchedByPlayer"
+ ],
+ "AdvanceDefinition": [
+  "GetAge",
+  "GetDebugText",
+  "GetDesc",
+  "GetEffects",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetRequirementInfo",
+  "HasNavyUnlocks",
+  "HasSubunitUnlocks"
+ ],
+ "TechnologyLateralView": [
+  "GetAges",
+  "GetAutocompleteFromKey",
+  "GetInstitutionItems",
+  "GetNewReforms",
+  "GetNewReformsTooltip",
+  "GetPriceMarket",
+  "GetPriceMarketTooltip",
+  "GetResearchSpeedTooltip",
+  "GetSearchBar",
+  "GetSelectedAgeTechTree",
+  "IsAgeSelected",
+  "SelectAge"
+ ],
+ "AdvancesLateralView": [
+  "GetAdvancesSortSearch",
+  "GetAgeAdvances",
+  "GetAgeIllustration",
+  "GetAgeInstitutionItems",
+  "GetAges",
+  "GetAllAdvances",
+  "GetAverageLiteracyTT",
+  "GetHeroProgressResearched",
+  "GetHeroProgressTooltip",
+  "GetHeroProgressTotal",
+  "GetInstitutionItems",
+  "GetPriceMarket",
+  "GetPriceMarketTooltip",
+  "GetResearchQueueSize",
+  "GetResearchSpeedTooltip",
+  "GetUniqueAdvances",
+  "GetUniqueAdvancesForAge",
+  "GetUniqueAdvancesSortSearch",
+  "Vars"
+ ],
+ "BuildingItem": [
+  "AreBuildingsUnderConstruction",
+  "CanCreateBuilding",
+  "CanDequeue",
+  "CanDequeueDesc",
+  "CanDestroy",
+  "CanDestroyDesc",
+  "CreateBuilding",
+  "Dequeue",
+  "Destroy",
+  "GetBuilding",
+  "GetBuildingCandidates",
+  "GetBuildingItemUIAction",
+  "GetBuildingType",
+  "GetBuildings",
+  "GetBuildingsInputGoodsInformation",
+  "GetButtonIcon",
+  "GetCost",
+  "GetEstate",
+  "GetMaxIncome",
+  "GetMinIncome",
+  "GetNoCandidateUIAction",
+  "GetPossibleProfitInfo",
+  "GetProductionMethods",
+  "GetProfitBreakdown",
+  "GetTotalIncome",
+  "GetTotalLevel",
+  "GetTotalLevelsUnderConstruction",
+  "GetTotalNetProfit",
+  "GetTotalUpkeep",
+  "HasBuildings",
+  "HasBuildingsLackingInput",
+  "HasEstate",
+  "HasMinIncome",
+  "OnMouseEnter",
+  "ShowBuildings"
+ ],
+ "Country": [
+  "CountryIsHeir",
+  "CountryIsInLineOfSuccessionNotHeir",
+  "Exists",
+  "GenerateSceneDesc",
+  "GetAcceptedCulturesInfo",
+  "GetActiveAreaPreferencesInfo",
+  "GetAgePreferenceInfo",
+  "GetAiPersonality",
+  "GetArmyBreakdown",
+  "GetArmyLevyPowerTooltip",
+  "GetArmyLevyPowerValue",
+  "GetArtTooltip",
+  "GetAverageControlInfo",
+  "GetBestArmyUnits",
+  "GetBestNavyUnits",
+  "GetCapital",
+  "GetCardinals",
+  "GetColonialCharters",
+  "GetCountryDescriptionCategoryDesc",
+  "GetCountryDescriptionCategoryName",
+  "GetCountryGhibellinesProgress",
+  "GetCountryGuelphsProgress",
+  "GetCountryReleaseInfo",
+  "GetCountryTypeDesc",
+  "GetCountryTypeNameWithNoTooltip",
+  "GetCourtLanguage",
+  "GetCreditworthinessBankruptcyDrain",
+  "GetCreditworthinessBaseRating",
+  "GetCreditworthinessEffectiveRating",
+  "GetCreditworthinessImpactInfo",
+  "GetCreditworthinessMonthlyPull",
+  "GetCreditworthinessMonthlyPullBreakdown",
+  "GetCreditworthinessTarget",
+  "GetCreditworthinessTargetBreakdown",
+  "GetCrownPowerPerLocationTooltip",
+  "GetCulture",
+  "GetCurrencyTooltipDescription",
+  "GetCurrencyTooltipHint",
+  "GetCurrencyTooltipValueDescription",
+  "GetCurrencyValue",
+  "GetCurrentFortsAmount",
+  "GetCurrentFortsAmountInfo",
+  "GetDebugText",
+  "GetDefaultLandMoraleTooltip",
+  "GetDescriptionFor",
+  "GetDifficultyLevelDesc",
+  "GetDifficultyLevelName",
+  "GetDiplomacy",
+  "GetDiplomaticCurrency",
+  "GetDiplomaticCurrencyDesc",
+  "GetDispositionToPlayer",
+  "GetDispositionToPlayerBreakdown",
+  "GetDispositionToPlayerDesc",
+  "GetDispositionToPlayerExpect",
+  "GetDispositionTowardMapPerspective",
+  "GetDoubleDescriptionFor",
+  "GetDoubleModifierValueNoFormatTruncated",
+  "GetDynamicQuickDiplomaticActions",
+  "GetEconomicalBase",
+  "GetEconomicalBaseInfo",
+  "GetEconomy",
+  "GetEndDataDate",
+  "GetEstimatedMonthlyIncome",
+  "GetFixedPointCurrencyValue",
+  "GetFortLimit",
+  "GetGDP",
+  "GetGainingGreatPowerScoreInfo",
+  "GetGovernment",
+  "GetGreatPowerBonusInfo",
+  "GetGreatPowerRank",
+  "GetGreatPowerScore",
+  "GetGreatPowerScoreInfo",
+  "GetHegemons",
+  "GetHistoricalEconomicalBase",
+  "GetHistoricalMaxEconomicalBase",
+  "GetHistoricalMaxPopulation",
+  "GetHistoricalMaxTaxBase",
+  "GetHistoricalMinEconomicalBase",
+  "GetHistoricalMinPopulation",
+  "GetHistoricalMinTaxBase",
+  "GetHistoricalPopulation",
+  "GetHistoricalTaxBase",
+  "GetHolySites",
+  "GetIncomeTooltip",
+  "GetIncomeValue",
+  "GetInstitutionActiveCount",
+  "GetInstitutionEmbracedCount",
+  "GetInstitutionInfo",
+  "GetInternationalOrganizations",
+  "GetIsHumanCountryTooltip",
+  "GetKey",
+  "GetLastMonthsPopulationText",
+  "GetLivingArtistsForUI",
+  "GetLongName",
+  "GetLongNameWithFlag",
+  "GetLongNameWithNoTooltip",
+  "GetLosingGreatPowerScoreInfo",
+  "GetManpowerPerLocationTT",
+  "GetMapColor",
+  "GetMaxManpowerTT",
+  "GetMaxManpowerValue",
+  "GetMaxSailorValue",
+  "GetMaxSailorsTT",
+  "GetMercenaryArmySize",
+  "GetMilitaryStance",
+  "GetMilitaryStrengthForRelativePower",
+  "GetMilitaryStrengthForRelativePowerTooltip",
+  "GetModifierValue",
+  "GetModifierValueNoFormat",
+  "GetMonthlyCountryGhibellinesProgress",
+  "GetMonthlyCountryGuelphsProgress",
+  "GetMonthlyCurrencyChangeBreakdown",
+  "GetName",
+  "GetNameWithFlag",
+  "GetNameWithNoTooltip",
+  "GetNavyBreakdown",
+  "GetNavyLevyPowerValue",
+  "GetNavySizeTooltip",
+  "GetNavySizeValue",
+  "GetNavyStrength",
+  "GetNumWorksOfArt",
+  "GetObjectivesDisplayText",
+  "GetOwnedLocationCount",
+  "GetOwnedLocationsInfo",
+  "GetPersonalityMapmodeTitle",
+  "GetPersonalityMapmodeTooltip",
+  "GetPlayerDiplomacyInfo",
+  "GetPopulationChart",
+  "GetPotentialAndBeingRaisedArmyLevyBreakdown",
+  "GetPotentialNavyLevyPowerTooltip",
+  "GetPowerProjection",
+  "GetQuickDiplomaticActions",
+  "GetRaisedAndPotentialLevyStrength",
+  "GetRaisedAndPotentialNavyLevyStrength",
+  "GetRaisedPotentialLevyAndRegularArmyStrength",
+  "GetRaisedRegularArmySizeTooltip",
+  "GetRank",
+  "GetRegionalPowerBonusInfo",
+  "GetRegularArmySize",
+  "GetRegularNavySize",
+  "GetReligion",
+  "GetSailorsPerLocationTT",
+  "GetSaints",
+  "GetSelectedCountryDiplomacyInfo",
+  "GetStartDataDate",
+  "GetTaxBaseGoodsInfo",
+  "GetTaxBaseLocationInfo",
+  "GetTimedModifiers",
+  "GetTotalArmyStrengthAndPotentialLevies",
+  "GetTotalNavyStrengthAndPotentialLevies",
+  "GetTotalPopulation",
+  "GetTotalPopulationNoLink",
+  "GetTotalShips",
+  "GetTotalTaxBase",
+  "GetTotalWealth",
+  "GetUniqueAdvancesInfo",
+  "GetWealthGoodsInfo",
+  "GetWealthLocationInfo",
+  "GetYearlyDataPointValue",
+  "GetYearlyDataPointValueEconomicalBase",
+  "HasCapital",
+  "HasCountryDescriptionCategory",
+  "HasDifficultyLevel",
+  "HasEnoughHistoricalPopulation",
+  "HasHint",
+  "HasHumanController",
+  "HasModifierValue",
+  "HasSpecialStatus",
+  "HasTooManyCultures",
+  "IsAllied",
+  "IsBankruptcyDrainActive",
+  "IsBeingAnnexed",
+  "IsCurrencyValueEqualOrLessThanZero",
+  "IsDominantCountryOfPrimaryCulture",
+  "IsGainingGreatPowerStatus",
+  "IsGreatPower",
+  "IsHegemon",
+  "IsLocalPlayer",
+  "IsLosingGreatPowerStatus",
+  "IsMemberOfInternationalOrganization",
+  "IsNeutral",
+  "IsPlayer",
+  "IsRegionalPower",
+  "IsValid",
+  "MakeScope",
+  "Self",
+  "StartObservingCountry"
+ ],
+ "Building": [
+  "GetBuildingProductionEfficiency",
+  "GetBuildingProductionEfficiencyInfo",
+  "GetCountryModifiers",
+  "GetDebugText",
+  "GetEffectiveOutput",
+  "GetEffectiveOutputInfo",
+  "GetEmploymentPercentForPiechart",
+  "GetEmploymentSize",
+  "GetEstablishmentProgressFraction",
+  "GetEstablishmentTooltip",
+  "GetFlavorName",
+  "GetFortMaintenanceValue",
+  "GetHasEstablishmentRamp",
+  "GetIncomeBreakdown",
+  "GetIncomeToOwner",
+  "GetIncomeToOwnerPerLevel",
+  "GetInputGoodsInformation",
+  "GetLaidOffPercentForPiechart",
+  "GetLevel",
+  "GetLevelsUnderConstruction",
+  "GetLocation",
+  "GetLocationModifiers",
+  "GetMarketInfo",
+  "GetMaxLevel",
+  "GetMaxWorkersRequired",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOwner",
+  "GetPotentialProfitPerLevelInfo",
+  "GetProductionMethods",
+  "GetProfit",
+  "GetProfitPerLevel",
+  "GetSubsidizeInfo",
+  "GetTaxBaseValue",
+  "GetType",
+  "GetUpkeep",
+  "GetUpkeepInfo",
+  "GetVacantPercentForPiechart",
+  "IsMissingGood",
+  "IsOpen",
+  "IsProducing",
+  "IsProductionMethodsLocked",
+  "IsSubsidized",
+  "IsUnderConstruction",
+  "ShowHostileInfo"
+ ],
+ "BuildingType": [
+  "BuildOnlyInCapital",
+  "CanBuildInLocationRank",
+  "GetAge",
+  "GetCategory",
+  "GetConstructionDemand",
+  "GetDebugText",
+  "GetEligibleEstate",
+  "GetEmploymentSize",
+  "GetFlavorText",
+  "GetForeignRequirments",
+  "GetModifierInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetObsoleteBuildingInLocation",
+  "GetPopType",
+  "GetPossibleProductionMethods",
+  "GetProductionMethodsLabel",
+  "GetReplacedBy",
+  "GetRequirements",
+  "GetUnlocks",
+  "HasAnyRequirements",
+  "HasConstructionGoodsDemand",
+  "HasUpgradeChain",
+  "IsForeign",
+  "IsMultipleLevels",
+  "IsObsoleteBuildingInLocation",
+  "IsProducing",
+  "IsSpecialBuilding",
+  "IsUpgradeable",
+  "NeedsAdvance",
+  "OnlyEstatesCanBuild",
+  "ProductionEfficiencyInfo",
+  "ShowForPlayer"
+ ],
+ "PossibleProductionMethods": [
+  "GetMethods",
+  "GetName"
+ ],
+ "QuickBuildingTypeInfo": [
+  "GetBuildCostAndTime",
+  "GetChain",
+  "MakesObsolete",
+  "ReplacedBy"
+ ],
+ "ConstructScoreRanking": [
+  "GetBuildingType",
+  "GetConstructScoreItems",
+  "GetCost",
+  "GetGoods",
+  "GetInvalidFirstItem",
+  "GetLastConstruction",
+  "GetLastConstructions",
+  "HasConstructionToDequeue",
+  "HasProfit",
+  "HasScoreItems",
+  "IsValid"
+ ],
+ "ConstructScoreItem": [
+  "GetCostValue",
+  "GetEmployabilityStr",
+  "GetLocation",
+  "GetNetProfitValue"
+ ],
+ "ProductionView": [
+  "GetBestBuildLocation",
+  "GetBuildRankingItems",
+  "GetBuildingItems",
+  "GetBuildingTypeCategories",
+  "GetBuildingsSortSearch",
+  "GetEstateBuildingLocations",
+  "GetEstateBuildingsSortSearch",
+  "GetForeignBuildingLocations",
+  "GetForeignBuildingsSortSearch",
+  "GetSelectedLocation",
+  "GetSelectedMarket",
+  "HasBestBuildLocation",
+  "IsLocationFilterEnabled",
+  "IsMarketFilterEnabled",
+  "IsProductionSelectMarketOpened",
+  "RebuildBuildRankingItems",
+  "RemoveMarketFilter",
+  "ToggleProductionSelectMarket",
+  "Vars"
+ ],
+ "ActiveProductionMethod": [
+  "GetMethod"
+ ],
+ "ProductionMethodItem": [
+  "GetAllProductionMethods",
+  "GetAvailableInfo",
+  "GetProductionMethod",
+  "GetProfit",
+  "GetProfitInfo",
+  "HasProductionMethod",
+  "OnClick"
+ ],
+ "Construction": [
+  "GetBuilding",
+  "GetCountry",
+  "GetEstateType",
+  "GetGoodsDemand",
+  "GetInverseProgress",
+  "GetLocation",
+  "GetMissingGoodsInfo",
+  "GetNameWithNoTooltip",
+  "GetProgress",
+  "GetProgressColor",
+  "GetStalledReason",
+  "GetTooltip",
+  "HasGoodsDemand",
+  "IsBuilding",
+  "IsBuiltByEstate",
+  "IsMarket",
+  "IsRGO",
+  "IsStalled",
+  "LackedInput"
+ ],
+ "Location": [
+  "CanBuildArmyForCountry",
+  "CanBuildSailorsForCountry",
+  "CanCreateMarket",
+  "CanDestroyMarket",
+  "CanDowngradeRank",
+  "CanInstitutionSpread",
+  "CanReduceRGO",
+  "CanTransferOccupation",
+  "CanUpgradeRGO",
+  "CanUpgradeRank",
+  "GenerateSceneDesc",
+  "GetAppliedAttrition",
+  "GetArea",
+  "GetArtEffect",
+  "GetAttritionAndFoodConsumptionPenaltyTooltip",
+  "GetAttritionDescription",
+  "GetAverageSatisfactionImpact",
+  "GetAverageSatisfactionInfo",
+  "GetBlockadeImpact",
+  "GetBreachLevel",
+  "GetBuildingLevelInfo",
+  "GetBuildingLevelsPercentage",
+  "GetCapacityPercentage",
+  "GetCivilConstructions",
+  "GetCivilConstructionsNeededPops",
+  "GetClimate",
+  "GetColonialClaimsInfo",
+  "GetColonialRangeInfo",
+  "GetCombat",
+  "GetControl",
+  "GetControlEffect",
+  "GetControlInfo",
+  "GetController",
+  "GetCores",
+  "GetCoresList",
+  "GetCreateMarketConditions",
+  "GetCreateMarketPrice",
+  "GetCurrentIntegrationInfo",
+  "GetCurrentIntegrationInfoForCountry",
+  "GetCurrentProgressInfo",
+  "GetDaysUntilNextBreachRepair",
+  "GetDebugText",
+  "GetDescriptionFor",
+  "GetDestroyMarketConditions",
+  "GetDestroyMarketPrice",
+  "GetDestroyMarketPriceDesc",
+  "GetDevelopment",
+  "GetDevelopmentEffect",
+  "GetDialectName",
+  "GetDiseaseInfo",
+  "GetDiseaseResistance",
+  "GetDominantCulture",
+  "GetDominantDialect",
+  "GetDominantLanguage",
+  "GetDominantReligion",
+  "GetDowngradeRankConditions",
+  "GetDowngradeRankDescription",
+  "GetDowngradeRankEffects",
+  "GetDowngradeRankPrice",
+  "GetEffectiveUnEmployed",
+  "GetEmploymentInfo",
+  "GetEmploymentValue",
+  "GetEndemicRiskInfo",
+  "GetEstateTaxBase",
+  "GetEstateTaxBasePercent",
+  "GetExpectedUnEmployed",
+  "GetExportsAmount",
+  "GetExportsInfo",
+  "GetFlavorText",
+  "GetFoodConsumption",
+  "GetFoodConsumptionInfo",
+  "GetFoodDecayInfo",
+  "GetFoodSources",
+  "GetFoodsOutput",
+  "GetFoodsOutputModifiers",
+  "GetFoodsOutputModifiersTooltip",
+  "GetFoodsOutputWithLabel",
+  "GetFortInfo",
+  "GetFortLevel",
+  "GetGarrison",
+  "GetGrowthTooltip",
+  "GetHarborCapacityImpactInfo",
+  "GetHolySites",
+  "GetHostilePiratesPower",
+  "GetHostilePrivateersPower",
+  "GetImportsAmount",
+  "GetImportsInfo",
+  "GetInstitutionInfo",
+  "GetIntegrationFinishedInfo",
+  "GetIntegrationHeader",
+  "GetIntegrationInfo",
+  "GetIntegrationProgressFloat",
+  "GetListOfCountries",
+  "GetLiteracyInfo",
+  "GetLocalDefensive",
+  "GetLocalDefensiveInfo",
+  "GetLocalMigrationAttraction",
+  "GetLocalMigrationAttractionInfo",
+  "GetMapmodeSpecificTooltip",
+  "GetMaritimePresencesInfo",
+  "GetMarket",
+  "GetMarketAccess",
+  "GetMarketAccessBreakdown",
+  "GetMarketAccessWithTooltip",
+  "GetMarketAttractionInfo",
+  "GetMaxControl",
+  "GetMaxControlInfo",
+  "GetMaxGarrison",
+  "GetMaxRGOWorkers",
+  "GetMaxRGOWorkersUnderConstruction",
+  "GetMaximumMaxRGOWorkersInfoForUI",
+  "GetMaximumMaxRGOWorkersValueForUI",
+  "GetMigrationInformation",
+  "GetMissingLocationPops",
+  "GetMissingWorkers",
+  "GetModifierValue",
+  "GetMonthlyControl",
+  "GetMonthlyControlInfo",
+  "GetMonthlyDevelopmentChangeInfo",
+  "GetMovementResistanceLabel",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNaturalHarborImpactInfo",
+  "GetNumWorksOfArt",
+  "GetNumZocNeighbours",
+  "GetNumZocNeighbusInfo",
+  "GetNumofInstitutionsEmbraced",
+  "GetNumofInstitutionsKnown",
+  "GetOwner",
+  "GetPeasantEnfranchisment",
+  "GetPeasantEnfranchismentInfo",
+  "GetPopCapTooltip",
+  "GetPopGrowth",
+  "GetPopGrowthInfo",
+  "GetPopTypeBreakDown",
+  "GetPopTypeInfo",
+  "GetPopulationCapacityInfo",
+  "GetPopulationChangeLabel",
+  "GetPopulationChart",
+  "GetPresentArt",
+  "GetPresentPopTypes",
+  "GetPromote",
+  "GetPromoteInfo",
+  "GetPromotePopByPopType",
+  "GetPromotePopFactors",
+  "GetProsperity",
+  "GetProsperityChangeInfo",
+  "GetProsperityEffect",
+  "GetProvince",
+  "GetProvinceDefinition",
+  "GetProximityEffect",
+  "GetProximityInfo",
+  "GetProximityToOwnerCapital",
+  "GetQuickRebelLocationList",
+  "GetRGOCost",
+  "GetRGOProfitPerLevel",
+  "GetRGOWorkers",
+  "GetRank",
+  "GetRankAndName",
+  "GetRankIcon",
+  "GetRawMaterial",
+  "GetRawMaterialsOutputBreakdown",
+  "GetReduceRGOTooltip",
+  "GetRegion",
+  "GetRevokeFirstTownRightCost",
+  "GetRiverCrossingLocations",
+  "GetRiverProximityLocations",
+  "GetRoadsInfo",
+  "GetRomanFortLevel",
+  "GetScriptedCoreExpiryDate",
+  "GetSiege",
+  "GetSoundTollInfo",
+  "GetSpecificBaseModifier",
+  "GetSubContinent",
+  "GetSupplyLimitInfo",
+  "GetTooManyBuildingInfo",
+  "GetTooltipBreakdownProperties",
+  "GetTopography",
+  "GetTotalIncome",
+  "GetTotalPopList",
+  "GetTotalPopTypeSize",
+  "GetTotalPopulation",
+  "GetTotalPopulationWithBreakDown",
+  "GetTotalPossibleTaxBase",
+  "GetTotalTaxBase",
+  "GetTownRights",
+  "GetTransferOccupationTooltip",
+  "GetUITooltip",
+  "GetUnitsSelectedTooltipForLocation",
+  "GetUpgradeRGOBuildCostAndTime",
+  "GetUpgradeRGOConstructionDemand",
+  "GetUpgradeRGOTooltip",
+  "GetUpgradeRankConditions",
+  "GetUpgradeRankDescription",
+  "GetUpgradeRankEffects",
+  "GetUpgradeRankName",
+  "GetUpgradeRankPrice",
+  "GetUpgradeRankPriceBreakdown",
+  "GetUsedSupplyAndMax",
+  "GetVegetation",
+  "GetVictoryCardInfo",
+  "GetWinterDetails",
+  "GetWinterInfo",
+  "GetWinterName",
+  "HasAnyDiseaseResistance",
+  "HasAnyFort",
+  "HasAnyPresence",
+  "HasColonialClaimsInfo",
+  "HasCombat",
+  "HasDiseaseResistance",
+  "HasEarthquakes",
+  "HasEndemicRisk",
+  "HasFlavorText",
+  "HasFort",
+  "HasInstitution",
+  "HasMapmodeSpecificTooltip",
+  "HasOwner",
+  "HasRiverSize1",
+  "HasRiverSize2",
+  "HasRiverSize3",
+  "HasRiverSize4",
+  "HasRiverSize5",
+  "HasSiege",
+  "HasSoundToll",
+  "HasSpecificBaseModifier",
+  "HasTooManyBuildingLevel",
+  "HasUpgradeRGOConstructionDemand",
+  "HasVictoryCard",
+  "HasVolcano",
+  "HasWinter",
+  "IsBlockadedByEnemies",
+  "IsCapital",
+  "IsCoastal",
+  "IsCorridor",
+  "IsCurrentlyBeingIntegrated",
+  "IsFrozen",
+  "IsLand",
+  "IsMarketCenter",
+  "IsMaxRGOWorkersUnderConstruction",
+  "IsOccupied",
+  "IsPlayerLocation",
+  "IsPossibleToOwn",
+  "IsProvinceCapital",
+  "MakeScope",
+  "ReduceRGO",
+  "RevokeFirstTownRight",
+  "ShouldShowScriptedCoreExpiry",
+  "ShowMarketForMapModeTooltip",
+  "ShowMoveCapital",
+  "UpgradeRGO"
+ ],
+ "BuildInLocationLateralView": [
+  "BuildBestFromRankingItemsCtrl",
+  "BuildBestFromRankingItemsDefault",
+  "BuildBestFromRankingItemsShift",
+  "CancelAllLastBuildLocations",
+  "GetBestBuildLocationItem",
+  "GetBuildRankingItems",
+  "GetBuildRankingTooltipTitle",
+  "GetBuildingType",
+  "GetEstate",
+  "GetItems",
+  "GetItemsSortSearch",
+  "GetLastBuildLocationItem",
+  "GetPossibleProductionMethodItems",
+  "GetSelectedMarket",
+  "GetUpgradeRankingTooltipTitle",
+  "HasBestBuildLocationItem",
+  "HasBuildedOrConstructions",
+  "HasEstate",
+  "HasLastBuildLocationItem",
+  "HasMissingGoods",
+  "IsBuildLocationSelectMarketOpened",
+  "IsMarketFilterEnabled",
+  "IsMassUpgradeMode",
+  "IsMissingInputGoods",
+  "RemoveMarketFilter",
+  "ShowAllBuildingsProdMethods",
+  "SubsidizeAllBuildings",
+  "ToggleAutoExpandAllBuildings",
+  "ToggleBuildLocationSelectMarket",
+  "ToggleCloseAllBuildings"
+ ],
+ "LocationToBuildItem": [
+  "CanCreateBuilding",
+  "CanDequeue",
+  "CanDequeueDesc",
+  "CanDestroy",
+  "CanDestroyDesc",
+  "CanDestroyDescCtrl",
+  "CanDestroyDescShift",
+  "CreateBuildingCtrl",
+  "CreateBuildingDefault",
+  "CreateBuildingShift",
+  "Dequeue",
+  "DestroyCtrl",
+  "DestroyDefault",
+  "DestroyShift",
+  "GetBuilding",
+  "GetBuildingType",
+  "GetCost",
+  "GetLocation",
+  "GetMaxLevel",
+  "GetProductionMethods",
+  "GetProfitInfo",
+  "GetProfitValue",
+  "HasBuilding",
+  "HasConstructedBuildingLevels",
+  "HasMissingGoods",
+  "OnClickProductionMethod"
+ ],
+ "Cabinet": [
+  "ArePossibleCabinetCharactersAvailable",
+  "AssigningCabinetMemberToSlot",
+  "GetAction",
+  "GetActionEffectTextOnActivated",
+  "GetActionProgress",
+  "GetActionProgressTooltipSections",
+  "GetActionProgressWordier",
+  "GetCharacter",
+  "GetDescriptionForAssigningCabinetMemberToSlot",
+  "GetDescriptionForReplacingCabinetMemberToSlot",
+  "GetEffectiveSkill",
+  "GetEffectiveSkillImpactInfo",
+  "GetEffectiveSkillOnlyEffect",
+  "GetEffectiveSkillPositiveOnlyEffect",
+  "GetEffectiveSkillTooltip",
+  "GetGovernmentPowerMonthlyModifier",
+  "GetNameWithNoTooltip",
+  "GetPriceForAssigningCabinetMemberToSlot",
+  "GetSocietalValue",
+  "GetSocietalValueCurrentNumber",
+  "GetSocietalValueTotal",
+  "GetTooltip",
+  "IsActive",
+  "IsCharacterSet"
+ ],
+ "CabinetAction": [
+  "GetDebugText",
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "IsAbilityType"
+ ],
+ "CabinetActionProgressTooltipSection": [
+  "GetString"
+ ],
+ "CabinetItem": [
+  "ChangeCabinetActionTarget",
+  "GetActionProgressLongWordier",
+  "GetAssignMemberCost",
+  "GetAssignMemberDescription",
+  "GetCabinet",
+  "GetReplaceMemberCost",
+  "GetReplaceMemberDescription",
+  "IsAssignMemberEnabled",
+  "IsAssignMemberVisible",
+  "IsChangeCabinetActionTargetEnabled",
+  "IsChangeCabinetActionTargetVisible",
+  "IsEnabled",
+  "IsReplaceMemberEnabled",
+  "IsReplaceMemberVisible",
+  "OnAssignMember",
+  "OnReplaceMember",
+  "SelectCabinetAction",
+  "ToggleLockedStatus"
+ ],
+ "GoodsDemandEntry": [
+  "GetGoods",
+  "GetValue"
+ ],
+ "GoodsDemand": [
+  "GetEntries",
+  "GetInfoForUI",
+  "GetName",
+  "GetNameForTooltip"
+ ],
+ "DiplomacyLateralView": [
+  "GenerateSceneDesc",
+  "GetCountries",
+  "GetCountriesSortSearch",
+  "GetDiplomaticRange",
+  "GetDiplomaticRangeTooltip",
+  "GetDiplomaticRelations",
+  "GetDiplomaticRelationsSortSearch",
+  "GetOngoingRelationCountries",
+  "GetOrgsItems",
+  "GetOrgsSortSearch",
+  "GetPlayer",
+  "GetQuickDiplomaticActions",
+  "HasOngoingRelations",
+  "IsGreatPowerFilterEnabled",
+  "ToggleGreatPowerFilter",
+  "Vars"
+ ],
+ "SubjectItem": [
+  "GetConnectivity",
+  "GetConnectivityTooltip",
+  "GetCountry",
+  "GetEffectiveLongNameWithNoTooltip",
+  "GetEnabled",
+  "GetProvince",
+  "GetRegion",
+  "GetSubjectTaxation",
+  "GetTheirOpinion",
+  "GetTheirOpinionTooltip",
+  "GetTooltip",
+  "HighlightOnMap",
+  "IsCountry",
+  "IsCountryAndDoesNotExist",
+  "IsProvince",
+  "IsRegion",
+  "OnClick"
+ ],
+ "RelationTypeItem": [
+  "AccessIcon",
+  "GetExtraInfo",
+  "GetName",
+  "GetRelations",
+  "GetToolTip",
+  "HasUIAction",
+  "IsInternationalOrganization",
+  "IsRelationType",
+  "IsValid",
+  "OnClick",
+  "OnClickAndConfirm",
+  "OnClickAndConfirmEnabled",
+  "OnClickAndConfirmTitle",
+  "OnClickAndConfirmTooltip",
+  "OnClickEnabled",
+  "OnClickRemove",
+  "OnClickRemoveEnabled",
+  "OnClickRemoveTitle",
+  "OnClickRemoveTooltip",
+  "OnClickRemoveVisible",
+  "OnClickTitle",
+  "OnClickTooltip",
+  "OnClickVisible",
+  "ShowExtraInfo"
+ ],
+ "OngoingRelationCountry": [
+  "GetAnnexationProgress",
+  "GetBuildingSpyNetworkProgress",
+  "GetBuildingSpyNetworkTooltip",
+  "GetCasusBelliCreationProgress",
+  "GetCasusBelliCreationTooltip",
+  "GetCountry",
+  "GetCurryFavorsProgress",
+  "GetCurryFavorsTooltip",
+  "GetOpinionImprovementDebugTooltip",
+  "GetOpinionImprovementProgress",
+  "GetOpinionImprovementTooltip",
+  "IsAnnexing",
+  "IsBuildingSpyNetwork",
+  "IsCreatingCasusBelli",
+  "IsCurryingFavors",
+  "IsImprovingOpinion"
+ ],
+ "OngoingRelationCountryList": [
+  "GetConcept",
+  "GetCountries",
+  "GetCountryCount",
+  "GetDiplomaticStatusName",
+  "GetProgressForCountry",
+  "GetTexture",
+  "GetTooltipForCountry",
+  "IsLockedForCountry",
+  "ToggleLockedStatusForCountry"
+ ],
+ "DiplomaticActionItem": [
+  "GetAcceptanceFrame",
+  "GetAcceptanceTooltip",
+  "GetAffectedDiplomaticCurrency",
+  "GetDebugText",
+  "GetDiplomaticCurrency",
+  "GetDiplomaticCurrencyInfo",
+  "GetEffect",
+  "GetFlavor",
+  "GetIcons",
+  "GetInternationalOrganizationMembers",
+  "GetPrice",
+  "GetPriceInfo",
+  "GetRecipient",
+  "GetTexture",
+  "GetTitle",
+  "GetTooltip",
+  "GetTotalMacrobuilderActions",
+  "HasAcceptance",
+  "HasAffectedDiplomaticCurrency",
+  "HasInternationalOrganizationMembers",
+  "IsEnabled",
+  "IsType",
+  "OnClick",
+  "RequiresAcceptance",
+  "WillAccept"
+ ],
+ "ActiveHegemon": [
+  "GetActiveHegemonInfo",
+  "GetAnotherAge",
+  "GetBaseInfo",
+  "GetContestedTitle",
+  "GetCurrent",
+  "GetGreatPowerStatistic",
+  "GetHegemony",
+  "GetToGainConditions",
+  "GetToGainTitle",
+  "GetToLoseConditions",
+  "GetToLoseTitle",
+  "IsActive",
+  "IsContested",
+  "NeedsAnotherAge"
+ ],
+ "AntagonismBombSpecWrap": [
+  "GetAntagonismList",
+  "GetBreakdownPerBomb",
+  "GetDesc",
+  "GivesAntagonism"
+ ],
+ "AntagonismWrapper": [
+  "GetCountry",
+  "GetGained",
+  "GetGainedBreakdown",
+  "GetNewTotal"
+ ],
+ "InternationalOrganization": [
+  "GetAllMembersEffects",
+  "GetAutoDisbandRequirementsText",
+  "GetCreationDate",
+  "GetDebugText",
+  "GetIcon",
+  "GetIllustration",
+  "GetInternationalOrganizationEffects",
+  "GetLeaderCountry",
+  "GetLeaderEffects",
+  "GetLeaderSpecialStatusPowerFraction",
+  "GetMembers",
+  "GetMembersAmount",
+  "GetMonthlyEffectText",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOnRemovedLocation",
+  "GetOtherEffects",
+  "GetOtherMembersEffects",
+  "GetOwnedLocationsSize",
+  "GetParliament",
+  "GetPayments",
+  "GetPolicies",
+  "GetSpecialStatusPowerFraction",
+  "GetTargetEffects",
+  "GetTargetValidityReason",
+  "IsCountryMember",
+  "IsIOLeaderCountry",
+  "MakeScope"
+ ],
+ "Estate": [
+  "ExistsForCountry",
+  "GetAvgEnfranchisment",
+  "GetBalance",
+  "GetCountry",
+  "GetCultureDisplayText",
+  "GetCultureStatusIcon",
+  "GetCurrentBuildInformation",
+  "GetDebugText",
+  "GetEconomyInfo",
+  "GetEnfranchismentIncomeFromTaxBaseInfo",
+  "GetEstatePowerInfo",
+  "GetEstatePowerInfoBreakdown",
+  "GetExpensesInfo",
+  "GetGold",
+  "GetLastMonthsExpense",
+  "GetLastMonthsIncomeAfterTaxWithTooltip",
+  "GetLeastLikedCountries",
+  "GetLeastLikedCountriesFull",
+  "GetLongName",
+  "GetLongNameWithNoTooltip",
+  "GetMostLikedCountries",
+  "GetMostLikedCountriesFull",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPopulationInfo",
+  "GetPowerImpactInfo",
+  "GetPowerImpactTitle",
+  "GetRaiseLevyInfo",
+  "GetRebel",
+  "GetRelativePower",
+  "GetReligionDisplayText",
+  "GetSatisfaction",
+  "GetTargetSatisfactionTooltipWrapper",
+  "GetTaxBaseInfo",
+  "GetTotalPopulation",
+  "GetType",
+  "GetWealthImpactString",
+  "HasEnfranchisment",
+  "HasRebel",
+  "IsNextBuildSetUp"
+ ],
+ "PossibleExplorationItem": [
+  "GetArea",
+  "GetCharacter",
+  "GetExploration",
+  "GetExplorationConstruction",
+  "GetExplorationTimeInfo",
+  "GetMonthlyCostInfo",
+  "HasCharacter",
+  "HasExploration",
+  "HasLiveExploration",
+  "OnMouseEnter",
+  "OnMouseLeave"
+ ],
+ "Exploration": [
+  "GetArea",
+  "GetCharacter",
+  "GetCurrentProgress",
+  "GetEstimatedTimeLeft",
+  "GetMonthlyProgressInfo",
+  "GetNameWithNoTooltip",
+  "GetProgressNeededInfo",
+  "GetUITooltip"
+ ],
+ "ColonialCharterItem": [
+  "GetColonialCharter",
+  "GetInformation",
+  "GetMaintenanceCost",
+  "GetMonthlyCostInfo",
+  "GetNumLocations",
+  "GetProgress",
+  "GetProgressInformation",
+  "GetProvinceDefinition",
+  "GetRangeInfo",
+  "IsOngoing"
+ ],
+ "ColonialCharter": [
+  "GetMonthlyMaintenance",
+  "GetMonthlyMaintenanceInfo",
+  "GetMonthlyMigration",
+  "GetMonthlyMigrationInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOriginName",
+  "GetProgress",
+  "GetProgressInformation",
+  "GetProvinceDefinition"
+ ],
+ "MaritimePresence": [
+  "GetChange",
+  "GetChangeInfo",
+  "GetCountry",
+  "GetMaritimeMerchantPower",
+  "GetMaritimeMerchantPowerInfo",
+  "GetPower"
+ ],
+ "MaritimeInLocationWrap": [
+  "GetPresence"
+ ],
+ "UIAction": [
+  "GetAcceptance",
+  "GetClickModifierDescription",
+  "GetConditions",
+  "GetDescription",
+  "GetEffects",
+  "GetLeftClickAndConfirmCost",
+  "GetLeftClickAndConfirmName",
+  "GetLeftClickAndConfirmTooltip",
+  "GetLeftClickCost",
+  "GetLeftClickName",
+  "GetLeftMouseDownPercentage",
+  "GetLeftMouseDownPercentageLeft",
+  "GetRightClickAndConfirmCost",
+  "GetRightClickAndConfirmName",
+  "GetRightClickAndConfirmTooltip",
+  "GetRightClickCost",
+  "GetRightClickName",
+  "GetRightClickTooltip",
+  "GetRightMouseDownPercentage",
+  "GetRightMouseDownPercentageLeft",
+  "GetTitle",
+  "HasAnyClickModifierAvailable",
+  "HasClickModifierAvailable",
+  "HasClickModifierDescription",
+  "IsClickModifierEnabled",
+  "IsEnabled",
+  "IsLeftClickAndConfirmEnabled",
+  "IsLeftClickModifierEnabled",
+  "IsRightClickAndConfirmEnabled",
+  "IsRightClickModifierEnabled",
+  "IsVisible",
+  "OnLeftClick",
+  "OnLeftMouseDown",
+  "OnLeftMouseUp",
+  "OnRightClick",
+  "OnRightMouseDown",
+  "OnRightMouseUp"
+ ],
+ "ConditionList": [
+  "GetLines",
+  "GetTitle",
+  "HasCollapsedText",
+  "HasItems"
+ ],
+ "Goods": [
+  "GetDebugText",
+  "GetDefaultMarketPrice",
+  "GetDemandsForBuildings",
+  "GetDemandsInfo",
+  "GetFlavorText",
+  "GetFoodOutput",
+  "GetKey",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNumDemands",
+  "GetNumSources",
+  "GetPopsDemandInfo",
+  "GetPriceDifferenceIconName",
+  "GetRawMaterialMethodInfo",
+  "GetSources",
+  "GetTransportWeight",
+  "HasPopsDemandInfo",
+  "IsRawMaterial"
+ ],
+ "GoodsMarketEntry": [
+  "GetBasePricePlotPoints",
+  "GetDataPointValue",
+  "GetEndDataDate",
+  "GetGoods",
+  "GetHasPopDemand",
+  "GetHistoryTrend",
+  "GetMaxPrice",
+  "GetMaxPriceForPlot",
+  "GetMinPrice",
+  "GetMinPriceForPlot",
+  "GetPopDemandImpactInfo",
+  "GetPrice",
+  "GetPriceDifferenceTT",
+  "GetStartDataDate",
+  "GetStockpile",
+  "GetStockpilePercentage",
+  "GetTargetPrice",
+  "GetTargetPricePlotPoints"
+ ],
+ "Market": [
+  "GetBalanceWithoutTrades",
+  "GetBurgherTradeCapacity",
+  "GetBurgherTradeInfo",
+  "GetCenterLocation",
+  "GetDebugText",
+  "GetDemandExportOnly",
+  "GetDemandLabel",
+  "GetFoodExportsInfo",
+  "GetFoodImportsInfo",
+  "GetFoodPrice",
+  "GetFoodPriceStepInfo",
+  "GetFoodProductionInfo",
+  "GetFoodStockpile",
+  "GetFreeAutomatedCapacity",
+  "GetLanguage",
+  "GetMarketEntry",
+  "GetMaxFoodStockpile",
+  "GetMerchant",
+  "GetMerchantAvailableCapacity",
+  "GetMerchantCapacityInfo",
+  "GetMerchantPowerInfo",
+  "GetMerchantRanking",
+  "GetMerchantTotalCapacity",
+  "GetMerchantTotalCapacityInMarket",
+  "GetMonthlyFoodBalance",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOwner",
+  "GetPrice",
+  "GetPriceInfo",
+  "GetPriceWithChange",
+  "GetRiskStarvingProvincesInfo",
+  "GetShortNameWithNoTooltip",
+  "GetStarvingProvincesInfo",
+  "GetSupplyImportOnly",
+  "GetSupplyInfoOnlyTrade",
+  "GetSupplyLabel",
+  "GetSurplus",
+  "GetTotalMerchantCapacity",
+  "GetTotalValueTraded",
+  "GetTradeDemandInfo",
+  "GetTradeDemandInfoByCountries",
+  "HasFoodsExport",
+  "HasFoodsImport",
+  "HasRiskStarvingProvinces",
+  "HasStarvingProvinces",
+  "IsAutomatedTradeCapacityDecEnabled",
+  "IsAutomatedTradeCapacityIncEnabled",
+  "MakeScope"
+ ],
+ "GoodsPriceOnMarketWrap": [
+  "GetGoods",
+  "GetGoodsMarketEntry",
+  "GetMarket",
+  "GetName"
+ ],
+ "Character": [
+  "CanGiveUnitBonus",
+  "GetAbility",
+  "GetAbilityTooltip",
+  "GetAbilityTooltipAsAdmiral",
+  "GetAbilityTooltipAsExplorer",
+  "GetAbilityTooltipAsGeneral",
+  "GetAbilityTooltipAsRuler",
+  "GetActiveRegenciesTooltip",
+  "GetActiveRulerTermsTooltip",
+  "GetAdmiralAbilityInfo",
+  "GetAdultNicknameWithNoTooltip",
+  "GetAge",
+  "GetAgeInYears",
+  "GetAgeInfo",
+  "GetAllTitles",
+  "GetAnimatedPortrait",
+  "GetArtProgress",
+  "GetArtProgressInfo",
+  "GetArtistAbilityInfo",
+  "GetArtistSkill",
+  "GetArtistType",
+  "GetArtistYearlySalary",
+  "GetArtistYearlySalaryBreakdown",
+  "GetBirthLocation",
+  "GetCanonizationDate",
+  "GetCharacterPrefixWithNoTooltip",
+  "GetCharacterRegnalNumWithNoTooltip",
+  "GetCharacterSuffixWithNoTooltip",
+  "GetChildren",
+  "GetCourtCountry",
+  "GetCulture",
+  "GetDeathAndAgeInfo",
+  "GetDeathInfo",
+  "GetDeathReason",
+  "GetDebugTooltip",
+  "GetDynasty",
+  "GetDynastyHeadTooltip",
+  "GetEducation",
+  "GetEducationAbilityInfo",
+  "GetExplorerAbilityInfo",
+  "GetFirstNameWithNoTooltip",
+  "GetFullDeathInfo",
+  "GetGeneralAbilityInfo",
+  "GetLastNameWithNoTooltip",
+  "GetLeaderFrame",
+  "GetLocation",
+  "GetMaxHiringSubunitsForLeaderAndPopulation",
+  "GetMercenaryAvailableTotalSubunitsCount",
+  "GetMercenaryTotalSubunitUITooltip",
+  "GetName",
+  "GetNameToFit",
+  "GetNameToFitWithNoTooltip",
+  "GetNameToFitWithoutThisDynasty",
+  "GetNameWithNoTooltip",
+  "GetNickname",
+  "GetPortrait",
+  "GetPortraitBg",
+  "GetPositionInLineForTheThrone",
+  "GetPreviousRulerTermsTooltip",
+  "GetRebel",
+  "GetRelationToCountryInfo",
+  "GetRelationToRulerInfo",
+  "GetReligion",
+  "GetRoleMask",
+  "GetRuledCountry",
+  "GetRulerAbilityInfo",
+  "GetRulerTermsTooltip",
+  "GetShortNameWithNoTooltip",
+  "GetSpouses",
+  "GetTimedModifiers",
+  "GetTraits",
+  "GetUnitPointer",
+  "GetWorksOfArt",
+  "HasArtInProgress",
+  "HasCourtCountry",
+  "HasDynasty",
+  "HasEducationAbilityInfo",
+  "HasNickName",
+  "HasRebel",
+  "HasUnit",
+  "IsAlive",
+  "IsArtist",
+  "IsDynastyHead",
+  "IsFemale",
+  "IsHeir",
+  "IsNameOrderDefault",
+  "IsNameOrderNumberPrefix",
+  "IsNameOrderPrefixNumber",
+  "IsRuler",
+  "IsRulerOrRegentOfCourtCountry",
+  "IsValid"
+ ],
+ "ReformItem": [
+  "CanRemoveReformTooltip",
+  "GetChangeReformCost",
+  "GetChangeReformDescription",
+  "GetChangeReformPerAgeTitle",
+  "GetChangeReformTitle",
+  "GetDescription",
+  "GetImplementedTooltip",
+  "GetReform",
+  "GetRemoveReformCost",
+  "GetRemoveReformDescription",
+  "GetRemoveReformTitle",
+  "IsChangeReformEnabled",
+  "IsEnabled",
+  "IsMajor",
+  "IsRemoveReformEnabled",
+  "IsUnique",
+  "IsValid",
+  "OnChangeReform",
+  "OnChangeReformPerAge",
+  "OnRemoveReform"
+ ],
+ "TableColumnList": [
+  "GetColumns",
+  "GetTitle"
+ ],
+ "TableColumn": [
+  "GetHorizontalLayoutPolicy",
+  "GetRows",
+  "GetTextAlignment",
+  "GetTitle",
+  "IsTextLeft",
+  "IsTextRight"
+ ],
+ "CString": [
+  "GetString"
+ ],
+ "ConditionLine": [
+  "GetText",
+  "HasFailed",
+  "HasPassed",
+  "IsNeutral"
+ ],
+ "RequirementsList": [
+  "GetLines",
+  "GetTitle"
+ ],
+ "RequirementLine": [
+  "GetText",
+  "HasFailed",
+  "HasPassed",
+  "IsBlocker",
+  "IsSkipped",
+  "IsUndefined"
+ ],
+ "RequirementLineAux": [
+  "GetAuxParentArrowSize"
+ ],
+ "SocietalValueItem": [
+  "GetCountry",
+  "GetDirectionInfo",
+  "GetEncourageLeftDescription",
+  "GetEncourageLeftTitle",
+  "GetEncourageRightDescription",
+  "GetEncourageRightTitle",
+  "GetLeftHint",
+  "GetPositionInfo",
+  "GetRightHint",
+  "GetType",
+  "IsEncourageLeftEnabled",
+  "IsEncourageRightEnabled",
+  "IsLeft",
+  "OnEncourageLeft",
+  "OnEncourageRight",
+  "ShowLeftHint",
+  "ShowRightHint"
+ ],
+ "GuiGameRule": [
+  "GetRule",
+  "GetSetting",
+  "Next",
+  "Prev"
+ ],
+ "SubUnitType": [
+  "GetAge",
+  "GetCategory",
+  "GetCombatImpact",
+  "GetConstructionDemand",
+  "GetCrewSize",
+  "GetDebugText",
+  "GetFlavorText",
+  "GetImpacts",
+  "GetLevyCombatPowerInfo",
+  "GetMaintenanceDemand",
+  "GetMaxStrength",
+  "GetModifierImpact",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPowerDescriptionBase",
+  "GetPowerDescriptionCombat",
+  "GetStat",
+  "GetStatTooltip",
+  "GetUnlocks",
+  "GetUpgradeChainAfter",
+  "GetUpgradeChainBefore",
+  "HasCombatImpact",
+  "HasModifierImpact",
+  "HasUpgradeChain",
+  "IsForLevy",
+  "IsSpecialRegiment",
+  "NeedsAdvance"
+ ],
+ "MusicPlayer": [
+  "AccessCategories",
+  "GetMusicDensity",
+  "GetMusicDensityString",
+  "GetPlayingTrackElapsedTime",
+  "GetPlayingTrackName",
+  "GetTrackTextColor",
+  "GetVolume",
+  "GetVolumeString",
+  "IsPlaying",
+  "OnNextTrack",
+  "OnSelectAndPlayTrack",
+  "OnSelectCategory",
+  "OnToggleCategoryEnabled",
+  "OnTogglePlayPause",
+  "OnToggleTrackEnabled",
+  "SetMusicDensity",
+  "SetVolume"
+ ],
+ "MusicPlayerCategory": [
+  "GetName",
+  "IsEnabled"
+ ],
+ "MusicTrack": [
+  "GetName",
+  "IsEnabled",
+  "IsPlaying"
+ ],
+ "StringPairList": [
+  "GetFooter",
+  "GetMinimumSize",
+  "GetRows",
+  "GetTableMinimumSize",
+  "GetTableWidth",
+  "GetTitle"
+ ],
+ "StringViewPair": [
+  "GetLeft",
+  "GetRight"
+ ],
+ "ResignConfirmationWindow": [
+  "Cancel",
+  "GetText",
+  "OnDesktop",
+  "OnMenu",
+  "ShouldShowCheckbox"
+ ],
+ "GameResignConfirmationWindow": [
+  "ToggleShouldSaveAndRemember"
+ ],
+ "ToolDialog": [
+  "Buttons",
+  "Cancel",
+  "Title"
+ ],
+ "ToolDialogButton": [
+  "OnClick",
+  "Text"
+ ],
+ "ToolMessageDialog": [
+  "IsError",
+  "IsInfo",
+  "IsWarning",
+  "Message"
+ ],
+ "ToolProgressDialog": [
+  "GetProgress"
+ ],
+ "EcsSceneViewer": [
+  "Is2DScene",
+  "IsUltraWide"
+ ],
+ "AdvanceNode": [
+  "GetItem",
+  "GetKey",
+  "GetPosition",
+  "ShowSimplifiedVersion"
+ ],
+ "AutomatedSystemsItem": [
+  "GetActionTooltipName",
+  "GetCapacitySlider",
+  "GetCapacitySliderScaled",
+  "GetClickAction",
+  "GetDescription",
+  "GetDiplomatReserveSlider",
+  "GetDiplomatReserveSliderScaled",
+  "GetGoldSlider",
+  "GetGoldSliderScaled",
+  "GetName",
+  "IsAlliancesAndPactsEnabled",
+  "IsAllowingSpecialCurrencySpend",
+  "IsCurryFavorsEnabled",
+  "IsDeclareWarEnabled",
+  "IsEnabled",
+  "IsImproveOpinionEnabled",
+  "IsInternationalOrganizationsEnabled",
+  "IsManageSubjectsEnabled",
+  "IsName",
+  "IsRoyalMarriagesEnabled",
+  "IsSendGiftsEnabled",
+  "OnChangedCapacitySlider",
+  "OnChangedDiplomatReserveSlider",
+  "OnChangedGoldSlider",
+  "PostCapacitySlider",
+  "PostDiplomatReserveSlider",
+  "PostGoldSlider",
+  "Toggle",
+  "ToggleAlliancesAndPacts",
+  "ToggleAllowingSpecialCurrencySpend",
+  "ToggleCurryFavors",
+  "ToggleDeclareWar",
+  "ToggleImproveOpinion",
+  "ToggleInternationalOrganizations",
+  "ToggleManageSubjects",
+  "ToggleRoyalMarriages",
+  "ToggleSendGifts"
+ ],
+ "AdvanceItem": [
+  "AddToResearchQueue",
+  "CanAddToResearchQueue",
+  "CanPrioritizeInResearchQueue",
+  "CanRemoveFromResearchQueue",
+  "GetAddToResearchQueueConditions",
+  "GetAddToResearchQueueCost",
+  "GetAdvance",
+  "GetEffects",
+  "GetName",
+  "GetPrerequisiteProgress",
+  "GetPrerequisiteProgressTooltip",
+  "GetPrerequisiteTotal",
+  "GetRemoveFromResearchQueueCost",
+  "GetResearchQueueSlot",
+  "IsCurrentResearch",
+  "IsHighlightedBySearch",
+  "IsInResearchQueue",
+  "IsResearched",
+  "PrioritizeInResearchQueue",
+  "RemoveFromResearchQueue"
+ ],
+ "AgendaView": [
+  "AccessUIVars",
+  "AreMissionsEnabled",
+  "Close",
+  "GetHints",
+  "GetRelatedDLC",
+  "GetUniqueContentDescription",
+  "GetUniqueContentTypeCategories",
+  "GetUniqueCountryBonuses",
+  "ShowHistoricalContext"
+ ],
+ "MissionProgress": [
+  "HasActiveMission"
+ ],
+ "UniqueContentDescription": [
+  "GetAmountUniqueContentFlavor",
+  "GetEventsAmountUniqueContent",
+  "GetEventsUniqueContentDesc",
+  "GetUniqueContentFlavorLobbyDesc"
+ ],
+ "UniqueContentItem": [
+  "GetAdvanceDefinition",
+  "GetAge",
+  "GetBureaucracyType",
+  "GetCabinetAction",
+  "GetCharacterInteraction",
+  "GetDLCKeys",
+  "GetDisasterType",
+  "GetEstatePrivilege",
+  "GetFormableCountry",
+  "GetGenericAction",
+  "GetGovernmentReform",
+  "GetLaw",
+  "GetLevySetup",
+  "GetLink",
+  "GetName",
+  "GetOmen",
+  "GetPolicy",
+  "GetReligiousAspect",
+  "GetSituation",
+  "GetSubUnitDef",
+  "GetTownRightsType",
+  "HasAge",
+  "IsAdvanceDefinition",
+  "IsBuildingType",
+  "IsBureaucracyType",
+  "IsCabinetAction",
+  "IsCharacterInteraction",
+  "IsCountryInteraction",
+  "IsDisasterType",
+  "IsEstatePrivilege",
+  "IsFormableCountry",
+  "IsGenericAction",
+  "IsGovernmentReform",
+  "IsHeirSelection",
+  "IsLaw",
+  "IsLevySetup",
+  "IsOmen",
+  "IsPolicy",
+  "IsReligiousAspect",
+  "IsSituation",
+  "IsSocietalValueType",
+  "IsSubUnitDef",
+  "IsSubjectType",
+  "IsTownRightsType"
+ ],
+ "AiCurrencyGlue": [
+  "GetName",
+  "GetPlotPoints",
+  "GetPlotPointsForCurrentValue",
+  "GetPlotRect",
+  "GetScaleMaxX",
+  "GetScaleMaxY",
+  "GetScaleMinX",
+  "GetScaleMinY",
+  "GetTooltip",
+  "OnMaxXChanged",
+  "OnMaxYChanged",
+  "OnMinXChanged",
+  "OnMinYChanged"
+ ],
+ "AiCurrencyViewer": [
+  "GetAiCurrencyClasses",
+  "GetCurrentAiCurrencyClass",
+  "GetPossibleTargets",
+  "GetSelectedTargetObjectIndex",
+  "IsAiCurrencyClassViewOpen",
+  "OpenAiCurrencyClassView",
+  "SelectTargetObject"
+ ],
+ "AiCurrencyClassGlue": [
+  "GetName"
+ ],
+ "InteractionTarget": [
+  "AccessUnit",
+  "GetArea",
+  "GetBuilding",
+  "GetBureaucracyType",
+  "GetCabinet",
+  "GetCabinetAction",
+  "GetCasusBelli",
+  "GetCharacter",
+  "GetContinent",
+  "GetCountry",
+  "GetCulture",
+  "GetDialect",
+  "GetEmploymentSystem",
+  "GetEstatePrivilege",
+  "GetFormableCountry",
+  "GetHeirSelection",
+  "GetHolySite",
+  "GetInternationalOrganization",
+  "GetLanguage",
+  "GetLaw",
+  "GetLoan",
+  "GetLocation",
+  "GetMarket",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetParliamentAgenda",
+  "GetParliamentIssue",
+  "GetParliamentType",
+  "GetPolicy",
+  "GetProductionMethod",
+  "GetProvince",
+  "GetProvinceDefinition",
+  "GetRebel",
+  "GetRegion",
+  "GetReligion",
+  "GetReligiousAspect",
+  "GetSubContinent",
+  "GetSubjectType",
+  "GetTownRightsType",
+  "GetUnit",
+  "GetUnitFormationPreference",
+  "GetWar",
+  "GetWorkOfArt",
+  "IsValid"
+ ],
+ "AiDiplomaticObjectivesViewer": [
+  "GetCountries",
+  "GetNumberOfObjectives",
+  "GetObjectiveGroups",
+  "GetObjectiveTypes",
+  "GetObjectivesOfType",
+  "GetSelectedCountryIndex",
+  "GetSelectedObjectiveTypeIndex",
+  "IsAiDiplomaticObjectiveTabOpen",
+  "OpenTab",
+  "SelectCountry",
+  "SelectCurrentTag",
+  "SelectObjectiveType"
+ ],
+ "DiplomaticObjectiveTypeGlue": [
+  "GetName"
+ ],
+ "AiDiplomaticObjective": [
+  "GetCountry",
+  "GetDebugInfo",
+  "GetTarget",
+  "ShowCountry"
+ ],
+ "AiDiplomaticObjectiveGroup": [
+  "GetAiObjectives",
+  "IsImportant",
+  "SetAsImportant"
+ ],
+ "AISettingsMenu": [
+  "Close",
+  "GetItems",
+  "Reset",
+  "Save",
+  "UpdateFilter"
+ ],
+ "AISettingsMenuItem": [
+  "GetText",
+  "GetTooltip",
+  "GetValue",
+  "SetValue"
+ ],
+ "AiTargetsViewer": [
+  "GetCountries",
+  "GetNumberOfTargets",
+  "GetSelectedCountryIndex",
+  "GetSelectedTargetTypeIndex",
+  "GetTargetTypes",
+  "GetTargets",
+  "GetTargetsOfType",
+  "IsAiTargetTabOpen",
+  "OpenTab",
+  "SelectCountry",
+  "SelectCurrentTag",
+  "SelectTargetType"
+ ],
+ "AiTargetType": [
+  "GetName"
+ ],
+ "AiTarget": [
+  "GetCountry",
+  "GetTargetType",
+  "ShowCountry"
+ ],
+ "AlertEntry": [
+  "GetAlertAction",
+  "GetDescription",
+  "GetSecondaryTooltip",
+  "GetTooltip",
+  "GetTriggerValue",
+  "HasPrimaryContent",
+  "HasSecondaryContent",
+  "Hide",
+  "IsActive",
+  "IsMuted",
+  "IsNew",
+  "IsUnmuted",
+  "SetAsOld",
+  "SetDiscarded",
+  "SetMuted",
+  "SetUnmuted",
+  "Show"
+ ],
+ "AlertDescription": [
+  "GetDebugText"
+ ],
+ "AlertConstructionMissingInput": [
+  "Next"
+ ],
+ "CountryNeeds": [
+  "GetMarketNeeds"
+ ],
+ "MarketCountryNeeds": [
+  "GetBuildingsMissingGoodsInfo",
+  "GetGovernmentMissingGoodsAmount",
+  "GetGovernmentMissingGoodsInfo",
+  "GetMarket",
+  "GetPopsMissingGoodsAmount",
+  "GetPopsMissingGoodsInfo",
+  "HasBuildingsMissingGoods",
+  "HasGovernmentMissingGoods",
+  "HasPopsMissingGoods",
+  "HasRebelPopsMissingGoods"
+ ],
+ "AlertStarvingProvinces": [
+  "GetMarketEntries",
+  "Next"
+ ],
+ "StarvingProvincesMarketEntry": [
+  "GetMarket",
+  "GetProvincesAmount",
+  "GetProvincesInfo"
+ ],
+ "AlertCanBeTargetOfIO": [
+  "GetAntagonismCountries",
+  "GetIcon",
+  "HasNext",
+  "IsACoalitionAlert",
+  "Next",
+  "ShouldShowRequirements"
+ ],
+ "AutoTableWidth": [
+  "GetMinimumSize",
+  "GetTableMinimumSize",
+  "GetTableWidth"
+ ],
+ "AlertIOBreaking": [
+  "Next"
+ ],
+ "AlertClanCanBecomeLanded": [
+  "Next"
+ ],
+ "AlertManager": [
+  "GetDiscarded",
+  "GetHidden",
+  "ShowEconomyWindow",
+  "ShowHeir",
+  "ShowRuler"
+ ],
+ "AlertArmyWithVeryLowFood": [
+  "Next"
+ ],
+ "AlertHasRebelliousSubjects": [
+  "GetEntries"
+ ],
+ "AlertHasImminentIndependenceWar": [
+  "GetEntries"
+ ],
+ "AlertHasRaisedArmyLeviesInPeace": [
+  "Next"
+ ],
+ "AlertHasRaisedNavyLeviesInPeace": [
+  "Next"
+ ],
+ "AlertHasNotEnoughGoodsForAnyShipRepairs": [
+  "GetLackingGoodsForRepairs",
+  "Next"
+ ],
+ "LackingGoodsForRepairEntry": [
+  "GetLackingGoodsForRepairAmount",
+  "GetLackingGoodsForRepairInfo",
+  "GetMarket"
+ ],
+ "AlertHasWeatherSystem": [
+  "Next"
+ ],
+ "AlertHasLessPowerInUnion": [
+  "GetThreateningCountries"
+ ],
+ "AlertArmyWithLowFood": [
+  "Next"
+ ],
+ "AlertUnusedCB": [
+  "Next"
+ ],
+ "AlertPirates": [
+  "GetLocationsWithPiratesOrPrivateers",
+  "Next"
+ ],
+ "AlertUnprofitableTrade": [
+  "Next"
+ ],
+ "AlertHasNoSuppliesTrade": [
+  "Next"
+ ],
+ "AlertExpiringContracts": [
+  "Next"
+ ],
+ "AlertMercenariesInTrouble": [
+  "Next"
+ ],
+ "ParliamentInSession": [
+  "GetParliament"
+ ],
+ "ImperialDietInSession": [
+  "GetInternationalOrganization"
+ ],
+ "Parliament": [
+  "GetAddedParliamentIssueSupport",
+  "GetBaseParliamentIssueSupport",
+  "GetCurrentDebate",
+  "GetFailedEffect",
+  "GetLawDebateNotPassPolicy",
+  "GetLawDebatePassPolicy",
+  "GetParliamentDurationProgress",
+  "GetParliamentIssueSupport",
+  "GetPassedEffect",
+  "HasFailedEffect",
+  "HasOngoingParliamentDebate",
+  "HasPassedEffect",
+  "WillParliamentIssuePass"
+ ],
+ "AlertHasUnmarriedAdultRuler": [
+  "OpenMarriageFinder"
+ ],
+ "AlertHasUnmarriedAdultHeir": [
+  "OpenMarriageFinder"
+ ],
+ "AlertCanArrangeInternationalMarriage": [
+  "Next"
+ ],
+ "AlertArmyWithoutLeaderInWar": [
+  "Next"
+ ],
+ "AlertRelationAboutToBeBroken": [
+  "Next"
+ ],
+ "AlertOutsideOfNavalRange": [
+  "Next"
+ ],
+ "AlertHasUnprofitableBuildings": [
+  "GetUnprofitableBuildings"
+ ],
+ "UnprofitableBuildingsEntry": [
+  "GetMarket",
+  "GetUnprofitableBuildingsAmount",
+  "GetUnprofitableBuildingsInfo"
+ ],
+ "AlertBuildingsMissingInput": [
+  "Next"
+ ],
+ "AlertImportantBuildingsMissingInput": [
+  "Next"
+ ],
+ "ImportantBuildingsCountryNeeds": [
+  "GetMarketNeeds"
+ ],
+ "AlertLackPopPromotion": [
+  "GetBuildings",
+  "Next"
+ ],
+ "AlertLackPopRGO": [
+  "GetRGOs",
+  "Next"
+ ],
+ "AlertRiskStarvingProvinces": [
+  "GetMarketEntries",
+  "Next"
+ ],
+ "RiskStarvingProvincesMarketEntry": [
+  "GetMarket",
+  "GetProvincesAmount",
+  "GetProvincesInfo"
+ ],
+ "AlertUnintegratedProvinces": [
+  "EnableHighlight"
+ ],
+ "AlertPopNeeds": [
+  "Next"
+ ],
+ "AlertUpgradeableBuildings": [
+  "Next"
+ ],
+ "CountryUpgradeableBuildings": [
+  "GetMarketUpgradeableBuildings"
+ ],
+ "MarketUpgradeableBuildings": [
+  "GetBuildingTypeLevels",
+  "GetMarket",
+  "GetUpgradeableBuildingLevelsCount",
+  "HasUpgradeableBuildings"
+ ],
+ "UpgradeableBuildingTypeLevels": [
+  "GetBuildingType",
+  "GetLevels",
+  "GetLocationLevelsBreakdownInfo"
+ ],
+ "AlertBlockadedPorts": [
+  "Next"
+ ],
+ "AlertExiledUnits": [
+  "Next"
+ ],
+ "AlertArmiesOnIce": [
+  "Next"
+ ],
+ "AlertNaviesStuckInIce": [
+  "Next"
+ ],
+ "AlertNavyAttrition": [
+  "Next"
+ ],
+ "AlertActiveIOResolution": [
+  "Next"
+ ],
+ "AlertHasDisloyalSubjects": [
+  "GetEntries"
+ ],
+ "AlertHasLowFoodStockpileMarket": [
+  "Next"
+ ],
+ "AlertDepopulatingLocations": [
+  "GetLocations",
+  "Next"
+ ],
+ "AlertHasNotEnoughGoodsForShipRepairs": [
+  "GetLackingGoodsForRepairs",
+  "Next"
+ ],
+ "AlertIsAtFortLimit": [
+  "Next"
+ ],
+ "AlertHasDevastatedLocations": [
+  "EnableHighlight",
+  "GetDevastatedLocations",
+  "Next"
+ ],
+ "AlertPossibleLaw": [
+  "Next"
+ ],
+ "AlertAvailableTradeCapacity": [
+  "Next"
+ ],
+ "AlertFormableCountry": [
+  "GetFormableCountry"
+ ],
+ "FormableCountry": [
+  "GetDebugText",
+  "GetEffects",
+  "GetFlavorText",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOrCreateCoatOfArms",
+  "GetPossibleAdvances",
+  "GetRank",
+  "HasPossibleAdvances"
+ ],
+ "AlertHasUnraisedLeviesInWar": [
+  "Next"
+ ],
+ "AlertHasUnmarriedChildren": [
+  "Next"
+ ],
+ "AlertHasUneducatedChild": [
+  "GetUneducatedChildren",
+  "Next"
+ ],
+ "AlertArmyWithoutLeader": [
+  "Next"
+ ],
+ "AlertCanCodifyNewPolicies": [
+  "GetPolicies",
+  "Next"
+ ],
+ "Policy": [
+  "BenefitsEmperor",
+  "GetDebugText",
+  "GetDesc",
+  "GetEffectOnlyText",
+  "GetEffectTextWithContext",
+  "GetImplementableTooltip",
+  "GetLaw",
+  "GetModifierTextFor",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPolicyPartOfDescription",
+  "GetPotentialTriggerDesc",
+  "GetRuleChanges",
+  "GetTagObject",
+  "IsUnique"
+ ],
+ "AlertCanImproveSubjectCulturalView": [
+  "OnAction"
+ ],
+ "AlertCanComposeStrategikon": [
+  "OnAction"
+ ],
+ "AlertCanAskForMoney": [
+  "OnAction"
+ ],
+ "AlertCanUseHreEmperorAction": [
+  "OnAction"
+ ],
+ "CallAllyAlert": [
+  "GetCallAllyDescription",
+  "GetCallAllyTitle",
+  "GetCountry",
+  "GetHideAlertTitle",
+  "GetTooltip",
+  "IsCallAllyEnabled",
+  "IsEnabled",
+  "IsHideAlertEnabled",
+  "OnCallAlly",
+  "OnHideAlert"
+ ],
+ "DiploAlert": [
+  "GetActionName",
+  "GetCountry",
+  "GetIconTexture",
+  "GetOptionEnabled",
+  "GetToolTip",
+  "GetTooltip",
+  "OnClick",
+  "OnCtrlClick",
+  "OnCtrlRightClick",
+  "ShowAction"
+ ],
+ "WarsOverviewWar": [
+  "GetMainEnemy",
+  "GetWar",
+  "OnClick"
+ ],
+ "War": [
+  "GetAttackerNamesWithoutLeader",
+  "GetAttackerWarLeader",
+  "GetCivilWarVictoryDemandDescription",
+  "GetDebugTooltip",
+  "GetDefenderNamesWithoutLeader",
+  "GetDefenderWarLeader",
+  "GetExtraAttackers",
+  "GetExtraDefenders",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetWarDescription",
+  "GetWarGoal",
+  "GetWarScore",
+  "GetWarScoreBreakdown",
+  "GetWarScoreOfCountry",
+  "HasCivilWarVictoryDemandDescription",
+  "IsCivilWar"
+ ],
+ "ActiveSituation": [
+  "GetIcon",
+  "GetSituation"
+ ],
+ "Situation": [
+  "GetDebugText",
+  "GetEndConditions",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "HasHint"
+ ],
+ "Disaster": [
+  "GetDebugText",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "GetType",
+  "IsActive"
+ ],
+ "MissionAlert": [
+  "GetMissionStartDescription",
+  "GetName",
+  "GetProgress",
+  "GetTask",
+  "IsMissionStartEnabled",
+  "OnMissionStartClick"
+ ],
+ "AnnexationAlert": [
+  "DeclareWarOnOverlord",
+  "GetProgress",
+  "GetTooltip",
+  "Hide",
+  "IsNew",
+  "SetAsOld"
+ ],
+ "InternationalOrganizationLawAlert": [
+  "GetIconTexture",
+  "GetTooltip",
+  "GoToInternationalOrganizationLaws",
+  "Hide",
+  "IsNew",
+  "SetAsOld"
+ ],
+ "DiscardStash": [
+  "GetManager"
+ ],
+ "AlertSettings": [
+  "GetManager",
+  "OnClose",
+  "ShowDiscarded",
+  "ShowHidden",
+  "ShowInactive",
+  "ToggleDiscarded",
+  "ToggleHidden",
+  "ToggleInactive"
+ ],
+ "ArmyBuilderLateralView": [
+  "AutoGatherMercenary",
+  "CanAutoGather",
+  "ChooseMercenaryLeader",
+  "GetArmyTypes",
+  "GetArmyTypesSortSearch",
+  "GetAutoGatherConditions",
+  "GetAutoGatherCost",
+  "GetAutoGatherLabel",
+  "GetAutoGatherTooltip",
+  "GetMercenaries",
+  "GetMercenariesSortSearch",
+  "GetMercenaryMenInRange",
+  "GetMercenaryRangeBreakdownTooltip",
+  "GetMethods",
+  "GetUnitTemplates",
+  "GetViewTitle",
+  "IsMethodChecked",
+  "IsNavy",
+  "SelectMethod",
+  "SetArmy",
+  "SetNavy",
+  "ShowOnlyCurrentAge",
+  "ToggleShowOnlyCurrentAge",
+  "Vars"
+ ],
+ "CountryModifierWrap": [
+  "GetIcon",
+  "GetMinCapDescription",
+  "GetTooltip",
+  "HasMinCap"
+ ],
+ "UnitTypeItem": [
+  "CanCancelFiltered",
+  "CanCancelFilteredTT",
+  "CanRecruitFiltered",
+  "CanRecruitFilteredTT",
+  "CanRecruitTT",
+  "CancelFiltered",
+  "EnableUIClick",
+  "GetConstructions",
+  "GetGoldCost",
+  "GetManpowerCost",
+  "GetMaxStrength",
+  "GetName",
+  "GetNumExisting",
+  "GetNumInProgress",
+  "GetNumPossible",
+  "GetSailorsCost",
+  "GetUnitType",
+  "IsSpecialRegiment",
+  "Recruit",
+  "RecruitFiltered",
+  "RecruitFilteredVisible"
+ ],
+ "UniqueStatItem": [
+  "GetDesc",
+  "GetFirst",
+  "GetIcon",
+  "GetImpact",
+  "GetName"
+ ],
+ "ConstructionItem": [
+  "CanRecruit",
+  "CanRecruitTT",
+  "GetActionTitle",
+  "GetConstruction",
+  "GetLeftClickConditions",
+  "GetLeftClickCost",
+  "GetLeftClickDescription",
+  "GetLeftClickTitle",
+  "GetNumInQueue",
+  "GetRightClickConditions",
+  "GetRightClickCost",
+  "GetRightClickDescription",
+  "GetRightClickTitle",
+  "IsLeftClickEnabled",
+  "IsLeftClickVisible",
+  "IsRightClickEnabled",
+  "IsRightClickVisible",
+  "OnLeftClick",
+  "OnRightClick",
+  "Recruit"
+ ],
+ "ArtsView": [
+  "GetArts",
+  "GetArtsItemsSortSearch"
+ ],
+ "ArtsItem": [
+  "GetArt"
+ ],
+ "AuxVars": [
+  "Clear",
+  "Toggle"
+ ],
+ "AutomatedMultiSystemItem": [
+  "IsEnabled",
+  "Toggle"
+ ],
+ "AutomationLateralView": [
+  "GetAutomatedSystems",
+  "GetFilteredSystems",
+  "GetSystemsSearch",
+  "IsSearchActive"
+ ],
+ "SearchBar": [
+  "ClearEnabledSearchFilters",
+  "ClearModifiedRangeValues",
+  "ClearTextFilter",
+  "DisableFilter",
+  "EnableFilterByKey",
+  "ForceFocus",
+  "GetAutocompleteEntries",
+  "GetCustomEnabledFilters",
+  "GetEnabledFilters",
+  "GetSearchFilterCategories",
+  "GetTextSearchFilters",
+  "HasAnyRangedFilter",
+  "HasModifiedRangeValues",
+  "HasPin",
+  "HasSearchFilterCategories",
+  "HasTextSearchFilters",
+  "HasVisibleEnabledSearchFilters",
+  "IsFilterEnabledByKey",
+  "IsFilterPinned",
+  "IsTextFilterEmpty",
+  "Manager",
+  "OnEditingFinished",
+  "OnEditingFinishedWithChanges",
+  "OnEditingStart",
+  "OnFocusOut",
+  "OnReturnPressed",
+  "OnTextEdited",
+  "ResetFiltersToDefault",
+  "ResetPin",
+  "ToggleCategoryFilterPin",
+  "ToggleFilterByKey",
+  "ToggleFilterByKeyForceExclusive",
+  "ToggleFilterPin",
+  "ToggleFilterPinByKey"
+ ],
+ "Combat": [
+  "GenerateBattlefieldTopographySceneDesc",
+  "GenerateBattlefieldVegetationSceneDesc",
+  "GenerateBattlefieldWaterSceneDesc",
+  "GetAttacker",
+  "GetDebugText",
+  "GetDefender",
+  "GetLocation",
+  "GetNameWithNoTooltip",
+  "IsActive",
+  "IsInBombardPhase",
+  "IsNavalCombat",
+  "IsValid"
+ ],
+ "CombatSide": [
+  "GetAttackingFlankInfo",
+  "GetBattleSide",
+  "GetCenter",
+  "GetCombat",
+  "GetCombatModifiers",
+  "GetCombinedArmsBonus",
+  "GetCombinedArmsInfo",
+  "GetCommander",
+  "GetCountry",
+  "GetDiceWithModifiers",
+  "GetDiceWithModifiersTooltip",
+  "GetEngagedUnitsStrength",
+  "GetFlankFrame",
+  "GetFlankFrameMirrored",
+  "GetLeaderFrame",
+  "GetLeadingUnit",
+  "GetLeft",
+  "GetMaxMorale",
+  "GetMoraleLabel",
+  "GetMoralePercent",
+  "GetMoraleTooltip",
+  "GetParticipatingCountries",
+  "GetReserves",
+  "GetRetreated",
+  "GetRight",
+  "GetSubUnitCounts",
+  "GetSubUnitsForCategoryTooltip",
+  "GetUnits",
+  "GetVisualStrength",
+  "GetVisualStrengthTooltip",
+  "HasCategory",
+  "HasDiscipline",
+  "IsAttacker",
+  "IsDiceModified",
+  "IsNaval"
+ ],
+ "CombatSubUnitArray": [
+  "GetBoxName",
+  "GetBoxNameWithConceptLink",
+  "GetCombatSide",
+  "GetEngagedFrontage",
+  "GetEngagedSize",
+  "GetEngagedStrength",
+  "GetEngagedUnits",
+  "GetFlankIcon",
+  "GetMoralePercentage",
+  "GetMoraleTooltip",
+  "GetMoraleUnits",
+  "GetNonEngagedSize",
+  "GetNonEngagedStrength",
+  "GetNonEngagedUnits",
+  "GetSize",
+  "GetStrength"
+ ],
+ "SubUnit": [
+  "GetCombatDetails",
+  "GetCombatOverview",
+  "GetController",
+  "GetCulture",
+  "GetDebugText",
+  "GetDefinition",
+  "GetExperience",
+  "GetExperienceChange",
+  "GetExperienceImpact",
+  "GetExperienceTitle",
+  "GetHome",
+  "GetMaintenanceCost",
+  "GetMaintenanceCostTooltip",
+  "GetMaxStrength",
+  "GetMercenary",
+  "GetMoraleAlphaForUI",
+  "GetMoraleLabel",
+  "GetNameWithNoTooltip",
+  "GetOwner",
+  "GetReligion",
+  "GetSourceTooltip",
+  "GetStat",
+  "GetStatTooltip",
+  "GetStrength",
+  "GetStrengthDescription",
+  "GetSubunitFlankIcon",
+  "GetTypeDescription",
+  "GetUnit",
+  "GetUnitBox",
+  "IsLevy",
+  "IsMercenary",
+  "IsPrisoner",
+  "IsRegiment",
+  "IsShip"
+ ],
+ "BattleView": [
+  "GetCombat"
+ ],
+ "BattleResultMessage": [
+  "GetAttacker",
+  "GetBattleResult",
+  "GetDefender",
+  "GetPlayerWarScoreMessage",
+  "GetSubunitsWidgetSize",
+  "GetWindowSize",
+  "IsPlayerAttacker",
+  "IsPlayerDefender",
+  "IsPlayerWinner"
+ ],
+ "BattleResultMessageSide": [
+  "GetActiveParticipant",
+  "GetParticipants",
+  "GetUnitStats"
+ ],
+ "BattleResultMessageParticipant": [
+  "GetStats",
+  "OnClick"
+ ],
+ "BattleUnitStats": [
+  "GetCombatCapableRemaining",
+  "GetDestroyed",
+  "GetImprisoned",
+  "GetSize"
+ ],
+ "BattleSide": [
+  "GetCommander",
+  "GetLosses",
+  "GetMainParticipant",
+  "GetNavalLosses",
+  "GetOverallChangeForUI"
+ ],
+ "BattleParticipant": [
+  "GetExperience",
+  "GetPrestige",
+  "GetTradition",
+  "GetWarExhaustion"
+ ],
+ "MessagePopup": [
+  "CanGoTo",
+  "GetAgreeText",
+  "GetDeclineText",
+  "GetDescription",
+  "GetEffect",
+  "GetFlavor",
+  "GetLockableInfo",
+  "GetSubtitle",
+  "GetTitle",
+  "HasDescription",
+  "HasEffect",
+  "HasFlavor",
+  "OnAccept",
+  "OnDecline",
+  "OnGoTo",
+  "OpenMessagePopup"
+ ],
+ "BuildingView": [
+  "GetBuilding",
+  "GetProductionMethods",
+  "GetProfitText",
+  "GetTitle",
+  "IsMultiselection"
+ ],
+ "ProductionMethod": [
+  "GetAvailableInCountryInfo",
+  "GetAvailableInfo",
+  "GetCountryProfit",
+  "GetCountryProfitInfo",
+  "GetFlavorText",
+  "GetGoodsDemand",
+  "GetInputDemandInfo",
+  "GetNameWithNoTooltip",
+  "GetOutput",
+  "GetProduced",
+  "GetProfit",
+  "GetProfitInfo",
+  "HasFlavorText",
+  "IsOutput",
+  "IsProducing"
+ ],
+ "BuildingCandidate": [
+  "GetActiveInputs",
+  "GetActiveOutputs",
+  "GetBuilding",
+  "GetMaxLevel",
+  "GetProductionMethodTooltip",
+  "GetProductionMethods",
+  "IsForeign",
+  "ShowBuilding"
+ ],
+ "PossibleProductionMethodsItem": [
+  "GetActiveInputs",
+  "GetActiveOutputs"
+ ],
+ "BuildLocationSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "QuickVisibleMarkets": [
+  "GetVisibleMarkets"
+ ],
+ "BureaucracyItem": [
+  "GetBureaucracy",
+  "GetEntrenchmentPhaseAmount",
+  "GetMaintenanceSetting",
+  "GetMissingEntrenchmentPhaseAmount",
+  "HasBureaucracy",
+  "HasMaintenanceSetting"
+ ],
+ "BureaucraciesLateralView": [
+  "GetBureaucracies",
+  "GetImplementedBureaucraciesAmount"
+ ],
+ "MaintenanceSetting": [
+  "GetArmyMaintenanceInfo",
+  "GetDefault",
+  "GetExpenseBenefit",
+  "GetExpenseBenefitAmount",
+  "GetExpenseBenefitTooltip",
+  "GetExpenseBreakdown",
+  "GetExpenseWithCurrency",
+  "GetIcon",
+  "GetMax",
+  "GetMin",
+  "GetModifierDesc",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNavyMaintenanceInfo",
+  "GetSettingOwner",
+  "HasExpenseBenfitAsStringPair",
+  "IsArmy",
+  "IsCourt",
+  "IsDecEnabled",
+  "IsEnabled",
+  "IsFort",
+  "IsIO",
+  "IsIncEnabled",
+  "IsNavy",
+  "IsUpkeep",
+  "OnChanged",
+  "Post",
+  "ShowModifier",
+  "ShowModifierWithTitle",
+  "ShowSlider"
+ ],
+ "CDPopEditor": [
+  "Apply",
+  "ApplySelectedLocationToTemplate",
+  "ApplyTemplateToSelectedLocation",
+  "ApplyTotalPopulation",
+  "GetCultures",
+  "GetCulturesSortSearch",
+  "GetLastError",
+  "GetReligions",
+  "GetReligionsSortSearch",
+  "GetSelectedLocationText",
+  "GetSelectedPops",
+  "GetTemplate",
+  "HasError",
+  "IsDirty",
+  "IsSelected",
+  "PickCultureFrom",
+  "PickReligionFrom",
+  "Reset",
+  "ResetTemplate",
+  "ResetToOriginal",
+  "Save",
+  "SelectPop"
+ ],
+ "Culture": [
+  "GetCountriesList",
+  "GetDebugEthnicities",
+  "GetDebugGraphicalCultures",
+  "GetDebugText",
+  "GetGraphicalCulturesMapTooltip",
+  "GetInfluence",
+  "GetInfluenceChange",
+  "GetInfluenceTooltip",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPopsForCountry",
+  "GetTooltip",
+  "GetTradition",
+  "GetTraditionChange",
+  "GetTraditionTooltip"
+ ],
+ "PopEntry": [
+  "GetCulture",
+  "GetPercentage",
+  "GetReligion",
+  "GetSize",
+  "Remove",
+  "RetrieveSize",
+  "SelectCulture",
+  "SelectReligion"
+ ],
+ "Religion": [
+  "GetCountriesList",
+  "GetCountriesListTitle",
+  "GetDebugText",
+  "GetFlavorText",
+  "GetGroup",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPopsForCountry",
+  "GetReformDesire",
+  "GetReformDesireInfo",
+  "GetReligiousInfluenceLink",
+  "GetReligiousInfluenceName",
+  "GetTooltip"
+ ],
+ "PopulationConfiguration": [
+  "CanEditPopulation",
+  "GetPopTypes",
+  "GetPopulation",
+  "RetrievePopulation"
+ ],
+ "PopTypeEntry": [
+  "AddNew",
+  "GetPercentage",
+  "GetPopEntries",
+  "GetPopType",
+  "GetPopulation",
+  "IsToggled",
+  "RetrievePopulation",
+  "Toggle"
+ ],
+ "Government": [
+  "GetActiveRegent",
+  "GetRegencyInfo",
+  "GetRuler",
+  "GetRulerTitle",
+  "HasActiveRegent",
+  "HasRuler"
+ ],
+ "CharacterLateralview": [
+  "GetActions",
+  "GetCharacter",
+  "GetChildrenSortedByAge",
+  "GetNextRulerTraits",
+  "GetTraits",
+  "Vars"
+ ],
+ "CharacterRoleMask": [
+  "GetRoleIcon",
+  "GetRoleName",
+  "GetRolesName",
+  "HasRole"
+ ],
+ "CharacterActionItem": [
+  "GetEffectsInfo",
+  "GetIcon",
+  "GetUIAction",
+  "HasEffectsInfo",
+  "IsCharacterEducation"
+ ],
+ "UIActionProvider": [
+  "GetAcceptance",
+  "GetConditions",
+  "GetConfirmation",
+  "GetDescription",
+  "GetEffects",
+  "GetLeftClickAcceptance",
+  "GetLeftClickAndConfirmAcceptance",
+  "GetLeftClickAndConfirmConditions",
+  "GetLeftClickAndConfirmCost",
+  "GetLeftClickAndConfirmDescription",
+  "GetLeftClickAndConfirmTitle",
+  "GetLeftClickConditions",
+  "GetLeftClickCost",
+  "GetLeftClickDescription",
+  "GetLeftClickTitle",
+  "GetRightClickAcceptance",
+  "GetRightClickAndConfirmAcceptance",
+  "GetRightClickAndConfirmConditions",
+  "GetRightClickAndConfirmCost",
+  "GetRightClickAndConfirmDescription",
+  "GetRightClickAndConfirmTitle",
+  "GetRightClickConditions",
+  "GetRightClickCost",
+  "GetRightClickDescription",
+  "GetRightClickTitle",
+  "GetTitle",
+  "IsEnabled",
+  "IsLeftClickAndConfirmEnabled",
+  "IsLeftClickAndConfirmVisible",
+  "IsLeftClickEnabled",
+  "IsLeftClickVisible",
+  "IsRightClickAndConfirmEnabled",
+  "IsRightClickAndConfirmVisible",
+  "IsRightClickEnabled",
+  "IsRightClickVisible",
+  "IsVisible",
+  "OnLeftClick",
+  "OnLeftClickAndConfirm",
+  "OnRightClick",
+  "OnRightClickAndConfirm"
+ ],
+ "PinCollection": [
+  "IsPinned",
+  "IsPinnedWithDefaultValue",
+  "Toggle"
+ ],
+ "RulerTraitEntry": [
+  "GetProgressInfo",
+  "GetProgressToNextTrait",
+  "GetTrait",
+  "HasTrait"
+ ],
+ "ConfirmInsultAction": [
+  "GetCandidates",
+  "GetIntroText",
+  "GetSelectedView",
+  "SelectView"
+ ],
+ "InsultCandidate": [
+  "GetText"
+ ],
+ "ConfirmOfferLoanAction": [
+  "CanSend",
+  "GetAmount",
+  "GetCandidates",
+  "GetInterest",
+  "GetIntroText",
+  "GetMaxAmount",
+  "GetMaxInterest",
+  "GetMinAmount",
+  "GetMinInterest",
+  "GetSelectedView",
+  "OnAmountChangedByEditbox",
+  "SelectView",
+  "SetAmount",
+  "SetInterest",
+  "SetSuggestedTerms"
+ ],
+ "LoanDurationCandidate": [
+  "GetText"
+ ],
+ "QuickDiplomaticActions": [
+  "GetDynamicActionsIcon",
+  "GetDynamicActionsTitle",
+  "GetDynamicList",
+  "GetList",
+  "GetSpecificAction",
+  "HasSpecificAction"
+ ],
+ "UnitActionItem": [
+  "CanHoldLeftClick",
+  "CanHoldRightClick",
+  "CanSingleLeftClick",
+  "GetFlavorText",
+  "GetInfo",
+  "GetLeftClickDescription",
+  "GetName",
+  "GetNotTexture",
+  "GetRightClickDescription",
+  "GetSecondaryName",
+  "GetShiftLeftName",
+  "GetShortcut",
+  "GetTexture",
+  "GetTitle",
+  "GetTooltip",
+  "HasHoldLeftAction",
+  "HasHoldRightAction",
+  "HasShiftLeftClick",
+  "HasSingleLeftAction",
+  "HasSpecialTooltipInfo",
+  "HoldLeftClick",
+  "HoldRightClick",
+  "IsActive",
+  "IsCategory",
+  "IsEnabled",
+  "IsToggleAction",
+  "SingleLeftClick"
+ ],
+ "Unit": [
+  "CanDisembark",
+  "CanEmbark",
+  "CanRemoveCommander",
+  "CanRemoveCommanderDescription",
+  "CanReplaceLeader",
+  "CanReplaceLeaderInfo",
+  "CanSelectCommander",
+  "CanSelectCommanderDescription",
+  "CanShowCommander",
+  "CanShowCommanderDescription",
+  "ContainsPlayerMercenaries",
+  "Disembark",
+  "GetAccumulatedUnitStat",
+  "GetAccumulatedUnitStatInfo",
+  "GetAttritionTooltip",
+  "GetBalanceAction",
+  "GetBlockadedInfo",
+  "GetCanDisembarkTooltip",
+  "GetCanEmbarkTooltip",
+  "GetCategoryTag",
+  "GetCombinedArmsBonus",
+  "GetCombinedArmsInfo",
+  "GetCommander",
+  "GetCountry",
+  "GetDailyFoodBalance",
+  "GetDebugTooltip",
+  "GetDiseasePresence",
+  "GetDiseaseResistance",
+  "GetExperience",
+  "GetExperienceTooltip",
+  "GetFoodConsumptionInfo",
+  "GetFoodPercentage",
+  "GetFoodSourceInfo",
+  "GetFoodSupply",
+  "GetFoodSupplyTitle",
+  "GetLeviesTooltipText",
+  "GetLoadedOn",
+  "GetLocation",
+  "GetMaintenanceCost",
+  "GetMaxMoraleFloat",
+  "GetMaxSupplyDistanceCost",
+  "GetMaxSupplyDistanceCostInfo",
+  "GetMaxTransportCapacity",
+  "GetMaxTransportCapacityShort",
+  "GetMaximumFoodStorage",
+  "GetMercenariesTooltipText",
+  "GetMoraleFloat",
+  "GetMovementInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNearestSupplySourcesInfo",
+  "GetNumSubUnits",
+  "GetObjectiveGroup",
+  "GetQuickUnitActions",
+  "GetRegularsTooltipText",
+  "GetReinforcementRateTooltip",
+  "GetStatusTexture",
+  "GetSubUnitCounts",
+  "GetSupplyDetails",
+  "GetSupplyDistanceCost",
+  "GetSupplyInfo",
+  "GetSupplySource",
+  "GetSupplyWeightTooltip",
+  "GetTotalAttritionWeight",
+  "GetTotalLevyCount",
+  "GetTotalMercenaryCount",
+  "GetTotalRegularCount",
+  "GetTransportCost",
+  "GetUnitBox",
+  "GetUnitFormationPreference",
+  "GetUnitReinforceDetails",
+  "GetUsedTransportCapacityPercentage",
+  "GetUsedTransportCapacityShort",
+  "GetVisualStrength",
+  "GetVisualStrengthShort",
+  "HasDiseaseResistance",
+  "HasLeader",
+  "HasMaximumMaintenance",
+  "HasPrisoners",
+  "HasSpecificDisease",
+  "HasSpecificDiseaseResistance",
+  "IsArmy",
+  "IsAutobalanced",
+  "IsAutomated",
+  "IsBlockading",
+  "IsExiled",
+  "IsGainingExperience",
+  "IsGainingFood",
+  "IsMoraleDecreasingDueToAttrition",
+  "IsMoraleDecreasingDueToMovement",
+  "IsMoraleRecoverying",
+  "IsNavy",
+  "IsNavyGatherOrDistribute",
+  "RemoveCommander",
+  "SelectCommander",
+  "ShowCommander",
+  "ShowReinforceDetails",
+  "ToggleAutobalance"
+ ],
+ "QuickUnitActions": [
+  "AccessList"
+ ],
+ "UnitMarkerItem": [
+  "GetActiveAbilityIcon",
+  "GetActiveAbilityTooltip",
+  "GetAllUnits",
+  "GetAttritionHistoryTooltip",
+  "GetAttritionTooltip",
+  "GetAverageMoralePercent",
+  "GetBlockadedPercent",
+  "GetContextMenuTitle",
+  "GetLabel",
+  "GetLeaderFrame",
+  "GetLosingFoodTT",
+  "GetMilitaryObjectiveGroup",
+  "GetQuickUnitActions",
+  "GetRegainingFoodTT",
+  "GetTooltip",
+  "GetTotalUnits",
+  "GetTransportedTroops",
+  "GetUnit",
+  "HasAttritionHistory",
+  "HasDisease",
+  "HasLeaderFrame",
+  "HasVisibleObjectiveGroup",
+  "IsClickable",
+  "IsExiled",
+  "IsHiddenFromLandAndSea",
+  "IsHiddenFromLandOnly",
+  "IsHiddenFromSeaOnly",
+  "IsLargeEnoughForMovementSpeedImpact",
+  "IsLosingFood",
+  "IsLosingSoldiers",
+  "IsMovementLocked",
+  "IsPlayer",
+  "IsRegainingFood",
+  "IsRetreating",
+  "IsSelectedOrHighlighted",
+  "OnClick",
+  "OnFlagClick",
+  "OnLeaderClick",
+  "OnRightClick",
+  "OnSelectLoadedUnits",
+  "RightClickToChase",
+  "ShouldShowCompass",
+  "ShowActiveAbility",
+  "ShowTotalUnits"
+ ],
+ "CountryListFromLocation": [
+  "GetList"
+ ],
+ "Province": [
+  "CanGetToFoodMarketInfo",
+  "GetAverageControl",
+  "GetCapital",
+  "GetCountry",
+  "GetDebugText",
+  "GetFood",
+  "GetFoodCapacity",
+  "GetFoodCapacityTooltip",
+  "GetFoodFromMarket",
+  "GetFoodModifierEffect",
+  "GetLocations",
+  "GetMonthlyFood",
+  "GetMonthlyFoodChange",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetProvinceReleaseInfo",
+  "GetTimedModifiers",
+  "GetTotalOwnerPopulation",
+  "GetTotalPopulation",
+  "GetTotalTaxBase",
+  "IsRiskOfStarving",
+  "IsStarving"
+ ],
+ "Area": [
+  "GetLogInfo",
+  "GetMembersInfo",
+  "GetMercenaryInfo",
+  "GetNameWithNoTooltip",
+  "GetUITooltip",
+  "IsNaval"
+ ],
+ "QuickCharacterActions": [
+  "GetActions"
+ ],
+ "PossibleTrade": [
+  "CanDoTrade",
+  "CanDoTradeTooltip",
+  "DecreaseDesiredGoodsMoved",
+  "DecreaseDesiredGoodsMovedSlower",
+  "DecreaseDesiredMerchantCapacity",
+  "DecreaseDesiredMerchantCapacitySlower",
+  "DecreaseToMinMerchantCapacity",
+  "DoTrade",
+  "GetBuyCost",
+  "GetDesiredGoodsMoved",
+  "GetDesiredMerchantCapacity",
+  "GetDoTradeTooltip",
+  "GetExistingTrade",
+  "GetFromMarket",
+  "GetGoods",
+  "GetMaintenance",
+  "GetMaintenanceInfo",
+  "GetMarketNames",
+  "GetMerchantCapacityProfit",
+  "GetPossibleTradeCapacityInfo",
+  "GetProfit",
+  "GetSellPrice",
+  "GetToMarket",
+  "GetUIActions",
+  "IncreaseDesiredGoodsMoved",
+  "IncreaseDesiredGoodsMovedSlower",
+  "IncreaseDesiredMerchantCapacity",
+  "IncreaseDesiredMerchantCapacitySlower",
+  "IncreaseToMaxMerchantCapacity",
+  "IsExistingTrade",
+  "PotentialBuyInfo",
+  "PotentialSellInfo"
+ ],
+ "QuickTradeOrders": [
+  "GetMarket",
+  "GetQuickExportSuggestions",
+  "GetQuickImportSuggestions",
+  "GetTradeOrders"
+ ],
+ "QuickOrderItem": [
+  "CanCreate",
+  "CanCreateTT",
+  "Create",
+  "GetGoods"
+ ],
+ "CategoryTradesItem": [
+  "GetIcon",
+  "GetName",
+  "GetPossibleTrades",
+  "HasTrades"
+ ],
+ "TradeOverview": [
+  "GenerateSceneDesc",
+  "GetCurrentTradesCategory",
+  "GetMarketsInRangeForDestinationFilter",
+  "GetMarketsInRangeForDestinationSortSearch",
+  "GetMarketsSortSearch",
+  "GetNonZeroMerchantsMarketsTooltip",
+  "GetPlayer",
+  "GetPossibleTradesToolbarCategories",
+  "GetSelectedMarket",
+  "GetTradeCategoriesSortSearch",
+  "GetVisibleMarkets",
+  "IsMarketFilterEnabled",
+  "IsPossibleTradesSelectMarketOpened",
+  "SetTradeDestinationFilter",
+  "TogglePossibleTradesSelectMarket",
+  "Vars"
+ ],
+ "Trade": [
+  "GetAssignedMerchantCapacity",
+  "GetAssignedMerchantCapacityModifiedPlayer",
+  "GetAssignedMerchantValueInfo",
+  "GetBuy",
+  "GetBuyInfo",
+  "GetCachedProfitPerMerchantCapacity",
+  "GetDesiredGoodsShipped",
+  "GetDesiredGoodsToShip",
+  "GetDoTradeTooltip",
+  "GetFromMarket",
+  "GetFromPort",
+  "GetGoods",
+  "GetMaintenance",
+  "GetMaintenanceInfo",
+  "GetMarketNames",
+  "GetName",
+  "GetOwner",
+  "GetProfit",
+  "GetProfitPerMerchantCapacity",
+  "GetQuantityOfGoodsActuallyMoved",
+  "GetSell",
+  "GetSellInfo",
+  "GetSoundTollFee",
+  "GetToMarket",
+  "GetToPort",
+  "HasTradeHappened",
+  "IsExport",
+  "IsLocked",
+  "ToggleLock"
+ ],
+ "MapModeSlot": [
+  "GetInputAction",
+  "GetMapModes",
+  "GetSlotNum"
+ ],
+ "MapMode": [
+  "AddInNewSlot",
+  "GetIcon",
+  "GetInputAction",
+  "GetName",
+  "GetTooltip",
+  "IsActive",
+  "IsInSlot",
+  "IsSet",
+  "MoveDownOnSlot",
+  "MoveUpOnSlot",
+  "SetMapMode",
+  "ToggleInSlot"
+ ],
+ "ContextMenu": [
+  "IsSectionOpened",
+  "OpenSection"
+ ],
+ "GroupItem": [
+  "GetCharacter",
+  "GetCountry",
+  "GetDesc",
+  "GetIndex",
+  "GetInternationalOrganization",
+  "GetLeftTooltip",
+  "GetRightTooltip",
+  "GetTexture",
+  "GetTitle",
+  "IsCharacter",
+  "IsCountry",
+  "IsInternationalOrganization",
+  "IsVisible",
+  "OnLeftClick",
+  "OnRightClick"
+ ],
+ "Trait": [
+  "GetAITooltip",
+  "GetCategoryTag",
+  "GetDebugText",
+  "GetDesc",
+  "GetFlavor",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "HasChanceTooltip",
+  "HasUpgradesFrom",
+  "HasUpgradesTo",
+  "IsBad",
+  "IsCabinetTrait",
+  "IsGeneralTrait"
+ ],
+ "GetPlayer": [
+  "GetArmyCostsByDefinition",
+  "GetArmyGoodsCostImpact",
+  "GetAvailableBureaucraciesDesc",
+  "GetBankruptcyProgress",
+  "GetBuildingUpkeepGoodsCostInfo",
+  "GetCourtSpendingCostDetails",
+  "GetCurrencyValue",
+  "GetDiplomacy",
+  "GetEconomy",
+  "GetFixedPointCurrencyValue",
+  "GetGovernment",
+  "GetNavyCostsByDefinition",
+  "GetNavyGoodsCostImpact",
+  "GetReligion",
+  "GetShortCurrencyValue",
+  "IsEnemy",
+  "IsMemberOfInternationalOrganization"
+ ],
+ "ModifierType": [
+  "GetDebugText",
+  "GetDesc",
+  "GetFlavorDesc",
+  "GetIcon",
+  "GetNameWithNoTooltip"
+ ],
+ "ModifierSourceWrap": [
+  "GetBreakdown",
+  "GetModifierType",
+  "GetScalingBreakdown"
+ ],
+ "StaticModifier": [
+  "GetDesc",
+  "GetFlavorDesc",
+  "GetIcon",
+  "GetModifier",
+  "GetNameWithNoTooltip",
+  "HasFlavorText"
+ ],
+ "ScaledStaticModifierWrap": [
+  "GetEffect",
+  "GetIcon",
+  "GetModifier"
+ ],
+ "TradeConnectionWrap": [
+  "GetHomeName",
+  "GetName",
+  "GetTooltip"
+ ],
+ "SpecificGoodsOnMarketWrap": [
+  "GetGoods",
+  "GetMarket"
+ ],
+ "SPopNeedsBreakdownWrapper": [
+  "GetBreakdown",
+  "GetTitle"
+ ],
+ "LocationCountryModifierWrap": [
+  "GetIcon",
+  "GetName"
+ ],
+ "TradesWrap": [
+  "CanShow",
+  "CurrentIndex",
+  "GetSelectedTrade",
+  "GoNext",
+  "GoPrev"
+ ],
+ "UnitSuppliesWrap": [
+  "CanShow",
+  "CurrentIndex",
+  "GetSelectedUnit",
+  "GoNext",
+  "GoPrev"
+ ],
+ "WeatherSystem": [
+  "GetLocationInfo",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "ImportExportLateralView": [
+  "CancelTradeOrder",
+  "GetGoods",
+  "GetItems",
+  "GetItemsSortSearch",
+  "GetMarket",
+  "GetPossibleItemForLocation",
+  "GetTradeOrderItem",
+  "GetTradeOrderNotPossibleInfo",
+  "GetTradesInMarket",
+  "HasTradeOrder",
+  "IncreaseTradeOrder",
+  "IsExport"
+ ],
+ "SiegeRollModifierWrapItem": [
+  "GetIcon",
+  "GetModifierValue"
+ ],
+ "SiegeRollModifierWrap": [
+  "GetRows"
+ ],
+ "LocationUpkeepWrap": [
+  "GetBuildings",
+  "GetLocation"
+ ],
+ "LocationUpKeepBuildingItem": [
+  "GetBuilding",
+  "GetUpkeep"
+ ],
+ "SimpleCustomTagTooltipWrapper": [
+  "GetBody",
+  "GetConcept",
+  "GetFlavor",
+  "GetIcon",
+  "GetList",
+  "GetTitle",
+  "HasIcon"
+ ],
+ "RecruitScoreRanking": [
+  "GetUnitType",
+  "IsValid"
+ ],
+ "RecruitInLocationLateralView": [
+  "CanDisbandAllLevies",
+  "CanDisbandAllLeviesInfo",
+  "CanRaiseAllLevies",
+  "CanRaiseAllLeviesInfo",
+  "CanSelectAnotherUnitTemplate",
+  "DisbandAllLevies",
+  "GetItems",
+  "GetLeviesInProgress",
+  "GetLeviesStrength",
+  "GetLevyCategoryStrengthForUI",
+  "GetLevySetupStrengthForUI",
+  "GetMercenary",
+  "GetMethods",
+  "GetNumRecruitmentInProgress",
+  "GetRecruitEmptyInfo",
+  "GetRecruitEmptyItems",
+  "GetRecruitSortSearch",
+  "GetUnitTemplate",
+  "GetUnitType",
+  "GetValidArmyLevyCategories",
+  "GetValidLeviesForCategory",
+  "GetValidNavyLevyCategories",
+  "IsArmy",
+  "IsLevy",
+  "IsMercenary",
+  "IsMethodChecked",
+  "IsNavy",
+  "IsUnitTemplate",
+  "RaiseAllArmyLevies",
+  "RaiseAllNavyLevies",
+  "SelectLocationToBuild",
+  "SelectMethod",
+  "SelectNextUnitTemplate",
+  "SelectPrevUnitTemplate"
+ ],
+ "GetSelectedCountryOrByLocation": [
+  "GetDiplomacy",
+  "GetTruceToolTip"
+ ],
+ "GoodsDetailsLateralView": [
+  "DoesPopTypeNeed",
+  "GetCurrentNeeds",
+  "GetCurrentNeedsInfo",
+  "GetGoods",
+  "GetGoodsInMarkets",
+  "GetGoodsInMarketsSortSearch",
+  "GetHighestMarketPriceInfo",
+  "GetLowestMarketPriceInfo",
+  "GetPopsNeedingInfo",
+  "GetSources",
+  "GetSourcesSortSearch",
+  "IsAnyPopNeed",
+  "IsMarketGoodPricesMapModeSet",
+  "IsReactiveMapModeSet",
+  "IsSelectedGoodsMapModeSet",
+  "SetMarketGoodPricesMapMode",
+  "SetReactiveMapMode",
+  "SetSelectedGoodsMapMode",
+  "Vars"
+ ],
+ "CircleActionItem": [
+  "GetAction",
+  "GetIconTexture",
+  "GetTarget"
+ ],
+ "MercenaryItem": [
+  "GetCustomerTooltip",
+  "GetLeftClickAndConfirmConditions",
+  "GetLeftClickAndConfirmCost",
+  "GetLeftClickAndConfirmDescription",
+  "GetLeftClickAndConfirmTitle",
+  "GetLeftClickConditions",
+  "GetLeftClickCost",
+  "GetLeftClickDescription",
+  "GetLeftClickTitle",
+  "GetMercenary",
+  "GetOwnerTooltip",
+  "GetRightClickAndConfirmConditions",
+  "GetRightClickAndConfirmCost",
+  "GetRightClickAndConfirmDescription",
+  "GetRightClickAndConfirmTitle",
+  "IsLeftClickAndConfirmEnabled",
+  "IsLeftClickAndConfirmVisible",
+  "IsLeftClickEnabled",
+  "IsRightClickAndConfirmEnabled",
+  "IsRightClickAndConfirmVisible",
+  "OnLeftClick",
+  "OnLeftClickAndConfirm",
+  "OnRightClickAndConfirm"
+ ],
+ "Mercenary": [
+  "GetNameWithNoTooltip",
+  "GetSubUnits",
+  "GetUITooltip",
+  "IsEmployed",
+  "IsShip"
+ ],
+ "BlockList": [
+  "GetBlocks",
+  "GetTitle"
+ ],
+ "BlockListBlock": [
+  "GetColumns",
+  "GetPairRows",
+  "GetRequirementsRows",
+  "GetSingleRows",
+  "IsColumns",
+  "IsPair",
+  "IsRequirements",
+  "IsSingle"
+ ],
+ "TableRowList": [
+  "GetHorizontalLayoutPolicy",
+  "GetMinimumSize",
+  "GetRows",
+  "GetTableMinimumSize",
+  "GetTableWidth",
+  "GetTextAlignment",
+  "GetTitle"
+ ],
+ "TableRow": [
+  "GetColumns"
+ ],
+ "AiUtilityWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "CountriesListView": [
+  "GetCountriesListView",
+  "GetCountriesSortSearch"
+ ],
+ "CountriesListViewItem": [
+  "GetCountry"
+ ],
+ "CountryDHEView": [
+  "GetEntries",
+  "GetEntriesSortSearch",
+  "GetTitle"
+ ],
+ "DHEEventEntry": [
+  "GetAge",
+  "GetDateRange",
+  "GetDebugInfo",
+  "GetEffects",
+  "GetHistoricalInfo",
+  "GetStatusLabel",
+  "GetTitle",
+  "GetTrigger",
+  "HasAge",
+  "HasHistoricalInfo",
+  "IsStatusHasHappened",
+  "IsStatusNotYet",
+  "IsStatusTimeHasPassed"
+ ],
+ "SelectCreateCasusBelliWindow": [
+  "GetExisting",
+  "GetExistingCBSortSearch",
+  "GetPossible",
+  "GetPossibleCBSortSearch",
+  "Vars"
+ ],
+ "SelectCasusBelli": [
+  "GetCasusBelli",
+  "GetPriceImpactFromWar",
+  "GetSubjectTooltip",
+  "GetTooltip",
+  "GetWarGoal",
+  "IsCreating",
+  "IsEnabled",
+  "IsExisting",
+  "OnClick"
+ ],
+ "CurrencyPriceWrap": [
+  "GetCost",
+  "GetCurrencyGameConceptType",
+  "GetIcon",
+  "GetPrices"
+ ],
+ "PriceTooltipWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "CreateSubjectsLateralView": [
+  "GetTitle"
+ ],
+ "CreditLateralView": [
+  "GetDeclareBankruptcyConditions",
+  "GetDeclareBankruptcyDescription",
+  "GetLoansGiven",
+  "GetLoansGivenMerged",
+  "GetLoansGivenSortSearch",
+  "GetLoansTaken",
+  "GetLoansTakenMerged",
+  "GetLoansTakenSortSearch",
+  "GetNextLoanSize",
+  "GetSellBondsActionDescription",
+  "GetSellBondsConditions",
+  "GetSellBondsCost",
+  "GetSellBondsDescription",
+  "GetTotalLoansGiven",
+  "GetTotalLoansGivenMonthlyCost",
+  "GetTotalLoansTakenMonthlyCost",
+  "IsDeclareBankruptcyEnabled",
+  "IsSellBondsEnabled",
+  "OnDeclareBankruptcy",
+  "OnSellBonds",
+  "Vars"
+ ],
+ "LoanEntry": [
+  "GetAmount",
+  "GetColor",
+  "GetLoan",
+  "GetRedeemBondConditions",
+  "GetRedeemBondCost",
+  "GetRedeemBondDescription",
+  "GetRepayLoanConditions",
+  "GetRepayLoanCost",
+  "GetRepayLoanDescription",
+  "GetShortNameAsBorrower",
+  "GetShortNameAsBorrowerWithNoFlagWithNoTooltip",
+  "IsBond",
+  "IsEnabled",
+  "IsRedeemBondEnabled",
+  "IsRepayLoanEnabled",
+  "OnRedeemBond",
+  "OnRepayLoan"
+ ],
+ "CulturesLedger": [
+  "GetCultureItemsSortSearch",
+  "GetCultures"
+ ],
+ "CultureItem": [
+  "GetCulture"
+ ],
+ "CountryCultureLateralView": [
+  "GenerateSceneDesc",
+  "GetArtistItems",
+  "GetArtistSortSearch",
+  "GetCountry",
+  "GetCulture",
+  "GetCultureSortSearch",
+  "GetImportantCultures",
+  "GetPlayer",
+  "GetPopsPiechartWidget",
+  "GetWorkOfArtItems",
+  "GetWorkOfArtSortSearch",
+  "Vars"
+ ],
+ "PopCultureItem": [
+  "GetAbsoluteSize",
+  "GetColor",
+  "GetCulture",
+  "GetName",
+  "GetPercentage"
+ ],
+ "ImportantCultureItem": [
+  "GetAcceptedCultureDescription",
+  "GetColor",
+  "GetCulture",
+  "GetOurOpinionIcon",
+  "GetOurOpinionTooltip",
+  "GetPercentSize",
+  "GetPercentSizeTooltip",
+  "GetTheirOpinionIcon",
+  "GetTheirOpinionTooltip",
+  "IsAccepted",
+  "IsNonTolerated",
+  "IsPrimary",
+  "IsTolerated",
+  "ShouldDisplayForeign"
+ ],
+ "CultureGroup": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEffects",
+  "GetIsMerged",
+  "GetMergedCultureTooltip",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "HasEffects"
+ ],
+ "CountryCultureLateralViewWorkOfArtItem": [
+  "GetWorkOfArt"
+ ],
+ "CountryCultureLateralViewArtistItem": [
+  "GetArtist"
+ ],
+ "DeclareWarLateralView": [
+  "CanUnmarkAsCobelligerent",
+  "GenerateSceneDesc",
+  "GetAllyLeaderSubjectsAmount",
+  "GetDeclareWarAction",
+  "GetEnemyAllies",
+  "GetEnemyCountry",
+  "GetEnemyLeaderSubjectsAmount",
+  "GetLandComparisonTooltip",
+  "GetMaxAntagonism",
+  "GetMinAntagonism",
+  "GetNavalComparisonTooltip",
+  "GetPlayer",
+  "GetPlayerAllies",
+  "GetPriceImpactFromWar",
+  "GetRecipient",
+  "GetSelectedCasusBelli",
+  "GetSelectedWarGoal",
+  "GetSelectedWarGoalName",
+  "HasEnemySubjects",
+  "HasPlayerSubjects",
+  "IsAntagonismCalculationDone",
+  "IsAnyCasusBelliSelected",
+  "ShowSelectCasusBelli",
+  "UnmarkAsCobelligerent",
+  "Vars"
+ ],
+ "DeclareWarAlly": [
+  "GetAreWillingToJoinTooltip",
+  "GetCountry",
+  "GetPromiseLandTooltip",
+  "GetSubjectAllies",
+  "GetTruceProgress",
+  "HasSubjectAllies",
+  "HasTruceWithEnemyLeader",
+  "IsCallAllyEnabled",
+  "IsCallAllyVisible",
+  "IsExpanded",
+  "IsJoiningWar",
+  "IsOriginalLeader",
+  "IsPromiseLandChecked",
+  "IsPromiseLandEnabled",
+  "IsPromiseLandVisible",
+  "IsSubject",
+  "OnCallAllyClick",
+  "OnPromiseLandClick",
+  "ToggleExpanded"
+ ],
+ "DeclareWarSelectCasusBelli": [
+  "GetName",
+  "GetWarGoals"
+ ],
+ "DeclareWarSelectWarGoal": [
+  "GetName",
+  "IsAllowed",
+  "IsSelected",
+  "OnClick"
+ ],
+ "DiplomacyDialog": [
+  "GetActionName",
+  "GetCountry",
+  "GetDescription",
+  "GetIconTexture",
+  "GetOptionEnabled",
+  "GetTitle",
+  "GetToolTip",
+  "OnAction",
+  "OnClose",
+  "ShowAction"
+ ],
+ "RelationDescItem": [
+  "GetCountry",
+  "GetProgress",
+  "GetRelationDescItemUIAction",
+  "GetToolTip",
+  "HasProgress"
+ ],
+ "ForeignCountryView": [
+  "GetCategoryItems",
+  "GetCharacters",
+  "GetCharactersSortSearch",
+  "GetCountry",
+  "GetDiploCategoriesSortSearch",
+  "GetDiplomaticRelations",
+  "GetDiplomaticRelationsSortSearch",
+  "GetEstates",
+  "GetHeirSelection",
+  "GetLaws",
+  "GetOngoingRelationCountries",
+  "GetQuickDiplomaticActions",
+  "GetReforms",
+  "GetReformsCount",
+  "GetRelativePowerDescription",
+  "GetRelativePowerTooltipGlue",
+  "GetRulerTermEntries",
+  "GetRulerTermEntriesSortSearch",
+  "GetWarUIAction",
+  "GetWars",
+  "HasOngoingRelations",
+  "HasRulingHistory",
+  "IsForeignCountrySelectCountryOpened",
+  "IsRelativePowerOver",
+  "IsRelativePowerUnder",
+  "IsViewingPlayerCountry",
+  "ToggleForeignCountrySelectCountry",
+  "Vars"
+ ],
+ "ActiveHegemonItem": [
+  "GetHegemon"
+ ],
+ "OrgItem": [
+  "GetMembers",
+  "GetMembersText",
+  "GetName",
+  "GetOrg",
+  "GetOverflowCountriesForUI"
+ ],
+ "CountryDiplomaticItem": [
+  "GetCountry"
+ ],
+ "UnitFormationPreference": [
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "DiplomacyMacrobuilderLateralView": [
+  "GetCategoryItems",
+  "GetDefaultCategory",
+  "GetDiploCategoriesSortSearch",
+  "GetOngoingRelationCountries",
+  "GetSelectedCountry",
+  "IsCountryFilterEnabled",
+  "IsDiplomacyMacrobuilderSelectCountryOpened",
+  "RemoveCountryFilter",
+  "ToggleDiplomacyMacrobuilderSelectCountry"
+ ],
+ "DiplomaticActionCategory": [
+  "GetActions",
+  "GetName",
+  "GetNumActions",
+  "HasActions",
+  "OnClick"
+ ],
+ "QuickTemporaryCountryRelations": [
+  "GetTemporaryRelation",
+  "HasTemporaryRelation"
+ ],
+ "FilteredSortedList": [
+  "GetSearchBar",
+  "GetSortKeyButton",
+  "GetSortKeys",
+  "IsKeyHoveredByWidgetName",
+  "ToggleAll",
+  "ToggleAllEnabled"
+ ],
+ "UnitOverview": [
+  "CanBuild",
+  "CanBuildInfo",
+  "CanDisbandAllLevies",
+  "CanDisbandUnitDescriptionFromUnit",
+  "CanDisbandUnitFromUnit",
+  "CanHireMerc",
+  "CanHireMercInfo",
+  "ChooseArmyMercenaryLeader",
+  "ChooseNavyMercenaryLeader",
+  "ConstructLeviesInfo",
+  "ConstructLeviesVisible",
+  "DisbandAllLevies",
+  "DisbandAllLeviesInfo",
+  "DisbandUnitFromUnit",
+  "GetArmyLeviesInProgress",
+  "GetArmyLeviesStrength",
+  "GetArmyLevyRecoveryPercentage",
+  "GetArmyMercenariesInProgress",
+  "GetArmyMercenariesStrength",
+  "GetArmyRegularsInProgress",
+  "GetArmyRegularsStrength",
+  "GetArmyRepairTooltip",
+  "GetArmyTradition",
+  "GetArmyUnits",
+  "GetArmyUnitsSortSearch",
+  "GetInProgressArmyLevies",
+  "GetInProgressArmyMercenaries",
+  "GetInProgressArmyRegulars",
+  "GetInProgressNavyLevies",
+  "GetInProgressNavyMercenaries",
+  "GetInProgressNavyRegulars",
+  "GetNavyLeviesInProgress",
+  "GetNavyLeviesStrength",
+  "GetNavyLevyRecoveryPercentage",
+  "GetNavyMercenariesInProgress",
+  "GetNavyMercenariesStrength",
+  "GetNavyRegularsInProgress",
+  "GetNavyRegularsStrength",
+  "GetNavyRepairTooltip",
+  "GetNavyTradition",
+  "GetNavyUnits",
+  "GetNavyUnitsSortSearch",
+  "GetNumPotentialArmyMercenaries",
+  "GetNumPotentialNavyMercenaries",
+  "GetPlayer",
+  "GetSelectObjectiveArmyAction",
+  "GetSelectObjectiveNavyAction",
+  "GetSubunitDefinitionArmyIllustration",
+  "GetSubunitDefinitionArmyIllustrationMask",
+  "GetSubunitDefinitionNavyIllustration",
+  "GetSubunitDefinitionNavyIllustrationMask",
+  "RaiseAllLevies",
+  "RaiseAllLeviesAmountInfo",
+  "RaiseAllLeviesInfo",
+  "SetUnitEditingNameFromUnit",
+  "Vars"
+ ],
+ "DiplomacyMacrobuilderSelectCountry": [
+  "OnClose"
+ ],
+ "QuickVisibleCountries": [
+  "GetVisibleCountries"
+ ],
+ "DiseasesLateralView": [
+  "GetPossibleDiseases",
+  "GetPossibleDiseasesSortSearch",
+  "GetTotalDeathsInfo",
+  "GetTotalDeathsLabel",
+  "SetSelectedDisease"
+ ],
+ "PossibleDisease": [
+  "GetAffectedCountries",
+  "GetAffectedCountryLocationsInfo",
+  "GetCountryNumOutbreaks",
+  "GetName",
+  "GetNumOutbreaks",
+  "GetOutbreakItems",
+  "GetPlayerDeathsInfo",
+  "GetWorldDeathsInfo",
+  "IsExpanded",
+  "Toggle"
+ ],
+ "OutbreakItem": [
+  "GetAffectedCountries",
+  "GetAffectedCountryLocationsInfo",
+  "GetDiseaseOutbreak",
+  "GetPlayerDeathsInfo",
+  "GetStartDate"
+ ],
+ "DynastiesLedger": [
+  "GetDynasties",
+  "GetDynastyItemsSortSearch"
+ ],
+ "DynastyItem": [
+  "GetDynasty",
+  "GetRulerHistoryInfo"
+ ],
+ "DynastyTreeView": [
+  "GetAutocompleteFromKey",
+  "GetCurrentRulersTooltip",
+  "GetDynasty",
+  "GetLineItems",
+  "GetNodeItems",
+  "GetSearchBar",
+  "GetTitle",
+  "PanToCharacter",
+  "SetupDataContexts"
+ ],
+ "DynastyNodeItem": [
+  "GetCharacter",
+  "GetKey",
+  "GetNameToFit",
+  "GetPosition",
+  "GetTraits",
+  "IsFromOtherDynasty",
+  "IsVisible",
+  "ShouldPortraitBeRendered",
+  "ShowSimplifiedVersion"
+ ],
+ "RulerTerm": [
+  "GetNameAndTitleInfo",
+  "GetRuledCountry",
+  "GetTitleInfoForCharacter",
+  "RuledIsCountry"
+ ],
+ "DynastyTreeItem": [
+  "ToggleChildrenVisibility"
+ ],
+ "DynastyLineItem": [
+  "GetPointsInContainer",
+  "GetPosition",
+  "IsVisible"
+ ],
+ "AutocompleteEntry": [
+  "IsFilterEnabled",
+  "ToggleFilter"
+ ],
+ "EconomicSupportWindow": [
+  "DecreasePrice",
+  "GetDesc",
+  "GetMax",
+  "GetPrice",
+  "GetStep",
+  "GetTitle",
+  "IncreasePrice",
+  "OnAccept",
+  "OnDecline",
+  "OnPriceChanged",
+  "OnPriceChangedByEditbox"
+ ],
+ "TaxRateSetting": [
+  "GetDefault",
+  "GetEstate",
+  "GetImpact",
+  "GetIncome",
+  "GetIncomeBreakdown",
+  "GetMax",
+  "GetMin",
+  "GetName",
+  "GetTaxSettingsTooltip",
+  "HasImpact",
+  "IsSatisfactionTargetDecEnabled",
+  "IsSatisfactionTargetIncEnabled",
+  "IsTaxRateSettingDecEnabled",
+  "IsTaxRateSettingIncEnabled",
+  "IsUsingAutoTaxRate",
+  "OnTaxChanged",
+  "Post",
+  "ShouldShow",
+  "ToggleAutoTaxRate"
+ ],
+ "EconomyView": [
+  "CanDoStabilityInvestment",
+  "GetAllExpense",
+  "GetAllExpenseInfo",
+  "GetAllIncome",
+  "GetAllIncomeInfo",
+  "GetBalanceEndData",
+  "GetBalanceStartData",
+  "GetBasePlotPoints",
+  "GetCoinMintingIncome",
+  "GetDataPointValue",
+  "GetDefaultCoinMinting",
+  "GetDefaultStabilityInvestment",
+  "GetEstimatedBalance",
+  "GetEstimatedBalanceInfo",
+  "GetExpense",
+  "GetExpenseInfo",
+  "GetFullEfficiencyMintingIncome",
+  "GetHistoricalMaxBalance",
+  "GetHistoricalMaxBalanceTooltip",
+  "GetHistoricalMinBalance",
+  "GetHistoricalMinBalanceTooltip",
+  "GetIncome",
+  "GetIncomeFromMintingInfo",
+  "GetIncomeInfo",
+  "GetInefficientMintingInfo",
+  "GetInflationChange",
+  "GetInflationFromMintingInfo",
+  "GetInflationGoodDemand",
+  "GetMaintenanceSettings",
+  "GetNextLoanSize",
+  "GetNoTaxInfo",
+  "GetRecentBalance",
+  "GetStabilityChange",
+  "GetStabilityInvestmentExpense",
+  "GetStabilityInvestmentTooltip",
+  "GetTaxRateSettings",
+  "HasTaxes",
+  "IsCoinMintingDecEnabled",
+  "IsCoinMintingIncEnabled",
+  "IsStabilityDecEnabled",
+  "IsStabilityIncEnabled",
+  "OnChangedCoinMinting",
+  "OnChangedStabilityInvestment",
+  "PostStability",
+  "PostTaxes",
+  "ToggleUnusedMaintenanceSettings",
+  "UnusedMaintenanceSettingsVisible"
+ ],
+ "GuiScope": [
+  "AddScope"
+ ],
+ "Encyclopedia": [
+  "AccessCurrentPage",
+  "AccessPages",
+  "ViewAllEntries"
+ ],
+ "EncyclopediaPage": [
+  "FilterFromText",
+  "GetTitle"
+ ],
+ "GameEncyclopedia": [
+  "GetCurrentMaxSubpageNumber",
+  "GetCurrentSubPageViewedEntries",
+  "GetCurrentSubpageNumber",
+  "GoToEditBoxSubPage",
+  "GoToNextSubPage",
+  "GoToPreviousSubPage",
+  "SetCurrentPage"
+ ],
+ "EncyclopediaEntryView": [
+  "Get"
+ ],
+ "EncyclopediaEntry": [
+  "GetBody",
+  "GetFrame",
+  "GetFrameSize",
+  "GetImage",
+  "GetTitle",
+  "HasImage"
+ ],
+ "EndGameView": [
+  "CanContinuePastEndDate",
+  "GetHistoricalScoreItems",
+  "GetText",
+  "LostGame",
+  "OnContinue",
+  "OnObserve",
+  "OnQuit",
+  "WonGame"
+ ],
+ "HistoricalScoreItem": [
+  "GetHistoricalScore"
+ ],
+ "EstateActionsLateralView": [
+  "GetEstate"
+ ],
+ "EventWindow": [
+  "AccessOptionItemWithKey",
+  "GenerateSceneDesc",
+  "GetDebugInfo",
+  "GetDescription",
+  "GetEventCategoryIcon",
+  "GetFirstCharacter",
+  "GetHistoricalInfo",
+  "GetLockableInfo",
+  "GetOptions",
+  "GetSecondCharacter",
+  "GetTitle",
+  "GetUniqueImage",
+  "HasEventCategoryIcon",
+  "HasUniqueImage",
+  "SelectDefaultOption",
+  "ShouldShowScrollBar"
+ ],
+ "EventOption": [
+  "GetText",
+  "GetTooltip",
+  "IsTooltipEmpty",
+  "Select"
+ ],
+ "Omen": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEffects",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "MakeScope"
+ ],
+ "ExpandRawGoodsLateralView": [
+  "CancelAllLastExpandingLocations",
+  "ExpandBestFromRankingItemsCtrl",
+  "ExpandBestFromRankingItemsDefault",
+  "ExpandBestFromRankingItemsShift",
+  "GetBestExpandingLocationItem",
+  "GetExpandRankingItems",
+  "GetLastExpandingLocationItem",
+  "GetRawGoodLocationItems",
+  "GetRawGoodLocationsSortSearch",
+  "GetSelectedMarket",
+  "HasBestExpandingLocationItem",
+  "HasLastExpandingLocationItem",
+  "IsExpandRawGoodsSelectMarketOpened",
+  "IsMarketFilterEnabled",
+  "RemoveMarketFilter",
+  "ToggleAutoExpandAllRGOs",
+  "ToggleExpandRawGoodsSelectMarket"
+ ],
+ "RawGoodLocationItem": [
+  "CanReduceRGO",
+  "CanUpgradeRGO",
+  "GetIncomePerLevel",
+  "GetLocation",
+  "GetProfitInfo",
+  "GetProfitPerLevel",
+  "GetReduceRGOTooltip",
+  "GetUpgradeRGOTooltip",
+  "ReduceRGO",
+  "ReduceRGOCtrl",
+  "ReduceRGODefault",
+  "ReduceRGOShift",
+  "UpgradeRGO"
+ ],
+ "LocationPopulationChart": [
+  "GetPopsPiechartWidget"
+ ],
+ "PopsPiechartWidget": [
+  "GetBottom5Locations",
+  "GetCultures",
+  "GetOwner",
+  "GetPolitics",
+  "GetPopTypes",
+  "GetReligions",
+  "GetTax",
+  "GetTop5Locations"
+ ],
+ "PopTaxItem": [
+  "GetColor",
+  "GetPercentage"
+ ],
+ "ExpandRawGoodsSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "SelectInteractionTargetView": [
+  "Confirm",
+  "GetCurrentParams",
+  "GetCurrentValueGlue",
+  "GetInteractionIcon",
+  "GetNoneAvailableTextOnlyHeader",
+  "GetTargetObjectSortSearch",
+  "GetTitle",
+  "GetTopLeftDesc",
+  "GetTopLeftTexture",
+  "GetTopLeftTitle",
+  "GetTopRightDesc",
+  "GetTopRightTexture",
+  "GetTopRightTitle",
+  "GetValueGlue",
+  "IsLeftMultiline",
+  "IsRightMultiline",
+  "IsTopVisible",
+  "IsValue",
+  "RequiresAcceptance"
+ ],
+ "ExpansionLateralView": [
+  "CanCancelQueuedConquistador",
+  "CanRecruit",
+  "CancelAllQueuedConquistadors",
+  "CancelQueuedConquistador",
+  "GetCancelQueuedConquistadorInfo",
+  "GetColonialChartersSortSearch",
+  "GetColonyCategories",
+  "GetExplorationCategories",
+  "GetExplorationsSortSearch",
+  "GetKnownWorldPercentage",
+  "GetNumberOfCurrentConquistadors",
+  "GetNumberOfOngoingColonies",
+  "GetNumberOfOngoingConquistadors",
+  "GetPlayer",
+  "GetProvinces",
+  "GetProvincesSortSearch",
+  "GetRecruitCost",
+  "GetRecruitInfo",
+  "Recruit",
+  "Vars"
+ ],
+ "ExplorationCategoryGlue": [
+  "GetExplorationItems"
+ ],
+ "ColonyCategoryGlue": [
+  "GetColonyItems"
+ ],
+ "FindLocationView": [
+  "GetLocations",
+  "GoToFirstLocation",
+  "OnClose",
+  "OnFindTextChanged"
+ ],
+ "FindLocationItem": [
+  "AddHighlight",
+  "GetText",
+  "OnClick"
+ ],
+ "FoodProductionLateralView": [
+  "GetFoodProductionList",
+  "GetFoodProductionListSortSearch",
+  "GetSelectedMarket",
+  "IsFoodProductionSelectMarketOpened",
+  "IsMarketFilterEnabled",
+  "RemoveMarketFilter",
+  "ToggleAllItems",
+  "ToggleFoodProductionSelectMarket"
+ ],
+ "FoodProductionListItem": [
+  "AccessLocationItem",
+  "AccessProvinceItem",
+  "IsLocationItem",
+  "IsProvinceItem"
+ ],
+ "FoodProvinceItem": [
+  "GetProvince",
+  "IsExpanded",
+  "Toggle"
+ ],
+ "FoodLocationItem": [
+  "CanProduceFoodBuildings",
+  "CanReduceRGO",
+  "CanUpgradeRGO",
+  "GetGoods",
+  "GetLocation",
+  "GetReduceRGOTooltip",
+  "GetUpgradeRGOBuildCostAndTime",
+  "GetUpgradeRGOBuildTimeBreakdown",
+  "GetUpgradeRGOConstructionDemand",
+  "GetUpgradeRGOTooltip",
+  "HasFoodGoods",
+  "HasUpgradeRGOConstructionDemand",
+  "ReduceRGO",
+  "ShowUpgradeRGO",
+  "UpgradeRGO"
+ ],
+ "FoodProductionSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "QuickNotableDispositions": [
+  "GetDispositionIcon",
+  "GetNotableDispositionCountries",
+  "GetTitle",
+  "GetTooltip"
+ ],
+ "RelativePowerTooltipGlue": [
+  "GetCountry"
+ ],
+ "TimedModifier": [
+  "GetDesc",
+  "GetDuration",
+  "GetModifier",
+  "GetModifierEffect",
+  "GetTooltip"
+ ],
+ "HeirSelectionCandidate": [
+  "GetHeirCandidates",
+  "GetHeirSelection"
+ ],
+ "EstatesItem": [
+  "AddNewPrivilege",
+  "GetEstate",
+  "OpenActionsWindow"
+ ],
+ "ChivalricOrder": [
+  "GetCharacterModifierText",
+  "GetCountryModifierText",
+  "GetDesc",
+  "GetNameWithNoTooltip"
+ ],
+ "CharacterItem": [
+  "GetCharacter"
+ ],
+ "ForeignCountrySelectCountry": [
+  "OnClose"
+ ],
+ "FormNewCountry": [
+  "GetCandidates",
+  "GetCandidatesSortSearch",
+  "GetRankCandidates"
+ ],
+ "CountryRankCandidate": [
+  "CanChangeRank",
+  "ChangeRank",
+  "GetCanChangeRankCost",
+  "GetCanChangeRankDesc",
+  "GetChangeRankName",
+  "GetCountryRank",
+  "IsCurrentRank",
+  "IsLowerLevel"
+ ],
+ "CountryRank": [
+  "GetConditions",
+  "GetDebugText",
+  "GetDescription",
+  "GetEffectsTitle",
+  "GetNameWithNoTooltip",
+  "GetRankTooltip"
+ ],
+ "NewCountryCandidate": [
+  "CanFormCountry",
+  "EnableHighlight",
+  "FormCountry",
+  "GetCanFormCountryConditions",
+  "GetCanFormCountryCost",
+  "GetFormCountryDesc",
+  "GetFormableCountry",
+  "GetLocationProgress"
+ ],
+ "JominiGameRules": [
+  "CanGetAchievements",
+  "DeletePresetAtIndex",
+  "DeletePresetWithName",
+  "GetAchievementsTooltipContent",
+  "GetIronmanAvailableDesc",
+  "GetIronmanToolTip",
+  "GetPresetSaveName",
+  "GetRulePresets",
+  "GetSelectedPreset",
+  "GetSettings",
+  "HasPresetWithName",
+  "HasValidPresetSelected",
+  "Hide",
+  "HidePresetWindow",
+  "IsIronman",
+  "IsIronmanAvailable",
+  "IsPresetWindowShown",
+  "OnPresetSaveNameChange",
+  "OnPresetSaveNameEdit",
+  "OnSelectPreset",
+  "ResetAllToDefaults",
+  "SavePreset",
+  "SetPresetSaveName",
+  "ShowPresetWindow",
+  "ToggleIronmanStatus",
+  "WouldBeIronman"
+ ],
+ "GuiGameRulePreset": [
+  "GetName",
+  "GetSettingForRule",
+  "HasRuleWithFlag"
+ ],
+ "GameRuleSetting": [
+  "GetDescription",
+  "GetName",
+  "HasFlag"
+ ],
+ "GameRule": [
+  "GetName"
+ ],
+ "GoodsSourceItem": [
+  "GetDemand",
+  "GetDemandInfo",
+  "GetLocation",
+  "GetOutput",
+  "GetOutputInfo",
+  "GetProductionEfficiency",
+  "GetProductionEfficiencyInfo"
+ ],
+ "TownRights": [
+  "GetIcon",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "GetType",
+  "MakeScope"
+ ],
+ "GoodsView": [
+  "GetGoods",
+  "GetGoodsItemsSortSearch"
+ ],
+ "GoodsItem": [
+  "GetBiggestMarket",
+  "GetDemandInfo",
+  "GetGoods",
+  "GetOurProduced",
+  "GetOurProducedInfo",
+  "GetSupplyInfo",
+  "GetTotalDemand",
+  "GetTotalSupply",
+  "HasMarket"
+ ],
+ "GoodsProductionLateralView": [
+  "GetRawGoodsItems",
+  "GetRawGoodsSortSearch",
+  "GetSelectedMarket",
+  "IsGoodsProductionSelectMarketOpened",
+  "IsMarketFilterEnabled",
+  "RemoveMarketFilter",
+  "ToggleGoodsProductionSelectMarket"
+ ],
+ "GoodItem": [
+  "AreRebelPopsMissingGoods",
+  "CanBuildBuildings",
+  "CanExpandRGO",
+  "CanExportToSelectedMarket",
+  "GetBuildingsMissingGoods",
+  "GetGoods",
+  "GetMaxBuildingIncome",
+  "GetMaxRGOIncome",
+  "GetPopsMissingGoods",
+  "IsGovernmentMissingGood"
+ ],
+ "GoodsProductionSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "PrivilegeItem": [
+  "GetPrivilege",
+  "GetUIAction"
+ ],
+ "Law": [
+  "GetBgCategoryColor",
+  "GetCategoryName",
+  "GetDebugText",
+  "GetDesc",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPoliciesDataModel",
+  "GetPolicyNamesForUI",
+  "GetTagObject",
+  "GetTooltipWithCountryContext",
+  "GetTooltipWithIOContext",
+  "HasLevels",
+  "IsUnique"
+ ],
+ "LawCategory": [
+  "GetBgCategoryColor",
+  "GetCategoryIcon",
+  "GetLaws",
+  "GetName",
+  "IsExpanded",
+  "Toggle",
+  "ToggleAll"
+ ],
+ "GovernmentView": [
+  "CanCancelMoveCapital",
+  "CanCancelMoveCapitalTT",
+  "CanMoveCapital",
+  "CanMoveCapitalConditions",
+  "CanMoveCapitalDesc",
+  "CancelMoveCapital",
+  "GetAgendas",
+  "GetCabinets",
+  "GetCountry",
+  "GetHeirSelection",
+  "GetImplementedReforms",
+  "GetLanguageImpact",
+  "GetLawCategories",
+  "GetLawCategoriesSortSearch",
+  "GetLawEnabledInfo",
+  "GetMoveCapitalCost",
+  "GetParliamentActions",
+  "GetPlayer",
+  "GetPossibleReformsAmount",
+  "GetSortedEstates",
+  "GetTraits",
+  "IsLawEnabled",
+  "IsLowerTabCabinet",
+  "IsLowerTabEstates",
+  "IsLowerTabParliament",
+  "IsLowerTabPolitics",
+  "MoveCapital",
+  "SetLowerTabToCabinet",
+  "SetLowerTabToEstates",
+  "SetLowerTabToParliament",
+  "SetLowerTabToPolitics"
+ ],
+ "ResolutionGlue": [
+  "CanResolutionBeVoted",
+  "EnactResolutionIsActive",
+  "GetBgCategoryColor",
+  "GetButtonText",
+  "GetCountryVoteBreakdownForCountry",
+  "GetCountryVoteDescForCountry",
+  "GetDebugText",
+  "GetDesc",
+  "GetEnabledPoliciesForLeaderDataModel",
+  "GetEnabledPolicyForLeaderAtIndex",
+  "GetEnactResolution",
+  "GetFirstPossibleVoteNum",
+  "GetNotVoted",
+  "GetOwner",
+  "GetPossibleVotes",
+  "GetProposer",
+  "GetRepealResolution",
+  "GetSecondPossibleVoteNum",
+  "GetSpecificParams",
+  "GetTarget",
+  "GetTargetCountry",
+  "GetTitle",
+  "GetVoteDesc",
+  "GetVoteTitle",
+  "GetVoteToEnactAction",
+  "GetVoteToRepealAction",
+  "GetVotes",
+  "HasCountryForFirstPossible",
+  "HasCountryForSecondPossible",
+  "HasCountryVoted",
+  "HasCountryVotedFromPointer"
+ ],
+ "LateralView": [
+  "CanGoBack",
+  "CanHistoryEntryBeClicked",
+  "Close",
+  "GetHistoryEntries",
+  "GetHistoryEntryName",
+  "GoBack",
+  "IsFullscreen",
+  "IsHistoryEntryCurrent",
+  "IsLateralViewHistoryGroup",
+  "IsRightPanel",
+  "OnClickHistoryEntry",
+  "ToggleSelectLateralViewHistory",
+  "Vars"
+ ],
+ "GenericAction": [
+  "GetBasicTooltip",
+  "GetDebugText",
+  "GetIcon",
+  "GetKey",
+  "GetLeftClickAndHoldKey",
+  "GetLeftClickKey",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "HasIcon"
+ ],
+ "ParliamentAgendaItem": [
+  "GetAgenda",
+  "GetImpact",
+  "GetName",
+  "GetSatisfaction",
+  "GetSupport",
+  "GetSupportInfo",
+  "GetType",
+  "GetUIAction"
+ ],
+ "GovernmentReformsLateralView": [
+  "GetAllReforms",
+  "GetChangingReform",
+  "GetImplementedReforms",
+  "GetPossibleReformsAmount",
+  "GetReformsSortSearch",
+  "HasReformSelectedToChange",
+  "ToggleExpand"
+ ],
+ "GovernmentReform": [
+  "GetDebugText",
+  "GetEffectText",
+  "GetFlavorText",
+  "GetModifiersText",
+  "GetNameWithNoTooltip",
+  "GetSocietalValueRequirement",
+  "GetSocietalValueRequirementInfo",
+  "HasEffectText",
+  "HasFlavorText",
+  "HasModifiersText",
+  "IsAvailableForUI",
+  "IsMajor",
+  "IsUnique",
+  "RequiresSocietalValues"
+ ],
+ "GovernmentReformItem": [
+  "GetApplyReformConditions",
+  "GetApplyReformCost",
+  "GetApplyReformDescription",
+  "GetApplyReformEffects",
+  "GetApplyReformTitle",
+  "GetDescription",
+  "GetEffectText",
+  "GetEffects",
+  "GetModifiersText",
+  "GetPosition",
+  "GetReform",
+  "GetSize",
+  "GetSizeWithWidget",
+  "GetSocietalValueRequirementInfo",
+  "IsApplyReformEnabled",
+  "IsCountryExclusive",
+  "IsEnabled",
+  "IsReady",
+  "OnApplyReform"
+ ],
+ "SocietalValueRequirement": [
+  "GetSocietalValue",
+  "IsLeft"
+ ],
+ "GovernmentReformsPerAgeLateralView": [
+  "GetAgeGroups",
+  "GetAllReforms",
+  "GetSearchBar",
+  "GetSocietalValueTypes",
+  "IsExpandedModifiers",
+  "IsSocietalValueLeftExcludeFilterEnabled",
+  "IsSocietalValueLeftFilterEnabled",
+  "IsSocietalValueRightExcludeFilterEnabled",
+  "IsSocietalValueRightFilterEnabled",
+  "ToggleExpand",
+  "ToggleExpandModifiers",
+  "ToggleSocietalValueLeftExcludeFilter",
+  "ToggleSocietalValueLeftFilter",
+  "ToggleSocietalValueRightExcludeFilter",
+  "ToggleSocietalValueRightFilter"
+ ],
+ "GovernmentReformAgeGroup": [
+  "GetAge"
+ ],
+ "SocietalValue": [
+  "GetDebugText",
+  "GetDesc",
+  "GetLeftHint",
+  "GetLeftIcon",
+  "GetLeftIllustration",
+  "GetLeftLabelWithNoTooltip",
+  "GetLeftTooltip",
+  "GetNameWithNoTooltip",
+  "GetPlayerSocietalIcon",
+  "GetRightHint",
+  "GetRightIcon",
+  "GetRightIllustration",
+  "GetRightLabelWithNoTooltip",
+  "GetRightTooltip",
+  "ShowLeftHint",
+  "ShowRightHint"
+ ],
+ "ScriptedHintItem": [
+  "GetHint",
+  "GetHintText",
+  "IsHighPriority",
+  "ShouldShow"
+ ],
+ "UIVariables": [
+  "Clear",
+  "HasValue",
+  "Set"
+ ],
+ "HintsLateralView": [
+  "GetHints",
+  "GetHintsSortSearch",
+  "IsAdmHintsOn",
+  "IsDiploHintsOn",
+  "IsMilHintsOn",
+  "ToggleAdm",
+  "ToggleDiplo",
+  "ToggleMil",
+  "Vars"
+ ],
+ "MapModeSelectorVars": [
+  "Clear",
+  "ClearIf",
+  "Exists",
+  "HasValue",
+  "Set",
+  "SetOrToggle",
+  "Toggle"
+ ],
+ "GetMapColorLedgerSearchBar": [
+  "ClearTextFilter"
+ ],
+ "MapColorLedger": [
+  "GetColor",
+  "GetIcon",
+  "GetName",
+  "HasIcon"
+ ],
+ "PossibleItem": [
+  "CanDecrease",
+  "CanIncrease",
+  "CanIncreaseTT",
+  "CanStart",
+  "CanStartInfo",
+  "DecreaseTrade",
+  "EnableHighlight",
+  "GetDesiredMerchantCapacity",
+  "GetExistingTrade",
+  "GetFromMarket",
+  "GetGoods",
+  "GetMarket",
+  "GetMaxMerchantCapacity",
+  "GetMovingGoods",
+  "GetProfit",
+  "GetProfitTT",
+  "GetStep",
+  "GetToMarket",
+  "IncreaseTrade",
+  "IsExistingTrade",
+  "IsExport",
+  "OnChanged",
+  "Start"
+ ],
+ "ConfirmDiplomaticAction": [
+  "GetAcceptTooltip",
+  "GetAcceptanceFrame",
+  "RequiresAcceptance"
+ ],
+ "PauseMenu": [
+  "CloseAllViews",
+  "GetOpenLobbyTooltip",
+  "IsAchievementsAvailable",
+  "IsMainWindowEnabled",
+  "LoadIngame",
+  "LoadIngameTooltip",
+  "OpenAchievements",
+  "OpenAiSettings",
+  "OpenLobby",
+  "OpenMessageSettings",
+  "OpenReportIssue",
+  "OpenSettings",
+  "Quit",
+  "Resume",
+  "Save",
+  "SaveTooltip"
+ ],
+ "ConfirmWindow": [
+  "Cancel",
+  "Confirm",
+  "GetConfirmButtonText",
+  "GetText"
+ ],
+ "GetMultiplayerChat": [
+  "GetPinTooltip",
+  "GetTooltip"
+ ],
+ "InstitutionEditor": [
+  "GetCurrent",
+  "GetEntries"
+ ],
+ "InstitutionEntry": [
+  "GetName",
+  "OnClick"
+ ],
+ "InternationalOrganizationLawCategory": [
+  "GetBgCategoryColor",
+  "GetCategoryIcon",
+  "GetLaws",
+  "GetName",
+  "HasLockedLaws",
+  "IsExpanded",
+  "Toggle"
+ ],
+ "InternationalOrganizationsView": [
+  "CanContribute",
+  "CanDeclareWar",
+  "DeclareWar",
+  "GetActions",
+  "GetActiveParliamentResolutionGlue",
+  "GetAgendas",
+  "GetAllLaws",
+  "GetAllVoteScoresForVoter",
+  "GetAskToVoteActionForElector",
+  "GetCandidateCount",
+  "GetCandidates",
+  "GetCircleNameForCountry",
+  "GetCirclesSortSearch",
+  "GetContributionConditions",
+  "GetContributionDesc",
+  "GetCountryParliamentVoteBreakdown",
+  "GetCountryParliamentVoteDesc",
+  "GetCountryParliamentVotes",
+  "GetEnabledLaws",
+  "GetFavoriteForVoter",
+  "GetFormationStartDateUI",
+  "GetGoldenBullPolicy",
+  "GetGoldenBullResolutionGlue",
+  "GetHolySites",
+  "GetHolySitesSortSearch",
+  "GetHreHeaderActions",
+  "GetHreRankColor",
+  "GetHreRankColorForCountry",
+  "GetHreRankCountryCount",
+  "GetIOLandStrength",
+  "GetIOLandStrengthTooltip",
+  "GetIOMaintenanceSettings",
+  "GetIONavalStrength",
+  "GetIONavalStrengthTooltip",
+  "GetIllustration",
+  "GetImperialCircleItems",
+  "GetIndependenceMovementView",
+  "GetInternationalOrganization",
+  "GetLandComparisonTooltip",
+  "GetLawCategories",
+  "GetLawCategoriesSortSearch",
+  "GetLeadershipCriteria",
+  "GetMax",
+  "GetMemberIconForCountry",
+  "GetMemberIconForHreRankKey",
+  "GetMemberItems",
+  "GetMemberTypeDescForCountry",
+  "GetMemberTypeEffectsForCountry",
+  "GetMemberTypeEffectsForHreRankKey",
+  "GetMemberTypeNameForCountry",
+  "GetMembersSortSearch",
+  "GetMin",
+  "GetNavalComparisonTooltip",
+  "GetNonVotedCountriesVoteStrength",
+  "GetOppositionCountriesVoteStrength",
+  "GetParliamentActions",
+  "GetParliamentNonVotedCountriesWithPlayerFirst",
+  "GetParliamentOppositionCountriesWithPlayerFirst",
+  "GetParliamentVotedCountriesWithPlayerFirst",
+  "GetPaymentPayerCountForHreRankKey",
+  "GetPlayer",
+  "GetPlayerCannotBeVotedForTooltip",
+  "GetPoliciesBenefitingEmperorText",
+  "GetPrice",
+  "GetReligiousFactions",
+  "GetResolutionCount",
+  "GetResolutions",
+  "GetSaints",
+  "GetSaintsSortSearch",
+  "GetSecondVoterReasonString",
+  "GetSpecialMemberItems",
+  "GetSpecialMembersSortSearch",
+  "GetStep",
+  "GetTopVoterReasonString",
+  "GetTotalVotes",
+  "GetVotedCountriesVoteStrength",
+  "GetVotesForVoter",
+  "GetVotesForVoterBreakdown",
+  "GetWithdraw",
+  "GetWithdrawMax",
+  "GetWithdrawMin",
+  "GetWithdrawStep",
+  "HasActions",
+  "HasAskToVoteActionForElector",
+  "HasCandidates",
+  "HasLaws",
+  "HasParliamentActions",
+  "HasResolutions",
+  "HasSpecialMembers",
+  "HasSpecialStatusCountry",
+  "IsGoldenBullBeingDebated",
+  "IsGoldenBullPolicyActive",
+  "IsIoSubheaderSelectMenuOpened",
+  "IsParliamentCircleExpanded",
+  "IsPlayerElector",
+  "OnBribeImperialCircleClick",
+  "OnContributionAccept",
+  "OnElectorEntryClick",
+  "OnPriceChanged",
+  "OnVoteForCandidate",
+  "OnWithdrawAccept",
+  "OnWithdrawChanged",
+  "PlayerCanBeVotedFor",
+  "ToggleHreRankFilter",
+  "ToggleIoSubheaderSelectMenu",
+  "ToggleParliamentCircleExpanded",
+  "Vars"
+ ],
+ "VoterGlue": [
+  "GetReason",
+  "GetVoter",
+  "GetVotes"
+ ],
+ "VoteGlue": [
+  "GetCountryVoteBreakdown",
+  "GetCountryVoteDesc",
+  "GetTotalNumVotes",
+  "GetVoteObject",
+  "GetVotes",
+  "GetVotesNotForThis"
+ ],
+ "IOLawOutlinerEntry": [
+  "GetDesc",
+  "GetHighestVotedDesc",
+  "GetIcon",
+  "GetNotVoted",
+  "GetResolution",
+  "GetVoteItems",
+  "GetVotesForCountry",
+  "OnClick"
+ ],
+ "VoteItem": [
+  "GetName",
+  "GetVotes"
+ ],
+ "InternationalOrganizationType": [
+  "GetCanJoinAgainstPlayerCriteria",
+  "GetDebugText",
+  "GetIcon",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "GetWillLeaveAgainstPlayerCriteria"
+ ],
+ "InternationalOrganizationTypeView": [
+  "GetInternationalOrganizationType",
+  "GetOrganizations"
+ ],
+ "LocationsListView": [
+  "GetLocationsListSortSearch",
+  "GetLocationsListView"
+ ],
+ "LocationsListViewItem": [
+  "GetLocation"
+ ],
+ "LocationView": [
+  "BuildRoadToCapital",
+  "CanBuildArmy",
+  "CanBuildArmyTT",
+  "CanBuildNavy",
+  "CanBuildNavyTT",
+  "CanReduceRGO",
+  "CanUpgradeRGO",
+  "EnableZocNeighboursHighlight",
+  "GenerateSceneDesc",
+  "GetBuildingBasedOwners",
+  "GetBuildingsInfo",
+  "GetColonialCharter",
+  "GetColonialCharters",
+  "GetLocation",
+  "GetLocationBuildings",
+  "GetLocationGoodsItems",
+  "GetLocationGoodsSortSearch",
+  "GetNumColonialCharters",
+  "GetNumPopTypeBuildings",
+  "GetNumPopTypeForeignBuildings",
+  "GetPlayer",
+  "GetPopBasedOwners",
+  "GetPopTypeBuildingsInfo",
+  "GetPopTypeItem",
+  "GetPopTypes",
+  "GetPops",
+  "GetProvinceCultures",
+  "GetProvincePolitics",
+  "GetProvincePopTypes",
+  "GetProvinceReligions",
+  "GetRGOCost",
+  "GetRaiseArmyLeviesTooltip",
+  "GetRaiseNavyLeviesTooltip",
+  "GetReduceRGOTooltip",
+  "GetRenameUIClickAction",
+  "GetUpgradeRGOBuildTimeBreakdown",
+  "GetUpgradeRGOTooltip",
+  "HasBuildingBasedOwners",
+  "HasPopBasedOwners",
+  "IsBuildRoadToCapitalEnabled",
+  "IsLocationViewSelectProvinceOpened",
+  "IsShowFortsEnabled",
+  "OnMouseEnterBuildRoadButton",
+  "OnMouseLeaveBuildRoadButton",
+  "PerformRename",
+  "ReduceRGO",
+  "RenameLocation",
+  "ShowCurrentColonyWidget",
+  "ShowDisease",
+  "ShowForts",
+  "ShowPossibleColonyWidget",
+  "ShowUpgradeRGO",
+  "ToggleLocationViewSelectProvince",
+  "UpgradeRGO",
+  "Vars"
+ ],
+ "LocationProductionView": [
+  "GetBuildingItems",
+  "GetBuildingsSortSearch",
+  "GetSelectedLocation",
+  "IsLocationProductionSelectLocationOpened",
+  "ToggleLocationProductionSelectLocation"
+ ],
+ "ProvinceDefinition": [
+  "GetLocations",
+  "GetLogInfo",
+  "GetMembersInfo",
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "PopType": [
+  "GetColor",
+  "GetDebugText",
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetUITooltip",
+  "HasCap"
+ ],
+ "LocationProductionSelectLocation": [
+  "OnClose",
+  "Parent"
+ ],
+ "LocationBuildingItem": [
+  "CanDequeue",
+  "CanDequeueDesc",
+  "CanDestroy",
+  "CanDestroyDesc",
+  "CanExpandBuilding",
+  "Dequeue",
+  "Destroy",
+  "ExpandBuilding",
+  "GetBuilding",
+  "GetBuildingType",
+  "GetConstruction",
+  "GetExpandBuildingInfo",
+  "GetLevel",
+  "IsBuildingForPopType",
+  "IsBuildingUnderConstruction",
+  "IsConstruction",
+  "IsLackingInput",
+  "IsPlayerBuilding",
+  "IsPotentialBuilding",
+  "IsRGO",
+  "OpenBuildingView"
+ ],
+ "Siege": [
+  "GetArtilleryImpact",
+  "GetArtilleryImpactInfo",
+  "GetAssaultOddsInfo",
+  "GetBesieger",
+  "GetBesiegerStrengthTooltip",
+  "GetBesiegerVisualStrength",
+  "GetBlockadeImpact",
+  "GetCommander",
+  "GetCommanderTooltip",
+  "GetFallChance",
+  "GetFallChanceBreakDown",
+  "GetFallChanceTitle",
+  "GetFortLevelImpact",
+  "GetLastSiegeDiceRoll",
+  "GetLocation",
+  "GetMoralePercent",
+  "GetMoraleTooltip",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNumOfBreach",
+  "GetOccupationDaysLeft",
+  "GetOccupationDaysLeftShort",
+  "GetSiegeDefender",
+  "GetSiegeFortDefenseDifference",
+  "GetSiegeMemory",
+  "GetSiegePhaseProgress",
+  "GetSiegePhaseProgressTooltip",
+  "IsSiege",
+  "IsTooFewMen",
+  "MakeScope"
+ ],
+ "UIClickAction": [
+  "GetDescription",
+  "GetName",
+  "IsEnabled",
+  "IsVisible"
+ ],
+ "LocationGoodItem": [
+  "GetGoods",
+  "GetProductionEfficiency",
+  "GetProductionEfficiencyTooltip",
+  "GetTotalIncome",
+  "GetTotalIncomeTooltip",
+  "GetTotalOutput",
+  "GetTotalOutputTooltip",
+  "GetTotalWealth",
+  "GetTotalWealthTooltip"
+ ],
+ "PopTypeItem": [
+  "GetAbsoluteSize",
+  "GetColor",
+  "GetName",
+  "GetPercentage"
+ ],
+ "PopPoliticsItem": [
+  "GetColor",
+  "GetName",
+  "GetPercentage",
+  "GetPopulation",
+  "GetTooltip"
+ ],
+ "LocationPopItem": [
+  "GetAllPopsInLocation",
+  "GetCapTooltip",
+  "GetColor",
+  "GetGrowthForUI",
+  "GetLiteracy",
+  "GetLocation",
+  "GetPoliticalPower",
+  "GetPoliticalPowerInfo",
+  "GetPop",
+  "GetSize",
+  "GetTotalSize",
+  "GetType"
+ ],
+ "PopReligionItem": [
+  "GetAbsoluteSize",
+  "GetColor",
+  "GetName",
+  "GetPercentage",
+  "GetReligion"
+ ],
+ "LocationViewSelectProvince": [
+  "OnClose",
+  "Parent"
+ ],
+ "LockableInfo": [
+  "GetTintColor",
+  "GetUnlockingProgress"
+ ],
+ "ManageSubjectsLateralView": [
+  "GetSubjectRelations",
+  "GetSubjectRelationsSortSearch",
+  "GetTitle",
+  "IsSubjectType"
+ ],
+ "SubjectMilitaryStance": [
+  "GetDesc",
+  "GetDescAll",
+  "GetName",
+  "GetNameWithNoTooltip"
+ ],
+ "SubjectCategoryItem": [
+  "GetSubjects"
+ ],
+ "ParliamentMarker": [
+  "GetCountry",
+  "IsPlayerParliament",
+  "IsVisible"
+ ],
+ "HolySiteMarker": [
+  "GetLocation"
+ ],
+ "MarketMarker": [
+  "GetLocation",
+  "GetTooltip"
+ ],
+ "UnitMarker": [
+  "GetCompassAngle",
+  "GetLeadingUnit",
+  "GetSiege",
+  "GetUnits",
+  "HasSiege",
+  "ShouldBeShownFullWidth"
+ ],
+ "CombatMarker": [
+  "GetCombat",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "CombatImminentMarker": [
+  "GetIconTexture",
+  "GetTooltipHeader",
+  "GetTooltipOutcome"
+ ],
+ "FortMarker": [
+  "GetLocation"
+ ],
+ "TollMarker": [
+  "GetLocation"
+ ],
+ "PortMarker": [
+  "CanMoveNavyHere",
+  "HasVisibleShips",
+  "MoveNavyHere",
+  "ShouldBeShown"
+ ],
+ "RawGoodsMarker": [
+  "GetLocation"
+ ],
+ "DynastyMarker": [
+  "GetDynasty",
+  "IsLowborn",
+  "IsRegency"
+ ],
+ "SupplyDepotMarker": [
+  "GetLocation",
+  "GetProgress"
+ ],
+ "FortFlipRestoreMarker": [
+  "GetProgress",
+  "GetTooltip"
+ ],
+ "ImportExportMarker": [
+  "GetLocation",
+  "GetPossibleItem"
+ ],
+ "CabinetActionMarker": [
+  "GetCabinet",
+  "GetProgress"
+ ],
+ "BlockedVisionMarker": [
+  "GetTooltip"
+ ],
+ "WinterBlockedMarker": [
+  "GetTooltip"
+ ],
+ "AnnexationMarker": [
+  "GetCountry",
+  "GetProgress",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "DesertConnectionMarker": [
+  "ClearHighlightedConnections",
+  "GetConnectedLocationNames",
+  "GetTooltip",
+  "HighlightConnections"
+ ],
+ "ColonyCharterMarker": [
+  "ClearHighlightedCharter",
+  "GetProgress",
+  "GetTooltip",
+  "HighlightCharter"
+ ],
+ "BuildingSpyNetworkMarker": [
+  "GetCountry",
+  "GetProgress",
+  "GetRightClickConditions",
+  "GetTooltip",
+  "IsRightClickEnabled",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "CreateCasusBelliMarker": [
+  "GetProgress",
+  "GetRightClickConditions",
+  "GetTooltip",
+  "IsRightClickEnabled",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "ImproveOpinionMarker": [
+  "GetCountry",
+  "GetProgress",
+  "GetRightClickConditions",
+  "GetTooltip",
+  "IsRightClickEnabled",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "CurryingFavorsMarker": [
+  "GetProgress",
+  "GetRightClickConditions",
+  "GetTooltip",
+  "IsRightClickEnabled",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "CityMarker": [
+  "GetLocation",
+  "GetRankSize",
+  "GetRankVisible",
+  "OnClick",
+  "ShouldBeShownAsCapital",
+  "ShouldBeShownAsCity",
+  "ShouldShowOccupationFlag",
+  "ShowDetails",
+  "ShowDetailsOrHasWarFort"
+ ],
+ "BuildingConstructionMarker": [
+  "GetConstruction"
+ ],
+ "ArmyConstructionMarker": [
+  "GetConstruction"
+ ],
+ "NavyConstructionMarker": [
+  "GetConstruction"
+ ],
+ "ConquistadorConstructionMarker": [
+  "GetConstruction"
+ ],
+ "MaritimeLateralView": [
+  "GetPlayer",
+  "GetPrivateers",
+  "GetPrivateersSortSearch",
+  "GetSeazones",
+  "GetSeazonesSortSearch",
+  "Vars"
+ ],
+ "MaritimeItem": [
+  "GetHostilePrivateersTooltip",
+  "GetPresence",
+  "GetSeaZone",
+  "HasHostilePrivateers"
+ ],
+ "PossiblePrivateerItem": [
+  "GetArea",
+  "GetHostilePrivateersTooltip",
+  "GetPower",
+  "GetPowerChange",
+  "GetPowerInfo",
+  "HasHostilePrivateers",
+  "HasPrivateer"
+ ],
+ "MarketsView": [
+  "GetMarkets",
+  "GetMarketsItemsSortSearch"
+ ],
+ "Merchant": [
+  "GetCapacityWithLabel",
+  "GetCountry",
+  "GetPowerWithLabel",
+  "GetTotalCapacity",
+  "GetTotalTradeProfit"
+ ],
+ "CountryMessage": [
+  "GetFirstCountry",
+  "GetSecondCountry",
+  "GetWarInfo",
+  "IsEstatesLoan"
+ ],
+ "FinishedWarUnitStats": [
+  "GetDestroyed",
+  "GetImprisoned",
+  "GetRemaining",
+  "GetVisualSize"
+ ],
+ "CharMessage": [
+  "GetCharacter"
+ ],
+ "AskRepayLoanMessagePopup": [
+  "GetFirstCountry",
+  "GetSecondCountry",
+  "IsEstatesLoan"
+ ],
+ "InternationalOrganizationMessagePopup": [
+  "GetCountry",
+  "GetInternationalOrganization"
+ ],
+ "SituationMessagePopup": [
+  "GetCountry",
+  "GetSituation"
+ ],
+ "GoodsMessage": [
+  "GetGoods"
+ ],
+ "NewBornMessage": [
+  "DerivedOnAccept",
+  "GetCharacter",
+  "GiveRandomName"
+ ],
+ "ReligionMessage": [
+  "GetReligion"
+ ],
+ "WarMessage": [
+  "GetFirstCountry",
+  "GetSecondCountry"
+ ],
+ "MessageLog": [
+  "GetMessages",
+  "GetTooltip",
+  "Toggle"
+ ],
+ "UIMessage": [
+  "GetBgCategoryIcon",
+  "GetCharacter",
+  "GetFirstTag",
+  "GetGoods",
+  "GetInternationalOrganization",
+  "GetLog",
+  "GetSituation",
+  "GetTooltip",
+  "HasCharacter",
+  "HasFirstTag",
+  "HasGoods",
+  "HasInstitution",
+  "HasInternationalOrganization",
+  "HasReligion",
+  "HasSituation"
+ ],
+ "MessageSettings": [
+  "Close",
+  "GetItems",
+  "GetTitle",
+  "Save"
+ ],
+ "MessageSettingItem": [
+  "GetText",
+  "IsChecked",
+  "OnCheck"
+ ],
+ "MessageSettingsMenu": [
+  "Close",
+  "GetBgCategoryIcon",
+  "GetDiplomacyItems",
+  "GetEconomyItems",
+  "GetGeopoliticsItems",
+  "GetGovernmentItems",
+  "GetMilitaryItems",
+  "GetSocietyItems",
+  "GetWarsItems",
+  "IsCategoryDiplomacyOpen",
+  "IsCategoryEconomyOpen",
+  "IsCategoryGeopoliticsOpen",
+  "IsCategoryGovernmentOpen",
+  "IsCategoryMilitaryOpen",
+  "IsCategorySocietyOpen",
+  "IsCategoryWarsOpen",
+  "OnClickCategory",
+  "Reset",
+  "Save",
+  "UpdateFilter"
+ ],
+ "MessageMenuItem": [
+  "GetBgCategoryIcon",
+  "GetLog",
+  "GetPause",
+  "GetPopup",
+  "GetShowOnMap",
+  "GetText",
+  "SetLog",
+  "SetPause",
+  "SetPopup",
+  "SetShowOnMap"
+ ],
+ "MilitaryLedger": [
+  "GetMilitaryCountriesListView",
+  "GetMilitarySortSearch"
+ ],
+ "MilitaryLedgerItem": [
+  "GetCountry"
+ ],
+ "UnitGlue": [
+  "GetSelectAction",
+  "GetUnit",
+  "IsSelected"
+ ],
+ "MilitaryObjectiveGroupView": [
+  "GetArmies",
+  "GetArmySortSearch",
+  "GetChangedUnits",
+  "GetCommitAction",
+  "GetGeography",
+  "GetGeographySortSearch",
+  "GetMilitaryObjectiveGroup",
+  "GetNavies",
+  "GetNavySortSearch",
+  "GetObjective",
+  "GetRebelMovements",
+  "GetRebelMovementsSortSearch",
+  "GetSelectionTitle",
+  "GetSpecialOptions",
+  "GetSpecialOptionsSortSearch",
+  "HasRebelMovements",
+  "IsAreaHighlighted",
+  "IsLocationHighlighted",
+  "IsProvinceDefinitionHighlighted",
+  "IsProvinceHighlighted",
+  "IsRegionHighlighted"
+ ],
+ "GeographyGlue": [
+  "GetGeography",
+  "GetIndentation",
+  "IsOpen",
+  "IsPartiallySelected",
+  "IsSelected",
+  "ToggleAll",
+  "ToggleAllOpen",
+  "ToggleOpen",
+  "ToggleSelection"
+ ],
+ "RebelMovementGlue": [
+  "GetRebelLocationCount",
+  "GetRebelLocations",
+  "GetRebelName",
+  "IsRebelPartiallySelected",
+  "IsRebelPriority",
+  "IsRebelSelected",
+  "ToggleRebel"
+ ],
+ "SpecialOptionGlue": [
+  "GetOption",
+  "IsSelected",
+  "Toggle"
+ ],
+ "MilitaryObjectiveGroupsView": [
+  "AddFilterUnitsToGroup",
+  "DeleteTacticalObjectiveGroup",
+  "GetChangedUnits",
+  "GetFilterUnits",
+  "GetObjectiveTypes",
+  "GetObjectiveTypesSortSearch",
+  "GroupContainsAllFilterUnits",
+  "HasUnitFilter",
+  "RemoveFilterUnitsFromGroup",
+  "RemoveUnitFromGroup",
+  "SelectObjectiveGroup"
+ ],
+ "TacticalObjectiveGroupGlue": [
+  "GetArmyRecruitmentDesired",
+  "GetArmyRecruitmentNeeded",
+  "GetNavyRecruitmentDesired",
+  "GetNavyRecruitmentNeeded",
+  "GetObjectiveGroup",
+  "GetTotalUnitsArmyStrength",
+  "GetTotalUnitsNavyStrength"
+ ],
+ "TacticalMilitaryObjectiveTypeGlue": [
+  "AddNew",
+  "CanAdd",
+  "GetAddNewTooltip",
+  "GetInfo",
+  "GetObjectiveGroups",
+  "GetTypeIcon",
+  "GetTypeName"
+ ],
+ "GetQuickMissionList": [
+  "ArePlaystyleMissionsCompletedWithItem",
+  "GetMissions",
+  "UnlockPlayStyleWithItem"
+ ],
+ "PlayStyleItem": [
+  "IsPlayStyleEnabled",
+  "ShowPlayStyleMission",
+  "StartWalkthrough"
+ ],
+ "MissionDefinition": [
+  "GetButtonDetails",
+  "GetCompletionCriteriaDescription",
+  "GetDesc",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "IsFromPlayStyle",
+  "IsInProgress"
+ ],
+ "MissionTaskItem": [
+  "AreDependenciesCompleted",
+  "GetConditions",
+  "GetDebugText",
+  "GetDuration",
+  "GetKey",
+  "GetPosition",
+  "GetProgress",
+  "GetRewards",
+  "GetStartEffect",
+  "GetTask",
+  "GetText",
+  "GetTooltip",
+  "IsCompleted",
+  "IsInProgress",
+  "IsPossible",
+  "OnClick"
+ ],
+ "MissionItem": [
+  "GetButtonDetails",
+  "GetCompletionCriteriaDescription",
+  "GetDescription",
+  "GetFinalTaskRewardsDescription",
+  "GetImage",
+  "GetProgress",
+  "GetStartMissionTooltip",
+  "GetTitle",
+  "IsCompleted",
+  "IsInProgress",
+  "IsPlayerPlayStyle",
+  "StartMission"
+ ],
+ "MissionLateralView": [
+  "GetActiveMission",
+  "GetAvailableMissions",
+  "GetMissionTaskItems",
+  "HasActiveMission",
+  "Vars"
+ ],
+ "SelectMissionLateralView": [
+  "GetActiveMission",
+  "GetAvailableMissions",
+  "GetAvailableMissionsSortSearch",
+  "HasActiveMission",
+  "IsPlayStyleChecked",
+  "IsPlayStyleItemItemEnabled",
+  "SelectPlayStyleItem"
+ ],
+ "InGameMissionTaskItem": [
+  "GetConditions",
+  "GetDuration",
+  "GetName",
+  "GetProgress",
+  "GetRewards",
+  "GetStartEffect",
+  "GetTask",
+  "GetTooltip",
+  "IsInProgress",
+  "IsPossible",
+  "OpenTreeTask",
+  "StartTask"
+ ],
+ "MissionTaskDefinition": [
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTip",
+  "HasTip",
+  "IsFinal"
+ ],
+ "MissionTasksLateralView": [
+  "GetLineItems",
+  "GetMissionItem",
+  "GetTaskItems",
+  "SetupDataContexts"
+ ],
+ "MissionLineItem": [
+  "GetPointsInContainer",
+  "GetPosition",
+  "IsCompleted"
+ ],
+ "MultiplayerChat": [
+  "ClearText",
+  "GetChatMessages",
+  "GetChatPosition",
+  "GetPlayers",
+  "IsChatPinned",
+  "IsShowingPlayerList",
+  "IsTextEmpty",
+  "OnReturnPressed",
+  "OnTextEdited",
+  "PinMPChat",
+  "TogglePlayerList"
+ ],
+ "MPChatMessage": [
+  "GetMessage"
+ ],
+ "PlayerEntryForChat": [
+  "GetCountry",
+  "GetName",
+  "OnClick"
+ ],
+ "UniqueContentTypeCategory": [
+  "GetConcept",
+  "GetItems"
+ ],
+ "LobbyView": [
+  "CanGoBack",
+  "ClearPreSelected",
+  "ClearSelection",
+  "ControlSelected",
+  "CopyServerID",
+  "GetEnabledDLCs",
+  "GetEnabledMods",
+  "GetGoBackToolTip",
+  "GetOpenMultiplayerToolTip",
+  "GetSelectedPlayable",
+  "GetServerInfo",
+  "GoBack",
+  "HasEnabledDLCs",
+  "HasEnabledMods",
+  "HasSelectedPlayable",
+  "HasServerInfo",
+  "IsAutoAccept",
+  "IsObserver",
+  "OnNameEdit",
+  "OpenMultiplayer",
+  "Players",
+  "SetName",
+  "SetPassword",
+  "SetShowPlayerList",
+  "ShouldShowEnabledDLCs",
+  "ShouldShowEnabledMods",
+  "ShowHosting",
+  "ShowPlayerList",
+  "ToggleAutoAccept",
+  "ToggleShowEnabledDLCs",
+  "ToggleShowEnabledMods",
+  "ToggleVisibility"
+ ],
+ "GameLobby": [
+  "CanJoin",
+  "CanJoinTT",
+  "CanOpenMultiplayer",
+  "CanStart",
+  "CanStartTT",
+  "CanToggleObserve",
+  "CanUnSelect",
+  "GetDiplomaticRelation",
+  "GetDiplomaticRelations",
+  "GetDiplomaticRelationsSortSearch",
+  "GetEstates",
+  "GetLaws",
+  "GetLeaderOfInternationalOrganizations",
+  "GetObserveCountryButtonMPText",
+  "GetPassword",
+  "GetReforms",
+  "GetReformsCount",
+  "GetRelatedDLC",
+  "GetRelatedDLCTitle",
+  "GetSelectedCountry",
+  "GetStartButtonText",
+  "GetUniqueContentCategories",
+  "GetUniqueContentCategoriesSortSearch",
+  "GetUniqueContentDescription",
+  "GetUniqueContentTypeCategories",
+  "GetUniqueCountryBonuses",
+  "IsAutoAccept",
+  "IsCountryTabContent",
+  "IsCountryTabCountryInfo",
+  "IsCountryTabDescription",
+  "IsCountryTabDiplomacy",
+  "IsCountryTabOverview",
+  "IsInvite",
+  "OpenMultiplayer",
+  "Ready",
+  "SetCountryTabContent",
+  "SetCountryTabCountryInfo",
+  "SetCountryTabDescription",
+  "SetCountryTabDiplomacy",
+  "SetCountryTabOverview",
+  "SetNameNoServer",
+  "SetPassword",
+  "SetPasswordNoServer",
+  "SetRandomPlayableObserverCharacter",
+  "ToggleAutoAccept",
+  "ToggleObserve",
+  "ToggleObserveTT",
+  "ToggleVisibility",
+  "Vars"
+ ],
+ "DisasterType": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEndConditions",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetStartConditions"
+ ],
+ "CharacterInteraction": [
+  "GetDebugText",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "TownRightsType": [
+  "GetDebugText",
+  "GetDesc",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "EstatePrivilege": [
+  "GetDebugText",
+  "GetDesc",
+  "GetLoyaltyEffectsOnGrant",
+  "GetNameWithNoTooltip",
+  "GetPower",
+  "GetPrunedModifiers",
+  "GetRevokeDescription",
+  "GetSatisfaction",
+  "GetScaledPower",
+  "GetScaledSatisfaction",
+  "GetType"
+ ],
+ "UniqueContentCategory": [
+  "GetIcon",
+  "GetName",
+  "GetUniqueContentItems"
+ ],
+ "AccessLobbyCountryList": [
+  "GetCountries",
+  "GetCountriesSortSearch"
+ ],
+ "TransferUnit": [
+  "CanTransfer",
+  "GetSubUnit",
+  "GetTransferCategoryInfo",
+  "GetTransferInfo",
+  "GetTransferTypeInfo",
+  "Transfer",
+  "TransferCategory",
+  "TransferType"
+ ],
+ "LobbyPlayer": [
+  "CanRemovePlayer",
+  "GetLoadingString",
+  "GetName",
+  "GetObservedPlayable",
+  "GetPlayable",
+  "HasPlayable",
+  "IsHost",
+  "IsHotjoining",
+  "IsObserver",
+  "RemovePlayer"
+ ],
+ "EndPrepConfirm": [
+  "Cancel",
+  "Confirm"
+ ],
+ "PlayerJoinRequest": [
+  "GetPlayerName",
+  "IsAccepted",
+  "IsRejected",
+  "SetAccepted",
+  "SetRejected"
+ ],
+ "OosWindow": [
+  "Close",
+  "GetOosData",
+  "GoToMenu",
+  "IsLocalOos",
+  "Resync"
+ ],
+ "OosData": [
+  "GetPlayable",
+  "IsObserver",
+  "OpenFileDirectory"
+ ],
+ "GameLobbyDLCView": [
+  "Close",
+  "GetDLC",
+  "GetFirstRelatedCountry",
+  "GetRelatedCountries",
+  "GetUniqueContentDescription",
+  "GetUniqueContentTypeCategories"
+ ],
+ "MultiUnitWindow": [
+  "AccessFilteredUnitItems",
+  "AccessFirstUnitItem",
+  "AccessUnitItems",
+  "GetAllActionItems",
+  "GetInfo",
+  "GetUnitsSortSearch",
+  "HasOneUnitItem",
+  "IsCompactViewEnabled",
+  "IsMultiUnitSelectUnitOpened",
+  "OnUnitNameEdited",
+  "RenameUnit",
+  "ToggleCompactView",
+  "ToggleMultiUnitSelectUnit",
+  "Vars"
+ ],
+ "UnitItem": [
+  "AccessUnit",
+  "GetUnit"
+ ],
+ "MultiUnitSelectUnit": [
+  "OnClose"
+ ],
+ "MusicPlayerLateralView": [
+  "GetCurrentTrackName",
+  "GetSortSearch",
+  "GetTrackObjects",
+  "OnNextTrack"
+ ],
+ "MusicPlayerTrack": [
+  "GetComposer",
+  "GetPerformer",
+  "GetSoloist",
+  "GetTrackFlavour",
+  "GetTrackName",
+  "Play"
+ ],
+ "Outliner": [
+  "GetCategoryHandlers",
+  "GetMapMarkerSettings",
+  "IsExpanded",
+  "IsMouseOver",
+  "IsSettingsShowing",
+  "MakeDefault",
+  "MouseLeave",
+  "MouseOver",
+  "OnHoverCategory",
+  "OnLeaveCategory",
+  "Toggle",
+  "TogglePinned",
+  "ToggleSettings"
+ ],
+ "OutlinerCategoryHandler": [
+  "GetEntryCount",
+  "GetName",
+  "IsPinned",
+  "TogglePin"
+ ],
+ "AccessMessageLog": [
+  "IsExpanded"
+ ],
+ "OutlinerEntry": [
+  "IsHighlighted",
+  "IsVisible"
+ ],
+ "OutlinerPlayerEntry": [
+  "GetCountry",
+  "GetIcon",
+  "GetName"
+ ],
+ "Score": [
+  "GetCurrentRank",
+  "GetScoreDescriptionForUI",
+  "GetScoreInfoForUI"
+ ],
+ "OutlinerAgendaEntry": [
+  "AreMissionsEnabled"
+ ],
+ "OutlinerCategoryEntry": [
+  "GetEntryCount",
+  "GetName",
+  "IsClosed",
+  "IsOpened",
+  "IsPinned",
+  "Toggle",
+  "TogglePin"
+ ],
+ "OutlinerWarEntry": [
+  "GetEntryCount",
+  "IsClosed",
+  "IsOpened",
+  "Toggle"
+ ],
+ "GovReformOutlinerEntry": [
+  "GetName",
+  "GetReformItem",
+  "GetReformProgress"
+ ],
+ "OutlinerCabinetEntry": [
+  "GetSocietalValueMonthlyProgress"
+ ],
+ "Rebel": [
+  "GetCategoryDesc",
+  "GetCategoryNameConcept",
+  "GetDebugTooltip",
+  "GetLastMonthsProgress",
+  "GetLocationsCount",
+  "GetLocationsCountGroup",
+  "GetLocationsInfo",
+  "GetLocationsInfoGroup",
+  "GetMonthlyChange",
+  "GetMonthlyInfo",
+  "GetMostPowerfulSupporter",
+  "GetNameWithNoTooltip",
+  "GetOwner",
+  "GetPopulationSupportInfo",
+  "GetPopulationSupportInfoGroup",
+  "GetPopulationSupportTotal",
+  "GetPopulationSupportTotalGroup",
+  "GetPretender",
+  "GetPretenderInfo",
+  "GetProgress",
+  "GetProgresssPercentForPiechart",
+  "GetRebelSupporingCountryNames",
+  "GetSourcesInfo",
+  "GetSupportersCount",
+  "GetSupportersInfo",
+  "GetSuppportInfo",
+  "GetVictoryDemandDescription",
+  "HasPretenderInfo",
+  "HasSupportersInfo",
+  "IsTiny",
+  "WantsCivilWar"
+ ],
+ "OutlinerDiplomacyEntry": [
+  "CanRightClick",
+  "CanRightClickConditions",
+  "GetIcon",
+  "GetModifier",
+  "GetStatus",
+  "GetTargetCountry",
+  "GetTemporaryRelationCountry",
+  "GetText",
+  "GetTotalNumber",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "Privateer": [
+  "GetArea",
+  "GetChangeInfo",
+  "GetChangeInfoTitle",
+  "GetIncomeInfo",
+  "GetInfo",
+  "GetNameWithNoTooltip",
+  "GetOwner",
+  "GetPowerChange"
+ ],
+ "MapMarkerSettingItem": [
+  "GetName",
+  "IsEnabled",
+  "TogglePin"
+ ],
+ "OutlinerSettings": [
+  "GetOutliner",
+  "OnClose"
+ ],
+ "PeaceTreaty": [
+  "GetBaseAntagonismCaused",
+  "GetBaseAntagonismCausedInfo",
+  "GetInfo",
+  "GetInnerCategory",
+  "GetLocation",
+  "GetRelevantCountryToShowForUI",
+  "GetShortName",
+  "GetWarScoreCost",
+  "GetWarScoreCostInfo",
+  "HasInnerCategory",
+  "HasLocation",
+  "HasRelevantCountryToShowForUI",
+  "IsActuallySelected",
+  "IsEnabled",
+  "IsHighlighted",
+  "IsPartiallySelected",
+  "IsSelected",
+  "OnClick",
+  "OnHover"
+ ],
+ "PeaceOfferCategory": [
+  "Expand",
+  "GetName",
+  "GetTreaties",
+  "HasPossibleTreaties",
+  "HasSelectedTreaties",
+  "IsExpanded",
+  "OnClick",
+  "ToggleAllExpand"
+ ],
+ "PeaceOfferLateralView": [
+  "AnnexAllLocations",
+  "CanAnnexAllLocations",
+  "CanChangeOffer",
+  "CanResetPeaceOffer",
+  "GetAnnexTreaty",
+  "GetBalance",
+  "GetCanSendOffer",
+  "GetCategories",
+  "GetCategoriesSortSearch",
+  "GetEnemyParticipants",
+  "GetFriendlyParticipants",
+  "GetGoldTreaty",
+  "GetMaxAntagonism",
+  "GetMinAntagonism",
+  "GetSacrificeTreaty",
+  "GetSelectedParticipant",
+  "GetTotalPeaceOfferReasonsBreakdown",
+  "GetTotalWarScoreCost",
+  "GetWar",
+  "GetWarScore",
+  "GetWarScoreBreakdown",
+  "GetWarScoreTreatiesForCategory",
+  "HasAnnexTreaty",
+  "HasNegativeCountryWarnings",
+  "HasPositiveCountryWarnings",
+  "HasSacrificeTreaty",
+  "IsAntagonismCalculationDone",
+  "IsCobelligerent",
+  "IsCountryWarSubject",
+  "IsDemanding",
+  "IsWarLeader",
+  "OnAcceptCountryTooltipWarnings",
+  "OnAcceptEnabled",
+  "OnAcceptFinal",
+  "OnAcceptTooltip",
+  "OnAcceptTooltipConsequences",
+  "OnAcceptTooltipTitle",
+  "OnAcceptTooltipWarnings",
+  "OnDemand",
+  "OnOffer",
+  "OnResetPeaceOffer",
+  "OnSuggestPeaceOffer",
+  "Vars"
+ ],
+ "PeaceOfferLateralViewParticipant": [
+  "GetCountry",
+  "GetSelectTooltip",
+  "IsWarLeader",
+  "Toggle"
+ ],
+ "PeaceOfferWarScoreTreatyGlue": [
+  "GetDecWarScoreTooltip",
+  "GetIcon",
+  "GetIncWarScoreTooltip",
+  "GetTooltip",
+  "GetValue",
+  "IsDecWarScoreEnabled",
+  "IsIncWarScoreEnabled",
+  "IsWarScoreTreaty",
+  "OnDecLeftClick",
+  "OnIncLeftClick",
+  "OnRightClick"
+ ],
+ "SelectParticipant": [
+  "OnClose",
+  "Parent"
+ ],
+ "Movement": [
+  "GetCountryAffectedPopsTooltip",
+  "GetDebugText",
+  "GetMovementDefinition",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetSpreadTooltip",
+  "GetTooltip",
+  "IsCountryAffected",
+  "IsCulture",
+  "IsReligion"
+ ],
+ "CountryPeopleLateralView": [
+  "GenerateSceneDesc",
+  "GetAverageLiteracyTT",
+  "GetCharacters",
+  "GetCharactersSortSearch",
+  "GetDynasties",
+  "GetDynastiesSortSearch",
+  "GetMovements",
+  "GetMovementsSortSearch",
+  "GetPlayer",
+  "GetPops",
+  "GetPopsPiechartWidget",
+  "GetPopsSortSearch",
+  "GetRebels",
+  "GetRebelsSortSearch",
+  "Vars"
+ ],
+ "PeopleRebelItem": [
+  "CanSuppressPriority",
+  "GetRebel",
+  "GetSuppressPriority",
+  "ToggleSuppressPriority"
+ ],
+ "PeopleDynastyItem": [
+  "GetDynasty"
+ ],
+ "Dynasty": [
+  "GetCurrentRuledCountries",
+  "GetDebugText",
+  "GetDynastyFounder",
+  "GetDynastyHead",
+  "GetExistingCountries",
+  "GetHome",
+  "GetLivingCharacters",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetNumOfLivingCharacters",
+  "GetRulerHistoryInfo",
+  "HasDynastyHead"
+ ],
+ "PeopleMovementItem": [
+  "GetAffectedCountryLocationsInfo",
+  "GetCountryOutbreaks",
+  "GetMovement",
+  "GetName",
+  "GetNumOutbreaks",
+  "GetOutbreaks",
+  "IsExpanded",
+  "Toggle"
+ ],
+ "MovementDefinition": [
+  "GetAllowTooltip",
+  "GetCountryAffectedPopsTooltip",
+  "GetDesc",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPositiveNegativeTooltip",
+  "GetR0Tooltip",
+  "GetRequiredTooltip",
+  "GetSpreadTooltipWithTitle",
+  "GetSubjectTooltip",
+  "GetTooltip",
+  "HasEffects",
+  "HasPositiveNegativeTooltip",
+  "HasR0Tooltip",
+  "HasRequiredTooltip",
+  "HasSpreadTooltip",
+  "IsCulture",
+  "IsReligion"
+ ],
+ "PeoplePopItem": [
+  "GetPop"
+ ],
+ "ModifierItem": [
+  "GetName",
+  "GetValue"
+ ],
+ "PlayerModifiersLateralView": [
+  "GetModifiers",
+  "GetModifiersSortSearch"
+ ],
+ "PopsOverview": [
+  "GetCountries",
+  "GetCultures",
+  "GetPopTypes",
+  "GetPops",
+  "GetPopsSortSearch",
+  "GetReligions"
+ ],
+ "PopsCountryItem": [
+  "GetCountry",
+  "GetProvinces",
+  "IsToggled",
+  "OnClick",
+  "Toggle"
+ ],
+ "PopsProvinceItem": [
+  "GetLocations",
+  "GetProvince",
+  "IsToggled",
+  "OnClick",
+  "Toggle"
+ ],
+ "PopsLocationItem": [
+  "GetLocation",
+  "OnClick"
+ ],
+ "Pop": [
+  "GetBuilding",
+  "GetCulture",
+  "GetDebugText",
+  "GetEstate",
+  "GetGoodsAccess",
+  "GetGoodsInformation",
+  "GetLeviesInformation",
+  "GetLiteracy",
+  "GetLiteracyChangeInfo",
+  "GetLocalLiteracyImpactInfo",
+  "GetLocation",
+  "GetMaxLiteracyInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOwnerOrLocationOwner",
+  "GetPopLiteracyInfo",
+  "GetRebel",
+  "GetReligion",
+  "GetSatisfactionInfo",
+  "GetSatisfactionLabel",
+  "GetSize",
+  "GetType",
+  "HasAnyLevy",
+  "HasEstate",
+  "HasOwnerOrLocationOwner",
+  "HasRebel",
+  "IsLinkedToBuilding"
+ ],
+ "PopEditor": [
+  "GetCultureName",
+  "GetEntries",
+  "GetPopName",
+  "GetReligionName",
+  "Reset",
+  "ShowCulture",
+  "ShowPop",
+  "ShowReligion"
+ ],
+ "PopSetupEntry": [
+  "GetName",
+  "OnClick"
+ ],
+ "PortEditor": [
+  "GetInfo",
+  "GetSelectedLocationText",
+  "HasLand"
+ ],
+ "CategoryBuildingTypesItem": [
+  "GetBuildingItems",
+  "GetBuildingTypesAmount",
+  "GetCategory",
+  "GetTotalBuilt",
+  "GetTotalIncome",
+  "GetTotalMaintenanceCost",
+  "GetTotalNetProfit",
+  "HasProducingBuildingsBuilt",
+  "HasUpkeepBuildingsBuilt",
+  "IsExpanded",
+  "Toggle",
+  "ToggleAll"
+ ],
+ "ForeignBuildingLocationItem": [
+  "CanDestroyBuilding",
+  "CanDestroyBuildingDesc",
+  "DestroyBuilding",
+  "GetBuildings",
+  "GetLocation",
+  "IsExpanded",
+  "Toggle",
+  "ToggleAll"
+ ],
+ "ProductionSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "RebelDetailsLateralView": [
+  "GetLocations",
+  "GetLocationsSortSearch",
+  "GetPlayer",
+  "GetPops",
+  "GetPopsSortSearch",
+  "GetRebel",
+  "GetSuppressPriority",
+  "ToggleSuppressPriority",
+  "Vars"
+ ],
+ "LocationToRecruitItem": [
+  "CanCancel",
+  "CanCancelTT",
+  "CanRecruit",
+  "CanRecruitTT",
+  "Cancel",
+  "GetConstruction",
+  "GetGoldCost",
+  "GetGoldCostValue",
+  "GetLocation",
+  "GetManpowerCost",
+  "GetMaxStrength",
+  "GetNumConstructionsInQueue",
+  "GetRecruitCost",
+  "GetSailorsCost",
+  "GetTemplateAssignments",
+  "GetUnitType",
+  "HasConstruction",
+  "Recruit"
+ ],
+ "TemplateAssignment": [
+  "GetCount",
+  "GetGoldCost",
+  "GetLocation",
+  "GetUnitGoldCost",
+  "GetUnitType"
+ ],
+ "SubUnitCategory": [
+  "ExcludeFromCombinedArms",
+  "GetCategoryTooltip",
+  "GetCombatAbility",
+  "GetCombatAbilityInfo",
+  "GetCount",
+  "GetDebugText",
+  "GetFlavorText",
+  "GetIcon",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPowerDescription",
+  "GetTotalStrength",
+  "GetTotalStrengthShort",
+  "HasCategory",
+  "HasCombatAbility"
+ ],
+ "RegimentsView": [
+  "GetRegimentItemsSortSearch",
+  "GetRegiments"
+ ],
+ "RegimentItem": [
+  "GetRegiment"
+ ],
+ "ReligionsLedger": [
+  "GetReligions",
+  "GetReligionsSortSearch"
+ ],
+ "ReligionItem": [
+  "GetReligion"
+ ],
+ "CountryReligionLateralView": [
+  "GenerateSceneDesc",
+  "GetActiveAvatars",
+  "GetActiveGods",
+  "GetActiveOmens",
+  "GetCanonizeAction",
+  "GetCountry",
+  "GetCurrentReligiousFocus",
+  "GetHolySites",
+  "GetHolySitesSortSearch",
+  "GetImportantReligions",
+  "GetPlayer",
+  "GetReligion",
+  "GetReligionPercentages",
+  "GetReligionSortSearch",
+  "GetReligiousActions",
+  "GetReligiousAspects",
+  "GetReligiousAspectsCount",
+  "GetReligiousFigures",
+  "GetReligiousFocuses",
+  "GetReligiousOrganizations",
+  "GetReligiousUnityInfo",
+  "HasCanonizeAction",
+  "HasCurrentReligiousFocus",
+  "HasPentarchy",
+  "HasReligiousActions",
+  "HasSpecificCurrentReligiousFocus",
+  "Vars"
+ ],
+ "RenameDialog": [
+  "DerivedOnAccept",
+  "GetCountry",
+  "GiveRandomName"
+ ],
+ "TransferUnitType": [
+  "GetAmount",
+  "GetAmountTooltip",
+  "GetHalfTransfered",
+  "GetIcon",
+  "GetTransferAllText",
+  "GetTransferHalfText",
+  "GetTransfered",
+  "GetTransferedAllText",
+  "GetTransferedHalfText",
+  "IsEnabled",
+  "IsGetTransferedEnabled",
+  "IsVisible",
+  "Transfer",
+  "TransferHalf"
+ ],
+ "ReorgWindow": [
+  "GetRight",
+  "GetRightList",
+  "GetRightTypeList",
+  "OnClose"
+ ],
+ "RoadBuilder": [
+  "CanUpgradeCandidates",
+  "GetConditionsForLocation",
+  "GetExcludeSubjects",
+  "GetRoadCostCalculations",
+  "GetRoadDestinationsItems",
+  "GetRoadDestinationsSearch",
+  "GetRoadTypes",
+  "GetShouldShowUpgradeButton",
+  "GetUpgradeCost",
+  "GetUpgradeTooltip",
+  "SelectRoadType",
+  "ToggleExcludeSubjects",
+  "UpgradeRoadCandidatesToSelectedType"
+ ],
+ "RoadTypeItem": [
+  "GetIsSelected",
+  "GetRoadType",
+  "IsEnabled"
+ ],
+ "RoadCostCalculation": [
+  "GetActionName",
+  "GetDescription",
+  "GetIsSelected",
+  "GetName",
+  "OnClick"
+ ],
+ "RoadDestinationItem": [
+  "BuildRoad",
+  "CanBuildRoad",
+  "GetCost",
+  "GetCostString",
+  "GetDistance",
+  "GetLocation",
+  "GetTitle",
+  "OnMouseHierarchyEnter",
+  "OnMouseHierarchyLeave"
+ ],
+ "RoadEditor": [
+  "GetCurrent",
+  "GetEntries",
+  "GetFromLocation"
+ ],
+ "RoadTypeEntry": [
+  "GetName",
+  "OnClick"
+ ],
+ "RulerTermEntry": [
+  "GetRulerTerm"
+ ],
+ "RulingHistoryView": [
+  "GetRulerTermEntries",
+  "GetRulerTermEntriesSortSearch",
+  "GetTitle"
+ ],
+ "ScoreView": [
+  "GetScoreSortSearch",
+  "GetScoreView"
+ ],
+ "ScoreViewItem": [
+  "GetCountry"
+ ],
+ "IconAndText": [
+  "GetIcon",
+  "GetText"
+ ],
+ "SearchFilter": [
+  "GetName",
+  "GetRange",
+  "HasRange",
+  "IsCustomFilter",
+  "IsExclusive"
+ ],
+ "SeaZoneView": [
+  "GenerateSceneDesc",
+  "GetLocation",
+  "GetMaritimePresenceItems",
+  "GetMaritimePresenceItemsSortSearch",
+  "GetPlayer",
+  "IsCorridor"
+ ],
+ "MaritimePresenceItem": [
+  "GetMaritimePresence"
+ ],
+ "TradeOrderItem": [
+  "CanDecrease",
+  "CanIncrease",
+  "CanIncreaseTT",
+  "CanMoveDown",
+  "CanMoveUp",
+  "Cancel",
+  "Decrease",
+  "GetAllocatedCapacity",
+  "GetGoods",
+  "GetIsImport",
+  "GetProfitPerCapacity",
+  "GetTradeCount",
+  "GetTradeOrderTooltip",
+  "GetUsedCapacity",
+  "Increase",
+  "MoveDown",
+  "MoveUp"
+ ],
+ "SelectedMarketLateralView": [
+  "CanExpandRGO",
+  "GetBalanceInRange",
+  "GetBannedExports",
+  "GetBannedExportsInfo",
+  "GetBannedImports",
+  "GetBannedImportsInfo",
+  "GetBottomFoodProvinces",
+  "GetExportsInRange",
+  "GetExportsInRangeInfo",
+  "GetFoodSources",
+  "GetFoodSourcesSortSearch",
+  "GetGoodsMarketEntries",
+  "GetGoodsMarketEntriesSortSearch",
+  "GetGoodsTexture",
+  "GetImportsInRange",
+  "GetImportsInRangeInfo",
+  "GetInRangeGoodsEntries",
+  "GetInRangeGoodsEntriesSortSearch",
+  "GetLocalBalanceInRange",
+  "GetLocalBalanceInRangeInfo",
+  "GetLocallyDemandedInRange",
+  "GetLocallyDemandedInRangeInfo",
+  "GetMarket",
+  "GetMarketBalanceInRangeInfo",
+  "GetMarketValuePieChart",
+  "GetMerchants",
+  "GetMerchantsSortSearch",
+  "GetPlayer",
+  "GetProducedInRange",
+  "GetProducedInRangeInfo",
+  "GetTopFoodProvinces",
+  "GetTradeMarketEntries",
+  "GetTradeMarketEntriesSortSearch",
+  "IsMarketViewSelectMarketOpened",
+  "OpenTradesSubtabFilteredByCountry",
+  "ToggleMarketViewSelectMarket",
+  "Vars"
+ ],
+ "MarketViewSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "SelectChildEducation": [
+  "GetCandidates"
+ ],
+ "ChildEducationCandidate": [
+  "CanSelect",
+  "GetChildEducation",
+  "GetOnStartEffectTooltip",
+  "GetWhy",
+  "IsAlreadySelected",
+  "Select"
+ ],
+ "SelectCharacterInteraction": [
+  "CanOpenMarriageFinder",
+  "GetCharacter",
+  "GetInteractions",
+  "GetMarriageFinderInfo",
+  "MarriageFinder"
+ ],
+ "CharacterInteractionItem": [
+  "GetInteraction"
+ ],
+ "SelectCountryDiplomacyLateralView": [
+  "GetActionName",
+  "GetCountriesSortSearch",
+  "GetCountryItems",
+  "GetDebtAmountForCountry",
+  "GetLoanAmountForCountry",
+  "HasInnerRequirements",
+  "IsOfferLoan",
+  "IsSubjectAction",
+  "IsTakeOnDebt",
+  "IsTakeOverLoan",
+  "IsTakeOverLoanAction",
+  "RequiresAcceptance",
+  "ShouldShowSpySort"
+ ],
+ "IconWrap": [
+  "GetTexture",
+  "GetTooltip"
+ ],
+ "SelectHeirSelection": [
+  "OnClose"
+ ],
+ "SelectHolySite": [
+  "OnClick",
+  "OnClose"
+ ],
+ "HolySite": [
+  "GetColor",
+  "GetCountryModifierInfo",
+  "GetDebugText",
+  "GetDesc",
+  "GetIllustration",
+  "GetImportance",
+  "GetLocation",
+  "GetLocationModifierInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetPilgrimageGoldCost",
+  "GetPilgrimageInfluenceGain",
+  "GetPilgrimageTravelMonths",
+  "GetReligionModifierInfo",
+  "GetReligions",
+  "GetTooltip",
+  "GetType",
+  "HasCountryModifiers",
+  "HasDesc",
+  "HasLocationModifiers",
+  "HasReligionModifiers"
+ ],
+ "SelectInteractionTargetGlue": [
+  "GetAcceptanceTotal",
+  "GetLeftClickAndConfirmConditions",
+  "GetLeftClickAndConfirmCost",
+  "GetLeftClickAndConfirmDescription",
+  "GetLeftClickAndConfirmEffects",
+  "GetLeftClickAndConfirmTitle",
+  "GetLeftClickConditions",
+  "GetLeftClickCost",
+  "GetLeftClickDescription",
+  "GetLeftClickEffects",
+  "GetLeftClickTitle",
+  "GetMaxValue",
+  "GetMinValue",
+  "GetObject",
+  "GetRightClickAndConfirmConditions",
+  "GetRightClickAndConfirmCost",
+  "GetRightClickAndConfirmDescription",
+  "GetRightClickAndConfirmEffects",
+  "GetRightClickAndConfirmTitle",
+  "GetRightClickConditions",
+  "GetRightClickCost",
+  "GetRightClickDescription",
+  "GetRightClickEffects",
+  "GetRightClickTitle",
+  "GetSelectTitle",
+  "GetStep",
+  "GetUIActionAcceptance",
+  "GetUIActionConditions",
+  "GetUIActionDescription",
+  "GetUIActionEffects",
+  "GetUIActionTitle",
+  "GetValue",
+  "GetValueAcceptanceFrame",
+  "GetValueConditions",
+  "GetValueDescription",
+  "GetValueEffects",
+  "GetValueUIAction",
+  "IsDown",
+  "IsEnabled",
+  "IsLeftClickAndConfirmEnabled",
+  "IsLeftClickAndConfirmVisible",
+  "IsLeftClickEnabled",
+  "IsLeftClickVisible",
+  "IsRightClickAndConfirmEnabled",
+  "IsRightClickAndConfirmVisible",
+  "IsRightClickEnabled",
+  "IsRightClickVisible",
+  "IsVisible",
+  "OnLeftClick",
+  "OnLeftClickAndConfirm",
+  "OnMouseDown",
+  "OnMouseEnter",
+  "OnMouseLeave",
+  "OnMouseUp",
+  "OnRightClick",
+  "OnRightClickAndConfirm",
+  "OnValueChanged"
+ ],
+ "SortKey": [
+  "GetIcon",
+  "GetSize",
+  "GetSortKey",
+  "GetTooltip",
+  "IsSortedBy",
+  "IsVisible",
+  "OnMouseHierarchyEnter",
+  "OnMouseHierarchyLeave",
+  "Sort"
+ ],
+ "AttributeColumnData": [
+  "GetAttributeName",
+  "GetSize"
+ ],
+ "SelectLateralViewHistory": [
+  "OnClose"
+ ],
+ "SearchFilterCategory": [
+  "AccessRangeValues",
+  "GetFilters",
+  "GetGroups",
+  "GetName",
+  "HasName",
+  "HasOnlyExclusiveGroups",
+  "IsCategoryVisible",
+  "IsExpanded",
+  "IsFilterEnabled",
+  "SetRangeMaxValue",
+  "SetRangeMinValue",
+  "Toggle",
+  "ToggleFilter"
+ ],
+ "SearchFilterRangeValues": [
+  "GetMaxSliderValue",
+  "GetMaxValue",
+  "GetMinSliderValue",
+  "GetMinValue"
+ ],
+ "SearchFilterRange": [
+  "GetMax",
+  "GetMin",
+  "GetStep"
+ ],
+ "SearchFilterGroup": [
+  "GetFilters",
+  "GetName",
+  "HasName",
+  "IsExpanded",
+  "IsGroupExclusive",
+  "Toggle"
+ ],
+ "TextSearchFilter": [
+  "GetFilter",
+  "ToggleFilter"
+ ],
+ "SelectSearchFilter": [
+  "AccessSearchBar",
+  "OnClose"
+ ],
+ "SelectSocietalValue": [
+  "GetCabinet",
+  "GetCandidates"
+ ],
+ "SocietalValueCandidate": [
+  "GetSocietalValue",
+  "SelectLeftCandidate",
+  "SelectRightCandidate"
+ ],
+ "SelectSubjectTypeLateralView": [
+  "ChangeCountry",
+  "GetSubjectTypeItem",
+  "GetSubjectTypesSortSearch",
+  "IsChangingCountry",
+  "IsReleasing"
+ ],
+ "SubjectTypeItem": [
+  "CanSelect",
+  "GetIcon",
+  "GetInfo",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetWhy",
+  "IsAlreadySubjectType",
+  "Select"
+ ],
+ "SelectInterveneWindow": [
+  "GetWars",
+  "OnClose"
+ ],
+ "SelectWar": [
+  "GetName",
+  "GetTooltip",
+  "OnClick"
+ ],
+ "SellLocationActionView": [
+  "CanSend",
+  "GetAcceptanceFrame",
+  "GetAcceptanceTooltip",
+  "GetConfirmMessage",
+  "GetLocationsSortSearch",
+  "GetMaxPrice",
+  "GetMinPrice",
+  "GetPossibleLocations",
+  "GetTotalPrice",
+  "IsSelected",
+  "OnSend",
+  "SetTotalPrice",
+  "ToggleLocation"
+ ],
+ "SendGiftWindow": [
+  "GetConditions",
+  "GetCurrent",
+  "GetDesc",
+  "GetMax",
+  "GetMin",
+  "GetPrice",
+  "GetStep",
+  "GetTitle",
+  "IsEnabled",
+  "OnAccept",
+  "OnDecline",
+  "OnPriceChanged"
+ ],
+ "SetupCondottieriView": [
+  "GetCondottieriItemsSortSearch",
+  "GetCondottieriUnits"
+ ],
+ "CondottieriItem": [
+  "GetAllowExtend",
+  "GetBecomeMercText",
+  "GetCostModifier",
+  "GetCostModifierStep",
+  "GetDuration",
+  "GetDurationStep",
+  "GetHirePrice",
+  "GetMaxCostModifier",
+  "GetMaxDuration",
+  "GetMonthlyCostTooltip",
+  "GetMonthlyMaintenanceCost",
+  "GetTotalPrice",
+  "GetUIHeaderAction",
+  "GetUnit",
+  "GetUpkeepPrice",
+  "IsEnabled",
+  "IsVisible",
+  "OnAccept",
+  "OnCostModifierChanged",
+  "OnDurationChanged",
+  "ToggleAllowExtend"
+ ],
+ "SetupEditor": [
+  "GetCurrent",
+  "GetEntries",
+  "GetSearch",
+  "Save"
+ ],
+ "SetupEntry": [
+  "GetName",
+  "OnClick"
+ ],
+ "SetupMercenaryRequirementsView": [
+  "GetDuration",
+  "GetDurationStep",
+  "GetMaxDuration",
+  "GetPossibleLeadersSortSearch",
+  "GetSelectedLeader",
+  "HasSelectedLeader",
+  "IsArmy",
+  "IsSelectedLeader",
+  "OnDurationChanged",
+  "ToggleLeader"
+ ],
+ "PossibleLeaderItem": [
+  "CanAccept",
+  "GetCanAcceptTooltip",
+  "GetCategoryAmount",
+  "GetCharacter",
+  "GetDuration",
+  "GetHirePrice",
+  "GetHirePriceTooltip",
+  "GetMercenaryTypes",
+  "GetMonthlyCost",
+  "GetMonthlyCostTooltip",
+  "GetPossibleSubUnitDefinitions",
+  "GetRequestingAmount",
+  "GetSubUnitAmount",
+  "GetVisualStrength",
+  "GetVisualSubUnitStrength",
+  "IsArmy",
+  "OnAccept"
+ ],
+ "AvailableMercenaryTypes": [
+  "GetCategory",
+  "GetSubunits",
+  "GetUnitsAmount"
+ ],
+ "PossibleSubUnitDefinition": [
+  "CanDec",
+  "CanInc",
+  "GetAvailableLimit",
+  "GetMax",
+  "GetSelection",
+  "GetStep",
+  "GetSubUnitDefinition",
+  "GetSubUnitName",
+  "OnChanged"
+ ],
+ "ShipsView": [
+  "GetShipItemsSortSearch",
+  "GetShips"
+ ],
+ "ShipItem": [
+  "GetShip"
+ ],
+ "UnitDetailsView": [
+  "GetUnit",
+  "OnClose"
+ ],
+ "SubUnitArray": [
+  "GetBoxLabel",
+  "GetBoxName",
+  "GetExperience",
+  "GetExperienceTooltip",
+  "GetFlankIcon",
+  "GetFrontageUsage",
+  "GetMoralePercent",
+  "GetMoraleTooltip",
+  "GetSize",
+  "GetStrength",
+  "GetStrengthPercent",
+  "GetStrengthTooltip",
+  "GetSubUnits",
+  "GetTotalFrontage",
+  "GetUnit",
+  "GetUsedFrontagePercentage",
+  "IsShip"
+ ],
+ "SingleUnitFormationWindow": [
+  "AccessSelectedUnit",
+  "CanChangeUnitBox",
+  "ChangeAllUnitsOfCategoryBox",
+  "ChangeAllUnitsOfTypeBox",
+  "ChangeUnitBox",
+  "GetBalanceAction",
+  "GetSelectedUnit",
+  "IsSingleUnitSelectUnitOpened",
+  "ToggleSingleUnitSelectUnit"
+ ],
+ "SingleUnitWindow": [
+  "AccessSelectedUnit",
+  "AddSubunitCategoryToNewUnit",
+  "AddSubunitToNewUnit",
+  "AddSubunitTypeToNewUnit",
+  "CanAddToCreatingUnit",
+  "CanRenameUnit",
+  "CategoryActionsAmount",
+  "GetAllActionItems",
+  "GetBalanceAction",
+  "GetCreateUnitAction",
+  "GetDetachAction",
+  "GetMaintenanceCost",
+  "GetMercenaries",
+  "GetMercenariesAction",
+  "GetRetreatTooltip",
+  "GetSelectedUnit",
+  "GetSubUnits",
+  "GetSubUnitsSortSearch",
+  "HideCreateNewUnit",
+  "IsAddToCreatingUnitVisible",
+  "IsCompactViewEnabled",
+  "IsSingleUnitSelectUnitOpened",
+  "OnMouseEnterAttackerBox",
+  "OnMouseEnterDefenderBox",
+  "OnMouseLeaveAttackerBox",
+  "OnMouseLeaveDefenderBox",
+  "OnUnitNameEdited",
+  "RenameUnit",
+  "ToggleCompactView",
+  "ToggleSingleUnitSelectUnit",
+  "Vars"
+ ],
+ "MercenaryTypeItem": [
+  "GetMercenary",
+  "GetUIAction"
+ ],
+ "SingleUnitSelectUnit": [
+  "OnClose"
+ ],
+ "SituationView": [
+  "GetAbstentionTarget",
+  "GetActionGroups",
+  "GetActiveResolution",
+  "GetActiveSituation",
+  "GetColumbianExchangeNewWorldGoods",
+  "GetColumbianExchangeOldWorldGoods",
+  "GetGagFactionItems",
+  "GetGagGhibellinesMemberItems",
+  "GetGagGhibellinesMembersSortSearch",
+  "GetGagGuelphsMemberItems",
+  "GetGagGuelphsMembersSortSearch",
+  "GetGagMemberItems",
+  "GetGagMembersSortSearch",
+  "GetGagPlayerFactionIO",
+  "GetInternationalOrganization",
+  "GetInternationalOrganizationForLaws",
+  "GetItalianWarsLeagueItems",
+  "GetItalianWarsMemberItems",
+  "GetItalianWarsMembersSortSearch",
+  "GetItalianWarsPieSlices",
+  "GetItalianWarsPlayerLeagueIO",
+  "GetItalianWarsWarItems",
+  "GetLawCategories",
+  "GetLawCategoriesSortSearch",
+  "GetNotVotedYet",
+  "GetPlayer",
+  "GetReformationCountriesSortSearch",
+  "GetReformationCountryItems",
+  "GetReformationMovementItems",
+  "GetReformationPieSlices",
+  "GetReformationPopTypePies",
+  "GetReformationReformerItems",
+  "GetReformationReformersSortSearch",
+  "GetReformationReligionItems",
+  "GetVoteTargetLeft",
+  "GetVoteTargetRight",
+  "GetVoteTargets",
+  "HasAbstentionTarget",
+  "HasActiveResolution",
+  "IsGagFactionFilterEnabled",
+  "IsItalianWarsLeagueFilterEnabled",
+  "IsReformationReligionFilterEnabled",
+  "ToggleGagFactionFilter",
+  "ToggleItalianWarsLeagueFilter",
+  "ToggleReformationReligionFilter",
+  "Vars"
+ ],
+ "SocietalValuesLateralView": [
+  "GetAges",
+  "GetClickedSocietalValueItem",
+  "GetGovernmentReformsForAge",
+  "GetSocietalValues",
+  "IsLeft",
+  "IsSocietalValuesSelectMenuOpened",
+  "SetClickedSocietalValueItem",
+  "ToggleSocietalValuesSelectMenu"
+ ],
+ "SocietalValuesSelectMenu": [
+  "OnClose",
+  "Parent"
+ ],
+ "DebugUnitSpawner": [
+  "ErrorExists",
+  "GetErrorText",
+  "PickSelectedLocation",
+  "Spawn"
+ ],
+ "SupportRebelLateralView": [
+  "GetDesc",
+  "GetTargets",
+  "GetTitle",
+  "HasSelectedRebel",
+  "OnAccept",
+  "OnDecline"
+ ],
+ "PossibleRebel": [
+  "GetName",
+  "IsSelected",
+  "OnClick"
+ ],
+ "TechTreeItem": [
+  "GetItems",
+  "GetLineItems",
+  "SetupDataContexts"
+ ],
+ "AdvanceLineItem": [
+  "GetColor",
+  "GetMask",
+  "GetPointsInContainer",
+  "GetPosition",
+  "GetTo"
+ ],
+ "AdvanceEffectItem": [
+  "GetDescEffect",
+  "GetIcon",
+  "GetTitleEffect",
+  "IsGovernmentReformUnlock"
+ ],
+ "TechTreeOneAge": [
+  "GetTechTreeItems"
+ ],
+ "ThreatenWarView": [
+  "GetEffect",
+  "GetTargets",
+  "GetTitle"
+ ],
+ "ThreatenTarget": [
+  "GetAcceptanceFrame",
+  "GetAcceptanceTooltip",
+  "GetLocation",
+  "IsEnabled",
+  "OnClick"
+ ],
+ "TownRightsItem": [
+  "GetLocations",
+  "GetLocationsAmount",
+  "GetRevokeFirstCost",
+  "GetType",
+  "RevokeFirst"
+ ],
+ "TownRightsLateralView": [
+  "GetLocations",
+  "GetLocationsSortSearch",
+  "GetPlayer"
+ ],
+ "LocationReference": [
+  "GetLocation"
+ ],
+ "TradeDetailsLateralView": [
+  "GetTrade",
+  "GetUIAction"
+ ],
+ "PossibleTradesSelectMarket": [
+  "OnClose",
+  "Parent"
+ ],
+ "TransferOccupationActionView": [
+  "CanSend",
+  "GetConfirmMessage",
+  "GetHeaderTitle",
+  "GetLocationsSortSearch",
+  "GetPossibleLocations",
+  "IsSelected",
+  "OnSend",
+  "ToggleAllLocations",
+  "ToggleLocation"
+ ],
+ "UnitTemplateLateralView": [
+  "CanCreateTemplate",
+  "CanCreateTemplateInfo",
+  "CreateTemplate",
+  "GetEstimatedConstructionTime",
+  "GetPossibleSubUnitDefinitions",
+  "GetSubUnitCategoryAmount",
+  "GetTemplateName",
+  "GetTotalCost",
+  "GetTotalMaintenanceCost",
+  "GetTotalManpower",
+  "GetTotalSailors",
+  "IsArmy",
+  "IsEditingTemplate",
+  "SetTemplateName",
+  "ShowOnlyCurrentAge",
+  "ToggleShowOnlyCurrentAge"
+ ],
+ "TemplateSubUnitDefinition": [
+  "CanDec",
+  "CanInc",
+  "GetEstimatedConstructionTime",
+  "GetSelection",
+  "GetSubUnitDefinition",
+  "GetSubUnitName",
+  "GetTotalCost",
+  "GetTotalMaintenanceCost",
+  "GetTotalManpower",
+  "GetTotalSailors",
+  "OnChanged"
+ ],
+ "UnitTemplate": [
+  "GetDebugTooltip",
+  "GetEstimatedConstructionTime",
+  "GetNameWithNoTooltip",
+  "GetSubUnitCategoryAmount",
+  "GetSubUnitCategoryStrength",
+  "GetTotalCost",
+  "GetTotalMaintenanceCost",
+  "GetTotalManpower",
+  "GetTotalSailors",
+  "IsArmy"
+ ],
+ "TerrainImpactItem": [
+  "GetIcon",
+  "GetTooltip"
+ ],
+ "StatImpactItem": [
+  "GetIcon",
+  "GetTooltip"
+ ],
+ "UnitTypeLateralView": [
+  "GetSelectedUnitTexture",
+  "GetTerrainImpacts",
+  "GetUnitType",
+  "Vars"
+ ],
+ "UnitViewer": [
+  "AccessAttachmentsOverrides",
+  "ErrorExist",
+  "GetErrorText",
+  "GetPossibilitiesNum",
+  "IsBloomEnvPropertiesVisible",
+  "IsCubemapEnvPropertiesVisible",
+  "IsFogEnvPropertiesVisible",
+  "IsLightEnvPropertiesVisible",
+  "OpenSchematicEditor",
+  "PickAttachmentOverrides",
+  "ResetAttachmentOverrides",
+  "SpawnDebugUnit",
+  "TakeScreenshot",
+  "ToggleIsBloomEnvPropertiesVisible",
+  "ToggleIsCubemapEnvPropertiesVisible",
+  "ToggleIsFogEnvPropertiesVisible",
+  "ToggleIsLightEnvPropertiesVisible"
+ ],
+ "OverrideEntry": [
+  "GetModifiedColor",
+  "GetName",
+  "IsOpen",
+  "Toggle"
+ ],
+ "CEnumValueAnimation": [
+  "AccessEnum",
+  "AnimationEditorTooltip",
+  "IsPlaying",
+  "OpenAnimationEditor",
+  "Pause",
+  "Play",
+  "Rollback"
+ ],
+ "UVSelector": [
+  "GetSelectorPosition",
+  "GetTextureName",
+  "OnClick"
+ ],
+ "ToolPropertyCString": [
+  "GetString"
+ ],
+ "AttachmentPropertySearchList": [
+  "GetSelectedText",
+  "OpenFile",
+  "OpenSearchList"
+ ],
+ "WarsLedger": [
+  "GetWars",
+  "GetWarsSortSearch"
+ ],
+ "WarItem": [
+  "GetAttackerCasualties",
+  "GetAttackerNavies",
+  "GetAttackerTroops",
+  "GetDefenderCasualties",
+  "GetDefenderNavies",
+  "GetDefenderTroops",
+  "GetScore",
+  "GetWar"
+ ],
+ "WarLateralViewParticipant": [
+  "GetCountry",
+  "GetWarEnthusiasm",
+  "GetWarEnthusiasmInfo",
+  "GetWarParticipation",
+  "IsSubjectWithOverlordInWar"
+ ],
+ "WarLateralView": [
+  "AttackerBattlesLossesWarDesc",
+  "AttackerMenLossesCountryWarDesc",
+  "AttackerNavalBattlesLossesWarDesc",
+  "AttackerNavalLossesCountryWarDesc",
+  "CanAnnexRevolter",
+  "CanAnnexRevolterDesc",
+  "CanAnnexRevolterInfo",
+  "CanGrantIndependence",
+  "CanGrantIndependenceDesc",
+  "CanGrantIndependenceInfo",
+  "DefenderBattlesLossesWarDesc",
+  "DefenderMenLossesCountryWarDesc",
+  "DefenderNavalBattlesLossesWarDesc",
+  "DefenderNavalLossesCountryWarDesc",
+  "EnforcePeaceDesc",
+  "GetAnnexRevolterTitle",
+  "GetAttackerLandArmy",
+  "GetAttackerLandArmyDesc",
+  "GetAttackerLandLosses",
+  "GetAttackerLeader",
+  "GetAttackerNavalArmy",
+  "GetAttackerNavalArmyDesc",
+  "GetAttackerNavalLosses",
+  "GetAttackerParticipantsFlattened",
+  "GetAttackerParticipantsFlattenedSortSearch",
+  "GetAttackerParticipantsSorted",
+  "GetAttackerPopLosses",
+  "GetAttackerPopLossesDesc",
+  "GetAttackerTotalPopulation",
+  "GetAttackerUnconditionalSurrender",
+  "GetBattlesOnGoing",
+  "GetDefenderLandArmy",
+  "GetDefenderLandArmyDesc",
+  "GetDefenderLandLosses",
+  "GetDefenderLeader",
+  "GetDefenderNavalArmy",
+  "GetDefenderNavalArmyDesc",
+  "GetDefenderNavalLosses",
+  "GetDefenderParticipantsFlattened",
+  "GetDefenderParticipantsFlattenedSortSearch",
+  "GetDefenderParticipantsSorted",
+  "GetDefenderPopLosses",
+  "GetDefenderPopLossesDesc",
+  "GetDefenderTotalPopulation",
+  "GetDefenderUnconditionalSurrender",
+  "GetEnemyLeader",
+  "GetEnemyParticipantsSorted",
+  "GetEnforceAttackerPeace",
+  "GetEnforceDefenderPeace",
+  "GetFriendlyParticipantsSorted",
+  "GetInterveneInAttackerWar",
+  "GetInterveneInDefenderWar",
+  "GetLandAttackerBattlesLostInfo",
+  "GetLandAttackerBattlesWonInfo",
+  "GetNavalAttackerBattlesLostInfo",
+  "GetNavalAttackerBattlesWonInfo",
+  "GetNumberLandAttackerBattlesLost",
+  "GetNumberLandAttackerBattlesWon",
+  "GetNumberNavalAttackerBattlesLost",
+  "GetNumberNavalAttackerBattlesWon",
+  "GetOverlordSubjectCountInWar",
+  "GetReinInSubjectTooltip",
+  "GetWar",
+  "GetWarScore",
+  "HasSubjects",
+  "IsAnnexRevolterVisible",
+  "IsAttackerUnconditionalSurrenderVisible",
+  "IsDefenderUnconditionalSurrenderVisible",
+  "IsEnemyOrOverlordValidForPeaceTooltip",
+  "IsEnforcePeaceVisible",
+  "IsGrantIndependenceVisible",
+  "IsOverlordExpanded",
+  "IsReinInSubjectVisible",
+  "IsWhitePeaceVisible",
+  "SendAnnexRevolter",
+  "SendGrantIndependenceRevolter",
+  "ShowPeaceDemandLateralView",
+  "ShowPeaceOfferLateralView",
+  "ShowPeaceOfferLateralViewForCountry",
+  "ToggleAllOverlordsExpanded",
+  "ToggleOverlordExpanded",
+  "TogglePeaceViewEnabled",
+  "TogglePeaceViewTooltip",
+  "Vars",
+  "WhitePeaceDesc"
+ ],
+ "ArmyStrength": [
+  "GetCombatPowerIgnoreMorale",
+  "GetCombatPowerIncludeMorale",
+  "GetFoodStorage",
+  "GetNumArmies",
+  "GetRawStrength",
+  "GetTransportCost"
+ ],
+ "NavyStrength": [
+  "GetAntiPiracy",
+  "GetCombatPower",
+  "GetEscorts",
+  "GetTransportCapacity"
+ ],
+ "TacticalMilitaryObjectiveGroup": [
+  "GetObjective",
+  "GetPriority",
+  "GetTroopSufficiencyColor",
+  "GetTroopSufficiencyTooltip",
+  "IsCompleted",
+  "SetHighlight",
+  "UsesTroopSufficiency"
+ ],
+ "StrategicObjectiveGroupGlue": [
+  "GetObjectiveGroup",
+  "GetObjectives"
+ ],
+ "StrategicMilitaryObjectiveGlue": [
+  "GetObjective"
+ ],
+ "WarParticipantGlue": [
+  "GetCountry",
+  "GetStrategicObjectiveGroups",
+  "GetTacticalObjectiveGroups"
+ ],
+ "WarSideGlue": [
+  "GetParticipants",
+  "GetSelectedParticipant",
+  "GetSelectedParticipantIndex",
+  "SelectParticipant"
+ ],
+ "WarGlue": [
+  "GetAttackers",
+  "GetDefenders",
+  "GetName",
+  "IsShowingAttackers",
+  "ShowAttackers",
+  "ShowDefenders"
+ ],
+ "WarViewer": [
+  "GetCurrentWar",
+  "GetWars",
+  "HasWar",
+  "IsWarViewOpen",
+  "OpenWarView",
+  "SetFilter"
+ ],
+ "WatchWindow": [
+  "Close",
+  "GetEventItems",
+  "GetFlagItems",
+  "GetObjectName",
+  "GetVariableItems",
+  "ToggleChangeOnPause",
+  "WillPauseOnChange"
+ ],
+ "VariableInfo": [
+  "GetExpirationDate",
+  "GetName",
+  "GetValue",
+  "HasExpirationDate"
+ ],
+ "EventInfo": [
+  "GetAsWhoInfo",
+  "GetDate",
+  "GetName"
+ ],
+ "Tutorial": [
+  "GetStepInstructions",
+  "GetStepKey",
+  "GetStepName",
+  "GetStepText",
+  "GetTransitionText",
+  "HasStepInstructions",
+  "HasTransition",
+  "IsTransitionEnabled",
+  "OnClickTransition"
+ ],
+ "SubUnitCount": [
+  "GetCount",
+  "GetSubUnitDefinition"
+ ],
+ "HeirSelectionValue": [
+  "GetDescription",
+  "GetHeir"
+ ],
+ "ParliamentType": [
+  "GetDebugText",
+  "GetDescription",
+  "GetEffects",
+  "GetNameWithNoTooltip"
+ ],
+ "HeirSelection": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEffect",
+  "GetNameWithNoTooltip",
+  "GetProperties"
+ ],
+ "CabinetCardModifierEntry": [
+  "GetKey",
+  "GetValue"
+ ],
+ "GagCountryItem": [
+  "GetCountry",
+  "GetCountryProgress",
+  "GetCountryProgressMonthly",
+  "GetInviteAcceptanceScore",
+  "GetInviteAcceptanceTooltip",
+  "IsGuelphs",
+  "IsInSameFactionAsPlayer"
+ ],
+ "Payment": [
+  "GetCountryPayeeNum",
+  "GetCountryPayerNum",
+  "GetDesc",
+  "GetFirstPayerName",
+  "GetFirstPayerPrice",
+  "GetNameWithContext",
+  "GetNameWithNoTooltip",
+  "GetPayeeName",
+  "GetPayeeNameAtIndex",
+  "GetPayeePrice"
+ ],
+ "ActionGroup": [
+  "GetActions",
+  "GetName"
+ ],
+ "DisasterView": [
+  "GetActions",
+  "GetDisaster",
+  "GetPlayer",
+  "IsDisaster",
+  "Vars"
+ ],
+ "WorkOfArt": [
+  "GetFlavor",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetQualityName",
+  "GetQualityTooltip",
+  "GetUITooltip",
+  "HasFlavor"
+ ],
+ "ChildEducation": [
+  "GetDescription",
+  "GetEffect"
+ ],
+ "CharacterModifierWrap": [
+  "GetIcon",
+  "GetName"
+ ],
+ "CityGraphicsWrap": [
+  "CurrentIndex",
+  "GetSelectedBuilding",
+  "GetSelectedGood",
+  "GetSelectedHolySite",
+  "GetSelectedLocation",
+  "GetSelectedPop",
+  "GetSelectedWorkOfArt",
+  "GetTotalItems",
+  "GoNext",
+  "GoPrev",
+  "IsSelectedBuilding",
+  "IsSelectedGood",
+  "IsSelectedHolySite",
+  "IsSelectedPop",
+  "IsSelectedRGO",
+  "IsSelectedWorkOfArt"
+ ],
+ "CombatModifier": [
+  "GetIcon",
+  "GetTooltip",
+  "GetValue"
+ ],
+ "SubUnitCombatCounts": [
+  "GetCategory",
+  "GetCount",
+  "GetTooltip",
+  "GetTotal",
+  "IsCorrectForCombat",
+  "IsRegiment"
+ ],
+ "CombatSideWrap": [
+  "GetCombatSide"
+ ],
+ "UnitAbility": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "RecruitmentMethod": [
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "SubUnitCounts": [
+  "GetCategory",
+  "GetCount",
+  "GetLevyCount",
+  "GetMercenaryCount",
+  "GetName",
+  "GetRegularCount",
+  "GetTooltip",
+  "GetTotalLong"
+ ],
+ "UnitsWrap": [
+  "GetSelectedUnit",
+  "GetTooltipTitle",
+  "GetUnits"
+ ],
+ "UnitPriceWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "LevySetup": [
+  "GetDebugText",
+  "GetDescription",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "Hegemony": [
+  "GetBaseInfo",
+  "GetDesc",
+  "GetNameWithNoTooltip"
+ ],
+ "ScriptedPeaceTreatyType": [
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "AiPersonality": [
+  "GetDebugText",
+  "GetDescription",
+  "GetEffect",
+  "GetName"
+ ],
+ "CountryInteraction": [
+  "GetDebugText",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "ScriptedRelationType": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "ScriptedRelationTypeWithContextWrap": [
+  "GetFirstCountry",
+  "GetScriptedRelationType",
+  "GetSecondCountry",
+  "GetTooltip"
+ ],
+ "SocietalValueInCountryWrap": [
+  "GetSocietalValues"
+ ],
+ "CountryCountryModifierWrap": [
+  "GetIcon",
+  "GetMinCapDescription",
+  "GetName",
+  "HasMinCap"
+ ],
+ "CasusBelli": [
+  "GetDescription",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "AreaPreference": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "SubjectType": [
+  "GetAnnexationRules",
+  "GetAnnexationRulesForType",
+  "GetBuildingRules",
+  "GetBuildingRulesForType",
+  "GetDebugText",
+  "GetDiplomaticRules",
+  "GetDiplomaticRulesForType",
+  "GetFlavor",
+  "GetMonthly",
+  "GetMonthlyForType",
+  "GetNameWithNoTooltip",
+  "GetOverlordBenefits",
+  "GetOverlordBenefitsForType",
+  "GetStatusRules",
+  "GetStatusRulesForType",
+  "GetSubjectBenefits",
+  "GetSubjectBenefitsForType",
+  "HasAnnexationRules",
+  "HasBuildingRules",
+  "HasDiplomaticRules",
+  "HasMonthly",
+  "HasOverlordBenefits",
+  "HasStatusRules",
+  "HasSubjectBenefits"
+ ],
+ "AnnexationCostWrapper": [
+  "GetTitle",
+  "GetTooltip"
+ ],
+ "DynastyModifierWrap": [
+  "GetIcon",
+  "GetName"
+ ],
+ "PaymentWithContextWrap": [
+  "GetPayeePrice",
+  "GetPayeeProportions",
+  "GetPayerPaymentScale",
+  "GetPayerPrice",
+  "GetPayerProportions",
+  "GetPayment"
+ ],
+ "TransactionProportion": [
+  "GetEntity",
+  "GetProportionPercentage"
+ ],
+ "PaymentPayerPriceWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "Loan": [
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "CEconomy": [
+  "GetCountry",
+  "GetExpenseSettingBreakdown",
+  "GetExpenseSettingInvestmentTooltip",
+  "GetStabilityInvestmentExpenseInfo",
+  "GetStabilityInvestmentTooltip"
+ ],
+ "OneBuildingInMarketUpkeepWrap": [
+  "GetName"
+ ],
+ "ScriptedGeography": [
+  "GetMembersInfoForScriptedGeography"
+ ],
+ "Region": [
+  "GetDebugText",
+  "GetNameWithNoTooltip",
+  "GetRegionReleaseInfo",
+  "GetTooltipDesc"
+ ],
+ "SubContinent": [
+  "GetLogInfo",
+  "GetMembersInfo",
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "Continent": [
+  "GetLogInfo",
+  "GetMembersInfo",
+  "GetNameWithNoTooltip"
+ ],
+ "QuickChivalricOrderMembers": [
+  "GetMembers"
+ ],
+ "LawWithContextWrap": [
+  "GetLaw",
+  "GetTooltip"
+ ],
+ "PolicyWithContextWrap": [
+  "GetPolicy",
+  "GetTooltip"
+ ],
+ "GovernmentType": [
+  "GetAdvancesPerAge",
+  "GetBreakdownList",
+  "GetDebugText",
+  "GetHeirSelectionNamesForUI",
+  "GetLawNamesForUI",
+  "GetLaws",
+  "GetNameWithNoTooltip",
+  "GetPowerDesc",
+  "GetTooltip"
+ ],
+ "AgeAdvancesWrap": [
+  "GetAdvances",
+  "GetAge",
+  "IsValid"
+ ],
+ "EstateType": [
+  "GetFlavorText",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "RegencyType": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "ParliamentAgenda": [
+  "GetBribed",
+  "GetBribedWithEstateContext",
+  "GetDebugText",
+  "GetDescription",
+  "GetEffect",
+  "GetEffectWithEstateContext",
+  "GetNameWithNoTooltip"
+ ],
+ "ActiveParliamentAgendaWrap": [
+  "GetDescription",
+  "GetEffect",
+  "GetEstateType",
+  "GetNameWithNoTooltip",
+  "GetSpecialStatus",
+  "IsOrganizationAgenda"
+ ],
+ "ParliamentIssue": [
+  "GetDebateInfo",
+  "GetDebugText",
+  "GetDescription",
+  "GetFailInfo",
+  "GetNameWithNoTooltip",
+  "GetPassedInfo",
+  "GetStartInfo",
+  "GetSupportIncreaseForPlayerInfo",
+  "GetSupportIncreaseForSpecialStatusInfo",
+  "HasDebateInfo",
+  "HasFailInfo",
+  "HasPassedInfo",
+  "HasStartInfo",
+  "IsInternationalOrganizationIssue"
+ ],
+ "FormattedTooltipWrap": [
+  "GetEstate",
+  "GetName"
+ ],
+ "PopEstatePerLocationPowerWrap": [
+  "GetTitle",
+  "GetTooltip"
+ ],
+ "EstateOpinionWrap": [
+  "GetEffect",
+  "GetTarget",
+  "GetTitle"
+ ],
+ "Language": [
+  "GetCommonLanguagesInfo",
+  "GetCourtLanguagesInfo",
+  "GetCulturesInfo",
+  "GetDebugText",
+  "GetDetailedPowerInfo",
+  "GetDialectsInfo",
+  "GetFlavorText",
+  "GetLanguagePowerClergyBreakdown",
+  "GetLanguagePowerCommonBreakdown",
+  "GetLanguagePowerCourtBreakdown",
+  "GetLanguagePowerCultureBreakdown",
+  "GetLanguagePowerSummaryBreakdown",
+  "GetLiturgicalLanguagesInfo",
+  "GetMarketsInfo",
+  "GetNameWithNoTooltip",
+  "GetReligionsInfo"
+ ],
+ "DispositionPairWrap": [
+  "GetTitle",
+  "GetTooltip"
+ ],
+ "InternationalOrganizationModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "ReligiousFigure": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "InternationalOrganizationTypeVariable": [
+  "GetDesc",
+  "GetMonthlyChangeBreakdown",
+  "GetName",
+  "GetTitle"
+ ],
+ "Cardinal": [
+  "GetLocation",
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "SpecialStatus": [
+  "GetDesc",
+  "GetEffects",
+  "GetNameWithNoTooltip"
+ ],
+ "LandOwnershipRule": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "Resolution": [
+  "GetBasicTooltip",
+  "GetNameWithNoTooltip",
+  "GetSuccessEffect"
+ ],
+ "ParliamentIssueWithContextWrap": [
+  "GetParliamentIssue"
+ ],
+ "ImperialCircle": [
+  "GetActiveMembers",
+  "GetLeader",
+  "GetMemberCount",
+  "GetNameArea",
+  "GetNameWithNoTooltip",
+  "GetVotingPowerBreakdownInfo",
+  "HasLeader",
+  "IsDormant",
+  "IsMember"
+ ],
+ "ImperialCircleItem": [
+  "GetActions",
+  "GetCircle",
+  "GetCircleLeaderModifierText",
+  "HasVisibleActions",
+  "IsPlayerCircle"
+ ],
+ "ContextMenuItem": [
+  "GetLabel"
+ ],
+ "Vegetation": [
+  "GetDebugText",
+  "GetDesc",
+  "GetTooltip"
+ ],
+ "Topography": [
+  "GetDebugText",
+  "GetDesc",
+  "GetTooltip"
+ ],
+ "Climate": [
+  "GetDebugText",
+  "GetDesc",
+  "GetTooltip"
+ ],
+ "GetDescriptionForUIngType": [
+  "IsMultipleLevels"
+ ],
+ "ActiveInstitution": [
+  "GetInstitution"
+ ],
+ "LocationRank": [
+  "GetDescription",
+  "GetNameWithNoTooltip",
+  "GetRankTooltip"
+ ],
+ "AdjacencyDistanceWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "LocationMigrationWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "SeaCurrentWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "RiverDirectionWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "RoadType": [
+  "GetDesc",
+  "GetMaintenanceString",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "Migration": [
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "LocationModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "LocationCountryDoubleModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "LocationDoubleModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "LocationPercentCountryModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "QuickMovements": [
+  "GetLocationsInfo",
+  "GetMovements",
+  "GetResistances"
+ ],
+ "QuickRebelLocationList": [
+  "GetRebels",
+  "GetTooltipForRebel"
+ ],
+ "MarketValuePieChartWidget": [
+  "GetAllContributions",
+  "GetContributions"
+ ],
+ "MarketValueContributionItem": [
+  "GetColor",
+  "GetName",
+  "GetPercentage",
+  "GetValue"
+ ],
+ "AdjacencyMarketAccessWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "GoodsOnMarketWrap": [
+  "GetDemand",
+  "GetMarket",
+  "GetName"
+ ],
+ "GoodsOnMarketPopWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "DemandCategoryWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "MarketAccessWrap": [
+  "GetTooltip"
+ ],
+ "GoodsSellPriceWrap": [
+  "GetGoods",
+  "GetName",
+  "GetTooltip"
+ ],
+ "MissingGoodsOnMarketImpactWrap": [
+  "GetName",
+  "GetTooltip"
+ ],
+ "DemandsOnMarketWrap": [
+  "GetGoods",
+  "GetMarket",
+  "GetName"
+ ],
+ "LocationSupplyWrap": [
+  "GetGoods",
+  "GetName",
+  "GetTooltip"
+ ],
+ "MarketPopNeedsWrap": [
+  "GetGoods",
+  "GetName",
+  "GetTooltip"
+ ],
+ "SupplyOnMarketWrap": [
+  "GetGoods",
+  "GetName"
+ ],
+ "ProducedOnMarketWrap": [
+  "GetMarket",
+  "GetName"
+ ],
+ "MerchantPowerInMarketWrap": [
+  "GetCountry",
+  "GetMarket",
+  "GetName",
+  "GetTooltip"
+ ],
+ "MerchantCapacityInMarketWrap": [
+  "GetCountry",
+  "GetName",
+  "GetTooltip"
+ ],
+ "TimedModifierOwner": [
+  "GetDisplayedCategoryTexture",
+  "GetModifiers"
+ ],
+ "MovementModifierWrap": [
+  "GetIcon",
+  "GetName"
+ ],
+ "BuildingPromoteTimeWrapper": [
+  "GetBreakdown",
+  "GetPopModifier",
+  "GetPromotionDesc",
+  "GetTitle"
+ ],
+ "SupplyDepot": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "EmploymentSystem": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEffect",
+  "GetIcon",
+  "GetNameWithNoTooltip"
+ ],
+ "BuildingCategory": [
+  "GetBuildings",
+  "GetNameWithNoTooltip",
+  "GetUITooltip"
+ ],
+ "ProvinceModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "QuickReligionCountryList": [
+  "GetCountries"
+ ],
+ "ReligionGroup": [
+  "GetActiveReligions",
+  "GetDebugText",
+  "GetDesc",
+  "GetInactiveReligions",
+  "GetNameWithNoTooltip"
+ ],
+ "ReligiousFocusGlue": [
+  "GetProgressBarTooltip",
+  "GetProgressPercent",
+  "GetReligiousFocus",
+  "GetResearchQueueSlot",
+  "GetUIAction",
+  "IsInResearchQueue"
+ ],
+ "ReligionModifierWrap": [
+  "GetIcon",
+  "GetName",
+  "GetTooltip"
+ ],
+ "ReligiousSchool": [
+  "GetDescription",
+  "GetEffect",
+  "GetIcon",
+  "GetNameWithNoTooltip",
+  "GetRelations"
+ ],
+ "ReligiousFaction": [
+  "GetDescription",
+  "GetNameWithNoTooltip"
+ ],
+ "ReligiousFocus": [
+  "GetDescription",
+  "GetNameWithNoTooltip",
+  "GetProgressDesc"
+ ],
+ "ReligiousAspect": [
+  "GetDebugText",
+  "GetDescription",
+  "GetEffect",
+  "GetNameWithNoTooltip"
+ ],
+ "God": [
+  "GetActiveEffects",
+  "GetDebugText",
+  "GetDesc",
+  "GetGodOrGoddess",
+  "GetIconEffects",
+  "GetInactiveConditionalEffects",
+  "GetMonarchPowerTooltip",
+  "GetName",
+  "GetNameWithNoTooltip",
+  "GetOmens",
+  "HasInactiveConditionalEffects",
+  "HasSpecificMonarchPower",
+  "MakeScope"
+ ],
+ "GodWithReligionWrap": [
+  "GetGod",
+  "GetName"
+ ],
+ "Avatar": [
+  "GetActiveEffects",
+  "GetDesc",
+  "GetEffects",
+  "GetNameWithNoTooltip"
+ ],
+ "BureaucracyType": [
+  "GetDebugText",
+  "GetDesc",
+  "GetEstatesThatDislikeTooltip",
+  "GetEstatesThatLikeTooltip",
+  "GetNameWithNoTooltip",
+  "GetNegativeEffects",
+  "GetNeutralEffects",
+  "GetPositiveEffects"
+ ],
+ "HolySiteDefinition": [
+  "GetDesc",
+  "GetNameWithNoTooltip"
+ ],
+ "HolySiteType": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "DiseaseOutbreak": [
+  "GetDeathsTooltip",
+  "GetDisease",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "Disease": [
+  "GetDebugText",
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "HasEffects"
+ ],
+ "LanguageFamily": [
+  "GetDebugText",
+  "GetDesc",
+  "GetLanguagesList",
+  "GetNameWithNoTooltip",
+  "HasDesc"
+ ],
+ "Dialect": [
+  "GetCommonDialectsInfo",
+  "GetCourtDialectsInfo",
+  "GetDebugText",
+  "GetLiturgicalDialectsInfo",
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "Artist": [
+  "GetNameWithNoTooltip",
+  "GetTooltip"
+ ],
+ "WorkOfArtType": [
+  "GetDesc",
+  "GetNameWithNoTooltip",
+  "GetTooltip",
+  "HasModifier"
+ ],
+ "AntagonismTwoCountriesWrap": [
+  "GetUs"
+ ],
+ "MERCENARY": [
+  "GetName"
+ ],
+ "UnitAdjustedCount": [
+  "GetLevyCount",
+  "GetMercenaryCount",
+  "GetRegularCount",
+  "HasLevies",
+  "HasMercenaries",
+  "HasRegulars"
+ ],
+ "ArmyLevyPopBreakdownWrapper": [
+  "GetBreakdown",
+  "GetTitle"
+ ],
+ "NavyLevyPopBreakdownWrapper": [
+  "GetBreakdown",
+  "GetTitle"
+ ],
+ "UnitDefCostWrap": [
+  "GetBreakdown",
+  "GetTitle"
+ ],
+ "MilitaryObjective": [
+  "GetInfo",
+  "GetName",
+  "GetTooltip"
+ ],
+ "UnitMaintenanceWrap": [
+  "GetName",
+  "GetTooltip",
+  "IsArmy",
+  "IsNavy"
+ ],
+ "ProvinceLevySizeWrap": [
+  "GetTooltipTitle",
+  "HasLevies",
+  "IsArmy",
+  "IsNavy"
+ ],
+ "UnitRepairWrap": [
+  "GetName",
+  "GetTooltip",
+  "IsArmy",
+  "IsNavy"
+ ],
+ "WarGoal": [
+  "GetFlavor",
+  "GetNameWithNoTooltip"
+ ],
+ "WarLateralViewBattle": [
+  "GetCombat",
+  "OnClick"
+ ],
+ "Scope": [
+  "GetCountry",
+  "GetInternationalOrganization"
+ ],
+ "GoodsInMarket": [
+  "GetGoods",
+  "GetGoodsMarketEntry",
+  "GetMarket"
+ ],
+ "MemberTypeItem": [
+  "GetCountries",
+  "GetIcon",
+  "GetMembersAmount",
+  "GetName"
+ ],
+ "LeaderCandidate": [
+  "GetCandidate",
+  "GetProspectiveRuler",
+  "GetVotesAmount"
+ ],
+ "HolySiteGlue": [
+  "GetHolySite"
+ ],
+ "IoSubheaderSelectMenu": [
+  "OnClose",
+  "Parent"
+ ],
+ "ReligiousFactionGlue": [
+  "GetActions",
+  "GetActionsVisibleAmount",
+  "GetFaction",
+  "IsExpanded",
+  "ToggleExpanded"
+ ],
+ "ReligiousFactionActionGlue": [
+  "GetRequiredHonor",
+  "GetUIAction"
+ ],
+ "HreHeaderActionItem": [
+  "GetInternationalOrganizationMembers",
+  "GetTexture",
+  "GetTitle",
+  "GetTooltip",
+  "GetTooltipForRightClick",
+  "GetTotalMacrobuilderActions",
+  "HasInternationalOrganizationMembers",
+  "IsEnabled",
+  "OnClick",
+  "OnRightClick"
+ ],
+ "ParliamentRowItem": [
+  "GetCountry",
+  "HasCircleMembers",
+  "IsCircleLeader",
+  "IsNestedMember"
+ ],
+ "ParliamentAgendaGlue": [
+  "GetParliamentAgenda",
+  "GetUIAction",
+  "IsAllowedForCountry"
+ ],
+ "ActiveParliamentAgenda": [
+  "GetAgenda",
+  "GetEffectWithIOConext",
+  "GetName",
+  "GetSpecialStatus",
+  "GetSupport"
+ ],
+ "SaintGlue": [
+  "GetSaint"
+ ],
+ "ImportantReligionItem": [
+  "GetColor",
+  "GetOurOpinionIcon",
+  "GetOurOpinionTooltip",
+  "GetPercentSize",
+  "GetPercentSizeTooltip",
+  "GetReligion",
+  "GetTheirOpinionIcon",
+  "GetTheirOpinionTooltip",
+  "IsPercentSizeAlmostZero"
+ ],
+ "ReligiousFigureGlue": [
+  "GetCharacter",
+  "GetUIAction",
+  "IsInvited"
+ ],
+ "ReligiousAspectGlue": [
+  "GetReligiousAspect",
+  "IsValid"
+ ],
+ "VoteTargetGlue": [
+  "GetVotePercentage",
+  "GetVoteTarget",
+  "GetVotersDataModel"
+ ],
+ "GagFactionItem": [
+  "GetCount",
+  "GetIcon",
+  "GetTitle"
+ ],
+ "WillJoinCountryList": [
+  "GetJoinDefensive"
+ ],
+ "ItalianWarsCountryItem": [
+  "GetCountry",
+  "GetInviteAcceptanceScore",
+  "GetInviteAcceptanceTooltip",
+  "GetItalyLocationCount",
+  "GetLeagueIcon",
+  "IsInSameLeagueAsPlayer"
+ ],
+ "ItalianWarsLeaguePieSlice": [
+  "GetColor",
+  "GetIcon",
+  "GetPercentage",
+  "GetStalemateTooltipKey",
+  "GetTitle",
+  "GetVictoryTooltipKey",
+  "HasIO"
+ ],
+ "ItalianWarsWarItem": [
+  "GetAttackerLeader",
+  "GetAttackerLeagueIcon",
+  "GetDefenderLeader",
+  "GetDefenderLeagueIcon",
+  "GetWar",
+  "GetWarScore",
+  "IsPlayerInWar",
+  "OnClick"
+ ],
+ "ItalianWarsLeagueItem": [
+  "GetCount",
+  "GetIcon",
+  "GetTitle"
+ ],
+ "ReformationReligionItem": [
+  "GetColor",
+  "GetMaskAlpha",
+  "GetReligion"
+ ],
+ "ReformationPieSliceItem": [
+  "GetColor",
+  "GetDisplayPopCount",
+  "GetPercentage",
+  "GetReligion"
+ ],
+ "ReformationMovementItem": [
+  "GetAffectedCountryItems",
+  "GetName",
+  "GetNumAffectedCountries"
+ ],
+ "ReformationMovementCountryItem": [
+  "GetAffectedCountryLocationsInfo",
+  "GetAffectedLocationNames",
+  "GetCountry",
+  "GetNumAffectedLocations"
+ ],
+ "ReformationPopTypePie": [
+  "GetIconTexture",
+  "GetName",
+  "GetSlices"
+ ],
+ "ReformationPopReligionSlice": [
+  "GetColor",
+  "GetDisplayPopCount",
+  "GetPercentage",
+  "GetReligion"
+ ],
+ "ReformationCountryItem": [
+  "GetCountry",
+  "GetReligion"
+ ]
+}

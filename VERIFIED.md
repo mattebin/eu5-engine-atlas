@@ -473,3 +473,42 @@ have nothing to enter unless that relationship exists.
 `yes` appears in the entered list. That is almost certainly an artifact of
 the scope extraction picking up a bare token, not a real scope link. Treat
 any single-word generic entry in `scopes.json` with suspicion.
+
+---
+
+# GUI function TYPES (static work, no probes needed)
+
+The missing piece for a task-oriented catalogue: which type does each
+function belong to.
+
+Two sources combined:
+
+1. **Vanilla `.gui` usage.** In Jomini you write `[MapMode.IsActive]`, where
+   the prefix IS the datacontext type. 483 vanilla files yield **938 types
+   and 7,197 Type.Method pairs** - ground truth.
+2. **Registration adjacency.** Functions registered next to each other belong
+   to the same type: `SetMapMode` sits beside `IsSet`, `IsActive` beside
+   `IsToggleAction`. Walking 18,535 registrations in address order and
+   spreading types from known anchors covers the rest.
+
+| tier | count | reliability |
+|---|---|---|
+| Type **confirmed** from vanilla usage | **3,801** | exact |
+| Type **inferred** by adjacency | **4,606** | **80% measured** |
+
+## The 80% is measured, not asserted
+
+600 known functions were held out, their types hidden, then predicted from
+neighbours only: **461 correct, 115 wrong, 24 too far from any anchor to
+guess**. So adjacency labels are a strong hint and must be presented as such
+in any tool, never as fact.
+
+## Largest type groups
+
+`Location` (425), `Country` (283), `Player` (204),
+`InternationalOrganizationsView` (159), `Character` (154),
+`WarLateralView` (152), `Unit` (130), `Market` (89), `Building`, `LocationView`.
+
+This is the data a searchable catalogue needs: a modder asking "what can I do
+with a Location" gets 425 candidate functions, 250 of them confirmed by
+vanilla usage.
