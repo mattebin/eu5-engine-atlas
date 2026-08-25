@@ -24,6 +24,10 @@ yet, by design.
 | Scope links | 283 | 231 | **52** |
 | GUI data functions | 10,828 | 6,523 | **3,824** (game-facing) |
 
+**Live verification: 168 of 168 undocumented effects and triggers confirmed
+real in game (1.3.11).** Working syntax documented for variables, lists,
+sorting, maps and list-type iterators in `VERIFIED.md`.
+
 `on_actions` were attempted and do **not** yield to this technique: they are
 fired by name lookup at runtime rather than registered through static
 initializers, so there is no table to walk.

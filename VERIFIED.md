@@ -291,3 +291,34 @@ because they require blocks or value comparisons - `nand`,
 probe 1, so these are syntax deaths, not evidence against the keywords:
 
 `any_false`, `area_average_control`, `available_army_levy_percentage`, `available_navy_levy_percentage`, `besieger_strength`, `bond_capacity`, `can_start_tutorial_lesson`, `colonial_charter_distance`, `is_value_in_local_variable_map`, `join_organization_ai_desire`, `language_population_in_country`, `liturgical_language_utility`, `local_variable_map_size`, `nand`, `num_bonds`, `num_cabinet_capable_characters`, `num_explorations_including_in_construction`, `num_locations_affected`, `num_of_active_parliament_agendas`, `num_of_locations_with_high_conquer_desire`, `variable_map_size`, `vote_type`, `war_score_of_country_side`, `yearly_gold`, `yearly_sailors`
+
+---
+
+# COMPLETE: 168 of 168 undocumented keywords verified real
+
+The final 25 triggers passed once each was given a plausible argument form
+instead of a bare `= yes`: value triggers as `X > 0`, block triggers with a
+block. All five chunks ran to completion, so the earlier aborts were purely
+malformed-syntax deaths, never evidence against the keywords.
+
+| | |
+|---|---|
+| Undocumented **effects** verified real | **34 / 34** |
+| Undocumented **triggers** verified real | **134 / 134** |
+| Flagged unknown by the engine | **0** |
+| Independent fake controls correctly caught | **3** (one effect, two triggers) |
+
+Every result rests on a control of the *same kind* as the thing tested, after
+the trigger-position control exposed that assumption transferring from
+effect-position was unsafe.
+
+## What is now established end to end
+
+- The engine registers **553 effects, 1,270 triggers, 283 scope links,
+  10,828 GUI functions, 2,841 defines**, plus a composed list-type class.
+- Vanilla script demonstrates only a fraction: **168** effects/triggers and
+  **45** defines are never used anywhere in the game's own files.
+- Every one of those 168 is real, confirmed in game.
+- Working syntax is documented for variables, lists (including iteration and
+  descending sort), maps (storage and counting), and 8 undocumented list
+  types, 4 of which return live data.
