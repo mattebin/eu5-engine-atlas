@@ -1,3 +1,28 @@
+# Product direction (Matte, 2026-08-25)
+
+**Fold the atlas into EU5 Mod Checker and turn it into a modding workbench.**
+
+Not a reference document - a program. The pieces:
+
+- **Searchable catalogue** of everything the engine can actually do, from
+  this project's five registries plus the verified syntax.
+- **Task-oriented search.** A modder says "I want to make a map mode" and it
+  lists the relevant defines, effects, triggers, GUI functions and required
+  file structure for that job, instead of making them know the vocabulary
+  first.
+- **Editor for the framework layer.** Edit the mechanical scaffolding in the
+  tool, then fill in text, images and flavour there or elsewhere.
+- **Live linting while editing**, using the existing eu5lint rules, so the
+  answer to "will this even load" comes immediately rather than after a
+  launch and an error.log read.
+
+Why this shape fits: the checker already reads the exe, already has 19
+verified rules, and is already published. The atlas supplies the knowledge
+layer it was missing. It is a TOOL rather than a wiki page, which is the
+form that earns attribution (see the reach discussion in the project notes).
+
+---
+
 # Later work
 
 ## 1. GUI functions needing unreachable receivers (3,251)
