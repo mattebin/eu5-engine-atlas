@@ -16,24 +16,33 @@ values changed nothing.
 `within_diplomatic_range` is *the* mechanic this define names, so a null
 result here is strong evidence the define is vestigial.
 
-## Tier 2 - RETRACTED, never actually tested
+## Tier 2 - NO EFFECT DETECTED (properly tested, handles may be insensitive)
 
-`NMercenary.MERCENARY_DISTANCE_CAP` and
-`NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT` were briefly reported here as
-"no effect detected". **That was wrong and is withdrawn.**
+| define | handle | 0 | 9999 |
+|---|---|---|---|
+| `NMercenary.MERCENARY_DISTANCE_CAP` | world count of `has_mercenaries` | over 400 | over 400 |
+| `NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT` | world count of `can_rival` | 100-400 | 100-400 |
 
-The intended A/B compared 9999 against 0, but debug.log shows only **one
-game launch** (00:37:10) with both measurement runs after it (00:38:34 and
-00:39:26, 52 seconds apart). Defines load once at startup, so both runs read
-the same values from memory. Identical readings were therefore guaranteed
-regardless of what the file on disk said - the comparison measured nothing.
+**This test is valid** - two verified game launches (00:43:10 with zeros,
+00:45:50 with 9999), each with its measurement run after it, launch
+timestamps checked in debug.log before drawing any conclusion.
 
-Caught only because Matte noticed the console had echoed the script instead
-of running it, which prompted a check of execution timestamps.
+Kept below Tier 3 because the handles may simply not be sensitive to these
+defines: `has_mercenaries` might not consult a distance cap at all. Absence
+of a signal through one handle is weaker than the `DIPLOMATIC_RANGE` result,
+where the handle was the exact mechanic the define names.
 
-**Lesson: an A/B on defines requires TWO GAME LAUNCHES, and the launch
-count must be verified in the log before comparing.** Editing the file
-between runs changes nothing until a restart. Both defines return to Tier 1.
+### An earlier version of this section was WRONG and was retracted
+
+The first attempt reported the same conclusion from a comparison that never
+happened: only one launch occurred, so both runs read identical values from
+memory. Defines load once at startup, so editing the file between runs
+changes nothing.
+
+Two habits came out of that, both now standard here:
+**verify the launch count in the log before comparing**, and remember that
+**debug.log resets on every launch**, so cumulative counts mislead - compare
+timestamps, not totals.
 
 ## Tier 1 - LOADS ONLY (existence proven, effect unknown)
 
