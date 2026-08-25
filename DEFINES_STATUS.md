@@ -16,16 +16,24 @@ values changed nothing.
 `within_diplomatic_range` is *the* mechanic this define names, so a null
 result here is strong evidence the define is vestigial.
 
-## Tier 2 - NO EFFECT DETECTED (treat as suspect)
+## Tier 2 - RETRACTED, never actually tested
 
-A/B tested at 9999 vs 0 across a world-wide aggregate. No change observed -
-but the handle may simply not be sensitive to the define, so this is weaker
-than Tier 3.
+`NMercenary.MERCENARY_DISTANCE_CAP` and
+`NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT` were briefly reported here as
+"no effect detected". **That was wrong and is withdrawn.**
 
-| define | handle | result |
-|---|---|---|
-| `NMercenary.MERCENARY_DISTANCE_CAP` | count of countries with `has_mercenaries` | over 400 at both 9999 and 0 |
-| `NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT` | count of countries where `can_rival` | 100-400 band at both 9999 and 0 |
+The intended A/B compared 9999 against 0, but debug.log shows only **one
+game launch** (00:37:10) with both measurement runs after it (00:38:34 and
+00:39:26, 52 seconds apart). Defines load once at startup, so both runs read
+the same values from memory. Identical readings were therefore guaranteed
+regardless of what the file on disk said - the comparison measured nothing.
+
+Caught only because Matte noticed the console had echoed the script instead
+of running it, which prompted a check of execution timestamps.
+
+**Lesson: an A/B on defines requires TWO GAME LAUNCHES, and the launch
+count must be verified in the log before comparing.** Editing the file
+between runs changes nothing until a restart. Both defines return to Tier 1.
 
 ## Tier 1 - LOADS ONLY (existence proven, effect unknown)
 
@@ -40,6 +48,8 @@ from the console.
 `NAI.LOAN_INTEREST_RATE_VS_BANK_LOAN_INTEREST_MULTIPLIER`,
 `NAI.SELL_PROVINCE_DEBT_YEARS_OF_INCOME`,
 `NCountry.REBEL_CONTROL_CHANGE_LOSS`,
+`NMercenary.MERCENARY_DISTANCE_CAP`,
+`NAI.AI_RIVAL_STRENGTH_DIFFERENCE_LIMIT`,
 `NEconomy.GROWTH_FROM_FOOD_MULTIPLIER`,
 `NEconomy.REPLACE_OBSOLETE_BUILDING_SPEED_INCRASE`,
 `NWar.WAR_WORTH_DEVELOPMENT_RGO`
@@ -63,8 +73,8 @@ broke.
 
 ## The headline
 
-**Three defines behaviourally tested, zero found live.** The working
-hypothesis for the whole hidden set is now that they are **vestigial** -
+**ONE define behaviourally tested (DIPLOMATIC_RANGE), and it is inert.** One data point is not a pattern, but combined with 'vanilla never sets
+them' the working hypothesis is that the set is **vestigial** -
 left in the registry after the code that read them was removed. That is
 exactly what "vanilla never sets them" was quietly telling us from the
 start.
