@@ -1,31 +1,31 @@
 # EU5 Engine Atlas
 
-A catalogue of what the Europa Universalis V engine can do that nobody
-documented - extracted from `eu5.exe`, then **verified live in game**.
+A catalogue of what the Europa Universalis V engine accepts in mod
+script. Extracted from `eu5.exe`, then tested in the running game.
 
-The premise: the engine ships far more script capability than its own game
-files demonstrate. `refresh_map_colors` was the proof - a fully working
-effect, registered in the binary, used by no vanilla file, unknown to
-modders until found by hand. This project found the rest systematically.
+The engine understands more script than its own game files use.
+`refresh_map_colors` is the example that started this: a working
+effect, registered in the binary, used once in all of vanilla, found
+by hand while modding. This repo lists the rest.
 
 Game version: **1.3.11**. Re-run the tools after any patch.
 
-## Headline results
+## Results
 
 | Registry | In engine | Never used by vanilla | Verified in game |
 |---|---|---|---|
-| Effects | 553 | 34 | **34/34 real**, all scopes documented |
-| Triggers | 1,270 | 134 | **134/134 real** |
-| Scope links | 283 | 52 | **52/52 accepted**, 6 with live data |
-| List types (composed) | 62+ found | 9 | **8 tested, 4 return live data** |
-| GUI data functions | 10,828 | 3,824 game-facing | **577 confirmed usable**, 19k typed memberships via the engine's own dump |
-| Defines | 2,975 | 54 | loaded but **behaviourally dead** where tested |
+| Effects | 553 | 34 | 34/34 real, all scopes documented |
+| Triggers | 1,270 | 134 | 134/134 real |
+| Scope links | 283 | 52 | 52/52 accepted, 6 with live data |
+| List types (composed) | 62+ found | 9 | 8 tested, 4 return live data |
+| GUI data functions | 10,828 | 3,824 game-facing | 577 confirmed usable, 19k typed memberships via the engine's own dump |
+| Defines | 2,975 | 54 | loaded but behaviourally dead where tested |
 
 (Defines corrected 2026-08-26 from the previously published 2,841/45: a
 UTF-8 BOM had hidden four whole blocks from the extraction, NGame included.
 Details in [CATALOGUE.md](CATALOGUE.md).)
 
-## What here is actually new
+## What is new here
 
 Keyword existence is mostly not secret: the `script_docs` console command
 dumps effects, triggers and event targets with official descriptions, the
@@ -37,8 +37,8 @@ project.
 
 What was not public before this project:
 
-- **The unused-by-vanilla partition.** Nobody published which registered
-  keywords no vanilla file uses:
+- **The unused-by-vanilla partition.** Which registered keywords no
+  vanilla file uses:
 
 | Registry | Used by vanilla | Never used | Share |
 |---|---|---|---|
@@ -51,7 +51,7 @@ What was not public before this project:
 - **In-game verification.** The dumps list names; they do not tell you
   what works. All 168 unused effects and triggers proven real, scope
   requirements probed for every unused effect, working syntax for the
-  variable/list/map API, and the probe traps that make testing honest.
+  variable/list/map API, and the traps listed below.
 - **The defines layer.** No public dump covers defines at all. The 2,975
   registry from RTTI, the 87 never-set defines, and the proof that a
   define can be loaded, readable and dead.
@@ -60,10 +60,10 @@ What was not public before this project:
 - **GUI usability and receivers.** 577 functions confirmed callable from
   the console, and accessor chains computed for 300 reachable types.
 
-Plus a working, syntax-documented **variable / list / map API** vanilla
-never uses: arithmetic (`change/clamp/round`), lists with iteration and
-sorting, maps as counted sets. And `GetDefine('BLOCK','KEY')` - an
-undocumented way to read any live define from GUI or log.
+There is also a working variable / list / map API vanilla never uses,
+with documented syntax: arithmetic (`change/clamp/round`), lists with
+iteration and sorting, maps as counted sets. And `GetDefine('BLOCK','KEY')`,
+an undocumented way to read any live define from GUI or log.
 
 ## The documents
 
@@ -71,18 +71,18 @@ undocumented way to read any live define from GUI or log.
   is merged into `catalogue.json`, one queryable index with explicit
   confidence levels. This is what the workbench consumes. `task_map.json`
   sits on top: task-oriented entry points ("add a map mode" lists the
-  files, catalogue items, gotchas and lint rules for that job), built by
+  files, catalogue items, traps and lint rules for that job), built by
   `tools/build_task_map.py` with every reference validated.
-- **[VERIFIED.md](VERIFIED.md)** - the evidence. Every probe, every control,
-  every retraction, in order. This is the file that justifies every claim.
+- **[VERIFIED.md](VERIFIED.md)** - the evidence. Every probe, control
+  and retraction, in order.
 - **[CURATED.md](CURATED.md)** - the modder-useful subset, organised by
   capability family.
 - **[UNDOCUMENTED.md](UNDOCUMENTED.md)** - raw lists of never-used keywords.
 - **[GUI_AND_SCOPES.md](GUI_AND_SCOPES.md)** - GUI functions and scope links.
 - **[DEFINES_STATUS.md](DEFINES_STATUS.md)** - defines by verification tier,
   including the finding that hidden defines are superseded duplicates:
-  **"vanilla never sets it" is a red flag, not an opportunity**.
-- **[HIDDEN_DEFINES.md](HIDDEN_DEFINES.md)** - the 45 never-set defines.
+  "vanilla never sets it" is a red flag, not an opportunity.
+- **[HIDDEN_DEFINES.md](HIDDEN_DEFINES.md)** - the 54 never-set defines.
 - **[BACKLOG.md](BACKLOG.md)** - open work + the workbench product direction.
 
 ## How it was done
@@ -92,11 +92,11 @@ undocumented way to read any live define from GUI or log.
    registrar they call yields each registry. RTTI (7,998 class names, binary
    unprotected) corroborates. Composed keywords (`every_X`) never appear as
    literal strings and needed their own hunt.
-2. **Verification**: console probes with **armed instruments** - every probe
-   file starts with a deliberately fake keyword that MUST error, or the run
-   is void. Positive results come from `debug_log` sentinels and read-backs
-   with known answers, never from silence. Negative controls of the same
-   kind as the thing tested.
+2. **Verification**: console probes where every probe file starts with a
+   deliberately fake keyword that must error, or the run is void. Positive
+   results come from `debug_log` sentinels and read-backs with known
+   answers, never from silence. Negative controls of the same kind as the
+   thing tested.
 3. **Behaviour**: A/B tests across two verified game launches (defines load
    once at boot - the launch count must be checked in the log).
 
