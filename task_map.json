@@ -1,7 +1,7 @@
 {
  "meta": {
   "project": "eu5-engine-atlas task map",
-  "built": "2026-08-26 01:43",
+  "built": "2026-08-26 13:14",
   "builder": "tools/build_task_map.py",
   "catalogue_built": "2026-08-26 01:43",
   "lint_rules_seen": [
@@ -14,13 +14,13 @@
    "E007",
    "E008",
    "E009",
+   "N102",
+   "N103",
    "S001",
    "S002",
    "S003",
    "S004",
    "W101",
-   "W102",
-   "W103",
    "W104",
    "W105",
    "W106"
@@ -301,7 +301,7 @@
    ],
    "lint_rules": [
     "E001",
-    "W102"
+    "N102"
    ],
    "gotchas": [
     "A parse error silently aborts the WHOLE file before line 1 runs; an unresolvable script value kills the file with NO error at all.",
@@ -416,7 +416,7 @@
    "lint_rules": [
     "E008",
     "E009",
-    "W103",
+    "N103",
     "W106"
    ],
    "gotchas": [

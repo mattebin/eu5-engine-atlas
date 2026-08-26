@@ -177,7 +177,7 @@ task(
            "list_type:key_in_variable_map", "effect:debug_log",
            "effect:random_log_scopes", "trigger:nand", "trigger:any_false",
            "trigger:random_integer"],
-    lint_rules=["E001", "W102"],
+    lint_rules=["E001", "N102"],
     gotchas=[
         "A parse error silently aborts the WHOLE file before line 1 runs; "
         "an unresolvable script value kills the file with NO error at all.",
@@ -211,7 +211,7 @@ task(
     items=["gui:GetPlayer", "gui:GetName", "gui:MakeScope",
            "gui:GetScriptedGui", "gui:Localize", "gui:Concatenate",
            "gui:EqualTo_string", "gui:PdxGuiTriggerAllAnimations"],
-    lint_rules=["E008", "E009", "W103", "W106"],
+    lint_rules=["E008", "E009", "N103", "W106"],
     gotchas=[
         "type definitions must sit inside a types GroupName { } block; an "
         "instance referencing a failed type is silently dropped.",
@@ -357,7 +357,7 @@ def main():
     # validate lint rule ids LIVE against the checker repo
     lint_ids = None
     if LINTER.exists():
-        lint_ids = set(re.findall(r'@rule\("([EWS]\d{3})"',
+        lint_ids = set(re.findall(r'@rule\("([A-Z]\d{3})"',
                                   LINTER.read_text(encoding="utf-8")))
         assert len(lint_ids) >= 19, f"only {len(lint_ids)} lint rules found"
 
